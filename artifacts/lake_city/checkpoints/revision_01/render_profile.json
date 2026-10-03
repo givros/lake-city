@@ -1,0 +1,118 @@
+{
+  "profileRevision": "lake-city-webgpu-1",
+  "versions": {
+    "three": "0.186.1",
+    "typesThree": "0.186.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.2"
+  },
+  "backend": {
+    "required": "WebGPU",
+    "fallback": false,
+    "deviceOwnership": "Application requests adapter and GPUDevice, then supplies that exact device to WebGPURenderer; backend and device identity asserted after initialization"
+  },
+  "coordinates": {
+    "units": "metres",
+    "x": "east",
+    "y": "up",
+    "z": "south"
+  },
+  "source": {
+    "manifest": "public/assets/city.json",
+    "geometry": "public/assets/geometry.bin",
+    "identity": "city.json sourceHash, plus validation SHA-256 of served files",
+    "attributes": "Uncompressed Float32 positions and split normals, Uint32 triangle indices; exact source instance matrices",
+    "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208"
+  },
+  "batching": {
+    "method": "One BatchedMesh per semantic material, splitting water by exact plane height, with original per-prototype geometry and exact Float32 instance matrices",
+    "geometryReduction": false,
+    "lod": false,
+    "occluderSubstitution": false,
+    "culling": "Three BatchedMesh perObjectFrustumCulled, evaluated separately for each beauty, reflection and shadow camera",
+    "sourceMatrices": "Float32 RGBA matrix textures owned by BatchedMesh; every original instance and per-part semantic ID retained"
+  },
+  "quality": {
+    "pixelRatio": "native window.devicePixelRatio, uncapped",
+    "antialiasing": "4-sample MSAA",
+    "dynamicResolution": false,
+    "assetCompression": false,
+    "textureDownsampling": false,
+    "toneMapping": "ACESFilmicToneMapping",
+    "exposure": 1.1,
+    "outputColorSpace": "sRGB, one renderer-owned output conversion",
+    "depth": "Logarithmic depth buffer for centimetre-scale terrain overlays across the 2.18km city"
+  },
+  "passes": [
+    {
+      "id": "sun-shadow",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "ownership": "Directional sun only",
+      "geometry": "All exact visible source geometry except non-occluding water",
+      "cache": "Static source and sun; invalidated on switching overview/walking or moving walking shadow region by 32 metres"
+    },
+    {
+      "id": "water-planar-reflection",
+      "resolution": "Full native framebuffer",
+      "format": "RGBA16F",
+      "samples": 4,
+      "ownership": "TSL ReflectorNode camera-correct scene reflections in water material; one capture per exact world-space water height; no additional environment specular on water",
+      "geometry": "Full scene and offscreen contributors; reflection recursion disabled",
+      "cache": "No camera-dependent reflection reuse across rendered frames"
+    },
+    {
+      "id": "opaque-and-water",
+      "resolution": "Full native framebuffer",
+      "ownership": "Single WebGPURenderer render of the complete scene; PBR opaque and static Fresnel water"
+    }
+  ],
+  "lighting": {
+    "sun": {
+      "color": "#fff4dd",
+      "intensity": 3.15,
+      "direction": [
+        -0.52,
+        1,
+        0.38
+      ]
+    },
+    "environment": {
+      "method": "Procedural sky gradient, RGBA Float32 512x256, PMREM",
+      "intensity": 0.55,
+      "sunLobe": false
+    },
+    "bakedLightmaps": false,
+    "additionalGI": false,
+    "AO": "Not implemented; contact is represented by directional shadows"
+  },
+  "effects": {
+    "water": "Static Fresnel blend of source water color and full-resolution planar scene reflection; opaque water, no volumetric transmission",
+    "surfaces": "Small static world-space TSL noise modulation on grass, paving, stone and asphalt; original material colors and geometry retained",
+    "foliage": "Source geometry and split normals; opaque, static, no wind",
+    "atmosphere": "Light distance fog beginning at3400 metres, beyond the top-down camera height, ending at9000 metres"
+  },
+  "time": {
+    "environmentalAnimation": false,
+    "renderPolicy": "Render on camera/controller/viewport changes and explicit profiling; static idle views reuse the completed frame",
+    "temporalAccumulation": false,
+    "simulationDeltaMaxSeconds": 0.05
+  },
+  "navigation": {
+    "eyeHeight": 1.72,
+    "bodyRadius": 0.32,
+    "bodyHeight": 1.78,
+    "stepHeight": 0.45,
+    "speedMetresPerSecond": 3.9,
+    "fastSpeedMetresPerSecond": 11.5,
+    "groundHeight": 0.15,
+    "collision": "Spatially indexed oriented source footprint rectangles; trees use trunk footprints; water polygons with island exclusions; explicit support surfaces for bridges/docks",
+    "firstPersonFov": 48,
+    "regionalInspection": "Lake and park aerial poses fit the current manifest water/path extents; walking spawns stay from the source manifest with collision-safe adjustment, and the lake spawn faces along the nearby promenade tangent",
+    "sourceComparisonCameras": "Diagnostic captures use source camera poses and the Blender horizontal lens model: 36mm sensor, 26mm non-overview focal length. Normal walking stays48 degrees vertical."
+  },
+  "validation": "runtime_validation.json records actual results; render choices do not imply that tests passed",
+  "compatibilityGuard": "Three r186 ReflectorNode recursive renders are suppressed only during compileAsync; actual reflection frames use the original updateBefore implementation. Shadow render target explicitly initialized before first frame."
+}

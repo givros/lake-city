@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "freshProcessReopen": true,
+  "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+  "meshObjects": 12488,
+  "uniqueMeshes": 111,
+  "visibleTriangles": 79052882,
+  "materials": 98,
+  "cameras": [
+    "overview",
+    "top",
+    "lake_approach",
+    "park_lawn",
+    "downtown_street",
+    "residential",
+    "sports",
+    "station",
+    "park_reverse"
+  ],
+  "externalImageDependencies": [],
+  "renderer": "BLENDER_EEVEE",
+  "reopenedRender": "renders/reopened_top.png"
+}

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "kind": "animation-fbx",
+  "source_blend": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase.blend",
+  "source_blend_sha256": "82bd44e0c3696d69194a3164d8705e303e3a24ce106bf781fd25ecede68f4efe",
+  "asset": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\anim\\jump.fbx",
+  "asset_sha256": "d86e2b561561c445075cdf5de222f54d633cc9395dfd1f6ed61f7d913253311b",
+  "export_report": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\reports\\CharacterBase_export.json",
+  "export_report_sha256": "8ed59447215aa8a33ca9c06f8ee5bfd097a0c282c03117a907d28f85c490bf9d",
+  "action_name": "Jump",
+  "blender_version": "5.1.2",
+  "details": {
+    "objects": [
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ]
+    ],
+    "action_name_requested": "Jump",
+    "action_name_imported": "CharacterRig|Jump",
+    "frame_range": [
+      1,
+      58
+    ],
+    "fps": 30.0,
+    "bone_count": 49,
+    "pose_matrix_max_delta": 5.550682544708252e-06,
+    "worst_pose_delta": {
+      "frame": 9,
+      "bone": "thumb.02.L",
+      "delta": 5.550682544708252e-06
+    },
+    "raw_texture_contract": {}
+  },
+  "failures": {}
+}

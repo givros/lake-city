@@ -1,0 +1,223 @@
+{
+  "defaultVehicleCount": 562,
+  "eligibleRoads": 32,
+  "laneCount": 254,
+  "turnCount": 567,
+  "junctionCount": 83,
+  "laneMetres": 34141,
+  "roundabouts": 8,
+  "signalizedJunctions": 69,
+  "trajectoryValidation": "Full maximum vehicle footprint sampled every <=1.8 m against real asphalt, roundabout islands and conservative authored curb clearances; all source vehicles are animated.",
+  "excluded": "Narrow local access streets, express roads, ramps, dead-end stubs, and trajectories crossing authored curb clearances.",
+  "rejectedCandidates": {
+    "parked_vehicle_clearance": 76
+  },
+  "strongComponentsBeforePrune": [
+    254,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "seed": 1937,
+  "sourceHash": "317c413494035f83921d0d627a28744b85608b9c33aee65591fb7b0fffb9d7f5",
+  "examples": [
+    [
+      "L001B",
+      "parked_vehicle_clearance",
+      [
+        -430.5743931393161,
+        407.8714327020786
+      ]
+    ],
+    [
+      "L004A",
+      "parked_vehicle_clearance",
+      [
+        -671.4661381695288,
+        -686.8991045399015
+      ]
+    ],
+    [
+      "L019A",
+      "parked_vehicle_clearance",
+      [
+        -325.0499683554479,
+        327.9911579530194
+      ]
+    ],
+    [
+      "L019B",
+      "parked_vehicle_clearance",
+      [
+        -324.7066247733822,
+        335.4669255849351
+      ]
+    ],
+    [
+      "T0002",
+      "parked_vehicle_clearance",
+      [
+        -427.49505451831465,
+        406.3178394134269
+      ]
+    ],
+    [
+      "T0023",
+      "parked_vehicle_clearance",
+      [
+        -322.15254368024694,
+        64.85382963863489
+      ]
+    ],
+    [
+      "T0024",
+      "parked_vehicle_clearance",
+      [
+        -324.5852244785166,
+        58.580518201741114
+      ]
+    ],
+    [
+      "T0084",
+      "parked_vehicle_clearance",
+      [
+        -189.82824553159077,
+        -131.14202671971952
+      ]
+    ],
+    [
+      "T0084",
+      "parked_vehicle_clearance",
+      [
+        -189.79999999999998,
+        -131.0
+      ]
+    ],
+    [
+      "T0084",
+      "parked_vehicle_clearance",
+      [
+        -189.78288335841782,
+        -130.91355401719562
+      ]
+    ],
+    [
+      "T0102",
+      "parked_vehicle_clearance",
+      [
+        -193.1332268358615,
+        215.43191829830866
+      ]
+    ],
+    [
+      "T0103",
+      "parked_vehicle_clearance",
+      [
+        -192.63113816730635,
+        215.5752148906246
+      ]
+    ],
+    [
+      "T0112",
+      "parked_vehicle_clearance",
+      [
+        -192.83775595195837,
+        379.12018212140913
+      ]
+    ],
+    [
+      "T0114",
+      "parked_vehicle_clearance",
+      [
+        -194.65439410281007,
+        388.55838411638484
+      ]
+    ],
+    [
+      "T0116",
+      "parked_vehicle_clearance",
+      [
+        -192.0,
+        386.5
+      ]
+    ],
+    [
+      "T0119",
+      "parked_vehicle_clearance",
+      [
+        -198.3941693401513,
+        500.338459275205
+      ]
+    ],
+    [
+      "T0121",
+      "parked_vehicle_clearance",
+      [
+        -192.80000000000004,
+        500.4
+      ]
+    ],
+    [
+      "T0122",
+      "parked_vehicle_clearance",
+      [
+        -189.82061587591465,
+        505.9829816351243
+      ]
+    ],
+    [
+      "T0123",
+      "parked_vehicle_clearance",
+      [
+        -188.37932527655138,
+        501.4785128013945
+      ]
+    ],
+    [
+      "T0125",
+      "parked_vehicle_clearance",
+      [
+        -190.65267296541387,
+        499.1290839536791
+      ]
+    ]
+  ],
+  "networkSha256": "a7f71f4efc08dfda6100dee68c0d1990b6c78c758979e9ad85dbc098a7414d94",
+  "bounds": {
+    "minX": -1028.51527,
+    "maxX": 922.5,
+    "minZ": -764.2,
+    "maxZ": 659.0
+  },
+  "sourceVehiclesPromoted": 478,
+  "fixedVehicles": 0
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-pages-check/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.blend[0-9]*
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+/viewer/

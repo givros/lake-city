@@ -1,0 +1,159 @@
+{
+  "profileRevision": "lake-city-webgpu-4-promoted-vehicle-fleet",
+  "versions": {
+    "three": "0.186.1",
+    "typesThree": "0.186.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.2"
+  },
+  "backend": {
+    "required": "WebGPU",
+    "fallback": false,
+    "deviceOwnership": "Application requests adapter and GPUDevice, then supplies that exact device to WebGPURenderer; backend and device identity asserted after initialization"
+  },
+  "coordinates": {
+    "units": "metres",
+    "x": "east",
+    "y": "up",
+    "z": "south"
+  },
+  "source": {
+    "manifest": "public/assets/city.json",
+    "geometry": "public/assets/geometry.bin",
+    "identity": "city.json sourceHash, plus validation SHA-256 of served files",
+    "attributes": "Uncompressed Float32 positions and split normals, Uint32 triangle indices; every authored source matrix retained and audited. 478 source vehicle instances are rendered at live simulation transforms instead of their authored fixed transforms.",
+    "sourceHash": "317c413494035f83921d0d627a28744b85608b9c33aee65591fb7b0fffb9d7f5",
+    "authoredInstances": 12488,
+    "fixedVisibleInstances": 12010,
+    "promotedVehicleInstances": 478,
+    "remainingFixedVehicleInstances": 0,
+    "authoredRepresentedTriangles": 80292494,
+    "fixedVisibleTriangles": 79944194,
+    "promotedVehicleTriangles": 348300
+  },
+  "batching": {
+    "method": "One BatchedMesh per semantic material, splitting water by exact plane height, with original per-prototype geometry and exact Float32 instance matrices",
+    "geometryReduction": false,
+    "lod": false,
+    "occluderSubstitution": false,
+    "culling": "Three BatchedMesh perObjectFrustumCulled, evaluated separately for each beauty, reflection and shadow camera",
+    "sourceMatrices": "Float32 RGBA matrix textures retain every original matrix and semantic ID. Promoted vehicle entries have visibility=false in all source batches; exact geometry/materials are reused by dynamic InstancedMesh actors."
+  },
+  "quality": {
+    "pixelRatio": "native window.devicePixelRatio, uncapped",
+    "antialiasing": "4-sample MSAA",
+    "dynamicResolution": false,
+    "assetCompression": false,
+    "textureDownsampling": false,
+    "toneMapping": "ACESFilmicToneMapping",
+    "exposure": 1.1,
+    "outputColorSpace": "sRGB, one renderer-owned output conversion",
+    "depth": "Logarithmic depth buffer for centimetre-scale terrain overlays across the 2.18km city"
+  },
+  "passes": [
+    {
+      "id": "cached-static-sun-shadow",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "ownership": "Directional sun only; explicit prepass before reflections and beauty",
+      "geometry": "All exact visible source geometry except non-occluding water",
+      "cache": "Static source and sun; invalidated on switching overview/walking or moving walking shadow region by 32 metres",
+      "depthFormat": "depth32float"
+    },
+    {
+      "id": "dynamic-sun-shadow",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "depthFormat": "depth32float",
+      "ownership": "One sun; cached static nearest depth copied into a second target, full-detail moving geometry depth-tested into it before standard PCF",
+      "geometry": "Exact source vehicle meshes and canonical animated character meshes; explicit dynamic layer1",
+      "cache": "Invalidated each simulation revision or light-camera refit; static source layer2 remains cached",
+      "filter": "Standard PCF sampled once from nearest-depth union; static cache is not sampled by beauty materials"
+    },
+    {
+      "id": "water-planar-reflection",
+      "resolution": "Full native framebuffer",
+      "format": "RGBA16F",
+      "samples": 4,
+      "ownership": "One explicit camera-correct capture per exact visible water height, completed before beauty encoding; original full scene contributors and HDR/native resolution retained",
+      "geometry": "Full static and dynamic scene including offscreen contributors; reflection recursion disabled",
+      "cache": "No camera-dependent reflection reuse across rendered frames"
+    },
+    {
+      "id": "opaque-and-water",
+      "resolution": "Full native framebuffer",
+      "ownership": "Beauty pass starts after shadow and reflection command buffers have submitted; no nested scene captures"
+    }
+  ],
+  "lighting": {
+    "sun": {
+      "color": "#fff4dd",
+      "intensity": 3.15,
+      "direction": [
+        -0.52,
+        1,
+        0.38
+      ]
+    },
+    "environment": {
+      "method": "Procedural sky gradient, RGBA Float32 512x256, PMREM",
+      "intensity": 0.55,
+      "sunLobe": false
+    },
+    "bakedLightmaps": false,
+    "additionalGI": false,
+    "AO": "Not implemented; contact is represented by directional shadows"
+  },
+  "effects": {
+    "water": "Static Fresnel blend of source water color and full-resolution planar scene reflection; opaque water, no volumetric transmission",
+    "surfaces": "Small static world-space TSL noise modulation on grass, paving, stone and asphalt; original material colors and geometry retained",
+    "foliage": "Source geometry and split normals; opaque, static, no wind",
+    "atmosphere": "Light distance fog beginning at3400 metres, beyond the top-down camera height, ending at9000 metres"
+  },
+  "time": {
+    "environmentalAnimation": false,
+    "cityLife": true,
+    "renderPolicy": "Continuous fixed-step city life, including stationary cameras; paused test states render on camera/viewport changes",
+    "simulationStepSeconds": 0.03333333333333333,
+    "resumeDeltaMaxSeconds": 0.25,
+    "controllerDeltaMaxSeconds": 0.05,
+    "hiddenDocument": "No life advancement; no accumulated resume jump",
+    "temporalAccumulation": false,
+    "matrixEvaluation": "Evaluate final actor world matrices once before the complete frame; every shadow, reflection and beauty pass uses that identical pose"
+  },
+  "navigation": {
+    "eyeHeight": 1.72,
+    "bodyRadius": 0.32,
+    "bodyHeight": 1.78,
+    "stepHeight": 0.45,
+    "speedMetresPerSecond": 3.9,
+    "fastSpeedMetresPerSecond": 11.5,
+    "groundHeight": 0.15,
+    "collision": "Spatially indexed oriented source footprint rectangles; trees use trunk footprints; water polygons with island exclusions; explicit support surfaces for bridges/docks; all promoted source car footprints removed from the fixed collider index",
+    "firstPersonFov": 48,
+    "regionalInspection": "Lake and park aerial poses fit the current manifest water/path extents; walking spawns stay from the source manifest with collision-safe adjustment, and the lake spawn faces along the nearby promenade tangent",
+    "sourceComparisonCameras": "Diagnostic captures use source camera poses and the Blender horizontal lens model: 36mm sensor, 26mm non-overview focal length. Normal walking stays48 degrees vertical."
+  },
+  "validation": "runtime_validation.json records actual results; render choices do not imply that tests passed",
+  "compatibilityGuard": "Application-owned sun shadow and exact-height water reflection nodes submit sequential prepasses before the beauty encoder. Automatic nested effect callbacks are disabled; original Three shadow/reflection implementations are invoked explicitly. This prevents camera-specific BatchedMesh indirect-ID maps from being overwritten before the parent command buffer submits.",
+  "cityLife": {
+    "vehicles": 562,
+    "pedestrians": 80,
+    "traffic": "Deterministic right-hand lane/turn graph, signals, following distance, and concurrent geometrically nonconflicting junction reservations. Every original source vehicle identity and prototype participates in traffic.",
+    "pedestrianAsset": "public/assets/characters/pedestrian.glb",
+    "pedestrianGeometry": "Uncompressed canonical49-bone,5622-triangle character with default outfit; original Walk and Idle clips",
+    "pedestrianScale": "1.6643219313 times0.96\u20131.04, adult1.68\u20131.82m",
+    "pedestrianCulling": "Conservative2m local bounding sphere covering every original pose; full original mesh per pass",
+    "grounding": "Exact source support triangles and original clip offsets; safe route centers with validated passing lanes",
+    "routes": "80 walkers; eight near each primary landmark, forty distributed across checked sidewalks and park paths",
+    "materials": "Six restrained runtime skin/shirt/pants palettes; source asset unchanged",
+    "promotedSourceVehicles": 478,
+    "additionalVehicles": 84,
+    "fixedVehicleProps": 0,
+    "vehicleGeometry": "Exact original meshes and source materials, full detail in beauty, reflection, and dynamic shadow passes; no fixed duplicate or ghost collider."
+  }
+}

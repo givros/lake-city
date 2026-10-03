@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "preset": "pants_and_long_sleeve_shirt",
+  "working_blend": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase.blend",
+  "output_blend": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase.blend",
+  "updated_in_place": true,
+  "initialized_this_run": true,
+  "initial_revision_sha256": "D10E212931E7F2E195EA9DAFD50E169FEB2BCC3EC0AA8B2FE9450740F0BC7D9E",
+  "final_revision_sha256": "7565A8C20F980AF813874AB72973A67546C0A3208CE8023FDAD4A9D80631C609",
+  "revision_chain": [
+    {
+      "garment": "preset_pants",
+      "before": "D10E212931E7F2E195EA9DAFD50E169FEB2BCC3EC0AA8B2FE9450740F0BC7D9E",
+      "after": "739B84B962DE8D00DD01A902B3E24255226F88FB73F6D1127C2382B1EAB5D5AC",
+      "replaced_existing": false
+    },
+    {
+      "garment": "preset_long_sleeve_shirt",
+      "before": "739B84B962DE8D00DD01A902B3E24255226F88FB73F6D1127C2382B1EAB5D5AC",
+      "after": "7565A8C20F980AF813874AB72973A67546C0A3208CE8023FDAD4A9D80631C609",
+      "replaced_existing": false
+    }
+  ],
+  "output_glb": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase.glb",
+  "output_glb_sha256": "4BA178412E62001F808463DFBAD5F1E91EA77E4CC5319EF568B199AD7454431F",
+  "pants_report": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_pants_report.json",
+  "base_report": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_base_report.json",
+  "shirt_report": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_shirt_report.json",
+  "components_before": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_outfit_components_before.json",
+  "components_after": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_outfit_components_after.json",
+  "component_guard_report": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_outfit_component_comparison.json",
+  "component_guard_passed": true,
+  "allowed_component_scopes": [
+    "garment:preset_pants",
+    "garment:preset_long_sleeve_shirt"
+  ],
+  "build_report": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_shirt_report.json",
+  "blend_validation": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_validation.json",
+  "glb_validation": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_glb_validation.json",
+  "qc_dir": null,
+  "qc_images": [],
+  "blend_validation_passed": true,
+  "glb_validation_passed": true,
+  "objects": [
+    "CharacterBase",
+    "Pants",
+    "LongSleeveShirt",
+    "CharacterRig"
+  ],
+  "visibility_properties": [
+    "CharacterRig[\"show_pants\"]",
+    "CharacterRig[\"show_long_sleeve_shirt\"]"
+  ],
+  "layering": "LongSleeveShirt physically outside Pants at the waist",
+  "external_3d_services": []
+}

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "kind": "animation-fbx",
+  "source_blend": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase.blend",
+  "source_blend_sha256": "82bd44e0c3696d69194a3164d8705e303e3a24ce106bf781fd25ecede68f4efe",
+  "asset": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\anim\\walk.fbx",
+  "asset_sha256": "fb33513c15884d914d3a520b89daeaccdef8b50365502c3c43736c2c9aca7dff",
+  "export_report": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\reports\\CharacterBase_export.json",
+  "export_report_sha256": "8ed59447215aa8a33ca9c06f8ee5bfd097a0c282c03117a907d28f85c490bf9d",
+  "action_name": "Walk",
+  "blender_version": "5.1.2",
+  "details": {
+    "objects": [
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ]
+    ],
+    "action_name_requested": "Walk",
+    "action_name_imported": "CharacterRig|Walk",
+    "frame_range": [
+      1,
+      32
+    ],
+    "fps": 30.0,
+    "bone_count": 49,
+    "pose_matrix_max_delta": 6.22868537902832e-06,
+    "worst_pose_delta": {
+      "frame": 17,
+      "bone": "f_index.03.R",
+      "delta": 6.22868537902832e-06
+    },
+    "raw_texture_contract": {}
+  },
+  "failures": {}
+}

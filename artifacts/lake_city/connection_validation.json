@@ -1,0 +1,50 @@
+[
+  {
+    "name": "pond_bridge_01",
+    "lengthM": 188.89,
+    "widthM": 6.0,
+    "supportRectangles": 36
+  },
+  {
+    "name": "pond_walk_east_wander_01",
+    "lengthM": 57.6,
+    "widthM": 4.7,
+    "supportRectangles": 25
+  },
+  {
+    "name": "marina_spine",
+    "lengthM": 108.0,
+    "widthM": 12.0,
+    "supportRectangles": 1
+  },
+  {
+    "name": "marina_finger_01",
+    "lengthM": 73.5,
+    "widthM": 4.2,
+    "supportRectangles": 1
+  },
+  {
+    "name": "marina_finger_02",
+    "lengthM": 73.5,
+    "widthM": 4.2,
+    "supportRectangles": 1
+  },
+  {
+    "name": "marina_finger_03",
+    "lengthM": 73.5,
+    "widthM": 4.2,
+    "supportRectangles": 1
+  },
+  {
+    "name": "marina_finger_04",
+    "lengthM": 73.5,
+    "widthM": 4.2,
+    "supportRectangles": 1
+  },
+  {
+    "name": "marina_shore_approach",
+    "lengthM": 27.1,
+    "widthM": 5.4,
+    "supportRectangles": 10
+  }
+]

@@ -1,0 +1,986 @@
+{
+  "scope": "Measured geometry, transfer, inventory and spatial layout. No visual score or controller result is inferred.",
+  "stage": 10,
+  "complete_stage": true,
+  "source_files": {
+    "city_json": "E:\\Dev\\lake-city\\artifacts\\lake_city\\viewer\\public\\assets\\city.json",
+    "geometry_bin": "E:\\Dev\\lake-city\\artifacts\\lake_city\\viewer\\public\\assets\\geometry.bin",
+    "scene_spec": "E:\\Dev\\lake-city\\artifacts\\lake_city\\scene_spec.json",
+    "source_scene": "E:\\Dev\\lake-city\\artifacts\\lake_city\\source_scene.json"
+  },
+  "checks": {
+    "inventory": {
+      "instances": 12488,
+      "prototypes": 111,
+      "materials": 106,
+      "by_prototype": {
+        "apartment_01": 19,
+        "apartment_02": 26,
+        "apartment_03": 17,
+        "apartment_04": 24,
+        "apartment_05": 14,
+        "apartment_06": 19,
+        "apartment_07": 20,
+        "apartment_08": 17,
+        "basketball_hoop": 4,
+        "bench": 126,
+        "bicycle": 15,
+        "bike_rack": 5,
+        "bus_shelter": 6,
+        "car_sedan": 167,
+        "car_suv": 165,
+        "city_hall": 1,
+        "commercial_01": 1,
+        "commercial_02": 2,
+        "delivery_van": 146,
+        "flower_planter": 50,
+        "fountain": 2,
+        "hotel": 1,
+        "house_01": 40,
+        "house_02": 22,
+        "house_03": 29,
+        "house_04": 31,
+        "house_05": 17,
+        "house_06": 24,
+        "house_07": 18,
+        "house_08": 26,
+        "house_09": 33,
+        "house_10": 23,
+        "house_11": 35,
+        "house_12": 26,
+        "library": 1,
+        "marina_finger_01": 1,
+        "marina_finger_02": 1,
+        "marina_finger_03": 1,
+        "marina_finger_04": 1,
+        "marina_shore_approach": 1,
+        "marina_spine": 1,
+        "motorboat": 4,
+        "museum": 1,
+        "neighborhood_parking_markings": 1,
+        "park_fence": 24,
+        "park_pavilion": 5,
+        "park_sign": 5,
+        "picnic_table": 20,
+        "playground_slide": 2,
+        "playground_swing": 2,
+        "pond_bridge_01": 1,
+        "pond_walk_east_wander_01": 1,
+        "rail_station": 1,
+        "sailboat": 11,
+        "school": 2,
+        "shrub": 732,
+        "soccer_goal": 4,
+        "sports_hall": 1,
+        "street_lamp": 875,
+        "surfaces_1_REG_CITY": 1,
+        "surfaces_1_REG_GREENBELT": 1,
+        "surfaces_1_REG_WATERFRONT": 1,
+        "surfaces_2_REG_GREENBELT": 1,
+        "surfaces_2_REG_LAKE": 1,
+        "surfaces_2_REG_WATERFRONT": 1,
+        "surfaces_3_REG_PUBLIC": 1,
+        "surfaces_3_REG_WATERFRONT": 1,
+        "surfaces_4_REG_PARK": 1,
+        "surfaces_5_REG_SPORTS": 1,
+        "surfaces_6_REG_CIVIC": 1,
+        "surfaces_6_REG_COMMERCIAL": 1,
+        "surfaces_6_REG_NORTH": 1,
+        "surfaces_6_REG_PARK": 1,
+        "surfaces_6_REG_RESIDENTIAL": 1,
+        "surfaces_6_REG_SOUTH": 1,
+        "surfaces_6_REG_TRANSPORT": 1,
+        "surfaces_7_REG_DOWNTOWN": 1,
+        "surfaces_8_REG_PARK": 1,
+        "surfaces_9_REG_CIVIC": 1,
+        "surfaces_9_REG_COMMERCIAL": 1,
+        "surfaces_9_REG_DOWNTOWN": 1,
+        "surfaces_9_REG_NORTH": 1,
+        "surfaces_9_REG_PUBLIC": 1,
+        "surfaces_9_REG_RESIDENTIAL": 1,
+        "surfaces_9_REG_SOUTH": 1,
+        "surfaces_9_REG_TRANSPORT": 1,
+        "surfaces_9_REG_WATERFRONT": 1,
+        "tennis_net": 2,
+        "tower_01": 5,
+        "tower_02": 3,
+        "tower_03": 6,
+        "tower_04": 2,
+        "tower_05": 7,
+        "tower_06": 6,
+        "tower_07": 10,
+        "tower_08": 7,
+        "tower_09": 6,
+        "tower_10": 6,
+        "townhouse_01": 6,
+        "townhouse_02": 5,
+        "townhouse_03": 2,
+        "townhouse_04": 5,
+        "traffic_light": 43,
+        "trash_bin": 78,
+        "tree_birch": 1189,
+        "tree_maple": 2322,
+        "tree_maple_young": 788,
+        "tree_oak": 2990,
+        "tree_oak_young": 700,
+        "tree_pine": 855,
+        "tree_poplar": 547
+      },
+      "by_region": {
+        "REG_CITY": 1,
+        "REG_CIVIC": 7,
+        "REG_COMMERCIAL": 3,
+        "REG_DOWNTOWN": 724,
+        "REG_GREENBELT": 4923,
+        "REG_ISLAND": 143,
+        "REG_LAKE": 4,
+        "REG_MARINA": 12,
+        "REG_NEIGHBORHOOD_DETAIL": 831,
+        "REG_NORTH": 240,
+        "REG_PARK": 1167,
+        "REG_PARKING": 10,
+        "REG_PARK_PROPS": 211,
+        "REG_PUBLIC": 2,
+        "REG_RESIDENTIAL": 664,
+        "REG_SOUTH": 659,
+        "REG_SPORTS": 11,
+        "REG_STREET_PROPS": 918,
+        "REG_STREET_TREES": 1028,
+        "REG_TRANSIT": 6,
+        "REG_TRANSPORT": 5,
+        "REG_VEHICLES": 468,
+        "REG_WATERFRONT": 426,
+        "REG_WAYFINDING": 25
+      },
+      "source_instances_identical": true,
+      "source_inventory_identical": true,
+      "registry_inventory_identical": true,
+      "duplicate_instance_ids": [],
+      "missing_prototypes": [],
+      "missing_materials": []
+    },
+    "geometry_buffer": {
+      "binary_bytes": 44621304,
+      "binary_sha256": "f2d646142e821bc4b828099865063a78ebb42972eec9fc6e09c2b83cd84d74e8",
+      "unique_triangles": 531206,
+      "instanced_triangles": 80292494,
+      "triangle_counts_match_manifest": true,
+      "buffer_errors": [],
+      "nonunit_normal_meshes": [],
+      "positions_and_normals_finite": true
+    },
+    "build_hash": {
+      "declared_source_hash": "317c413494035f83921d0d627a28744b85608b9c33aee65591fb7b0fffb9d7f5",
+      "recomputed_complete_hash": "317c413494035f83921d0d627a28744b85608b9c33aee65591fb7b0fffb9d7f5",
+      "complete_manifest_hash_matches": true,
+      "legacy_hash_excluding_water_holes_matches": false,
+      "registry_source_hash_matches": true,
+      "source_scene_sha256": "c6a39c97234c789b7b73957ccbe7e42b31c6a6f0983d4bf72581d1e50b0d7049"
+    },
+    "source_geometry_transfer": {
+      "mode": "Exact Float32 positions/normals and Uint32 triangle indices per material, regenerated from source parts",
+      "matched_meshes": 698,
+      "mismatches": [],
+      "pass": true
+    },
+    "major_layout": {
+      "lake_water_area_m2": 596169.37,
+      "lake_percent_of_map": 16.8,
+      "requested_lake_percent_range": [
+        25,
+        30
+      ],
+      "lake_water_within_requested_percent_range": false,
+      "lake_centroid_pixel": [
+        271.3,
+        491.13
+      ],
+      "lake_west_of_park": true,
+      "lake_to_park_minimum_gap_m": 459.56,
+      "park_dimensions_m": [
+        249.0,
+        940.5
+      ],
+      "park_aspect_ratio_long_to_short": 3.7771,
+      "island_count": 3
+    },
+    "building_records": {
+      "runtime_architecture_instances": 567,
+      "spec_building_records": 567,
+      "inventory_matches": true,
+      "spec_by_prototype": {
+        "house_01": 40,
+        "house_06": 24,
+        "house_03": 29,
+        "house_04": 31,
+        "house_09": 33,
+        "house_12": 26,
+        "house_02": 22,
+        "house_11": 35,
+        "house_08": 26,
+        "house_05": 17,
+        "school": 2,
+        "house_10": 23,
+        "apartment_01": 19,
+        "apartment_04": 24,
+        "apartment_07": 20,
+        "apartment_02": 26,
+        "apartment_05": 14,
+        "house_07": 18,
+        "apartment_03": 17,
+        "apartment_06": 19,
+        "apartment_08": 17,
+        "library": 1,
+        "townhouse_03": 2,
+        "townhouse_04": 5,
+        "townhouse_01": 6,
+        "townhouse_02": 5,
+        "city_hall": 1,
+        "museum": 1,
+        "sports_hall": 1,
+        "rail_station": 1,
+        "commercial_01": 1,
+        "commercial_02": 2,
+        "hotel": 1,
+        "tower_04": 2,
+        "tower_05": 7,
+        "tower_06": 6,
+        "tower_07": 10,
+        "tower_08": 7,
+        "tower_09": 6,
+        "tower_10": 6,
+        "tower_01": 5,
+        "tower_03": 6,
+        "tower_02": 3
+      },
+      "runtime_by_prototype": {
+        "house_01": 40,
+        "house_06": 24,
+        "house_03": 29,
+        "house_04": 31,
+        "house_09": 33,
+        "house_12": 26,
+        "house_02": 22,
+        "house_11": 35,
+        "house_08": 26,
+        "house_05": 17,
+        "school": 2,
+        "house_10": 23,
+        "apartment_01": 19,
+        "apartment_04": 24,
+        "apartment_07": 20,
+        "apartment_02": 26,
+        "apartment_05": 14,
+        "house_07": 18,
+        "apartment_03": 17,
+        "apartment_06": 19,
+        "apartment_08": 17,
+        "library": 1,
+        "townhouse_03": 2,
+        "townhouse_04": 5,
+        "townhouse_01": 6,
+        "townhouse_02": 5,
+        "city_hall": 1,
+        "museum": 1,
+        "sports_hall": 1,
+        "rail_station": 1,
+        "commercial_01": 1,
+        "commercial_02": 2,
+        "hotel": 1,
+        "tower_04": 2,
+        "tower_05": 7,
+        "tower_06": 6,
+        "tower_07": 10,
+        "tower_08": 7,
+        "tower_09": 6,
+        "tower_10": 6,
+        "tower_01": 5,
+        "tower_03": 6,
+        "tower_02": 3
+      }
+    },
+    "heroes": {
+      "counts": {
+        "museum": 1,
+        "library": 1,
+        "school": 2,
+        "sports_hall": 1,
+        "rail_station": 1,
+        "city_hall": 1,
+        "hotel": 1
+      },
+      "missing": [],
+      "missing_navigation_landmarks": [],
+      "park_cultural_buildings": [
+        "REG_PARK_museum_00433"
+      ],
+      "north_sports_halls": [
+        "REG_CIVIC_sports_hall_00434"
+      ],
+      "southeast_stations": [
+        "REG_TRANSPORT_rail_station_00436"
+      ]
+    },
+    "protected_space": {
+      "method": "Conservative horizontal bounds of every actual mesh vertex, transformed by runtime instance; independent of declared placement footprints.",
+      "building_road_overlaps": [],
+      "building_sidewalk_overlaps": [],
+      "building_water_overlaps": [],
+      "noncivic_building_park_overlaps": [],
+      "road_overlap_count": 0,
+      "sidewalk_overlap_count": 0,
+      "water_overlap_count": 0,
+      "park_intrusion_count": 0
+    },
+    "building_envelopes": {
+      "overlapping_pairs": [],
+      "count": 0,
+      "note": "Overhead projections can create conservative envelope false positives; inspect reported pairs at their actual heights."
+    },
+    "density": {
+      "coverage_definition": "Nominal architectural ground footprints; no roof overhang inflation. Sports and open civic grounds can be intentional exceptions.",
+      "regions": [
+        {
+          "region": "REG_LAKE",
+          "area_m2": 885993.75,
+          "building_centers": 7,
+          "nominal_building_coverage_m2": 1391.26,
+          "gross_coverage_percent": 0.16,
+          "net_land_excluding_roads_water_park_m2": 241131.93,
+          "net_coverage_percent": 0.58,
+          "buildings_per_hectare": 0.08
+        },
+        {
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 435132.0,
+          "building_centers": 182,
+          "nominal_building_coverage_m2": 44889.24,
+          "gross_coverage_percent": 10.32,
+          "net_land_excluding_roads_water_park_m2": 351116.93,
+          "net_coverage_percent": 12.78,
+          "buildings_per_hectare": 4.18
+        },
+        {
+          "region": "REG_PARK",
+          "area_m2": 234184.5,
+          "building_centers": 1,
+          "nominal_building_coverage_m2": 3057.6,
+          "gross_coverage_percent": 1.31,
+          "net_land_excluding_roads_water_park_m2": 0.0,
+          "net_coverage_percent": null,
+          "buildings_per_hectare": 0.04
+        },
+        {
+          "region": "REG_DOWNTOWN",
+          "area_m2": 456462.0,
+          "building_centers": 127,
+          "nominal_building_coverage_m2": 93968.0,
+          "gross_coverage_percent": 20.59,
+          "net_land_excluding_roads_water_park_m2": 404201.25,
+          "net_coverage_percent": 23.25,
+          "buildings_per_hectare": 2.78
+        },
+        {
+          "region": "REG_NORTH",
+          "area_m2": 265221.0,
+          "building_centers": 122,
+          "nominal_building_coverage_m2": 24656.44,
+          "gross_coverage_percent": 9.3,
+          "net_land_excluding_roads_water_park_m2": 218907.24,
+          "net_coverage_percent": 11.26,
+          "buildings_per_hectare": 4.6
+        },
+        {
+          "region": "REG_SOUTH",
+          "area_m2": 531562.5,
+          "building_centers": 135,
+          "nominal_building_coverage_m2": 52685.62,
+          "gross_coverage_percent": 9.91,
+          "net_land_excluding_roads_water_park_m2": 433188.0,
+          "net_coverage_percent": 12.16,
+          "buildings_per_hectare": 2.54
+        }
+      ],
+      "parcels": [
+        {
+          "id": "BLOCK_0_0",
+          "region": "REG_NORTH",
+          "area_m2": 3685.5,
+          "building_coverage_percent": 21.5
+        },
+        {
+          "id": "BLOCK_0_1",
+          "region": "REG_NORTH",
+          "area_m2": 7985.25,
+          "building_coverage_percent": 22.17
+        },
+        {
+          "id": "BLOCK_0_2",
+          "region": "REG_NORTH",
+          "area_m2": 8190.0,
+          "building_coverage_percent": 19.73
+        },
+        {
+          "id": "BLOCK_0_3",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 21703.5,
+          "building_coverage_percent": 10.62
+        },
+        {
+          "id": "BLOCK_0_4",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 15151.5,
+          "building_coverage_percent": 9.32
+        },
+        {
+          "id": "BLOCK_0_5",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 13718.25,
+          "building_coverage_percent": 7.95
+        },
+        {
+          "id": "BLOCK_0_6",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 22727.25,
+          "building_coverage_percent": 8.41
+        },
+        {
+          "id": "BLOCK_0_7",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 18837.0,
+          "building_coverage_percent": 7.26
+        },
+        {
+          "id": "BLOCK_0_8",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 19451.25,
+          "building_coverage_percent": 8.42
+        },
+        {
+          "id": "BLOCK_0_9",
+          "region": "REG_SOUTH",
+          "area_m2": 11261.25,
+          "building_coverage_percent": 19.84
+        },
+        {
+          "id": "BLOCK_0_10",
+          "region": "REG_SOUTH",
+          "area_m2": 17608.5,
+          "building_coverage_percent": 18.2
+        },
+        {
+          "id": "BLOCK_0_11",
+          "region": "REG_SOUTH",
+          "area_m2": 18222.75,
+          "building_coverage_percent": 14.05
+        },
+        {
+          "id": "BLOCK_1_0",
+          "region": "REG_NORTH",
+          "area_m2": 4333.5,
+          "building_coverage_percent": 21.06
+        },
+        {
+          "id": "BLOCK_1_1",
+          "region": "REG_NORTH",
+          "area_m2": 9389.25,
+          "building_coverage_percent": 20.91
+        },
+        {
+          "id": "BLOCK_1_2",
+          "region": "REG_NORTH",
+          "area_m2": 9630.0,
+          "building_coverage_percent": 19.4
+        },
+        {
+          "id": "BLOCK_1_3",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 25519.5,
+          "building_coverage_percent": 18.56
+        },
+        {
+          "id": "BLOCK_1_4",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 17815.5,
+          "building_coverage_percent": 15.54
+        },
+        {
+          "id": "BLOCK_1_5",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 16130.25,
+          "building_coverage_percent": 17.78
+        },
+        {
+          "id": "BLOCK_1_6",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 26723.25,
+          "building_coverage_percent": 20.68
+        },
+        {
+          "id": "BLOCK_1_7",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 22149.0,
+          "building_coverage_percent": 18.47
+        },
+        {
+          "id": "BLOCK_1_8",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 22871.25,
+          "building_coverage_percent": 17.25
+        },
+        {
+          "id": "BLOCK_1_9",
+          "region": "REG_SOUTH",
+          "area_m2": 13241.25,
+          "building_coverage_percent": 8.34
+        },
+        {
+          "id": "BLOCK_1_10",
+          "region": "REG_SOUTH",
+          "area_m2": 20704.5,
+          "building_coverage_percent": 19.0
+        },
+        {
+          "id": "BLOCK_1_11",
+          "region": "REG_SOUTH",
+          "area_m2": 21426.75,
+          "building_coverage_percent": 13.51
+        },
+        {
+          "id": "BLOCK_2_0",
+          "region": "REG_NORTH",
+          "area_m2": 2511.0,
+          "building_coverage_percent": 0.0
+        },
+        {
+          "id": "BLOCK_2_1",
+          "region": "REG_NORTH",
+          "area_m2": 5440.5,
+          "building_coverage_percent": 9.93
+        },
+        {
+          "id": "BLOCK_2_2",
+          "region": "REG_NORTH",
+          "area_m2": 5580.0,
+          "building_coverage_percent": 20.65
+        },
+        {
+          "id": "BLOCK_2_3",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 14787.0,
+          "building_coverage_percent": 15.11
+        },
+        {
+          "id": "BLOCK_2_4",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 10323.0,
+          "building_coverage_percent": 10.87
+        },
+        {
+          "id": "BLOCK_2_5",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 9346.5,
+          "building_coverage_percent": 22.21
+        },
+        {
+          "id": "BLOCK_2_6",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 15484.5,
+          "building_coverage_percent": 7.96
+        },
+        {
+          "id": "BLOCK_2_7",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 12834.0,
+          "building_coverage_percent": 20.94
+        },
+        {
+          "id": "BLOCK_2_8",
+          "region": "REG_RESIDENTIAL",
+          "area_m2": 13252.5,
+          "building_coverage_percent": 14.43
+        },
+        {
+          "id": "BLOCK_2_9",
+          "region": "REG_SOUTH",
+          "area_m2": 7672.5,
+          "building_coverage_percent": 16.45
+        },
+        {
+          "id": "BLOCK_2_10",
+          "region": "REG_SOUTH",
+          "area_m2": 11997.0,
+          "building_coverage_percent": 26.91
+        },
+        {
+          "id": "BLOCK_2_11",
+          "region": "REG_SOUTH",
+          "area_m2": 12415.5,
+          "building_coverage_percent": 8.7
+        },
+        {
+          "id": "BLOCK_3_0",
+          "region": "REG_NORTH",
+          "area_m2": 2794.5,
+          "building_coverage_percent": 21.14
+        },
+        {
+          "id": "BLOCK_3_1",
+          "region": "REG_NORTH",
+          "area_m2": 6054.75,
+          "building_coverage_percent": 20.65
+        },
+        {
+          "id": "BLOCK_3_2",
+          "region": "REG_NORTH",
+          "area_m2": 6210.0,
+          "building_coverage_percent": 19.24
+        },
+        {
+          "id": "BLOCK_3_9",
+          "region": "REG_SOUTH",
+          "area_m2": 8538.75,
+          "building_coverage_percent": 16.54
+        },
+        {
+          "id": "BLOCK_3_10",
+          "region": "REG_SOUTH",
+          "area_m2": 13351.5,
+          "building_coverage_percent": 0.0
+        },
+        {
+          "id": "BLOCK_3_11",
+          "region": "REG_SOUTH",
+          "area_m2": 13817.25,
+          "building_coverage_percent": 9.7
+        },
+        {
+          "id": "BLOCK_4_0",
+          "region": "REG_NORTH",
+          "area_m2": 3321.0,
+          "building_coverage_percent": 21.84
+        },
+        {
+          "id": "BLOCK_4_1",
+          "region": "REG_NORTH",
+          "area_m2": 7195.5,
+          "building_coverage_percent": 17.85
+        },
+        {
+          "id": "BLOCK_4_2",
+          "region": "REG_NORTH",
+          "area_m2": 7380.0,
+          "building_coverage_percent": 18.77
+        },
+        {
+          "id": "BLOCK_4_9",
+          "region": "REG_SOUTH",
+          "area_m2": 10147.5,
+          "building_coverage_percent": 12.42
+        },
+        {
+          "id": "BLOCK_4_10",
+          "region": "REG_SOUTH",
+          "area_m2": 15867.0,
+          "building_coverage_percent": 10.68
+        },
+        {
+          "id": "BLOCK_4_11",
+          "region": "REG_SOUTH",
+          "area_m2": 16420.5,
+          "building_coverage_percent": 9.16
+        },
+        {
+          "id": "BLOCK_5_0",
+          "region": "REG_NORTH",
+          "area_m2": 2956.5,
+          "building_coverage_percent": 22.17
+        },
+        {
+          "id": "BLOCK_5_1",
+          "region": "REG_NORTH",
+          "area_m2": 6405.75,
+          "building_coverage_percent": 19.24
+        },
+        {
+          "id": "BLOCK_5_2",
+          "region": "REG_NORTH",
+          "area_m2": 6570.0,
+          "building_coverage_percent": 18.37
+        },
+        {
+          "id": "BLOCK_5_3",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 17410.5,
+          "building_coverage_percent": 29.69
+        },
+        {
+          "id": "BLOCK_5_4",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 12154.5,
+          "building_coverage_percent": 30.31
+        },
+        {
+          "id": "BLOCK_5_5",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 11004.75,
+          "building_coverage_percent": 26.06
+        },
+        {
+          "id": "BLOCK_5_6",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 18231.75,
+          "building_coverage_percent": 29.06
+        },
+        {
+          "id": "BLOCK_5_7",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 15111.0,
+          "building_coverage_percent": 32.84
+        },
+        {
+          "id": "BLOCK_5_8",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 15603.75,
+          "building_coverage_percent": 30.38
+        },
+        {
+          "id": "BLOCK_5_9",
+          "region": "REG_SOUTH",
+          "area_m2": 9033.75,
+          "building_coverage_percent": 13.97
+        },
+        {
+          "id": "BLOCK_5_10",
+          "region": "REG_SOUTH",
+          "area_m2": 14125.5,
+          "building_coverage_percent": 12.15
+        },
+        {
+          "id": "BLOCK_5_11",
+          "region": "REG_SOUTH",
+          "area_m2": 14618.25,
+          "building_coverage_percent": 7.39
+        },
+        {
+          "id": "BLOCK_6_3",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 23134.5,
+          "building_coverage_percent": 32.0
+        },
+        {
+          "id": "BLOCK_6_4",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 16150.5,
+          "building_coverage_percent": 31.96
+        },
+        {
+          "id": "BLOCK_6_5",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 14622.75,
+          "building_coverage_percent": 33.45
+        },
+        {
+          "id": "BLOCK_6_6",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 24225.75,
+          "building_coverage_percent": 25.06
+        },
+        {
+          "id": "BLOCK_6_7",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 20079.0,
+          "building_coverage_percent": 37.76
+        },
+        {
+          "id": "BLOCK_6_8",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 20733.75,
+          "building_coverage_percent": 40.52
+        },
+        {
+          "id": "BLOCK_6_9",
+          "region": "REG_SOUTH",
+          "area_m2": 12003.75,
+          "building_coverage_percent": 23.64
+        },
+        {
+          "id": "BLOCK_6_11",
+          "region": "REG_SOUTH",
+          "area_m2": 19424.25,
+          "building_coverage_percent": 11.96
+        },
+        {
+          "id": "BLOCK_7_3",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 26712.0,
+          "building_coverage_percent": 20.31
+        },
+        {
+          "id": "BLOCK_7_4",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 18648.0,
+          "building_coverage_percent": 19.13
+        },
+        {
+          "id": "BLOCK_7_5",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 16884.0,
+          "building_coverage_percent": 19.97
+        },
+        {
+          "id": "BLOCK_7_6",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 27972.0,
+          "building_coverage_percent": 16.86
+        },
+        {
+          "id": "BLOCK_7_7",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 23184.0,
+          "building_coverage_percent": 22.08
+        },
+        {
+          "id": "BLOCK_7_8",
+          "region": "REG_DOWNTOWN",
+          "area_m2": 23940.0,
+          "building_coverage_percent": 23.11
+        },
+        {
+          "id": "BLOCK_7_9",
+          "region": "REG_SOUTH",
+          "area_m2": 13860.0,
+          "building_coverage_percent": 35.45
+        },
+        {
+          "id": "BLOCK_7_11",
+          "region": "REG_SOUTH",
+          "area_m2": 22428.0,
+          "building_coverage_percent": 12.29
+        }
+      ],
+      "nearly_empty_parcels": [
+        {
+          "id": "BLOCK_2_0",
+          "region": "REG_NORTH",
+          "area_m2": 2511.0,
+          "building_coverage_percent": 0.0
+        },
+        {
+          "id": "BLOCK_3_10",
+          "region": "REG_SOUTH",
+          "area_m2": 13351.5,
+          "building_coverage_percent": 0.0
+        }
+      ]
+    },
+    "lake_loops": {
+      "loops": [
+        {
+          "id": "PATH_LAKE_COMPLETE_LOOP",
+          "length_m": 3329.51,
+          "width_m": 5.4,
+          "declared_closed": true,
+          "endpoint_gap_m": 0.0,
+          "simple_ring": true,
+          "self_intersection_free": true,
+          "water_overlap_area_m2": 0.0,
+          "full_lake_inside_loop": true,
+          "pass": true
+        },
+        {
+          "id": "PATH_LAKE_CYCLE_LOOP",
+          "length_m": 3379.27,
+          "width_m": 3.4,
+          "declared_closed": true,
+          "endpoint_gap_m": 0.0,
+          "simple_ring": true,
+          "self_intersection_free": true,
+          "water_overlap_area_m2": 0.0,
+          "full_lake_inside_loop": true,
+          "pass": true
+        }
+      ],
+      "both_present": true,
+      "pass": true
+    },
+    "route_water_and_building_clearance": {
+      "scope": "Declared pedestrian PATH_ centerlines, carriageway footprints, lake and park pond; decorative outer river excluded.",
+      "support_surface_count": 82,
+      "roads_crossing_unsupported_water": [],
+      "paths_crossing_unsupported_water": [],
+      "paths_crossing_building_collision": [],
+      "pass": true,
+      "limitation": "Geometric clearance only; runtime movement and whole-network connectivity require separate verification."
+    },
+    "skyline": {
+      "regions": {
+        "REG_NORTH": {
+          "count": 120,
+          "min_m": 8.26,
+          "median_m": 9.85,
+          "max_m": 21.24
+        },
+        "REG_CIVIC": {
+          "count": 5,
+          "min_m": 8.38,
+          "median_m": 11.82,
+          "max_m": 16.23
+        },
+        "REG_RESIDENTIAL": {
+          "count": 180,
+          "min_m": 8.26,
+          "median_m": 9.8,
+          "max_m": 24.42
+        },
+        "REG_SOUTH": {
+          "count": 130,
+          "min_m": 8.26,
+          "median_m": 9.94,
+          "max_m": 24.42
+        },
+        "REG_PARK": {
+          "count": 1,
+          "min_m": 22.59,
+          "median_m": 22.59,
+          "max_m": 22.59
+        },
+        "REG_TRANSPORT": {
+          "count": 3,
+          "min_m": 9.84,
+          "median_m": 12.84,
+          "max_m": 22.92
+        },
+        "REG_COMMERCIAL": {
+          "count": 1,
+          "min_m": 12.84,
+          "median_m": 12.84,
+          "max_m": 12.84
+        },
+        "REG_DOWNTOWN": {
+          "count": 127,
+          "min_m": 14.88,
+          "median_m": 24.42,
+          "max_m": 130.83
+        }
+      },
+      "tall_threshold_m": 45,
+      "tall_building_count": 58,
+      "tall_buildings_east_of_park_count": 58,
+      "misplaced_tall_buildings": [],
+      "pass": true
+    },
+    "landmark_spawn_positions": {
+      "invalid_positions": [],
+      "pass": true,
+      "limitation": "Position clearance only. This does not establish controller traversal or route connectivity."
+    }
+  },
+  "warnings": [
+    "Measured water area differs from the requested 25\u201330% map range; judge this alongside the primary reference composition.",
+    "2 declared urban parcels have less than 3% building coverage; review intentional civic/sports spaces separately."
+  ],
+  "failures": [],
+  "elapsed_seconds": 5.604,
+  "status": "PASS_WITH_WARNINGS"
+}

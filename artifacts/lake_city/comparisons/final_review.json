@@ -1,0 +1,189 @@
+{
+  "review_type": "Independent visual layout review and numerical cross-check",
+  "source_hash": "19e599866c1968b2e75c4a33678526c83a0cde5960d979b1b5eaf9a038e7456a",
+  "evidence": [
+    "references/target_layout.png",
+    "renders/pass_3/top.png",
+    "renders/pass_3/overview.png",
+    "validation_metrics.json",
+    "scene_spec.json",
+    "viewer/public/assets/city.json"
+  ],
+  "overall_finding": "The principal composition is recognizable and spatially consistent with the reference: western lake, intervening housing, long central park, eastern skyline, northern sports and southeastern railway station. Local development remains noticeably more regular, open and schematic than the reference. This is a coherent interpretation of its layout, not a close reproduction of every block or its photographic appearance.",
+  "numeric_similarity_score": null,
+  "score_reason": "No calibrated image-registration or perceptual benchmark supports a numerical similarity score.",
+  "grid_definition": "Each image is divided into three equal columns and three equal rows in normalized image coordinates. North is at the top. Cell findings concern the final top view; the oblique overview supplies height and boundary evidence.",
+  "cells": [
+    {
+      "cell": "NW",
+      "reference_content": "Northern lake shore, upper wooded island, west woodland and transition toward northern streets.",
+      "matches": "Lake head and upper island occupy the correct area; the surrounding road and separate full pedestrian/cycle circuits preserve the reference's western organization.",
+      "remaining_difference": "The shoreline and parallel routes are smoother and more uniform. Beaches, small promontories and woodland gaps have less local variation, while the outer forest reads as repeated separated crowns rather than the reference's dense canopy."
+    },
+    {
+      "cell": "N_CENTER",
+      "reference_content": "Northern residential grid, lake-side civic campus and northern portion of the long park with its pond.",
+      "matches": "Street axes and the separation of lake-side housing from the park are retained. The civic campus, long park rectangle and northern pond are in the expected positions.",
+      "remaining_difference": "Housing uses repeated small detached footprints and open yards; the reference mixes tighter plots, irregular courtyards and larger continuous blocks. Pond banks and garden paths are simplified."
+    },
+    {
+      "cell": "NE",
+      "reference_content": "Northern sports campus, northern downtown blocks and eastern expressway.",
+      "matches": "Athletics field, tennis/basketball facilities and sports hall remain north of the principal downtown. The expressway stays at the eastern edge with transverse connections.",
+      "remaining_difference": "Sports campus paving and building groupings are simpler. Downtown roofs form a more repetitive spaced grid, with less of the reference's varied commercial block coverage."
+    },
+    {
+      "cell": "W_CENTER",
+      "reference_content": "Broad middle lake, western marina, lower wooded island and green shoreline.",
+      "matches": "The lake remains the dominant western landmark. The marina and elongated lower wooded island retain their reference-side positions. The continuous bank circuits remain legible from above.",
+      "remaining_difference": "Water is a relatively uniform dark blue plane; the reference has ripples, wakes and shallow-water variation. Marina piers, shoreline bays and recreational edges are less intricate."
+    },
+    {
+      "cell": "CENTER",
+      "reference_content": "Housing and apartment courts between the lake and park; wooded park edges, circular plazas and open lawns.",
+      "matches": "The residential buffer remains substantial and the park is not moved to the lake. The long wooded rectangle, pond transition, central plazas and two large lawn areas are preserved.",
+      "remaining_difference": "The apartment strip is mostly separate rectangular wings instead of the reference's more continuous courtyard forms. Residential and civic lots remain conspicuously open. Park lawns, plazas and winding routes are cleaner and more diagrammatic."
+    },
+    {
+      "cell": "E_CENTER",
+      "reference_content": "Principal office skyline, mixed commercial blocks, paved courts and eastern highway.",
+      "matches": "The overview confirms a distinct tall skyline entirely east of the park. Major east-west road breaks and the eastern highway follow the intended grid hierarchy.",
+      "remaining_difference": "Towers are more evenly distributed within the two inner avenue strips. Broad grass setbacks and repeated podium footprints make the area less continuously urban than the reference's denser, varied commercial fabric."
+    },
+    {
+      "cell": "SW",
+      "reference_content": "Southern lake tip, wooded shoreline, southern waterway and transition to the south-city road.",
+      "matches": "The lake's southern narrowing, complete shore circuit and outer waterway preserve the large-scale western silhouette.",
+      "remaining_difference": "The reference's branching waterway, bridges and varied green transition are reduced to a simpler river strip. Some edge-road terminations and the finite forest boundary are evident in the overview."
+    },
+    {
+      "cell": "S_CENTER",
+      "reference_content": "Park's southern cultural building, southern residential/civic blocks and football field.",
+      "matches": "The park ends at a cultural landmark on the expected main road. Southern housing and the football field occupy the correct general positions beneath the park.",
+      "remaining_difference": "Several civic plots have large unbuilt grass areas, and detached/perimeter patterns differ from the reference. The museum is a simpler, larger rectangular roof composition at this scale."
+    },
+    {
+      "cell": "SE",
+      "reference_content": "Lower downtown, mixed-use southern blocks, railway station and tracks curving toward the eastern boundary.",
+      "matches": "The station and curving parallel tracks form the required southeastern transport anchor. The skyline gives way to lower southern blocks, and the highway remains outside the main urban fabric.",
+      "remaining_difference": "The station precinct and surrounding commercial parcels are more open and less articulated. Railway and highway transitions remain visibly finite in the oblique overview."
+    }
+  ],
+  "material_layout_requirements": [
+    {
+      "requirement": "Large rectangular planned city with strong orthogonal streets",
+      "coverage": "present",
+      "evidence": "Top and overview show an extensive rectangular grid with primary north-south avenues and east-west roads wrapping the park.",
+      "limit": "Local block footprints and intersection detail do not reproduce the reference individually."
+    },
+    {
+      "requirement": "Large western lake, organic shoreline, wooded islands, marina and full walking/cycling loop",
+      "coverage": "present with numeric exception",
+      "evidence": "Three island holes; measured closed pedestrian circuit 3329.51 m and cycle circuit 3379.27 m; both encompass the lake and have no water overlap.",
+      "limit": "The actual water covers 16.7954% of the declared map, so the separate 25\u00e2\u20ac\u201c30% water-area instruction is not met."
+    },
+    {
+      "requirement": "Residential neighborhoods between lake and park",
+      "coverage": "present, reference density only partial",
+      "evidence": "Residential district gross nominal building coverage 10.32%, net coverage 12.78%; detached houses, townhouses, apartment wings and a civic campus are visible.",
+      "limit": "The final blocks are more open and repetitive than the reference, particularly near the shoreline and in the apartment strip."
+    },
+    {
+      "requirement": "Huge elongated central park with organic internal layout and cultural anchor",
+      "coverage": "present",
+      "evidence": "Measured park dimensions 249 by 940.5 m, aspect ratio 3.777:1; pond, lawns, woodland, circular plazas, paths and southern museum are visible.",
+      "limit": "The literal 3\u00e2\u20ac\u201c4 by 8\u00e2\u20ac\u201c12 city-block wording is not independently established; the variable street intervals instead follow the supplied image's park proportions."
+    },
+    {
+      "requirement": "Dense downtown east of park with concentrated skyline",
+      "coverage": "spatial placement present, reference coverage partial",
+      "evidence": "All 58 buildings at least 45 m tall are east of the park; downtown reaches 130.83 m. Downtown gross nominal coverage 20.59%, net coverage 23.25%.",
+      "limit": "The model has more detached towers, repeated podiums and open ground than the reference's commercial blocks."
+    },
+    {
+      "requirement": "Northern sports, civic/education facilities and southeastern transport hub",
+      "coverage": "present",
+      "evidence": "Final inventory includes sports hall, two schools, library, city hall, museum, hotel and rail station; northern sports hall and southeastern station positions pass the measured audit.",
+      "limit": "Campus and station landscaping/parcel organization remain simplified."
+    },
+    {
+      "requirement": "Connected pedestrian infrastructure and no intrusive buildings",
+      "coverage": "geometrically supported",
+      "evidence": "Final audit reports zero building/road, building/sidewalk, building/water, noncivic park or building-pair envelope overlaps. Declared pedestrian centerlines have no unsupported water or building collision crossings.",
+      "limit": "This review does not independently repeat runtime controller traversal or prove all possible routes."
+    },
+    {
+      "requirement": "Meaningful environmental detail and coherent modern architecture",
+      "coverage": "present, photographic fidelity partial",
+      "evidence": "The 567 building inventory spans houses, townhouses, apartment wings, towers and civic heroes; vegetation, street furniture, vehicles, parks and waterfront facilities are present.",
+      "limit": "Repeated roof types, uniform clean surfaces, regular lots and simplified terrain produce a stylized miniature-city appearance rather than the supplied image's photographic richness."
+    },
+    {
+      "requirement": "Believable soft boundaries",
+      "coverage": "partial",
+      "evidence": "Forests, green buffers, outer waterway and eastern highway provide transitions around the city.",
+      "limit": "The overview still reveals a flat finite land base, repeated forest placement and some abruptly ending peripheral roads."
+    }
+  ],
+  "lake_area_cross_check": {
+    "method": "Independent shoelace area calculation on exported outer shoreline coordinates, subtracting all three island polygons; divide by the declared full map bounds.",
+    "outer_lake_polygon_m2": 615689.2123842596,
+    "island_area_m2": 19519.84584,
+    "net_water_area_m2": 596169.3665442596,
+    "map_dimensions_m": [
+      2175,
+      1632
+    ],
+    "map_area_m2": 3549600,
+    "net_water_percent": 16.795395721891467,
+    "reported_16_8_percent_correct": true,
+    "water_area_required_for_25_percent_m2": 887400,
+    "water_area_required_for_30_percent_m2": 1064880,
+    "lake_district_rectangular_envelope_percent": 24.960382860040568,
+    "shoreline_bounding_box_percent": 23.309803171886255,
+    "shoreline_plus_36m_buffer_percent_from_spec": 20.77,
+    "reference_image_actual_pixels": [
+      1448,
+      1086
+    ],
+    "scene_nominal_reference_pixels": [
+      1450,
+      1088
+    ],
+    "nominal_pixel_area_difference_percent": 0.32253797706622844,
+    "reference_raster_sanity_check": {
+      "method": "Four-connected blue/blue-green pixel masks seeded inside the western lake, restricted to its western image area. Thresholds were varied; this is a conservative visible-water estimate rather than a manually verified shoreline segmentation.",
+      "visible_blue_water_percent_range": [
+        15.2732,
+        15.6222
+      ],
+      "limit": "Tree-covered banks, shallow non-blue water, boats and reflections can be excluded. Therefore this range is not an exact reference-lake area. It does independently show that the visibly blue lake is far below 25% of the complete image."
+    },
+    "interpretation": "The 16.8% report correctly measures modeled water rather than an enclosing western district. The supplied image's lake composition is substantially smaller than a literal 25\u00e2\u20ac\u201c30% water fill. Its rectangular western lake-district envelope happens to approach 25%, but includes land and must not be reported as water. Enlarging the water to the textual target would require about 49\u00e2\u20ac\u201c79% more water area and materially change the reference-led composition. Prioritizing the image explains the choice; it does not satisfy the conflicting numeric water requirement. The 2-pixel reference-dimension discrepancy is minor and cannot explain the 8\u00e2\u20ac\u201c13 percentage-point difference."
+  },
+  "validation_summary": {
+    "status": "PASS_WITH_WARNINGS",
+    "declared_hash_matches_complete_export": true,
+    "source_geometry_material_meshes_exactly_matched": 698,
+    "geometry_transfer_scope": "Float32 positions/normals and Uint32 triangle indices",
+    "failures": [],
+    "warnings": [
+      "Actual water is 16.8%, below the separate textual 25\u00e2\u20ac\u201c30% target.",
+      "Two urban parcels have below 3% building coverage. The southern one contains the visible sports field, so building coverage alone does not establish emptiness."
+    ],
+    "visual_acceptance_limit": "Passing numerical geometry tests is not evidence of photographic or block-by-block reference fidelity. Remaining density, local footprint, material, shoreline-detail and boundary differences are visible in the final images."
+  },
+  "final_local_refinement_review": {
+    "reviewer": "primary agent after independent review",
+    "source_hash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+    "evidence": [
+      "renders/pass_4/contact_sheet.png",
+      "comparisons/checkpoint_10.png",
+      "renders/pass_4/downtown_street.png",
+      "blender_validation.json",
+      "route_clearance_corrections.json"
+    ],
+    "change": "Two trees relocated3m each to clear bus shelters; zero deletions, no other layout or geometry changes.",
+    "finding": "All nine new camera renders and final reference comparison inspected. Shelter structure is now clear; macro-layout, object counts and previous visual limitations remain unchanged."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "source_blend": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase.blend",
+  "source_blend_sha256_before": "82bd44e0c3696d69194a3164d8705e303e3a24ce106bf781fd25ecede68f4efe",
+  "source_blend_sha256_after": "82bd44e0c3696d69194a3164d8705e303e3a24ce106bf781fd25ecede68f4efe",
+  "source_blend_unchanged": true,
+  "source_blend_saved": false,
+  "canonical_blend_in_output_directory": true,
+  "additional_blend_files_created": [],
+  "blender": "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+  "targets": "all",
+  "actions_requested": "auto",
+  "output_dir": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters",
+  "outputs": [
+    {
+      "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase.fbx",
+      "sha256": "46061632f50475199323f8161a413521c5b57c3e928e0157c127bfc4828f2f40",
+      "bytes": 453436
+    },
+    {
+      "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase.glb",
+      "sha256": "72bb854443e58ccb2bf4efd4f8a6f4f4b413ad441136f94d859cfdbab746a526",
+      "bytes": 145528
+    },
+    {
+      "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\anim\\idle.fbx",
+      "sha256": "a48b55eb227065fe841d1b5d463f445ed2b5cf3b3b8ca307fddb5f9ca2820747",
+      "bytes": 1059692
+    },
+    {
+      "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\anim\\jump.fbx",
+      "sha256": "d86e2b561561c445075cdf5de222f54d633cc9395dfd1f6ed61f7d913253311b",
+      "bytes": 512764
+    },
+    {
+      "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\anim\\run.fbx",
+      "sha256": "296317cedb120a948c35ac4fe42a767e08e4f10f2089bbd2ba1d1a819b3147ad",
+      "bytes": 392684
+    },
+    {
+      "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\anim\\walk.fbx",
+      "sha256": "fb33513c15884d914d3a520b89daeaccdef8b50365502c3c43736c2c9aca7dff",
+      "bytes": 447596
+    }
+  ],
+  "export_report": {
+    "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\reports\\CharacterBase_export.json",
+    "sha256": "8ed59447215aa8a33ca9c06f8ee5bfd097a0c282c03117a907d28f85c490bf9d"
+  },
+  "validation_reports": [
+    {
+      "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\reports\\CharacterBase_fbx_validation.json",
+      "sha256": "8c6f857539f9660abdb9ee3da8371d3058219c18b86d5d905012ebe509cb51ec"
+    },
+    {
+      "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\reports\\CharacterBase_glb_validation.json",
+      "sha256": "f306c9efc3abfc34b1467a6569c80cd00c59117674478c0e49319ffb1ee360f3"
+    },
+    {
+      "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\reports\\anim\\idle_fbx_validation.json",
+      "sha256": "e5316174e28dafba74cf7c5ed4583fa2af8a19b08610d86420aa0bc918ac0060"
+    },
+    {
+      "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\reports\\anim\\jump_fbx_validation.json",
+      "sha256": "7f9555c3f94b80264f5a5a7772511bb5cb8e5f67aba2753d5a812e8ef20b9b15"
+    },
+    {
+      "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\reports\\anim\\run_fbx_validation.json",
+      "sha256": "f5aa18acfc0f762e32e5cabc87846690644a91286bd75000c05e2bb317de7f66"
+    },
+    {
+      "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\reports\\anim\\walk_fbx_validation.json",
+      "sha256": "15aef695ee1c9025dd3997b1b382f6d3c0d03024d6de85e5ffc8ea32d31a7111"
+    }
+  ],
+  "all_reimports_passed": true,
+  "glb_draco": true,
+  "animation_payload": "skeleton_only"
+}

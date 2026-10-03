@@ -1,0 +1,1370 @@
+{
+  "baseline-first-frame": {
+    "allSourceComparisons": [
+      {
+        "image": "downtown-00.png",
+        "changedPixels": 276040,
+        "changedPixelsOver5": 266612,
+        "changedPixelsOver30": 172739,
+        "meanAbsoluteChannelDifference": 6.377484583333334
+      },
+      {
+        "image": "downtown-03.png",
+        "changedPixels": 330462,
+        "changedPixelsOver5": 305933,
+        "changedPixelsOver30": 232180,
+        "meanAbsoluteChannelDifference": 13.082091041666667
+      },
+      {
+        "image": "downtown-06.png",
+        "changedPixels": 117229,
+        "changedPixelsOver5": 117015,
+        "changedPixelsOver30": 72379,
+        "meanAbsoluteChannelDifference": 3.9721227083333335
+      },
+      {
+        "image": "downtown-09.png",
+        "changedPixels": 23451,
+        "changedPixelsOver5": 17984,
+        "changedPixelsOver30": 6268,
+        "meanAbsoluteChannelDifference": 0.23628958333333333
+      },
+      {
+        "image": "residential-00.png",
+        "changedPixels": 157,
+        "changedPixelsOver5": 157,
+        "changedPixelsOver30": 141,
+        "meanAbsoluteChannelDifference": 0.011737291666666667
+      },
+      {
+        "image": "residential-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      }
+    ],
+    "repeatComparisons": [
+      {
+        "image": "downtown-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-01.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-02.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-04.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-05.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-07.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-08.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-10.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-11.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-01.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-02.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-04.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-05.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-07.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-08.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-10.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-11.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      }
+    ]
+  },
+  "after-pass-isolation": {
+    "allSourceComparisons": [
+      {
+        "image": "downtown-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      }
+    ],
+    "repeatComparisons": [
+      {
+        "image": "downtown-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-01.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-02.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-04.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-05.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-07.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-08.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-10.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-11.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-01.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-02.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-04.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-05.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-07.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-08.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-10.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-11.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      }
+    ]
+  },
+  "final-moving-camera": {
+    "allSourceComparisons": [
+      {
+        "image": "downtown-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      }
+    ],
+    "repeatComparisons": [
+      {
+        "image": "downtown-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-01.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-02.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-04.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-05.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-07.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-08.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-10.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-11.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-01.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-02.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-04.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-05.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-07.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-08.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-10.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-11.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-01.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-02.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-04.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-05.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-07.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-08.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-10.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-11.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-01.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-02.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-04.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-05.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-07.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-08.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-10.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-11.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      }
+    ]
+  },
+  "city-life": {
+    "allSourceComparisons": [
+      {
+        "image": "downtown-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      }
+    ],
+    "repeatComparisons": [
+      {
+        "image": "downtown-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-01.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-02.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-04.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-05.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-07.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-08.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-10.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "downtown-11.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-01.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-02.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-04.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-05.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-07.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-08.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-10.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "lake-11.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-01.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-02.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-04.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-05.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-07.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-08.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-10.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "park-11.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-00.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-01.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-02.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-03.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-04.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-05.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-06.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-07.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-08.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-09.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-10.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      },
+      {
+        "image": "residential-11.png",
+        "changedPixels": 0,
+        "changedPixelsOver5": 0,
+        "changedPixelsOver30": 0,
+        "meanAbsoluteChannelDifference": 0.0
+      }
+    ]
+  }
+}

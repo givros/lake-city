@@ -1,0 +1,15 @@
+{
+  "checked_prototypes": 43,
+  "changed_parts": {
+    "reveal": 1600,
+    "corner_strip": 312
+  },
+  "unchanged_part_counts": true,
+  "unchanged_collision_bounds": true,
+  "unchanged_triangle_counts": true,
+  "max_vertex_displacement_m": 0.015003204345703125,
+  "zero_area_triangles": 0,
+  "normal_winding_disagreements": 0,
+  "reveal_clearance_m": 0.015,
+  "corner_strip_clearance_m": 0.015
+}

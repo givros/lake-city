@@ -1,0 +1,439 @@
+{
+  "tree_oak": {
+    "dimensions_m": [
+      9.4,
+      13.100000000000001,
+      9.4
+    ],
+    "collision_half_extents": [
+      0.32,
+      0.32
+    ],
+    "source_parts": 41,
+    "source_triangles": 7868,
+    "notes": "Articulated branches and individual folded leaves; collision is trunk only. Soil collar datum Y=0; trunk embeds to Y=-.52 and root flares stay below Y=.022. Anchor to sampled surface minus .06m."
+  },
+  "tree_maple": {
+    "dimensions_m": [
+      8.4,
+      12.100000000000001,
+      8.4
+    ],
+    "collision_half_extents": [
+      0.32,
+      0.32
+    ],
+    "source_parts": 41,
+    "source_triangles": 7868,
+    "notes": "Articulated branches and individual folded leaves; collision is trunk only. Soil collar datum Y=0; trunk embeds to Y=-.52 and root flares stay below Y=.022. Anchor to sampled surface minus .06m."
+  },
+  "tree_birch": {
+    "dimensions_m": [
+      7.1,
+      13.0,
+      7.1
+    ],
+    "collision_half_extents": [
+      0.32,
+      0.32
+    ],
+    "source_parts": 51,
+    "source_triangles": 8228,
+    "notes": "Articulated branches and individual folded leaves; collision is trunk only. Soil collar datum Y=0; trunk embeds to Y=-.52 and root flares stay below Y=.022. Anchor to sampled surface minus .06m."
+  },
+  "tree_poplar": {
+    "dimensions_m": [
+      5.0,
+      15.5,
+      5.0
+    ],
+    "collision_half_extents": [
+      0.32,
+      0.32
+    ],
+    "source_parts": 41,
+    "source_triangles": 7868,
+    "notes": "Articulated branches and individual folded leaves; collision is trunk only. Soil collar datum Y=0; trunk embeds to Y=-.52 and root flares stay below Y=.022. Anchor to sampled surface minus .06m."
+  },
+  "tree_pine": {
+    "dimensions_m": [
+      7.8,
+      14.8,
+      7.8
+    ],
+    "collision_half_extents": [
+      0.32,
+      0.32
+    ],
+    "source_parts": 41,
+    "source_triangles": 10268,
+    "notes": "Articulated branches and individual folded leaves; collision is trunk only. Soil collar datum Y=0; trunk embeds to Y=-.52 and root flares stay below Y=.022. Anchor to sampled surface minus .06m."
+  },
+  "tree_oak_young": {
+    "dimensions_m": [
+      6.6,
+      8.6,
+      6.6
+    ],
+    "collision_half_extents": [
+      0.32,
+      0.32
+    ],
+    "source_parts": 41,
+    "source_triangles": 7868,
+    "notes": "Articulated branches and individual folded leaves; collision is trunk only. Soil collar datum Y=0; trunk embeds to Y=-.52 and root flares stay below Y=.022. Anchor to sampled surface minus .06m."
+  },
+  "tree_maple_young": {
+    "dimensions_m": [
+      6.1,
+      8.0,
+      6.1
+    ],
+    "collision_half_extents": [
+      0.32,
+      0.32
+    ],
+    "source_parts": 41,
+    "source_triangles": 7868,
+    "notes": "Articulated branches and individual folded leaves; collision is trunk only. Soil collar datum Y=0; trunk embeds to Y=-.52 and root flares stay below Y=.022. Anchor to sampled surface minus .06m."
+  },
+  "shrub": {
+    "dimensions_m": [
+      1.9,
+      1.4,
+      1.7
+    ],
+    "collision_half_extents": null,
+    "source_parts": 8,
+    "source_triangles": 512,
+    "notes": ""
+  },
+  "flower_planter": {
+    "dimensions_m": [
+      1.5,
+      1.15,
+      0.75
+    ],
+    "collision_half_extents": [
+      0.75,
+      0.375
+    ],
+    "source_parts": 115,
+    "source_triangles": 612,
+    "notes": ""
+  },
+  "reeds": {
+    "dimensions_m": [
+      1.8,
+      1.65,
+      1.5
+    ],
+    "collision_half_extents": null,
+    "source_parts": 56,
+    "source_triangles": 448,
+    "notes": ""
+  },
+  "bench": {
+    "dimensions_m": [
+      1.9,
+      1.0,
+      0.8
+    ],
+    "collision_half_extents": [
+      0.98,
+      0.42
+    ],
+    "source_parts": 20,
+    "source_triangles": 360,
+    "notes": ""
+  },
+  "trash_bin": {
+    "dimensions_m": [
+      0.65,
+      0.94,
+      0.65
+    ],
+    "collision_half_extents": [
+      0.32,
+      0.32
+    ],
+    "source_parts": 20,
+    "source_triangles": 576,
+    "notes": ""
+  },
+  "street_lamp": {
+    "dimensions_m": [
+      0.45,
+      7.52,
+      1.85
+    ],
+    "collision_half_extents": [
+      0.13,
+      0.13
+    ],
+    "source_parts": 5,
+    "source_triangles": 128,
+    "notes": ""
+  },
+  "traffic_light": {
+    "dimensions_m": [
+      0.36,
+      3.66,
+      0.55
+    ],
+    "collision_half_extents": [
+      0.14,
+      0.14
+    ],
+    "source_parts": 9,
+    "source_triangles": 268,
+    "notes": ""
+  },
+  "bus_shelter": {
+    "dimensions_m": [
+      4.65,
+      2.62,
+      1.98
+    ],
+    "collision_half_extents": [
+      2.32,
+      0.45
+    ],
+    "source_parts": 20,
+    "source_triangles": 240,
+    "notes": "Place rear boundary outside the pedestrian clear corridor."
+  },
+  "bicycle": {
+    "dimensions_m": [
+      0.66,
+      1.16,
+      2.02
+    ],
+    "collision_half_extents": null,
+    "source_parts": 37,
+    "source_triangles": 516,
+    "notes": ""
+  },
+  "bike_rack": {
+    "dimensions_m": [
+      0.78,
+      0.72,
+      2.3
+    ],
+    "collision_half_extents": [
+      0.4,
+      1.18
+    ],
+    "source_parts": 15,
+    "source_triangles": 360,
+    "notes": ""
+  },
+  "car_sedan": {
+    "dimensions_m": [
+      2.3000000000000003,
+      1.5,
+      4.55
+    ],
+    "collision_half_extents": [
+      1.1500000000000001,
+      2.275
+    ],
+    "source_parts": 34,
+    "source_triangles": 714,
+    "notes": ""
+  },
+  "car_suv": {
+    "dimensions_m": [
+      2.3000000000000003,
+      1.86,
+      4.8
+    ],
+    "collision_half_extents": [
+      1.1500000000000001,
+      2.4
+    ],
+    "source_parts": 34,
+    "source_triangles": 714,
+    "notes": ""
+  },
+  "delivery_van": {
+    "dimensions_m": [
+      2.44,
+      2.35,
+      5.8
+    ],
+    "collision_half_extents": [
+      1.22,
+      2.9
+    ],
+    "source_parts": 38,
+    "source_triangles": 762,
+    "notes": ""
+  },
+  "fountain": {
+    "dimensions_m": [
+      8.5,
+      2.8,
+      8.5
+    ],
+    "collision_half_extents": [
+      4.2,
+      4.2
+    ],
+    "source_parts": 19,
+    "source_triangles": 1288,
+    "notes": ""
+  },
+  "park_pavilion": {
+    "dimensions_m": [
+      8.32,
+      5.46,
+      8.32
+    ],
+    "collision_half_extents": null,
+    "source_parts": 36,
+    "source_triangles": 672,
+    "notes": "Open shelter: preserve traversable floor and entries."
+  },
+  "playground_swing": {
+    "dimensions_m": [
+      4.2,
+      2.9,
+      2.15
+    ],
+    "collision_half_extents": null,
+    "source_parts": 13,
+    "source_triangles": 284,
+    "notes": ""
+  },
+  "playground_slide": {
+    "dimensions_m": [
+      1.35,
+      2.35,
+      5.1
+    ],
+    "collision_half_extents": null,
+    "source_parts": 20,
+    "source_triangles": 440,
+    "notes": ""
+  },
+  "picnic_table": {
+    "dimensions_m": [
+      2.2,
+      0.84,
+      1.7
+    ],
+    "collision_half_extents": [
+      1.1,
+      0.85
+    ],
+    "source_parts": 15,
+    "source_triangles": 196,
+    "notes": ""
+  },
+  "park_sign": {
+    "dimensions_m": [
+      1.6,
+      1.95,
+      0.22
+    ],
+    "collision_half_extents": [
+      0.8,
+      0.16
+    ],
+    "source_parts": 8,
+    "source_triangles": 120,
+    "notes": ""
+  },
+  "dock_module": {
+    "dimensions_m": [
+      2.65,
+      1.2,
+      8.0
+    ],
+    "collision_half_extents": null,
+    "source_parts": 43,
+    "source_triangles": 580,
+    "notes": "Deck Y=.40. Add walk surface with master placement."
+  },
+  "sailboat": {
+    "dimensions_m": [
+      2.7,
+      10.1,
+      8.0
+    ],
+    "collision_half_extents": null,
+    "source_parts": 23,
+    "source_triangles": 340,
+    "notes": ""
+  },
+  "motorboat": {
+    "dimensions_m": [
+      2.25,
+      1.45,
+      5.5
+    ],
+    "collision_half_extents": null,
+    "source_parts": 11,
+    "source_triangles": 148,
+    "notes": ""
+  },
+  "soccer_goal": {
+    "dimensions_m": [
+      7.45,
+      2.52,
+      1.97
+    ],
+    "collision_half_extents": null,
+    "source_parts": 42,
+    "source_triangles": 496,
+    "notes": ""
+  },
+  "basketball_hoop": {
+    "dimensions_m": [
+      1.9,
+      4.0,
+      2.1
+    ],
+    "collision_half_extents": null,
+    "source_parts": 21,
+    "source_triangles": 424,
+    "notes": ""
+  },
+  "tennis_net": {
+    "dimensions_m": [
+      12.9,
+      1.15,
+      0.1
+    ],
+    "collision_half_extents": null,
+    "source_parts": 89,
+    "source_triangles": 888,
+    "notes": ""
+  },
+  "bollard": {
+    "dimensions_m": [
+      0.28,
+      0.91,
+      0.28
+    ],
+    "collision_half_extents": [
+      0.13,
+      0.13
+    ],
+    "source_parts": 3,
+    "source_triangles": 120,
+    "notes": ""
+  },
+  "park_fence": {
+    "dimensions_m": [
+      2.5,
+      1.16,
+      0.11
+    ],
+    "collision_half_extents": null,
+    "source_parts": 17,
+    "source_triangles": 204,
+    "notes": ""
+  }
+}

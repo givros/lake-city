@@ -1,0 +1,1537 @@
+{
+  "units": "meters",
+  "axes": "X east / Y up / Z south",
+  "primary_frontage": "+Z",
+  "prototypes": {
+    "house_01": {
+      "family": "detached_house",
+      "footprint_m": [
+        10.4,
+        12.0
+      ],
+      "bounds_m": {
+        "min": [
+          -5.775,
+          0.0,
+          -6.54
+        ],
+        "max": [
+          5.775,
+          9.635,
+          7.525
+        ],
+        "size": [
+          11.55,
+          9.635,
+          14.065
+        ]
+      },
+      "collision_half_extents_m": [
+        5.775,
+        7.525
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 168,
+      "source_triangles_estimate": 1918,
+      "notes": "Panelized openings; inset framed glass; closed front door; complete roof and gutters."
+    },
+    "house_02": {
+      "family": "detached_house",
+      "footprint_m": [
+        11.6,
+        13.4
+      ],
+      "bounds_m": {
+        "min": [
+          -6.375,
+          0.0,
+          -7.24
+        ],
+        "max": [
+          6.375,
+          9.71,
+          8.225
+        ],
+        "size": [
+          12.75,
+          9.71,
+          15.465
+        ]
+      },
+      "collision_half_extents_m": [
+        6.375,
+        8.225
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 207,
+      "source_triangles_estimate": 2362,
+      "notes": "Panelized openings; inset framed glass; closed front door; complete roof and gutters."
+    },
+    "house_03": {
+      "family": "detached_house",
+      "footprint_m": [
+        12.8,
+        11.5
+      ],
+      "bounds_m": {
+        "min": [
+          -6.975,
+          0.0,
+          -6.29
+        ],
+        "max": [
+          6.975,
+          9.535,
+          7.275
+        ],
+        "size": [
+          13.95,
+          9.535,
+          13.565
+        ]
+      },
+      "collision_half_extents_m": [
+        6.975,
+        7.275
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 200,
+      "source_triangles_estimate": 2278,
+      "notes": "Panelized openings; inset framed glass; closed front door; complete roof and gutters."
+    },
+    "house_04": {
+      "family": "detached_house",
+      "footprint_m": [
+        13.6,
+        13.4
+      ],
+      "bounds_m": {
+        "min": [
+          -7.03,
+          0.0,
+          -6.93
+        ],
+        "max": [
+          7.03,
+          8.2,
+          8.225
+        ],
+        "size": [
+          14.06,
+          8.2,
+          15.155
+        ]
+      },
+      "collision_half_extents_m": [
+        7.03,
+        8.225
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 224,
+      "source_triangles_estimate": 2676,
+      "notes": "Panelized openings; inset framed glass; closed front door; complete roof and gutters."
+    },
+    "house_05": {
+      "family": "detached_house",
+      "footprint_m": [
+        10.8,
+        14.3
+      ],
+      "bounds_m": {
+        "min": [
+          -5.975,
+          0.0,
+          -7.69
+        ],
+        "max": [
+          5.975,
+          9.86,
+          8.675
+        ],
+        "size": [
+          11.95,
+          9.86,
+          16.365
+        ]
+      },
+      "collision_half_extents_m": [
+        5.975,
+        8.675
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 209,
+      "source_triangles_estimate": 2386,
+      "notes": "Panelized openings; inset framed glass; closed front door; complete roof and gutters."
+    },
+    "house_06": {
+      "family": "detached_house",
+      "footprint_m": [
+        12.0,
+        13.0
+      ],
+      "bounds_m": {
+        "min": [
+          -6.575,
+          0.0,
+          -7.04
+        ],
+        "max": [
+          6.575,
+          9.61,
+          8.025
+        ],
+        "size": [
+          13.15,
+          9.61,
+          15.065
+        ]
+      },
+      "collision_half_extents_m": [
+        6.575,
+        8.025
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 202,
+      "source_triangles_estimate": 2302,
+      "notes": "Panelized openings; inset framed glass; closed front door; complete roof and gutters."
+    },
+    "house_07": {
+      "family": "detached_house",
+      "footprint_m": [
+        14.4,
+        12.6
+      ],
+      "bounds_m": {
+        "min": [
+          -7.43,
+          0.0,
+          -6.53
+        ],
+        "max": [
+          7.43,
+          8.2,
+          7.825
+        ],
+        "size": [
+          14.86,
+          8.2,
+          14.355
+        ]
+      },
+      "collision_half_extents_m": [
+        7.43,
+        7.825
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 194,
+      "source_triangles_estimate": 2340,
+      "notes": "Panelized openings; inset framed glass; closed front door; complete roof and gutters."
+    },
+    "house_08": {
+      "family": "detached_house",
+      "footprint_m": [
+        11.8,
+        14.7
+      ],
+      "bounds_m": {
+        "min": [
+          -6.475,
+          0.0,
+          -7.89
+        ],
+        "max": [
+          6.475,
+          9.785,
+          8.875
+        ],
+        "size": [
+          12.95,
+          9.785,
+          16.765
+        ]
+      },
+      "collision_half_extents_m": [
+        6.475,
+        8.875
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 209,
+      "source_triangles_estimate": 2386,
+      "notes": "Panelized openings; inset framed glass; closed front door; complete roof and gutters."
+    },
+    "house_09": {
+      "family": "detached_house",
+      "footprint_m": [
+        13.2,
+        12.2
+      ],
+      "bounds_m": {
+        "min": [
+          -7.175,
+          0.0,
+          -6.64
+        ],
+        "max": [
+          7.175,
+          9.61,
+          7.625
+        ],
+        "size": [
+          14.35,
+          9.61,
+          14.265
+        ]
+      },
+      "collision_half_extents_m": [
+        7.175,
+        7.625
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 200,
+      "source_triangles_estimate": 2278,
+      "notes": "Panelized openings; inset framed glass; closed front door; complete roof and gutters."
+    },
+    "house_10": {
+      "family": "detached_house",
+      "footprint_m": [
+        10.8,
+        13.6
+      ],
+      "bounds_m": {
+        "min": [
+          -5.975,
+          0.0,
+          -7.34
+        ],
+        "max": [
+          5.975,
+          9.81,
+          8.325
+        ],
+        "size": [
+          11.95,
+          9.81,
+          15.665
+        ]
+      },
+      "collision_half_extents_m": [
+        5.975,
+        8.325
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 202,
+      "source_triangles_estimate": 2302,
+      "notes": "Panelized openings; inset framed glass; closed front door; complete roof and gutters."
+    },
+    "house_11": {
+      "family": "detached_house",
+      "footprint_m": [
+        14.2,
+        13.6
+      ],
+      "bounds_m": {
+        "min": [
+          -7.675,
+          0.0,
+          -7.34
+        ],
+        "max": [
+          7.675,
+          9.685,
+          8.325
+        ],
+        "size": [
+          15.35,
+          9.685,
+          15.665
+        ]
+      },
+      "collision_half_extents_m": [
+        7.675,
+        8.325
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 237,
+      "source_triangles_estimate": 2698,
+      "notes": "Panelized openings; inset framed glass; closed front door; complete roof and gutters."
+    },
+    "house_12": {
+      "family": "detached_house",
+      "footprint_m": [
+        12.4,
+        14.2
+      ],
+      "bounds_m": {
+        "min": [
+          -6.43,
+          0.0,
+          -7.33
+        ],
+        "max": [
+          6.43,
+          8.1,
+          8.625
+        ],
+        "size": [
+          12.86,
+          8.1,
+          15.955
+        ]
+      },
+      "collision_half_extents_m": [
+        6.43,
+        8.625
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 226,
+      "source_triangles_estimate": 2700,
+      "notes": "Panelized openings; inset framed glass; closed front door; complete roof and gutters."
+    },
+    "townhouse_01": {
+      "family": "townhouse",
+      "footprint_m": [
+        8.4,
+        14
+      ],
+      "bounds_m": {
+        "min": [
+          -4.775,
+          0.0,
+          -7.54
+        ],
+        "max": [
+          4.775,
+          12.335,
+          8.03
+        ],
+        "size": [
+          9.55,
+          12.335,
+          15.57
+        ]
+      },
+      "collision_half_extents_m": [
+        4.775,
+        8.03
+      ],
+      "storeys": 3,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 144,
+      "source_triangles_estimate": 1654,
+      "notes": "Windowless party walls; coordinated front and rear bay rhythms."
+    },
+    "townhouse_02": {
+      "family": "townhouse",
+      "footprint_m": [
+        9.6,
+        15.2
+      ],
+      "bounds_m": {
+        "min": [
+          -5.375,
+          0.0,
+          -8.14
+        ],
+        "max": [
+          5.375,
+          12.335,
+          8.63
+        ],
+        "size": [
+          10.75,
+          12.335,
+          16.77
+        ]
+      },
+      "collision_half_extents_m": [
+        5.375,
+        8.63
+      ],
+      "storeys": 3,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 148,
+      "source_triangles_estimate": 1702,
+      "notes": "Windowless party walls; coordinated front and rear bay rhythms."
+    },
+    "townhouse_03": {
+      "family": "townhouse",
+      "footprint_m": [
+        10.2,
+        14.6
+      ],
+      "bounds_m": {
+        "min": [
+          -5.23,
+          0.0,
+          -8.723
+        ],
+        "max": [
+          5.23,
+          10.24,
+          8.723
+        ],
+        "size": [
+          10.46,
+          10.24,
+          17.445
+        ]
+      },
+      "collision_half_extents_m": [
+        5.23,
+        8.723
+      ],
+      "storeys": 3,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 153,
+      "source_triangles_estimate": 1764,
+      "notes": "Windowless party walls; coordinated front and rear bay rhythms."
+    },
+    "townhouse_04": {
+      "family": "townhouse",
+      "footprint_m": [
+        9,
+        16
+      ],
+      "bounds_m": {
+        "min": [
+          -4.63,
+          0.0,
+          -8.23
+        ],
+        "max": [
+          4.63,
+          10.24,
+          9.03
+        ],
+        "size": [
+          9.26,
+          10.24,
+          17.26
+        ]
+      },
+      "collision_half_extents_m": [
+        4.63,
+        9.03
+      ],
+      "storeys": 3,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 113,
+      "source_triangles_estimate": 1284,
+      "notes": "Windowless party walls; coordinated front and rear bay rhythms."
+    },
+    "apartment_01": {
+      "family": "apartment_wing",
+      "footprint_m": [
+        25,
+        16
+      ],
+      "bounds_m": {
+        "min": [
+          -12.73,
+          0.0,
+          -8.23
+        ],
+        "max": [
+          12.73,
+          14.72,
+          9.89
+        ],
+        "size": [
+          25.46,
+          14.72,
+          18.12
+        ]
+      },
+      "collision_half_extents_m": [
+        12.73,
+        9.89
+      ],
+      "storeys": 4,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 510,
+      "source_triangles_estimate": 5868,
+      "notes": "Perimeter-block wing with real reveal openings; complete roof plant and selected balconies."
+    },
+    "apartment_02": {
+      "family": "apartment_wing",
+      "footprint_m": [
+        30,
+        18
+      ],
+      "bounds_m": {
+        "min": [
+          -15.23,
+          0.0,
+          -10.423
+        ],
+        "max": [
+          15.23,
+          19.9,
+          10.89
+        ],
+        "size": [
+          30.46,
+          19.9,
+          21.312
+        ]
+      },
+      "collision_half_extents_m": [
+        15.23,
+        10.89
+      ],
+      "storeys": 5,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 972,
+      "source_triangles_estimate": 11184,
+      "notes": "Perimeter-block wing with real reveal openings; complete roof plant and selected balconies."
+    },
+    "apartment_03": {
+      "family": "apartment_wing",
+      "footprint_m": [
+        34,
+        18
+      ],
+      "bounds_m": {
+        "min": [
+          -17.23,
+          0.0,
+          -9.23
+        ],
+        "max": [
+          17.23,
+          21.08,
+          10.89
+        ],
+        "size": [
+          34.46,
+          21.08,
+          20.12
+        ]
+      },
+      "collision_half_extents_m": [
+        17.23,
+        10.89
+      ],
+      "storeys": 6,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 938,
+      "source_triangles_estimate": 10668,
+      "notes": "Perimeter-block wing with real reveal openings; complete roof plant and selected balconies."
+    },
+    "apartment_04": {
+      "family": "apartment_wing",
+      "footprint_m": [
+        27,
+        20
+      ],
+      "bounds_m": {
+        "min": [
+          -13.73,
+          0.0,
+          -11.423
+        ],
+        "max": [
+          13.73,
+          14.72,
+          11.89
+        ],
+        "size": [
+          27.46,
+          14.72,
+          23.312
+        ]
+      },
+      "collision_half_extents_m": [
+        13.73,
+        11.89
+      ],
+      "storeys": 4,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 630,
+      "source_triangles_estimate": 7308,
+      "notes": "Perimeter-block wing with real reveal openings; complete roof plant and selected balconies."
+    },
+    "apartment_05": {
+      "family": "apartment_wing",
+      "footprint_m": [
+        38,
+        19
+      ],
+      "bounds_m": {
+        "min": [
+          -19.23,
+          0.0,
+          -9.73
+        ],
+        "max": [
+          19.23,
+          23.08,
+          11.39
+        ],
+        "size": [
+          38.46,
+          23.08,
+          21.12
+        ]
+      },
+      "collision_half_extents_m": [
+        19.23,
+        11.39
+      ],
+      "storeys": 6,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 1054,
+      "source_triangles_estimate": 11976,
+      "notes": "Perimeter-block wing with real reveal openings; complete roof plant and selected balconies."
+    },
+    "apartment_06": {
+      "family": "apartment_wing",
+      "footprint_m": [
+        32,
+        22
+      ],
+      "bounds_m": {
+        "min": [
+          -16.23,
+          0.0,
+          -12.423
+        ],
+        "max": [
+          16.23,
+          17.9,
+          12.89
+        ],
+        "size": [
+          32.46,
+          17.9,
+          25.312
+        ]
+      },
+      "collision_half_extents_m": [
+        16.23,
+        12.89
+      ],
+      "storeys": 5,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 946,
+      "source_triangles_estimate": 10884,
+      "notes": "Perimeter-block wing with real reveal openings; complete roof plant and selected balconies."
+    },
+    "apartment_07": {
+      "family": "apartment_wing",
+      "footprint_m": [
+        24,
+        18
+      ],
+      "bounds_m": {
+        "min": [
+          -12.23,
+          0.0,
+          -9.23
+        ],
+        "max": [
+          12.23,
+          24.26,
+          10.89
+        ],
+        "size": [
+          24.46,
+          24.26,
+          20.12
+        ]
+      },
+      "collision_half_extents_m": [
+        12.23,
+        10.89
+      ],
+      "storeys": 7,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 772,
+      "source_triangles_estimate": 8808,
+      "notes": "Perimeter-block wing with real reveal openings; complete roof plant and selected balconies."
+    },
+    "apartment_08": {
+      "family": "apartment_wing",
+      "footprint_m": [
+        40,
+        20
+      ],
+      "bounds_m": {
+        "min": [
+          -20.23,
+          0.0,
+          -11.423
+        ],
+        "max": [
+          20.23,
+          19.9,
+          11.89
+        ],
+        "size": [
+          40.46,
+          19.9,
+          23.312
+        ]
+      },
+      "collision_half_extents_m": [
+        20.23,
+        11.89
+      ],
+      "storeys": 5,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 1217,
+      "source_triangles_estimate": 13992,
+      "notes": "Perimeter-block wing with real reveal openings; complete roof plant and selected balconies."
+    },
+    "tower_01": {
+      "family": "downtown_tower",
+      "footprint_m": [
+        28,
+        26
+      ],
+      "bounds_m": {
+        "min": [
+          -14.35,
+          0.0,
+          -13.35
+        ],
+        "max": [
+          14.35,
+          60.75,
+          14.62
+        ],
+        "size": [
+          28.7,
+          60.75,
+          27.97
+        ]
+      },
+      "collision_half_extents_m": [
+        14.35,
+        14.62
+      ],
+      "storeys": 16,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 307,
+      "source_triangles_estimate": 3816,
+      "notes": "Ground retail; mullioned inset curtain walls; stepped podium and crown; concentrated downtown use."
+    },
+    "tower_02": {
+      "family": "downtown_tower",
+      "footprint_m": [
+        34,
+        30
+      ],
+      "bounds_m": {
+        "min": [
+          -17.35,
+          0.0,
+          -15.35
+        ],
+        "max": [
+          17.35,
+          84.75,
+          16.62
+        ],
+        "size": [
+          34.7,
+          84.75,
+          31.97
+        ]
+      },
+      "collision_half_extents_m": [
+        17.35,
+        16.62
+      ],
+      "storeys": 23,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 369,
+      "source_triangles_estimate": 4560,
+      "notes": "Ground retail; mullioned inset curtain walls; stepped podium and crown; concentrated downtown use."
+    },
+    "tower_03": {
+      "family": "downtown_tower",
+      "footprint_m": [
+        30,
+        28
+      ],
+      "bounds_m": {
+        "min": [
+          -15.35,
+          0.0,
+          -14.35
+        ],
+        "max": [
+          15.35,
+          110.67,
+          15.62
+        ],
+        "size": [
+          30.7,
+          110.67,
+          29.97
+        ]
+      },
+      "collision_half_extents_m": [
+        15.35,
+        15.62
+      ],
+      "storeys": 28,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 376,
+      "source_triangles_estimate": 4664,
+      "notes": "Ground retail; mullioned inset curtain walls; stepped podium and crown; concentrated downtown use."
+    },
+    "tower_04": {
+      "family": "downtown_tower",
+      "footprint_m": [
+        36,
+        30
+      ],
+      "bounds_m": {
+        "min": [
+          -18.35,
+          0.0,
+          -15.35
+        ],
+        "max": [
+          18.35,
+          72.75,
+          16.62
+        ],
+        "size": [
+          36.7,
+          72.75,
+          31.97
+        ]
+      },
+      "collision_half_extents_m": [
+        18.35,
+        16.62
+      ],
+      "storeys": 19,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 363,
+      "source_triangles_estimate": 4488,
+      "notes": "Ground retail; mullioned inset curtain walls; stepped podium and crown; concentrated downtown use."
+    },
+    "tower_05": {
+      "family": "downtown_tower",
+      "footprint_m": [
+        27,
+        25
+      ],
+      "bounds_m": {
+        "min": [
+          -13.85,
+          0.0,
+          -12.85
+        ],
+        "max": [
+          13.85,
+          130.67,
+          14.12
+        ],
+        "size": [
+          27.7,
+          130.67,
+          26.97
+        ]
+      },
+      "collision_half_extents_m": [
+        13.85,
+        14.12
+      ],
+      "storeys": 34,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 378,
+      "source_triangles_estimate": 4688,
+      "notes": "Ground retail; mullioned inset curtain walls; stepped podium and crown; concentrated downtown use."
+    },
+    "tower_06": {
+      "family": "downtown_tower",
+      "footprint_m": [
+        40,
+        31
+      ],
+      "bounds_m": {
+        "min": [
+          -20.35,
+          0.0,
+          -15.85
+        ],
+        "max": [
+          20.35,
+          53.75,
+          17.12
+        ],
+        "size": [
+          40.7,
+          53.75,
+          32.97
+        ]
+      },
+      "collision_half_extents_m": [
+        20.35,
+        17.12
+      ],
+      "storeys": 14,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 367,
+      "source_triangles_estimate": 4536,
+      "notes": "Ground retail; mullioned inset curtain walls; stepped podium and crown; concentrated downtown use."
+    },
+    "tower_07": {
+      "family": "downtown_tower",
+      "footprint_m": [
+        32,
+        30
+      ],
+      "bounds_m": {
+        "min": [
+          -16.35,
+          0.0,
+          -15.35
+        ],
+        "max": [
+          16.35,
+          94.75,
+          16.62
+        ],
+        "size": [
+          32.7,
+          94.75,
+          31.97
+        ]
+      },
+      "collision_half_extents_m": [
+        16.35,
+        16.62
+      ],
+      "storeys": 25,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 373,
+      "source_triangles_estimate": 4608,
+      "notes": "Ground retail; mullioned inset curtain walls; stepped podium and crown; concentrated downtown use."
+    },
+    "tower_08": {
+      "family": "downtown_tower",
+      "footprint_m": [
+        29,
+        27
+      ],
+      "bounds_m": {
+        "min": [
+          -14.85,
+          0.0,
+          -13.85
+        ],
+        "max": [
+          14.85,
+          67.75,
+          15.12
+        ],
+        "size": [
+          29.7,
+          67.75,
+          28.97
+        ]
+      },
+      "collision_half_extents_m": [
+        14.85,
+        15.12
+      ],
+      "storeys": 18,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 331,
+      "source_triangles_estimate": 4104,
+      "notes": "Ground retail; mullioned inset curtain walls; stepped podium and crown; concentrated downtown use."
+    },
+    "tower_09": {
+      "family": "downtown_tower",
+      "footprint_m": [
+        36,
+        32
+      ],
+      "bounds_m": {
+        "min": [
+          -18.35,
+          0.0,
+          -16.35
+        ],
+        "max": [
+          18.35,
+          115.67,
+          17.62
+        ],
+        "size": [
+          36.7,
+          115.67,
+          33.97
+        ]
+      },
+      "collision_half_extents_m": [
+        18.35,
+        17.62
+      ],
+      "storeys": 30,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 422,
+      "source_triangles_estimate": 5216,
+      "notes": "Ground retail; mullioned inset curtain walls; stepped podium and crown; concentrated downtown use."
+    },
+    "tower_10": {
+      "family": "downtown_tower",
+      "footprint_m": [
+        31,
+        28
+      ],
+      "bounds_m": {
+        "min": [
+          -15.85,
+          0.0,
+          -14.35
+        ],
+        "max": [
+          15.85,
+          46.75,
+          15.62
+        ],
+        "size": [
+          31.7,
+          46.75,
+          29.97
+        ]
+      },
+      "collision_half_extents_m": [
+        15.85,
+        15.62
+      ],
+      "storeys": 12,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 317,
+      "source_triangles_estimate": 3936,
+      "notes": "Ground retail; mullioned inset curtain walls; stepped podium and crown; concentrated downtown use."
+    },
+    "commercial_01": {
+      "family": "commercial",
+      "footprint_m": [
+        30,
+        26
+      ],
+      "bounds_m": {
+        "min": [
+          -15.35,
+          0.0,
+          -13.35
+        ],
+        "max": [
+          15.35,
+          9.68,
+          14.62
+        ],
+        "size": [
+          30.7,
+          9.68,
+          27.97
+        ]
+      },
+      "collision_half_extents_m": [
+        15.35,
+        14.62
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 166,
+      "source_triangles_estimate": 2124,
+      "notes": "Fine-grained street retail with continuous doors, awnings and roof services."
+    },
+    "commercial_02": {
+      "family": "commercial",
+      "footprint_m": [
+        38,
+        30
+      ],
+      "bounds_m": {
+        "min": [
+          -19.35,
+          0.0,
+          -15.35
+        ],
+        "max": [
+          19.35,
+          12.68,
+          16.62
+        ],
+        "size": [
+          38.7,
+          12.68,
+          31.97
+        ]
+      },
+      "collision_half_extents_m": [
+        19.35,
+        16.62
+      ],
+      "storeys": 3,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 200,
+      "source_triangles_estimate": 2532,
+      "notes": "Fine-grained street retail with continuous doors, awnings and roof services."
+    },
+    "commercial_03": {
+      "family": "commercial",
+      "footprint_m": [
+        42,
+        32
+      ],
+      "bounds_m": {
+        "min": [
+          -21.35,
+          0.0,
+          -16.35
+        ],
+        "max": [
+          21.35,
+          10.08,
+          17.62
+        ],
+        "size": [
+          42.7,
+          10.08,
+          33.97
+        ]
+      },
+      "collision_half_extents_m": [
+        21.35,
+        17.62
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 219,
+      "source_triangles_estimate": 2760,
+      "notes": "Fine-grained street retail with continuous doors, awnings and roof services."
+    },
+    "commercial_04": {
+      "family": "commercial",
+      "footprint_m": [
+        28,
+        25
+      ],
+      "bounds_m": {
+        "min": [
+          -14.35,
+          0.0,
+          -12.85
+        ],
+        "max": [
+          14.35,
+          16.28,
+          14.12
+        ],
+        "size": [
+          28.7,
+          16.28,
+          26.97
+        ]
+      },
+      "collision_half_extents_m": [
+        14.35,
+        14.12
+      ],
+      "storeys": 4,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 174,
+      "source_triangles_estimate": 2220,
+      "notes": "Fine-grained street retail with continuous doors, awnings and roof services."
+    },
+    "museum": {
+      "family": "civic_hero",
+      "footprint_m": [
+        52,
+        30
+      ],
+      "bounds_m": {
+        "min": [
+          -26.23,
+          0.0,
+          -15.23
+        ],
+        "max": [
+          26.23,
+          16.02,
+          18.8
+        ],
+        "size": [
+          52.46,
+          16.02,
+          34.03
+        ]
+      },
+      "collision_half_extents_m": [
+        26.23,
+        18.8
+      ],
+      "storeys": 3,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 454,
+      "source_triangles_estimate": 5292,
+      "notes": "Park cultural anchor with stone wings, recessed glazed lantern and colonnade."
+    },
+    "library": {
+      "family": "civic_hero",
+      "footprint_m": [
+        44,
+        28
+      ],
+      "bounds_m": {
+        "min": [
+          -22.23,
+          0.0,
+          -14.23
+        ],
+        "max": [
+          22.23,
+          11.665,
+          17.6
+        ],
+        "size": [
+          44.46,
+          11.665,
+          31.83
+        ]
+      },
+      "collision_half_extents_m": [
+        22.23,
+        17.6
+      ],
+      "storeys": 3,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 408,
+      "source_triangles_estimate": 4764,
+      "notes": "Reading-room lantern, sheltered civic entrance and masonry wings."
+    },
+    "school": {
+      "family": "civic_hero",
+      "footprint_m": [
+        64,
+        36
+      ],
+      "bounds_m": {
+        "min": [
+          -32.23,
+          0.0,
+          -18.23
+        ],
+        "max": [
+          32.23,
+          8.22,
+          20.75
+        ],
+        "size": [
+          64.46,
+          8.22,
+          38.98
+        ]
+      },
+      "collision_half_extents_m": [
+        32.23,
+        20.75
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 787,
+      "source_triangles_estimate": 8916,
+      "notes": "Two classroom wings with lower glazed entrance commons and a shared circulation spine."
+    },
+    "sports_hall": {
+      "family": "civic_hero",
+      "footprint_m": [
+        48,
+        32
+      ],
+      "bounds_m": {
+        "min": [
+          -24.245,
+          0.0,
+          -16.35
+        ],
+        "max": [
+          24.245,
+          9.895,
+          27.12
+        ],
+        "size": [
+          48.49,
+          9.895,
+          43.47
+        ]
+      },
+      "collision_half_extents_m": [
+        24.245,
+        27.12
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 138,
+      "source_triangles_estimate": 1656,
+      "notes": "Clear-span sports hall, sawtooth rooflights and distinct front foyer."
+    },
+    "rail_station": {
+      "family": "civic_hero",
+      "footprint_m": [
+        80,
+        30
+      ],
+      "bounds_m": {
+        "min": [
+          -44.0,
+          0.0,
+          -24.0
+        ],
+        "max": [
+          44.0,
+          17.51,
+          19.5
+        ],
+        "size": [
+          88.0,
+          17.51,
+          43.5
+        ]
+      },
+      "collision_half_extents_m": [
+        44.0,
+        24.0
+      ],
+      "storeys": 2,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 544,
+      "source_triangles_estimate": 6252,
+      "notes": "Long glazed concourse, platform canopy and clock tower; trains and rails are layout-owned."
+    },
+    "city_hall": {
+      "family": "civic_hero",
+      "footprint_m": [
+        42,
+        30
+      ],
+      "bounds_m": {
+        "min": [
+          -21.23,
+          0.0,
+          -15.23
+        ],
+        "max": [
+          21.23,
+          16.065,
+          18.4
+        ],
+        "size": [
+          42.46,
+          16.065,
+          33.63
+        ]
+      },
+      "collision_half_extents_m": [
+        21.23,
+        18.4
+      ],
+      "storeys": 4,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 653,
+      "source_triangles_estimate": 7388,
+      "notes": "Formal stone civic frontage with sheltered colonnade and central roof lantern."
+    },
+    "hotel": {
+      "family": "hotel",
+      "footprint_m": [
+        34,
+        26
+      ],
+      "bounds_m": {
+        "min": [
+          -17.35,
+          0.0,
+          -13.35
+        ],
+        "max": [
+          17.35,
+          35.31,
+          18.15
+        ],
+        "size": [
+          34.7,
+          35.31,
+          31.5
+        ]
+      },
+      "collision_half_extents_m": [
+        17.35,
+        18.15
+      ],
+      "storeys": 10,
+      "primary_frontage": "+Z",
+      "enterable": false,
+      "components": 1499,
+      "source_triangles_estimate": 17040,
+      "notes": "Recessed lobby, regular bedroom bays, porte-cochere and rooftop plant."
+    }
+  }
+}

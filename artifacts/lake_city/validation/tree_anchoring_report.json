@@ -1,0 +1,398 @@
+{
+  "treeCount": 9391,
+  "anchoredCount": 9391,
+  "unresolvedIds": [],
+  "embedDepthM": 0.06,
+  "onlyInstanceYChanged": true,
+  "groundSurfaceCounts": {
+    "grass@0.000": 3141,
+    "sidewalk@0.132": 111,
+    "grass@0.115": 1159,
+    "grass@0.120": 841,
+    "plaza@0.132": 64,
+    "path@0.137": 2,
+    "plaza@0.210": 31,
+    "shore_sand@0.015": 41,
+    "grass@0.055": 143,
+    "forest_floor@-0.120": 3813,
+    "shore_sand@0.160": 22,
+    "wet_shore@0.135": 13,
+    "plaza@0.140": 10
+  },
+  "previousDatumAboveGroundRangeM": [
+    -0.05,
+    0.28
+  ],
+  "instanceYDeltaRangeM": [
+    -0.34,
+    -0.01
+  ],
+  "maximumStructuralRootAboveSoilM": -0.023654,
+  "trunkBelowSoilRangeM": [
+    0.528059,
+    1.07399
+  ],
+  "samples": [
+    {
+      "id": "REG_STREET_TREES_tree_maple_young_00575",
+      "prototype": "tree_maple_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": 0.16,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -793.5
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_maple_young_00576",
+      "prototype": "tree_maple_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": 0.16,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -774.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00577",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": 0.16,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -735.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_maple_young_00578",
+      "prototype": "tree_maple_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": 0.16,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -696.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00579",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": 0.16,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -657.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_maple_young_00580",
+      "prototype": "tree_maple_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": 0.16,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -618.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_maple_young_00581",
+      "prototype": "tree_maple_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": 0.16,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -559.5
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00582",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": 0.16,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -520.5
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00583",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": 0.16,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -501.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00584",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": 0.16,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -462.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00585",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": 0.16,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -442.5
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00586",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": 0.16,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -423.0
+      ]
+    },
+    {
+      "id": "REG_GREENBELT_tree_pine_02162",
+      "prototype": "tree_pine",
+      "groundMaterial": "forest_floor",
+      "groundY": -0.12,
+      "oldY": 0.16,
+      "newY": -0.18,
+      "positionXZ": [
+        -1132.7307700933206,
+        -474.11414117622957
+      ]
+    },
+    {
+      "id": "REG_GREENBELT_tree_pine_02163",
+      "prototype": "tree_pine",
+      "groundMaterial": "forest_floor",
+      "groundY": -0.12,
+      "oldY": 0.16,
+      "newY": -0.18,
+      "positionXZ": [
+        138.9601224779097,
+        -896.2497840610458
+      ]
+    },
+    {
+      "id": "REG_GREENBELT_tree_oak_02164",
+      "prototype": "tree_oak",
+      "groundMaterial": "forest_floor",
+      "groundY": -0.12,
+      "oldY": 0.16,
+      "newY": -0.18,
+      "positionXZ": [
+        1143.7251175958434,
+        877.0204055377229
+      ]
+    },
+    {
+      "id": "REG_GREENBELT_tree_oak_02165",
+      "prototype": "tree_oak",
+      "groundMaterial": "forest_floor",
+      "groundY": -0.12,
+      "oldY": 0.16,
+      "newY": -0.18,
+      "positionXZ": [
+        412.0862478436943,
+        899.9690726561428
+      ]
+    },
+    {
+      "id": "REG_GREENBELT_tree_oak_02166",
+      "prototype": "tree_oak",
+      "groundMaterial": "forest_floor",
+      "groundY": -0.12,
+      "oldY": 0.16,
+      "newY": -0.18,
+      "positionXZ": [
+        -1111.6774227677947,
+        886.1453349762729
+      ]
+    },
+    {
+      "id": "REG_GREENBELT_tree_maple_02167",
+      "prototype": "tree_maple",
+      "groundMaterial": "forest_floor",
+      "groundY": -0.12,
+      "oldY": 0.16,
+      "newY": -0.18,
+      "positionXZ": [
+        1064.1297411057944,
+        677.4057201564916
+      ]
+    },
+    {
+      "id": "REG_GREENBELT_tree_maple_02168",
+      "prototype": "tree_maple",
+      "groundMaterial": "forest_floor",
+      "groundY": -0.12,
+      "oldY": 0.16,
+      "newY": -0.18,
+      "positionXZ": [
+        231.82487771420944,
+        895.3372931901526
+      ]
+    },
+    {
+      "id": "REG_GREENBELT_tree_oak_02169",
+      "prototype": "tree_oak",
+      "groundMaterial": "forest_floor",
+      "groundY": -0.12,
+      "oldY": 0.16,
+      "newY": -0.18,
+      "positionXZ": [
+        -1126.9079543636035,
+        84.18380410876125
+      ]
+    }
+  ],
+  "notes": "Soil contact sampled from actual rendered terrain, plaza and path triangles; roots remain below ground. X/Z, rotation, scale, IDs and all canopy source geometry are preserved.",
+  "seconds": 3.949,
+  "previousLocalRootBounds": {
+    "tree_maple_young": {
+      "trunkMinY": -0.005407885182648897,
+      "rootFlareMaxY": 0.7564968466758728
+    },
+    "tree_oak": {
+      "trunkMinY": -0.0054097604006528854,
+      "rootFlareMaxY": 0.7564968466758728
+    },
+    "tree_maple": {
+      "trunkMinY": -0.005409587174654007,
+      "rootFlareMaxY": 0.7564968466758728
+    },
+    "tree_pine": {
+      "trunkMinY": -0.0054099708795547485,
+      "rootFlareMaxY": 0.7564968466758728
+    },
+    "tree_birch": {
+      "trunkMinY": -0.005409745033830404,
+      "rootFlareMaxY": 0.7564968466758728
+    },
+    "tree_oak_young": {
+      "trunkMinY": -0.005408321041613817,
+      "rootFlareMaxY": 0.7564968466758728
+    },
+    "tree_poplar": {
+      "trunkMinY": -0.005410036537796259,
+      "rootFlareMaxY": 0.7564968466758728
+    }
+  },
+  "canopyGeometryIdenticalByPrototype": {
+    "tree_maple_young": true,
+    "tree_oak": true,
+    "tree_maple": true,
+    "tree_pine": true,
+    "tree_birch": true,
+    "tree_oak_young": true,
+    "tree_poplar": true
+  },
+  "allXZRotationScaleIdsPreserved": true,
+  "trunkWindingValidation": {
+    "tree_oak": {
+      "triangles": 164,
+      "signedVolumeM3": 1.638039,
+      "minimumOutwardRadialDot": 0.181857,
+      "allSideNormalsOutward": true,
+      "allBottomNormalsDown": true,
+      "allTopNormalsUp": true,
+      "allFinite": true
+    },
+    "tree_maple": {
+      "triangles": 164,
+      "signedVolumeM3": 1.273371,
+      "minimumOutwardRadialDot": 0.166081,
+      "allSideNormalsOutward": true,
+      "allBottomNormalsDown": true,
+      "allTopNormalsUp": true,
+      "allFinite": true
+    },
+    "tree_birch": {
+      "triangles": 164,
+      "signedVolumeM3": 1.598796,
+      "minimumOutwardRadialDot": 0.180279,
+      "allSideNormalsOutward": true,
+      "allBottomNormalsDown": true,
+      "allTopNormalsUp": true,
+      "allFinite": true
+    },
+    "tree_poplar": {
+      "triangles": 164,
+      "signedVolumeM3": 2.782234,
+      "minimumOutwardRadialDot": 0.219717,
+      "allSideNormalsOutward": true,
+      "allBottomNormalsDown": true,
+      "allTopNormalsUp": true,
+      "allFinite": true
+    },
+    "tree_pine": {
+      "triangles": 164,
+      "signedVolumeM3": 2.406555,
+      "minimumOutwardRadialDot": 0.208675,
+      "allSideNormalsOutward": true,
+      "allBottomNormalsDown": true,
+      "allTopNormalsUp": true,
+      "allFinite": true
+    },
+    "tree_oak_young": {
+      "triangles": 164,
+      "signedVolumeM3": 0.423983,
+      "minimumOutwardRadialDot": 0.110862,
+      "allSideNormalsOutward": true,
+      "allBottomNormalsDown": true,
+      "allTopNormalsUp": true,
+      "allFinite": true
+    },
+    "tree_maple_young": {
+      "triangles": 164,
+      "signedVolumeM3": 0.33441,
+      "minimumOutwardRadialDot": 0.101394,
+      "allSideNormalsOutward": true,
+      "allBottomNormalsDown": true,
+      "allTopNormalsUp": true,
+      "allFinite": true
+    }
+  },
+  "twoPassAnchoringAndClearance": {
+    "seconds": 10.52,
+    "initialAnchored": 9391,
+    "finalAnchored": 9391,
+    "finalUnresolved": [],
+    "rootTopRelativeToSoil": -0.023654,
+    "shelterTreeClearance": {
+      "detected": 0,
+      "relocated": [],
+      "removed": [],
+      "unresolved": []
+    },
+    "routeUnresolved": []
+  }
+}

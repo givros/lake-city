@@ -1,0 +1,187 @@
+{
+  "treeCount": 9391,
+  "anchoredCount": 9391,
+  "unresolvedIds": [],
+  "embedDepthM": 0.06,
+  "onlyInstanceYChanged": true,
+  "groundSurfaceCounts": {
+    "grass@0.000": 3141,
+    "sidewalk@0.132": 111,
+    "grass@0.115": 1159,
+    "grass@0.120": 841,
+    "plaza@0.132": 64,
+    "path@0.137": 2,
+    "plaza@0.210": 31,
+    "shore_sand@0.015": 41,
+    "grass@0.055": 143,
+    "forest_floor@-0.120": 3813,
+    "shore_sand@0.160": 22,
+    "wet_shore@0.135": 13,
+    "plaza@0.140": 10
+  },
+  "previousDatumAboveGroundRangeM": [
+    -0.05,
+    0.28
+  ],
+  "instanceYDeltaRangeM": [
+    0.0,
+    0.0
+  ],
+  "maximumStructuralRootAboveSoilM": -0.023654,
+  "trunkBelowSoilRangeM": [
+    0.528059,
+    1.07399
+  ],
+  "samples": [
+    {
+      "id": "REG_STREET_TREES_tree_maple_young_00575",
+      "prototype": "tree_maple_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": -0.06,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -793.5
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_maple_young_00576",
+      "prototype": "tree_maple_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": -0.06,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -774.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00577",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": -0.06,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -735.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_maple_young_00578",
+      "prototype": "tree_maple_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": -0.06,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -696.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00579",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": -0.06,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -657.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_maple_young_00580",
+      "prototype": "tree_maple_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": -0.06,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -618.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_maple_young_00581",
+      "prototype": "tree_maple_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": -0.06,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -559.5
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00582",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": -0.06,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -520.5
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00583",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": -0.06,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -501.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00584",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": -0.06,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -462.0
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00585",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": -0.06,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -442.5
+      ]
+    },
+    {
+      "id": "REG_STREET_TREES_tree_oak_young_00586",
+      "prototype": "tree_oak_young",
+      "groundMaterial": "grass",
+      "groundY": 0.0,
+      "oldY": -0.06,
+      "newY": -0.06,
+      "positionXZ": [
+        -18.0,
+        -423.0
+      ]
+    }
+  ],
+  "notes": "Soil contact sampled from actual rendered terrain, plaza and path triangles; roots remain below ground. X/Z, rotation, scale, IDs and all canopy source geometry are preserved.",
+  "initialInstanceYDeltaRangeM": [
+    -0.34,
+    -0.01
+  ],
+  "clearanceOrder": "Grounded before clearance; resampled after any horizontal relocations."
+}

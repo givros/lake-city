@@ -1,0 +1,299 @@
+{
+  "asset": "/assets/characters/pedestrian.glb",
+  "source": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase.blend",
+  "source_sha256": "82bd44e0c3696d69194a3164d8705e303e3a24ce106bf781fd25ecede68f4efe",
+  "asset_sha256": "46255a24c79e0299f1f74b9f864cd59d267bdf345daff988e08d5832544c19cc",
+  "source_saved": false,
+  "source_unchanged": true,
+  "compressed": false,
+  "coordinate_system": "glTF Y-up",
+  "forward_axis": "+Z",
+  "rotation_y_for_direction": "Math.atan2(direction.x,direction.z)",
+  "height_at_scale_1": 1.0514792643953115,
+  "neutral_foot_y_at_scale_1": 0.0033765591215342283,
+  "recommended_adult_height": 1.75,
+  "recommended_uniform_scale": 1.6643219312616653,
+  "grounding": "Group.position.y = surfaceY + clip.recommended_ground_offset_at_scale_1 * scale. Preserve vertical animation. Blend offsets during Walk/Idle transitions.",
+  "rig": "CharacterRig",
+  "bone_count": 49,
+  "mesh_names": [
+    "CharacterBase",
+    "LongSleeveShirt",
+    "Pants"
+  ],
+  "mesh_triangles": {
+    "CharacterMesh": 3134,
+    "LongSleeveShirtMesh": 1440,
+    "PantsMesh": 1048
+  },
+  "total_triangles": 5622,
+  "clips": {
+    "Idle": {
+      "source_frame_range": [
+        1,
+        251
+      ],
+      "fps": 30,
+      "duration_seconds": 8.333333333333334,
+      "loop": true,
+      "in_place": true,
+      "root_endpoint_delta_blender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pelvis_horizontal_range": [
+        0.005681743146851659,
+        0.007480699568986893
+      ],
+      "lowest_sole_y_range": [
+        0.003195688361302018,
+        0.003269590437412262
+      ],
+      "recommended_ground_offset_at_scale_1": -0.0032161817082623206,
+      "sample_frames": [
+        1,
+        64,
+        126,
+        188,
+        251
+      ],
+      "start_seconds": 0
+    },
+    "Walk": {
+      "source_frame_range": [
+        1,
+        32
+      ],
+      "fps": 30,
+      "duration_seconds": 1.0333333333333334,
+      "loop": true,
+      "in_place": true,
+      "root_endpoint_delta_blender": [
+        -1.0011717677116394e-08,
+        0.0,
+        0.0
+      ],
+      "pelvis_horizontal_range": [
+        0.024167331168428063,
+        0.013268135488033295
+      ],
+      "lowest_sole_y_range": [
+        -0.013382995501160622,
+        0.004041684791445732
+      ],
+      "recommended_ground_offset_at_scale_1": 0.0017811482648539823,
+      "sample_frames": [
+        1,
+        9,
+        16,
+        24,
+        32
+      ],
+      "start_seconds": 0
+    }
+  },
+  "normalized_weights": {
+    "CharacterBase": {
+      "vertices": 1596,
+      "maximum_influences_before": 7,
+      "vertices_over_four_before": 90,
+      "non_normalized_before": 1363,
+      "maximum_influences_after": 4,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.15715602040290833
+    },
+    "LongSleeveShirt": {
+      "vertices": 358,
+      "maximum_influences_before": 6,
+      "vertices_over_four_before": 45,
+      "non_normalized_before": 348,
+      "maximum_influences_after": 4,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.13943448290228844
+    },
+    "Pants": {
+      "vertices": 261,
+      "maximum_influences_before": 5,
+      "vertices_over_four_before": 24,
+      "non_normalized_before": 249,
+      "maximum_influences_after": 4,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.023528244346380234
+    }
+  },
+  "reimport_validation": {
+    "Idle": {
+      "passed": true,
+      "maximum_vertex_deviation": 6.040141897756257e-07,
+      "samples": [
+        {
+          "source_frame": 1,
+          "bounds_blender": {
+            "min": [
+              -0.15698720514774323,
+              -0.1478819102048874,
+              0.0032214419916272163
+            ],
+            "max": [
+              0.15830449759960175,
+              0.0852382704615593,
+              1.0473047494888306
+            ]
+          }
+        },
+        {
+          "source_frame": 64,
+          "bounds_blender": {
+            "min": [
+              -0.1584043800830841,
+              -0.14791251718997955,
+              0.003205054672434926
+            ],
+            "max": [
+              0.1582825481891632,
+              0.08181075006723404,
+              1.0466405153274536
+            ]
+          }
+        },
+        {
+          "source_frame": 126,
+          "bounds_blender": {
+            "min": [
+              -0.16136078536510468,
+              -0.14791126549243927,
+              0.003210097085684538
+            ],
+            "max": [
+              0.15829357504844666,
+              0.08089017122983932,
+              1.0485855340957642
+            ]
+          }
+        },
+        {
+          "source_frame": 188,
+          "bounds_blender": {
+            "min": [
+              -0.15972530841827393,
+              -0.147915780544281,
+              0.003222353756427765
+            ],
+            "max": [
+              0.1582707017660141,
+              0.08009708672761917,
+              1.0452290773391724
+            ]
+          }
+        },
+        {
+          "source_frame": 251,
+          "bounds_blender": {
+            "min": [
+              -0.15698720514774323,
+              -0.1478819102048874,
+              0.0032214419916272163
+            ],
+            "max": [
+              0.15830449759960175,
+              0.0852382704615593,
+              1.0473047494888306
+            ]
+          }
+        }
+      ],
+      "import_frame_range": [
+        0.0,
+        249.99998474121094
+      ]
+    },
+    "Walk": {
+      "passed": true,
+      "maximum_vertex_deviation": 9.652457038100692e-07,
+      "samples": [
+        {
+          "source_frame": 1,
+          "bounds_blender": {
+            "min": [
+              -0.18200254440307617,
+              -0.15199242532253265,
+              0.003359066089615226
+            ],
+            "max": [
+              0.20083943009376526,
+              0.12344905734062195,
+              1.0447360277175903
+            ]
+          }
+        },
+        {
+          "source_frame": 9,
+          "bounds_blender": {
+            "min": [
+              -0.19438675045967102,
+              -0.348154217004776,
+              -0.012170059606432915
+            ],
+            "max": [
+              0.16970467567443848,
+              0.3071427047252655,
+              1.0070788860321045
+            ]
+          }
+        },
+        {
+          "source_frame": 16,
+          "bounds_blender": {
+            "min": [
+              -0.1717614084482193,
+              -0.12052121758460999,
+              0.0033232062123715878
+            ],
+            "max": [
+              0.20234306156635284,
+              0.16927526891231537,
+              1.044700026512146
+            ]
+          }
+        },
+        {
+          "source_frame": 24,
+          "bounds_blender": {
+            "min": [
+              -0.1358545869588852,
+              -0.35958510637283325,
+              -0.013383029960095882
+            ],
+            "max": [
+              0.2077910304069519,
+              0.30583012104034424,
+              1.0028815269470215
+            ]
+          }
+        },
+        {
+          "source_frame": 32,
+          "bounds_blender": {
+            "min": [
+              -0.1820026934146881,
+              -0.15199235081672668,
+              0.0033591645769774914
+            ],
+            "max": [
+              0.20083948969841003,
+              0.12344922125339508,
+              1.0447360277175903
+            ]
+          }
+        }
+      ],
+      "import_frame_range": [
+        0.0,
+        31.0
+      ]
+    }
+  },
+  "animation_policy": "Original skill Walk/Idle retained verbatim; clips already have cyclic in-place pelvis motion. Actor route moves an external parent group.",
+  "passed": true
+}

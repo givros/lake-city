@@ -1,0 +1,176 @@
+{
+  "passed": true,
+  "visual_acceptance_required": true,
+  "selected_clips": [
+    "idle",
+    "walk",
+    "run",
+    "jump"
+  ],
+  "selected_actions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "working_blend": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase.blend",
+  "working_blend_sha256": "82bd44e0c3696d69194a3164d8705e303e3a24ce106bf781fd25ecede68f4efe",
+  "actions": [
+    {
+      "action": "Idle",
+      "frame_start": 1,
+      "frame_end": 251,
+      "sample_frames": [
+        1,
+        64,
+        126,
+        188,
+        251
+      ],
+      "renders": [
+        {
+          "frame": 1,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\idle\\idle_001.png",
+          "sha256": "1098b57a4ef6775a1e66c9ed6cc59af1d303770150a8a74c866ac9dc0e321343"
+        },
+        {
+          "frame": 64,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\idle\\idle_064.png",
+          "sha256": "6410a958ca595d31517555560c6e85793cb7ee007ef535c24e7aeed907c62922"
+        },
+        {
+          "frame": 126,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\idle\\idle_126.png",
+          "sha256": "6c0936920a99b2bf0249fb0d39ed9c1071c79d3bfb73085b8a54288f6c9324ad"
+        },
+        {
+          "frame": 188,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\idle\\idle_188.png",
+          "sha256": "e0ba2ca07c65f05162afa995467dfa03087ddbaea8ec8af9a222a5c062dacb10"
+        },
+        {
+          "frame": 251,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\idle\\idle_251.png",
+          "sha256": "9b8e99ee859dc49f1b2878fa22e35299747d21d6302add1c5dafb9f3a512d3a6"
+        }
+      ]
+    },
+    {
+      "action": "Walk",
+      "frame_start": 1,
+      "frame_end": 32,
+      "sample_frames": [
+        1,
+        9,
+        16,
+        24,
+        32
+      ],
+      "renders": [
+        {
+          "frame": 1,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\walk\\walk_001.png",
+          "sha256": "4d6a7953b795d433d1acef8b97b213d5381551bcb5110144c7d9ff76c8b4f5ab"
+        },
+        {
+          "frame": 9,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\walk\\walk_009.png",
+          "sha256": "220117944ecf722f7fba8f4251e2d984b9a554f56122d4b055b5e948b63d36f7"
+        },
+        {
+          "frame": 16,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\walk\\walk_016.png",
+          "sha256": "ef912e34203f6c2aa56695dcf427c4b5e4894d20546975f6679e6d36abe1346e"
+        },
+        {
+          "frame": 24,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\walk\\walk_024.png",
+          "sha256": "d50d67b13d245500221e3ca04a851064d923e366be8e3ffe4f8325dbf3d07df8"
+        },
+        {
+          "frame": 32,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\walk\\walk_032.png",
+          "sha256": "1f86da29948ebc328c68c1c6273beada5750e35e485329b1481331cc261e90ac"
+        }
+      ]
+    },
+    {
+      "action": "Run",
+      "frame_start": 1,
+      "frame_end": 20,
+      "sample_frames": [
+        1,
+        6,
+        10,
+        15,
+        20
+      ],
+      "renders": [
+        {
+          "frame": 1,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\run\\run_001.png",
+          "sha256": "2dc65614107ab2f1eac89fe0d9ec75b2c5cca082cbb4be021f83f4c97bcfa9b3"
+        },
+        {
+          "frame": 6,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\run\\run_006.png",
+          "sha256": "3f9adc216ac92782dc34b30105a0ce3ea25aa41199d5ebc21003cbf1f148854b"
+        },
+        {
+          "frame": 10,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\run\\run_010.png",
+          "sha256": "b08520e2239421a490db5951ef7a14bd455b29ea7bdfa0002a6f17287e40f0da"
+        },
+        {
+          "frame": 15,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\run\\run_015.png",
+          "sha256": "52debb39bb8121f8483e8816c3798353b837b2dadb41d6f605d21a08248e175f"
+        },
+        {
+          "frame": 20,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\run\\run_020.png",
+          "sha256": "7a7bffbb3aafd7593e5317408d2f6d93b6a04df1aa3d7b350bc1b2163cbf7c55"
+        }
+      ]
+    },
+    {
+      "action": "Jump",
+      "frame_start": 1,
+      "frame_end": 58,
+      "sample_frames": [
+        1,
+        15,
+        30,
+        44,
+        58
+      ],
+      "renders": [
+        {
+          "frame": 1,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\jump\\jump_001.png",
+          "sha256": "318e2d5580767c3abb2873e04b946e2f1993e8488b4dbb2cdbb3ee8dcc462c14"
+        },
+        {
+          "frame": 15,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\jump\\jump_015.png",
+          "sha256": "6ec4b279b40c1914c47bbfd0d9c01f897ed5290620a4d851b61dbdeddc1a71e0"
+        },
+        {
+          "frame": 30,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\jump\\jump_030.png",
+          "sha256": "0d58cf7e753c9c442e58d702892d54974a72b2c01b1c4a09a35832fc17cbdf84"
+        },
+        {
+          "frame": 44,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\jump\\jump_044.png",
+          "sha256": "c471077e030dd1532a1c76433c5e080a4a631629b0a6155a5149783abca48542"
+        },
+        {
+          "frame": 58,
+          "path": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase_animation_qc\\jump\\jump_058.png",
+          "sha256": "46bbd82d8ae6752242cd6657a435052f3b90e1555219706504c2b37337e250d9"
+        }
+      ]
+    }
+  ]
+}

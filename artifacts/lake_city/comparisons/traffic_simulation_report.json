@@ -1,0 +1,3982 @@
+{
+  "durationSeconds": 1800,
+  "seed": 1937,
+  "actors": 562,
+  "collisionPairs": [],
+  "nonfinite": 0,
+  "maxSpeed": 11.998014839887619,
+  "minMoving": 288,
+  "maxMoving": 562,
+  "endpointGaps": [],
+  "checkpoints": [
+    {
+      "time": 0.1,
+      "actors": 562,
+      "moving": 562,
+      "stopped": 0,
+      "waitingAtSignals": 0,
+      "queued": 126,
+      "turning": 0,
+      "completedTurns": 0,
+      "distanceTravelled": 545.3367819852937,
+      "redStops": 0,
+      "restarts": 0,
+      "collisionAvoidanceStops": 0,
+      "longestWaitSeconds": 0,
+      "activeJunctions": 0
+    },
+    {
+      "time": 300.1000000000231,
+      "actors": 562,
+      "moving": 312,
+      "stopped": 250,
+      "waitingAtSignals": 74,
+      "queued": 256,
+      "turning": 60,
+      "completedTurns": 2736,
+      "distanceTravelled": 554935.1787826235,
+      "redStops": 1331,
+      "restarts": 5286,
+      "collisionAvoidanceStops": 0,
+      "longestWaitSeconds": 59.566666666665846,
+      "activeJunctions": 55
+    },
+    {
+      "time": 600.1000000001115,
+      "actors": 562,
+      "moving": 307,
+      "stopped": 255,
+      "waitingAtSignals": 54,
+      "queued": 292,
+      "turning": 61,
+      "completedTurns": 5163,
+      "distanceTravelled": 1005407.5821068684,
+      "redStops": 2448,
+      "restarts": 10267,
+      "collisionAvoidanceStops": 0,
+      "longestWaitSeconds": 73.3999999999984,
+      "activeJunctions": 62
+    },
+    {
+      "time": 900.0999999998387,
+      "actors": 562,
+      "moving": 342,
+      "stopped": 220,
+      "waitingAtSignals": 49,
+      "queued": 312,
+      "turning": 54,
+      "completedTurns": 7445,
+      "distanceTravelled": 1425390.575419679,
+      "redStops": 3515,
+      "restarts": 14741,
+      "collisionAvoidanceStops": 0,
+      "longestWaitSeconds": 73.3999999999984,
+      "activeJunctions": 55
+    },
+    {
+      "time": 1200.0999999995659,
+      "actors": 562,
+      "moving": 329,
+      "stopped": 233,
+      "waitingAtSignals": 40,
+      "queued": 333,
+      "turning": 47,
+      "completedTurns": 9600,
+      "distanceTravelled": 1822359.845445024,
+      "redStops": 4503,
+      "restarts": 18829,
+      "collisionAvoidanceStops": 0,
+      "longestWaitSeconds": 73.3999999999984,
+      "activeJunctions": 47
+    },
+    {
+      "time": 1500.099999999293,
+      "actors": 562,
+      "moving": 347,
+      "stopped": 215,
+      "waitingAtSignals": 39,
+      "queued": 322,
+      "turning": 51,
+      "completedTurns": 11703,
+      "distanceTravelled": 2214591.681996234,
+      "redStops": 5454,
+      "restarts": 22748,
+      "collisionAvoidanceStops": 0,
+      "longestWaitSeconds": 73.3999999999984,
+      "activeJunctions": 58
+    }
+  ],
+  "actorProgress": [
+    {
+      "id": "REG_VEHICLES_delivery_van_10038",
+      "distance": 3242.306500695132,
+      "turns": 19,
+      "wait": 1.4333333333333345
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10039",
+      "distance": 2186.403517322996,
+      "turns": 13,
+      "wait": 16.333333333333304
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10040",
+      "distance": 3455.134754730179,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10041",
+      "distance": 6216.832617140767,
+      "turns": 42,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10042",
+      "distance": 6228.139750741474,
+      "turns": 39,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10043",
+      "distance": 3741.4995060863475,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10044",
+      "distance": 4786.089306168169,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10045",
+      "distance": 4480.655815866127,
+      "turns": 29,
+      "wait": 34.23333333333395
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10046",
+      "distance": 6655.483732842692,
+      "turns": 40,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10047",
+      "distance": 5185.7491515822985,
+      "turns": 33,
+      "wait": 9.466666666666644
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10048",
+      "distance": 3217.788656725375,
+      "turns": 22,
+      "wait": 11.566666666666636
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10049",
+      "distance": 4321.320942037989,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10050",
+      "distance": 5932.617925138982,
+      "turns": 28,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10051",
+      "distance": 4500.863388964907,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10052",
+      "distance": 5020.616353321224,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10053",
+      "distance": 5174.834159095581,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10054",
+      "distance": 5156.338319898031,
+      "turns": 32,
+      "wait": 1.3666666666666676
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10055",
+      "distance": 5569.667082323527,
+      "turns": 18,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10056",
+      "distance": 5907.475043461548,
+      "turns": 37,
+      "wait": 18.766666666666758
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10057",
+      "distance": 3846.4514655309194,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10058",
+      "distance": 4091.620633447811,
+      "turns": 25,
+      "wait": 3.9999999999999956
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10059",
+      "distance": 4287.80743913037,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10060",
+      "distance": 6324.898479822053,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10061",
+      "distance": 4986.085766085924,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10062",
+      "distance": 2979.064321128711,
+      "turns": 19,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10063",
+      "distance": 6802.213451249629,
+      "turns": 42,
+      "wait": 2.233333333333335
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10064",
+      "distance": 3902.0581449286324,
+      "turns": 25,
+      "wait": 34.83333333333392
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10065",
+      "distance": 5273.377369921486,
+      "turns": 37,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10066",
+      "distance": 3581.9956314687283,
+      "turns": 21,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10067",
+      "distance": 3327.9793065279564,
+      "turns": 19,
+      "wait": 5.966666666666655
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10068",
+      "distance": 5286.017808479109,
+      "turns": 32,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10069",
+      "distance": 5629.194854541542,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10070",
+      "distance": 7511.0045624348595,
+      "turns": 44,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10071",
+      "distance": 4738.753361113842,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10072",
+      "distance": 4116.631312701134,
+      "turns": 27,
+      "wait": 14.899999999999958
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10073",
+      "distance": 5184.544819616676,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10074",
+      "distance": 4025.905664799008,
+      "turns": 27,
+      "wait": 11.59999999999997
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10075",
+      "distance": 5259.303604134448,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10076",
+      "distance": 5476.6953561476685,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10077",
+      "distance": 3326.348563879271,
+      "turns": 22,
+      "wait": 26.80000000000049
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10078",
+      "distance": 4905.630255992471,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10079",
+      "distance": 5046.717709268719,
+      "turns": 21,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10080",
+      "distance": 4965.431301522259,
+      "turns": 14,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10081",
+      "distance": 3069.057358746252,
+      "turns": 19,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10082",
+      "distance": 4151.313892391418,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10083",
+      "distance": 3718.650973445238,
+      "turns": 22,
+      "wait": 6.499999999999987
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10084",
+      "distance": 5792.129281215722,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10085",
+      "distance": 3655.3060797148582,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10086",
+      "distance": 3540.2345756502464,
+      "turns": 22,
+      "wait": 12.3333333333333
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10087",
+      "distance": 4756.586883225428,
+      "turns": 11,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10088",
+      "distance": 4727.125077388947,
+      "turns": 21,
+      "wait": 6.599999999999986
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10089",
+      "distance": 4961.48702753735,
+      "turns": 32,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10090",
+      "distance": 4911.242321428434,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10091",
+      "distance": 5973.800508797927,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10092",
+      "distance": 4746.7774871048005,
+      "turns": 29,
+      "wait": 7.3999999999999835
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10093",
+      "distance": 4779.955129588476,
+      "turns": 31,
+      "wait": 3.63333333333333
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10094",
+      "distance": 4924.190126483271,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10095",
+      "distance": 6606.577369023299,
+      "turns": 41,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10096",
+      "distance": 6496.4287961435475,
+      "turns": 6,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10097",
+      "distance": 4537.041466181933,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10098",
+      "distance": 3332.602239565443,
+      "turns": 23,
+      "wait": 1.700000000000002
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10099",
+      "distance": 4990.012413231203,
+      "turns": 32,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10100",
+      "distance": 4955.040037428341,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10101",
+      "distance": 4367.561690718885,
+      "turns": 10,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10102",
+      "distance": 3332.1805217215488,
+      "turns": 21,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10103",
+      "distance": 4133.022586773305,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10108",
+      "distance": 5154.747822177204,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10109",
+      "distance": 2794.59157257361,
+      "turns": 18,
+      "wait": 10.766666666666639
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10110",
+      "distance": 3508.756982549521,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10111",
+      "distance": 3258.315790636499,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10112",
+      "distance": 4219.408489045357,
+      "turns": 26,
+      "wait": 20.666666666666853
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10122",
+      "distance": 4963.762923770209,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10123",
+      "distance": 4253.488774423272,
+      "turns": 28,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10124",
+      "distance": 4950.88499356895,
+      "turns": 30,
+      "wait": 19.633333333333468
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10125",
+      "distance": 6153.608876663965,
+      "turns": 39,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10126",
+      "distance": 4168.822594071615,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10127",
+      "distance": 3752.893462505647,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10132",
+      "distance": 3201.2270329857383,
+      "turns": 20,
+      "wait": 36.366666666667165
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10133",
+      "distance": 4392.763769880291,
+      "turns": 27,
+      "wait": 11.29999999999997
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10134",
+      "distance": 4674.283919720698,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10135",
+      "distance": 5538.385422329223,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10136",
+      "distance": 4815.716828764454,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10166",
+      "distance": 5132.991687874471,
+      "turns": 6,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10167",
+      "distance": 5062.661419737901,
+      "turns": 34,
+      "wait": 24.766666666667057
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10168",
+      "distance": 3697.0220519876852,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10169",
+      "distance": 5038.419050647779,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10170",
+      "distance": 3825.3342524088,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10171",
+      "distance": 5372.422966869796,
+      "turns": 33,
+      "wait": 3.766666666666663
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10172",
+      "distance": 4199.122938379304,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10173",
+      "distance": 4599.075854150563,
+      "turns": 27,
+      "wait": 9.399999999999977
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10174",
+      "distance": 4786.989972515035,
+      "turns": 32,
+      "wait": 5.366666666666657
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10175",
+      "distance": 4556.19690513415,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10176",
+      "distance": 4933.591089909842,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10177",
+      "distance": 4442.172632824092,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10178",
+      "distance": 6844.509479308375,
+      "turns": 46,
+      "wait": 7.333333333333317
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10179",
+      "distance": 4969.4250608914235,
+      "turns": 32,
+      "wait": 2.2666666666666684
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10180",
+      "distance": 5371.590243059845,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10181",
+      "distance": 5279.798130286024,
+      "turns": 34,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10182",
+      "distance": 5312.181096290476,
+      "turns": 34,
+      "wait": 17.000000000000004
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10183",
+      "distance": 4061.4585369332635,
+      "turns": 25,
+      "wait": 12.066666666666634
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10184",
+      "distance": 4519.069809665039,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10185",
+      "distance": 4779.974473503996,
+      "turns": 31,
+      "wait": 14.09999999999996
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10186",
+      "distance": 3137.2878014474545,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10255",
+      "distance": 4151.2823007558745,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10256",
+      "distance": 4869.7856862704475,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10257",
+      "distance": 3698.1123975428677,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10258",
+      "distance": 4200.301263946005,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10259",
+      "distance": 5067.993400968408,
+      "turns": 34,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10260",
+      "distance": 5382.6444711717995,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10261",
+      "distance": 3663.3837055063664,
+      "turns": 23,
+      "wait": 12.199999999999967
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10262",
+      "distance": 5211.254344856423,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10263",
+      "distance": 2774.029833798568,
+      "turns": 16,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10264",
+      "distance": 6373.482967353266,
+      "turns": 40,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10265",
+      "distance": 3843.119518146398,
+      "turns": 25,
+      "wait": 7.533333333333316
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10266",
+      "distance": 3026.694171040145,
+      "turns": 19,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10267",
+      "distance": 3246.7379819329967,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10268",
+      "distance": 6028.839824192985,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10269",
+      "distance": 5225.938124182518,
+      "turns": 33,
+      "wait": 10.999999999999972
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10270",
+      "distance": 3739.100114559404,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10271",
+      "distance": 5119.867450903158,
+      "turns": 32,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10272",
+      "distance": 3232.7444617190017,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10273",
+      "distance": 3790.958840185423,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10274",
+      "distance": 3529.220546515151,
+      "turns": 21,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10275",
+      "distance": 6060.594223373404,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10276",
+      "distance": 4962.902273130123,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10277",
+      "distance": 4953.902459195253,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10278",
+      "distance": 4163.308187905966,
+      "turns": 29,
+      "wait": 25.833333333333776
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10279",
+      "distance": 5503.927640113646,
+      "turns": 19,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10280",
+      "distance": 4273.071389393641,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10349",
+      "distance": 4371.732069616525,
+      "turns": 28,
+      "wait": 5.266666666666658
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10350",
+      "distance": 4476.870761821614,
+      "turns": 30,
+      "wait": 8.733333333333313
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10351",
+      "distance": 7177.633599176003,
+      "turns": 43,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10352",
+      "distance": 3548.3905314941317,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10353",
+      "distance": 5303.043134229811,
+      "turns": 31,
+      "wait": 9.566666666666643
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10354",
+      "distance": 4833.685541740675,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10355",
+      "distance": 5150.96905672936,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10356",
+      "distance": 6116.90968113688,
+      "turns": 24,
+      "wait": 2.0000000000000027
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10357",
+      "distance": 4093.9851193699055,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10358",
+      "distance": 4354.021143538118,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10359",
+      "distance": 5129.403359260221,
+      "turns": 18,
+      "wait": 17.866666666666713
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10360",
+      "distance": 3471.6267779677414,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10361",
+      "distance": 3902.6731618175363,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10362",
+      "distance": 3980.3973910225573,
+      "turns": 24,
+      "wait": 22.366666666666937
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10363",
+      "distance": 3763.860070021573,
+      "turns": 22,
+      "wait": 1.400000000000001
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10364",
+      "distance": 4827.638903647509,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10365",
+      "distance": 5340.340868330012,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10366",
+      "distance": 5065.659150878242,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10367",
+      "distance": 4203.374071640092,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10368",
+      "distance": 3370.6380463995706,
+      "turns": 20,
+      "wait": 12.566666666666633
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10403",
+      "distance": 2832.9633197038133,
+      "turns": 18,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10404",
+      "distance": 5286.260706448451,
+      "turns": 32,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10405",
+      "distance": 5403.428402960424,
+      "turns": 19,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10406",
+      "distance": 5451.089565285341,
+      "turns": 14,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10407",
+      "distance": 3612.208805424357,
+      "turns": 22,
+      "wait": 4.533333333333327
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10408",
+      "distance": 4076.760610815417,
+      "turns": 26,
+      "wait": 2.966666666666666
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10409",
+      "distance": 5720.92403944269,
+      "turns": 35,
+      "wait": 5.033333333333325
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10410",
+      "distance": 5746.865777666993,
+      "turns": 36,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10411",
+      "distance": 5630.560837530236,
+      "turns": 36,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10412",
+      "distance": 4759.873562653831,
+      "turns": 29,
+      "wait": 40.300000000000274
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10413",
+      "distance": 5011.442893618538,
+      "turns": 30,
+      "wait": 21.666666666666902
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10414",
+      "distance": 4368.574434485284,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10415",
+      "distance": 4368.5459662386465,
+      "turns": 29,
+      "wait": 5.166666666666658
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10416",
+      "distance": 4197.535923697317,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10417",
+      "distance": 5391.200235840627,
+      "turns": 32,
+      "wait": 7.133333333333318
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10418",
+      "distance": 5461.142546932829,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10419",
+      "distance": 3728.508608230553,
+      "turns": 24,
+      "wait": 11.366666666666637
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10420",
+      "distance": 5056.228239418044,
+      "turns": 4,
+      "wait": 3.299999999999998
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10421",
+      "distance": 4664.735051163362,
+      "turns": 13,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10422",
+      "distance": 5148.944514679095,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10423",
+      "distance": 3183.0465001033745,
+      "turns": 21,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10424",
+      "distance": 5556.604538633662,
+      "turns": 34,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10425",
+      "distance": 5411.623793326866,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10460",
+      "distance": 2377.7838523663368,
+      "turns": 15,
+      "wait": 3.1999999999999984
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10461",
+      "distance": 3413.602079498822,
+      "turns": 20,
+      "wait": 0.6333333333333333
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10462",
+      "distance": 5047.830829519079,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10463",
+      "distance": 5704.195618096439,
+      "turns": 34,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10464",
+      "distance": 4562.988214791781,
+      "turns": 10,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10465",
+      "distance": 3696.1512142176684,
+      "turns": 25,
+      "wait": 21.066666666666872
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10466",
+      "distance": 4429.134765989899,
+      "turns": 28,
+      "wait": 32.03333333333408
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10467",
+      "distance": 5159.386484187972,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10468",
+      "distance": 5360.485358775384,
+      "turns": 34,
+      "wait": 31.86666666666741
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10469",
+      "distance": 3711.756875577578,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10470",
+      "distance": 4605.99059197082,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10471",
+      "distance": 6097.162371411814,
+      "turns": 41,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10472",
+      "distance": 5942.80195317236,
+      "turns": 38,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10473",
+      "distance": 4611.959381959797,
+      "turns": 30,
+      "wait": 34.36666666666728
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10474",
+      "distance": 6021.768266555979,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10475",
+      "distance": 4302.875300456079,
+      "turns": 9,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10476",
+      "distance": 5815.9017689287275,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10477",
+      "distance": 3728.920867874113,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10478",
+      "distance": 4805.013413750936,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10479",
+      "distance": 4523.166718193433,
+      "turns": 31,
+      "wait": 16.96666666666667
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10480",
+      "distance": 2663.256453823059,
+      "turns": 16,
+      "wait": 5.733333333333323
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10481",
+      "distance": 5185.803897656894,
+      "turns": 32,
+      "wait": 10.066666666666642
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10482",
+      "distance": 4643.370911628966,
+      "turns": 28,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10483",
+      "distance": 5717.575125434757,
+      "turns": 38,
+      "wait": 7.5666666666666496
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10484",
+      "distance": 5781.631355626359,
+      "turns": 37,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10485",
+      "distance": 3483.100955749689,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10486",
+      "distance": 5080.182833176367,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10487",
+      "distance": 3814.4603483863943,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10488",
+      "distance": 3748.8637541448225,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10516",
+      "distance": 4652.058776109777,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10517",
+      "distance": 5235.836276770999,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10518",
+      "distance": 3685.790708748126,
+      "turns": 23,
+      "wait": 36.133333333333844
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10519",
+      "distance": 4488.104763243388,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10520",
+      "distance": 5523.586702677285,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10521",
+      "distance": 3998.897123387652,
+      "turns": 27,
+      "wait": 28.60000000000058
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10522",
+      "distance": 4553.342711370925,
+      "turns": 28,
+      "wait": 5.666666666666656
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10523",
+      "distance": 6789.583217492373,
+      "turns": 42,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10524",
+      "distance": 2901.372194157486,
+      "turns": 18,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10525",
+      "distance": 4658.555997589347,
+      "turns": 32,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10526",
+      "distance": 4742.67727615817,
+      "turns": 15,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10527",
+      "distance": 5036.079001437574,
+      "turns": 12,
+      "wait": 13.133333333333297
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10528",
+      "distance": 6034.106181276981,
+      "turns": 21,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10529",
+      "distance": 4379.3163285111095,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10530",
+      "distance": 5100.044584228501,
+      "turns": 16,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10531",
+      "distance": 3390.5668394992254,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10532",
+      "distance": 4961.621629130156,
+      "turns": 32,
+      "wait": 4.199999999999995
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10533",
+      "distance": 5039.642360896572,
+      "turns": 31,
+      "wait": 24.40000000000037
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10534",
+      "distance": 3365.1483020369215,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10535",
+      "distance": 3278.4456222097397,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10536",
+      "distance": 4765.565538294935,
+      "turns": 11,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10537",
+      "distance": 3989.24089322069,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10538",
+      "distance": 3075.1104344255477,
+      "turns": 17,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10539",
+      "distance": 3321.837873746295,
+      "turns": 21,
+      "wait": 12.366666666666633
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10540",
+      "distance": 5848.700664341991,
+      "turns": 26,
+      "wait": 2.6333333333333337
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10557",
+      "distance": 3434.9508277540403,
+      "turns": 22,
+      "wait": 27.26666666666718
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10558",
+      "distance": 4624.119505047556,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10559",
+      "distance": 3355.0587862176108,
+      "turns": 21,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10560",
+      "distance": 4503.4527331196905,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10561",
+      "distance": 5949.269799690288,
+      "turns": 37,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10562",
+      "distance": 5029.586597810856,
+      "turns": 32,
+      "wait": 11.39999999999997
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10563",
+      "distance": 4300.185831177171,
+      "turns": 26,
+      "wait": 16.799999999999994
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10564",
+      "distance": 5072.912802821718,
+      "turns": 34,
+      "wait": 2.4333333333333345
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10565",
+      "distance": 3637.1012027407064,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10566",
+      "distance": 4461.510382874194,
+      "turns": 29,
+      "wait": 21.000000000000203
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10567",
+      "distance": 3826.8970512847154,
+      "turns": 24,
+      "wait": 16.96666666666667
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10568",
+      "distance": 4051.7500124196254,
+      "turns": 25,
+      "wait": 0.5333333333333333
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10606",
+      "distance": 3411.432482193878,
+      "turns": 22,
+      "wait": 4.366666666666661
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10607",
+      "distance": 4049.3524861126903,
+      "turns": 25,
+      "wait": 5.433333333333324
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10608",
+      "distance": 5475.370111111781,
+      "turns": 11,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10609",
+      "distance": 3993.28037255324,
+      "turns": 26,
+      "wait": 14.933333333333291
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10610",
+      "distance": 3382.0484373528257,
+      "turns": 22,
+      "wait": 28.566666666667246
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10611",
+      "distance": 4719.590532901287,
+      "turns": 29,
+      "wait": 3.3666666666666645
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10612",
+      "distance": 3468.7975019299893,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10624",
+      "distance": 5621.157119468028,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10625",
+      "distance": 3991.30788970283,
+      "turns": 26,
+      "wait": 14.29999999999996
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10626",
+      "distance": 4674.230712658175,
+      "turns": 28,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10627",
+      "distance": 5090.328477408119,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10628",
+      "distance": 4940.847496965423,
+      "turns": 32,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10629",
+      "distance": 5373.611314597072,
+      "turns": 7,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10630",
+      "distance": 5440.45958748192,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10631",
+      "distance": 3808.2542638748123,
+      "turns": 24,
+      "wait": 20.866666666666863
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10632",
+      "distance": 5510.955890676532,
+      "turns": 37,
+      "wait": 4.233333333333328
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10643",
+      "distance": 2797.297096424039,
+      "turns": 17,
+      "wait": 2.7
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10644",
+      "distance": 3070.9561218379527,
+      "turns": 20,
+      "wait": 5.5333333333333234
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10645",
+      "distance": 5353.1081140027445,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10646",
+      "distance": 4784.200700910349,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10647",
+      "distance": 5982.945653829005,
+      "turns": 37,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10648",
+      "distance": 3131.601630238365,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10649",
+      "distance": 3518.5727084021582,
+      "turns": 21,
+      "wait": 16.83333333333333
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10650",
+      "distance": 4246.466878031459,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10651",
+      "distance": 3688.674150001125,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10652",
+      "distance": 3744.631741594178,
+      "turns": 24,
+      "wait": 20.666666666666853
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10664",
+      "distance": 4099.240419066248,
+      "turns": 25,
+      "wait": 28.633333333333916
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10665",
+      "distance": 2526.136521399749,
+      "turns": 16,
+      "wait": 32.60000000000071
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10666",
+      "distance": 3489.4709725596017,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10667",
+      "distance": 6693.637052778799,
+      "turns": 40,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10677",
+      "distance": 5221.349637263438,
+      "turns": 16,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10678",
+      "distance": 4989.706216300601,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10679",
+      "distance": 5033.879273021714,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10680",
+      "distance": 4599.183920803846,
+      "turns": 27,
+      "wait": 9.833333333333309
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10681",
+      "distance": 4956.831723120029,
+      "turns": 32,
+      "wait": 7.966666666666648
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10682",
+      "distance": 3826.7930127160985,
+      "turns": 25,
+      "wait": 36.9333333333338
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10683",
+      "distance": 4924.037646399104,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10695",
+      "distance": 4524.489249230457,
+      "turns": 28,
+      "wait": 17.43333333333336
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10696",
+      "distance": 4516.1116804948115,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10697",
+      "distance": 4246.605590846348,
+      "turns": 28,
+      "wait": 9.299999999999978
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10698",
+      "distance": 3366.650092407226,
+      "turns": 22,
+      "wait": 32.36666666666739
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10699",
+      "distance": 4983.531059317222,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10700",
+      "distance": 5436.028591050871,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10701",
+      "distance": 3899.545248450954,
+      "turns": 24,
+      "wait": 7.166666666666651
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10702",
+      "distance": 4652.437407696444,
+      "turns": 29,
+      "wait": 0.36666666666666664
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10703",
+      "distance": 4779.11117145716,
+      "turns": 31,
+      "wait": 10.099999999999975
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10704",
+      "distance": 5000.018517150705,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10705",
+      "distance": 3677.542031224962,
+      "turns": 26,
+      "wait": 38.30000000000039
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10735",
+      "distance": 4912.182126767316,
+      "turns": 31,
+      "wait": 21.633333333333567
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10736",
+      "distance": 4459.86139414524,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10737",
+      "distance": 5287.683801440502,
+      "turns": 32,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10738",
+      "distance": 5169.810407727683,
+      "turns": 34,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10739",
+      "distance": 5841.126483197504,
+      "turns": 13,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10740",
+      "distance": 3484.604007209108,
+      "turns": 22,
+      "wait": 9.066666666666645
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10752",
+      "distance": 4985.987512675623,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10753",
+      "distance": 5505.210215451974,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10754",
+      "distance": 4629.157904299512,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10755",
+      "distance": 4012.6705205234753,
+      "turns": 26,
+      "wait": 19.866666666666813
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10756",
+      "distance": 6039.492882018781,
+      "turns": 36,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10757",
+      "distance": 4469.061400777114,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10758",
+      "distance": 4279.454577900991,
+      "turns": 27,
+      "wait": 26.80000000000049
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10759",
+      "distance": 4319.742105364535,
+      "turns": 9,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10760",
+      "distance": 4877.061374935587,
+      "turns": 30,
+      "wait": 11.233333333333304
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10761",
+      "distance": 4037.88288931368,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10819",
+      "distance": 3238.6346016191014,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10820",
+      "distance": 3562.1684419305307,
+      "turns": 21,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10821",
+      "distance": 4633.481101516297,
+      "turns": 28,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10822",
+      "distance": 4572.982680387187,
+      "turns": 30,
+      "wait": 4.399999999999994
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10823",
+      "distance": 4034.3650525528137,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10824",
+      "distance": 4389.789857749047,
+      "turns": 29,
+      "wait": 7.46666666666665
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10825",
+      "distance": 5183.4590595930995,
+      "turns": 30,
+      "wait": 12.733333333333299
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10826",
+      "distance": 5052.185874909262,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10827",
+      "distance": 4445.451346143267,
+      "turns": 30,
+      "wait": 14.833333333333291
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10828",
+      "distance": 4014.5690273557793,
+      "turns": 24,
+      "wait": 6.299999999999987
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10829",
+      "distance": 2595.5173254728393,
+      "turns": 18,
+      "wait": 3.266666666666665
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10830",
+      "distance": 3545.37928493471,
+      "turns": 21,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10831",
+      "distance": 5661.348685977515,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10832",
+      "distance": 5292.73645574212,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10833",
+      "distance": 5980.860914143366,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10834",
+      "distance": 6247.6052033083415,
+      "turns": 6,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10835",
+      "distance": 5504.894456620617,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10836",
+      "distance": 2407.2338087166186,
+      "turns": 17,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10837",
+      "distance": 5815.9031658889835,
+      "turns": 37,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10838",
+      "distance": 3798.4955188656513,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10839",
+      "distance": 4873.7867473323995,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10840",
+      "distance": 5939.107881801975,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10841",
+      "distance": 5219.60742907631,
+      "turns": 34,
+      "wait": 22.866666666666962
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10842",
+      "distance": 4889.64160255874,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10843",
+      "distance": 5454.2376320676585,
+      "turns": 13,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10844",
+      "distance": 5101.45512061812,
+      "turns": 15,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10906",
+      "distance": 3670.369812749333,
+      "turns": 22,
+      "wait": 23.86666666666701
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10907",
+      "distance": 3437.6958254104075,
+      "turns": 21,
+      "wait": 15.633333333333288
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10908",
+      "distance": 2669.057011760287,
+      "turns": 18,
+      "wait": 0.36666666666666664
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10909",
+      "distance": 7005.401193347811,
+      "turns": 45,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10910",
+      "distance": 4813.959774569117,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10911",
+      "distance": 2591.399468447129,
+      "turns": 17,
+      "wait": 1.466666666666668
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10912",
+      "distance": 4482.165670475561,
+      "turns": 10,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10913",
+      "distance": 4085.5364205206893,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10914",
+      "distance": 4941.122525990136,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10915",
+      "distance": 4358.4283207169565,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10916",
+      "distance": 4707.481841275968,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10917",
+      "distance": 5572.136140446693,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10918",
+      "distance": 5284.538724019915,
+      "turns": 34,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10919",
+      "distance": 3557.178988018585,
+      "turns": 21,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10920",
+      "distance": 8076.59016261054,
+      "turns": 36,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10921",
+      "distance": 5633.236713634229,
+      "turns": 13,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10922",
+      "distance": 5745.608737477332,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10923",
+      "distance": 4387.069126477237,
+      "turns": 28,
+      "wait": 1.2666666666666673
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10924",
+      "distance": 4698.429032785419,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10925",
+      "distance": 4831.111708387369,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10926",
+      "distance": 3475.136417112639,
+      "turns": 21,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10928",
+      "distance": 3844.896865340271,
+      "turns": 23,
+      "wait": 27.833333333333876
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10931",
+      "distance": 5422.691436079918,
+      "turns": 36,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10932",
+      "distance": 4250.115420803651,
+      "turns": 28,
+      "wait": 2.4666666666666677
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10937",
+      "distance": 4368.760694370592,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10938",
+      "distance": 4601.2531175578615,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10939",
+      "distance": 4738.61363463792,
+      "turns": 32,
+      "wait": 30.233333333333995
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10957",
+      "distance": 4849.5181263017985,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10958",
+      "distance": 5485.070927698508,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10959",
+      "distance": 4392.455343317478,
+      "turns": 27,
+      "wait": 1.8333333333333357
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10960",
+      "distance": 4643.099855460637,
+      "turns": 29,
+      "wait": 0.03333333333333333
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10961",
+      "distance": 4654.430819148206,
+      "turns": 19,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10962",
+      "distance": 4581.442056958235,
+      "turns": 29,
+      "wait": 6.733333333333319
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10963",
+      "distance": 4328.127066384456,
+      "turns": 9,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10964",
+      "distance": 4919.02821424208,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10965",
+      "distance": 4007.4057279601916,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10966",
+      "distance": 3999.4839883077484,
+      "turns": 26,
+      "wait": 35.933333333333856
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10972",
+      "distance": 5124.376819852139,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_10982",
+      "distance": 5247.890985315557,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10983",
+      "distance": 5944.789646595644,
+      "turns": 36,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10984",
+      "distance": 4020.02540640151,
+      "turns": 26,
+      "wait": 15.933333333333287
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10985",
+      "distance": 3860.859332710906,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_10986",
+      "distance": 3687.7920157863045,
+      "turns": 22,
+      "wait": 15.599999999999955
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10987",
+      "distance": 6095.505924764851,
+      "turns": 39,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_10988",
+      "distance": 5608.50935096905,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11071",
+      "distance": 5913.662466239215,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11072",
+      "distance": 4813.4767652026485,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11077",
+      "distance": 4423.063619290431,
+      "turns": 9,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11078",
+      "distance": 3888.4889548100155,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11079",
+      "distance": 4748.735406245,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11080",
+      "distance": 4568.0787455320415,
+      "turns": 29,
+      "wait": 10.199999999999974
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11085",
+      "distance": 4984.770947070944,
+      "turns": 33,
+      "wait": 5.733333333333323
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11086",
+      "distance": 5464.391240513168,
+      "turns": 33,
+      "wait": 25.566666666667096
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11089",
+      "distance": 6406.215023157911,
+      "turns": 40,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11094",
+      "distance": 3192.5131190230336,
+      "turns": 19,
+      "wait": 34.83333333333392
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11095",
+      "distance": 2972.647089472523,
+      "turns": 18,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11100",
+      "distance": 3920.15488849527,
+      "turns": 24,
+      "wait": 19.933333333333483
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11103",
+      "distance": 4916.463175624512,
+      "turns": 31,
+      "wait": 4.233333333333328
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11104",
+      "distance": 3152.4211823755454,
+      "turns": 19,
+      "wait": 27.033333333333836
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11109",
+      "distance": 5350.197807541663,
+      "turns": 34,
+      "wait": 1.2666666666666673
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11110",
+      "distance": 4089.437651253792,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11115",
+      "distance": 3598.4915127186073,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11116",
+      "distance": 4503.655561182707,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11117",
+      "distance": 5986.800425482529,
+      "turns": 39,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11118",
+      "distance": 5969.364822729224,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11122",
+      "distance": 3149.6896862696585,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11123",
+      "distance": 4594.597831571763,
+      "turns": 30,
+      "wait": 1.2000000000000004
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11124",
+      "distance": 6247.8075216334455,
+      "turns": 38,
+      "wait": 0.3
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11128",
+      "distance": 5522.257187062324,
+      "turns": 35,
+      "wait": 22.900000000000297
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11129",
+      "distance": 7065.192989004439,
+      "turns": 42,
+      "wait": 0.03333333333333333
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11130",
+      "distance": 3601.0040671769725,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11131",
+      "distance": 6107.768184913219,
+      "turns": 39,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11135",
+      "distance": 5306.37224277256,
+      "turns": 32,
+      "wait": 4.933333333333326
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11139",
+      "distance": 3339.3958289876878,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11140",
+      "distance": 4188.893979705633,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11144",
+      "distance": 4614.517615864112,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11145",
+      "distance": 3369.292282455108,
+      "turns": 22,
+      "wait": 5.49999999999999
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11146",
+      "distance": 5273.009324436588,
+      "turns": 17,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11149",
+      "distance": 4832.81766641549,
+      "turns": 30,
+      "wait": 15.199999999999957
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11152",
+      "distance": 3425.9201396734084,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11156",
+      "distance": 3224.0049606055354,
+      "turns": 20,
+      "wait": 24.20000000000036
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11157",
+      "distance": 3877.483536513843,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11161",
+      "distance": 4416.59236980355,
+      "turns": 27,
+      "wait": 6.199999999999988
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11162",
+      "distance": 5616.875253748441,
+      "turns": 34,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11166",
+      "distance": 4771.523924766384,
+      "turns": 31,
+      "wait": 11.533333333333303
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11167",
+      "distance": 3239.2304473366116,
+      "turns": 19,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11168",
+      "distance": 4412.987678651505,
+      "turns": 29,
+      "wait": 18.2333333333334
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11172",
+      "distance": 4298.264222110033,
+      "turns": 29,
+      "wait": 11.566666666666636
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11173",
+      "distance": 4048.5529182797804,
+      "turns": 28,
+      "wait": 18.400000000000073
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11177",
+      "distance": 3741.786563982512,
+      "turns": 24,
+      "wait": 20.066666666666823
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11181",
+      "distance": 4607.97207073209,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11182",
+      "distance": 6530.328472724841,
+      "turns": 41,
+      "wait": 2.7666666666666666
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11183",
+      "distance": 6841.172438300921,
+      "turns": 41,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11188",
+      "distance": 5379.114319942558,
+      "turns": 33,
+      "wait": 5.399999999999991
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11189",
+      "distance": 3538.9226692311586,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11194",
+      "distance": 3907.035182650904,
+      "turns": 24,
+      "wait": 28.366666666667236
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11195",
+      "distance": 5129.250537192267,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11196",
+      "distance": 2969.7875133816747,
+      "turns": 18,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11201",
+      "distance": 3716.9938590189754,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11202",
+      "distance": 2931.1689111536757,
+      "turns": 19,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11203",
+      "distance": 4913.757417538274,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11208",
+      "distance": 5757.951390106881,
+      "turns": 38,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11209",
+      "distance": 5210.481496505647,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11214",
+      "distance": 3080.412174120465,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11219",
+      "distance": 4779.723438417438,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11220",
+      "distance": 4208.466457582318,
+      "turns": 28,
+      "wait": 9.099999999999978
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11225",
+      "distance": 3381.272768081696,
+      "turns": 21,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11226",
+      "distance": 4482.505129523929,
+      "turns": 28,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11227",
+      "distance": 5229.702387070896,
+      "turns": 16,
+      "wait": 17.133333333333344
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11228",
+      "distance": 4460.881905216932,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11233",
+      "distance": 3934.9019863408116,
+      "turns": 24,
+      "wait": 15.699999999999955
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11234",
+      "distance": 5572.618920161218,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11235",
+      "distance": 6314.260868759952,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11240",
+      "distance": 5118.069173756868,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11241",
+      "distance": 5650.072768674952,
+      "turns": 36,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11246",
+      "distance": 4468.127005555801,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11247",
+      "distance": 4158.967602518649,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11248",
+      "distance": 4075.893826247677,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11253",
+      "distance": 4398.447810472181,
+      "turns": 8,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11254",
+      "distance": 5767.239943761645,
+      "turns": 38,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11259",
+      "distance": 6130.453556512662,
+      "turns": 39,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11260",
+      "distance": 2907.4220562416413,
+      "turns": 19,
+      "wait": 8.999999999999979
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11265",
+      "distance": 4112.943564444849,
+      "turns": 26,
+      "wait": 26.80000000000049
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11266",
+      "distance": 4912.379933744058,
+      "turns": 14,
+      "wait": 25.233333333333746
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11271",
+      "distance": 5082.003725774894,
+      "turns": 14,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11272",
+      "distance": 6619.703403011032,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11273",
+      "distance": 5949.086108639459,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11278",
+      "distance": 5162.643929778698,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11282",
+      "distance": 5316.068957557264,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11283",
+      "distance": 5684.130640425362,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11287",
+      "distance": 4132.82589344703,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11288",
+      "distance": 5332.015669781267,
+      "turns": 36,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11292",
+      "distance": 3851.4687042106307,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11293",
+      "distance": 3609.0578590374184,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11294",
+      "distance": 6381.4119606805325,
+      "turns": 39,
+      "wait": 0.49999999999999994
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11298",
+      "distance": 3900.8510675470616,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11299",
+      "distance": 5645.654712918057,
+      "turns": 7,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_sedan_11303",
+      "distance": 3682.885473061591,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_VEHICLES_car_suv_11304",
+      "distance": 5446.401557234816,
+      "turns": 36,
+      "wait": 13.233333333333297
+    },
+    {
+      "id": "REG_VEHICLES_delivery_van_11308",
+      "distance": 4873.526132120894,
+      "turns": 31,
+      "wait": 3.599999999999997
+    },
+    {
+      "id": "REG_PARKING_car_suv_12240",
+      "distance": 5544.0242282373665,
+      "turns": 19,
+      "wait": 0
+    },
+    {
+      "id": "REG_PARKING_car_sedan_12241",
+      "distance": 4684.595994883707,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "REG_PARKING_car_suv_12242",
+      "distance": 6350.806858434751,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_PARKING_car_suv_12244",
+      "distance": 4266.722274176554,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "REG_PARKING_car_sedan_12245",
+      "distance": 4251.443821613467,
+      "turns": 28,
+      "wait": 8.833333333333313
+    },
+    {
+      "id": "REG_PARKING_car_sedan_12246",
+      "distance": 3773.5216291272927,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "REG_PARKING_car_suv_12247",
+      "distance": 5908.061142065172,
+      "turns": 39,
+      "wait": 0
+    },
+    {
+      "id": "REG_PARKING_car_sedan_12250",
+      "distance": 4956.049388829181,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "REG_PARKING_car_sedan_12251",
+      "distance": 3452.44966474024,
+      "turns": 22,
+      "wait": 47.66666666666652
+    },
+    {
+      "id": "REG_PARKING_car_suv_12252",
+      "distance": 4185.699446729257,
+      "turns": 26,
+      "wait": 33.40000000000067
+    },
+    {
+      "id": "traffic_000",
+      "distance": 3477.8282493513634,
+      "turns": 22,
+      "wait": 23.766666666667007
+    },
+    {
+      "id": "traffic_001",
+      "distance": 3752.683854273713,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "traffic_002",
+      "distance": 3988.297860768645,
+      "turns": 25,
+      "wait": 4.833333333333326
+    },
+    {
+      "id": "traffic_003",
+      "distance": 2971.247112190573,
+      "turns": 18,
+      "wait": 1.5666666666666682
+    },
+    {
+      "id": "traffic_004",
+      "distance": 6809.789323119054,
+      "turns": 29,
+      "wait": 0
+    },
+    {
+      "id": "traffic_005",
+      "distance": 4896.7959047797885,
+      "turns": 32,
+      "wait": 0
+    },
+    {
+      "id": "traffic_006",
+      "distance": 6344.1805785701745,
+      "turns": 43,
+      "wait": 7.933333333333315
+    },
+    {
+      "id": "traffic_007",
+      "distance": 4574.868556800097,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "traffic_008",
+      "distance": 2724.484991423206,
+      "turns": 17,
+      "wait": 0
+    },
+    {
+      "id": "traffic_009",
+      "distance": 5104.755335089011,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "traffic_010",
+      "distance": 3454.4196963890013,
+      "turns": 21,
+      "wait": 11.566666666666636
+    },
+    {
+      "id": "traffic_011",
+      "distance": 5017.425011775487,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "traffic_012",
+      "distance": 2632.139744809372,
+      "turns": 15,
+      "wait": 43.70000000000008
+    },
+    {
+      "id": "traffic_013",
+      "distance": 2812.3773151281393,
+      "turns": 18,
+      "wait": 1.4333333333333345
+    },
+    {
+      "id": "traffic_014",
+      "distance": 3837.3568217204856,
+      "turns": 22,
+      "wait": 10.699999999999973
+    },
+    {
+      "id": "traffic_015",
+      "distance": 5960.084377931058,
+      "turns": 38,
+      "wait": 0
+    },
+    {
+      "id": "traffic_016",
+      "distance": 4717.959894632805,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "traffic_017",
+      "distance": 4644.258818252753,
+      "turns": 30,
+      "wait": 31.26666666666738
+    },
+    {
+      "id": "traffic_018",
+      "distance": 4125.9485675297365,
+      "turns": 26,
+      "wait": 2.5666666666666673
+    },
+    {
+      "id": "traffic_019",
+      "distance": 4135.2173999147535,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "traffic_020",
+      "distance": 3940.674100900659,
+      "turns": 25,
+      "wait": 0
+    },
+    {
+      "id": "traffic_021",
+      "distance": 4572.914646514619,
+      "turns": 13,
+      "wait": 0
+    },
+    {
+      "id": "traffic_022",
+      "distance": 4341.578816694004,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "traffic_023",
+      "distance": 3210.152637555494,
+      "turns": 20,
+      "wait": 1.5000000000000013
+    },
+    {
+      "id": "traffic_024",
+      "distance": 5235.006450669503,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "traffic_025",
+      "distance": 3274.4013360476474,
+      "turns": 21,
+      "wait": 30.73333333333402
+    },
+    {
+      "id": "traffic_026",
+      "distance": 4583.520126406848,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "traffic_027",
+      "distance": 3389.3580622055506,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "traffic_028",
+      "distance": 5069.574578586941,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "traffic_029",
+      "distance": 5356.207976722987,
+      "turns": 34,
+      "wait": 0
+    },
+    {
+      "id": "traffic_030",
+      "distance": 3920.5787078699077,
+      "turns": 24,
+      "wait": 38.1000000000004
+    },
+    {
+      "id": "traffic_031",
+      "distance": 4493.9287364292895,
+      "turns": 10,
+      "wait": 30.80000000000069
+    },
+    {
+      "id": "traffic_032",
+      "distance": 3734.1141157003053,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "traffic_033",
+      "distance": 3297.723327013148,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "traffic_034",
+      "distance": 5361.845474789473,
+      "turns": 16,
+      "wait": 0
+    },
+    {
+      "id": "traffic_035",
+      "distance": 5272.655453759467,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "traffic_036",
+      "distance": 3880.5800433959644,
+      "turns": 25,
+      "wait": 4.033333333333329
+    },
+    {
+      "id": "traffic_037",
+      "distance": 5034.307536910616,
+      "turns": 33,
+      "wait": 5.199999999999991
+    },
+    {
+      "id": "traffic_038",
+      "distance": 3683.7777638790267,
+      "turns": 23,
+      "wait": 23.666666666667002
+    },
+    {
+      "id": "traffic_039",
+      "distance": 6341.400682025139,
+      "turns": 40,
+      "wait": 14.233333333333293
+    },
+    {
+      "id": "traffic_040",
+      "distance": 2720.981422654564,
+      "turns": 17,
+      "wait": 7.333333333333317
+    },
+    {
+      "id": "traffic_041",
+      "distance": 3629.7200979408967,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "traffic_042",
+      "distance": 5862.372897055459,
+      "turns": 35,
+      "wait": 30.13333333333399
+    },
+    {
+      "id": "traffic_043",
+      "distance": 4959.952768057792,
+      "turns": 33,
+      "wait": 1.5000000000000013
+    },
+    {
+      "id": "traffic_044",
+      "distance": 2982.767389032272,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "traffic_045",
+      "distance": 4700.342837097999,
+      "turns": 10,
+      "wait": 30.366666666667335
+    },
+    {
+      "id": "traffic_046",
+      "distance": 4214.947042061623,
+      "turns": 28,
+      "wait": 3.433333333333331
+    },
+    {
+      "id": "traffic_047",
+      "distance": 5328.053076431574,
+      "turns": 17,
+      "wait": 0
+    },
+    {
+      "id": "traffic_048",
+      "distance": 3486.2218560883275,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "traffic_049",
+      "distance": 5246.712682018007,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "traffic_050",
+      "distance": 4044.7288379815736,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "traffic_051",
+      "distance": 3706.252342456824,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "traffic_052",
+      "distance": 6777.554494741565,
+      "turns": 46,
+      "wait": 0
+    },
+    {
+      "id": "traffic_053",
+      "distance": 3677.249318583169,
+      "turns": 23,
+      "wait": 0.5666666666666667
+    },
+    {
+      "id": "traffic_054",
+      "distance": 5537.312925175981,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "traffic_055",
+      "distance": 5329.247932593417,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "traffic_056",
+      "distance": 4281.982417370942,
+      "turns": 26,
+      "wait": 8.066666666666649
+    },
+    {
+      "id": "traffic_057",
+      "distance": 5771.106575102232,
+      "turns": 36,
+      "wait": 8.333333333333314
+    },
+    {
+      "id": "traffic_058",
+      "distance": 4348.625533101796,
+      "turns": 27,
+      "wait": 0
+    },
+    {
+      "id": "traffic_059",
+      "distance": 2915.648785085881,
+      "turns": 18,
+      "wait": 0
+    },
+    {
+      "id": "traffic_060",
+      "distance": 5487.2171557849,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "traffic_061",
+      "distance": 3238.8077716450466,
+      "turns": 19,
+      "wait": 23.033333333333637
+    },
+    {
+      "id": "traffic_062",
+      "distance": 4394.785309892881,
+      "turns": 27,
+      "wait": 25.300000000000416
+    },
+    {
+      "id": "traffic_063",
+      "distance": 4921.990349443857,
+      "turns": 8,
+      "wait": 0
+    },
+    {
+      "id": "traffic_064",
+      "distance": 7260.950595712488,
+      "turns": 48,
+      "wait": 8.266666666666648
+    },
+    {
+      "id": "traffic_065",
+      "distance": 3129.812332993962,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "traffic_066",
+      "distance": 4734.203746774296,
+      "turns": 12,
+      "wait": 0
+    },
+    {
+      "id": "traffic_067",
+      "distance": 4325.154600849428,
+      "turns": 25,
+      "wait": 0.36666666666666664
+    },
+    {
+      "id": "traffic_068",
+      "distance": 5493.286580886966,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "traffic_069",
+      "distance": 5369.691839548879,
+      "turns": 20,
+      "wait": 0
+    },
+    {
+      "id": "traffic_070",
+      "distance": 3640.1295859523348,
+      "turns": 24,
+      "wait": 0
+    },
+    {
+      "id": "traffic_071",
+      "distance": 4495.78171710823,
+      "turns": 28,
+      "wait": 0
+    },
+    {
+      "id": "traffic_072",
+      "distance": 5256.213706896137,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "traffic_073",
+      "distance": 5214.84422960845,
+      "turns": 35,
+      "wait": 0
+    },
+    {
+      "id": "traffic_074",
+      "distance": 5887.317912587806,
+      "turns": 37,
+      "wait": 14.166666666666627
+    },
+    {
+      "id": "traffic_075",
+      "distance": 4889.095635277905,
+      "turns": 14,
+      "wait": 0
+    },
+    {
+      "id": "traffic_076",
+      "distance": 3255.7847081421896,
+      "turns": 22,
+      "wait": 29.13333333333394
+    },
+    {
+      "id": "traffic_077",
+      "distance": 3978.371305382559,
+      "turns": 25,
+      "wait": 8.166666666666648
+    },
+    {
+      "id": "traffic_078",
+      "distance": 5132.866587978263,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "traffic_079",
+      "distance": 4336.068447993229,
+      "turns": 28,
+      "wait": 2.200000000000002
+    },
+    {
+      "id": "traffic_080",
+      "distance": 5914.004422476091,
+      "turns": 35,
+      "wait": 1.1333333333333335
+    },
+    {
+      "id": "traffic_081",
+      "distance": 5397.51546306426,
+      "turns": 5,
+      "wait": 0
+    },
+    {
+      "id": "traffic_082",
+      "distance": 5389.924838800674,
+      "turns": 4,
+      "wait": 0
+    },
+    {
+      "id": "traffic_083",
+      "distance": 3260.0232530342664,
+      "turns": 19,
+      "wait": 0
+    }
+  ],
+  "minimum120SecondProgress": 14.756464413033257,
+  "minimum120SecondProgressActor": "REG_VEHICLES_car_sedan_10080",
+  "final": {
+    "time": 1799.9999999990202,
+    "actors": 562,
+    "moving": 345,
+    "stopped": 217,
+    "waitingAtSignals": 46,
+    "queued": 335,
+    "turning": 41,
+    "completedTurns": 13719,
+    "distanceTravelled": 2590631.316975942,
+    "redStops": 6374,
+    "restarts": 26562,
+    "collisionAvoidanceStops": 0,
+    "longestWaitSeconds": 73.3999999999984,
+    "activeJunctions": 42
+  },
+  "offRouteSamples": 0,
+  "groundContactErrors": 0,
+  "reservationErrors": 0,
+  "diagnostics": {
+    "safetyExamples": [],
+    "waitingDrivers": [
+      {
+        "id": "REG_PARKING_car_sedan_12251",
+        "state": "waiting_signal",
+        "wait": 47.66666666666652,
+        "lane": "L024A",
+        "next": "T0137",
+        "s": 157.4999999999998,
+        "length": 157.4999999999998,
+        "reserved": null,
+        "reservation": null,
+        "position": [
+          -20,
+          0.055,
+          -401.8
+        ]
+      }
+    ],
+    "reservations": [
+      [
+        "J035",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_10739",
+            "turn": "T0245",
+            "exitLane": "L061B"
+          }
+        ]
+      ],
+      [
+        "J062",
+        [
+          {
+            "actor": "traffic_051",
+            "turn": "T0435",
+            "exitLane": "L108A"
+          },
+          {
+            "actor": "REG_VEHICLES_car_sedan_10831",
+            "turn": "T0443",
+            "exitLane": "L090B"
+          }
+        ]
+      ],
+      [
+        "J054",
+        [
+          {
+            "actor": "REG_VEHICLES_car_suv_10524",
+            "turn": "T0365",
+            "exitLane": "L091B"
+          }
+        ]
+      ],
+      [
+        "J056",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10626",
+            "turn": "T0388",
+            "exitLane": "L095B"
+          }
+        ]
+      ],
+      [
+        "J023",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10085",
+            "turn": "T0130",
+            "exitLane": "L041A"
+          }
+        ]
+      ],
+      [
+        "J043",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_11115",
+            "turn": "T0294",
+            "exitLane": "L073A"
+          },
+          {
+            "actor": "REG_VEHICLES_car_sedan_10276",
+            "turn": "T0297",
+            "exitLane": "L060B"
+          }
+        ]
+      ],
+      [
+        "J037",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10177",
+            "turn": "T0253",
+            "exitLane": "L063B"
+          }
+        ]
+      ],
+      [
+        "J048",
+        [
+          {
+            "actor": "traffic_083",
+            "turn": "T0327",
+            "exitLane": "L081A"
+          }
+        ]
+      ],
+      [
+        "J073",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10683",
+            "turn": "T0551",
+            "exitLane": "L111B"
+          }
+        ]
+      ],
+      [
+        "J005",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_10909",
+            "turn": "T0019",
+            "exitLane": "L007A"
+          }
+        ]
+      ],
+      [
+        "J039",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_10360",
+            "turn": "T0266",
+            "exitLane": "L053B"
+          }
+        ]
+      ],
+      [
+        "J074",
+        [
+          {
+            "actor": "REG_VEHICLES_car_suv_10357",
+            "turn": "T0567",
+            "exitLane": "L129B"
+          },
+          {
+            "actor": "REG_VEHICLES_car_sedan_10516",
+            "turn": "T0564",
+            "exitLane": "L131A"
+          }
+        ]
+      ],
+      [
+        "J044",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10535",
+            "turn": "T0301",
+            "exitLane": "L067B"
+          }
+        ]
+      ],
+      [
+        "J069",
+        [
+          {
+            "actor": "traffic_015",
+            "turn": "T0502",
+            "exitLane": "L121A"
+          }
+        ]
+      ],
+      [
+        "J045",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10051",
+            "turn": "T0305",
+            "exitLane": "L077A"
+          }
+        ]
+      ],
+      [
+        "J081",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10482",
+            "turn": "T0604",
+            "exitLane": "L126B"
+          },
+          {
+            "actor": "REG_VEHICLES_delivery_van_11089",
+            "turn": "T0607",
+            "exitLane": "L139B"
+          }
+        ]
+      ],
+      [
+        "J029",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_11214",
+            "turn": "T0191",
+            "exitLane": "L034B"
+          }
+        ]
+      ],
+      [
+        "J068",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_10627",
+            "turn": "T0490",
+            "exitLane": "L117B"
+          },
+          {
+            "actor": "REG_VEHICLES_car_sedan_10170",
+            "turn": "T0497",
+            "exitLane": "L120A"
+          }
+        ]
+      ],
+      [
+        "J064",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_10667",
+            "turn": "T0468",
+            "exitLane": "L112A"
+          }
+        ]
+      ],
+      [
+        "J022",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_11131",
+            "turn": "T0128",
+            "exitLane": "L038A"
+          }
+        ]
+      ],
+      [
+        "J055",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10463",
+            "turn": "T0383",
+            "exitLane": "L077B"
+          }
+        ]
+      ],
+      [
+        "J052",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_10262",
+            "turn": "T0354",
+            "exitLane": "L090A"
+          }
+        ]
+      ],
+      [
+        "J077",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10274",
+            "turn": "T0583",
+            "exitLane": "L136A"
+          }
+        ]
+      ],
+      [
+        "J066",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_10176",
+            "turn": "T0484",
+            "exitLane": "L097B"
+          }
+        ]
+      ],
+      [
+        "J079",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10519",
+            "turn": "T0593",
+            "exitLane": "L122B"
+          },
+          {
+            "actor": "REG_VEHICLES_car_suv_10679",
+            "turn": "T0596",
+            "exitLane": "L137B"
+          }
+        ]
+      ],
+      [
+        "J050",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10538",
+            "turn": "T0342",
+            "exitLane": "L086A"
+          }
+        ]
+      ],
+      [
+        "J063",
+        [
+          {
+            "actor": "REG_VEHICLES_car_suv_10938",
+            "turn": "T0452",
+            "exitLane": "L108B"
+          }
+        ]
+      ],
+      [
+        "J006",
+        [
+          {
+            "actor": "traffic_065",
+            "turn": "T0020",
+            "exitLane": "L009A"
+          }
+        ]
+      ],
+      [
+        "J031",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10628",
+            "turn": "T0214",
+            "exitLane": "L037B"
+          }
+        ]
+      ],
+      [
+        "J032",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_11241",
+            "turn": "T0223",
+            "exitLane": "L057A"
+          }
+        ]
+      ],
+      [
+        "J042",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10361",
+            "turn": "T0291",
+            "exitLane": "L058B"
+          }
+        ]
+      ],
+      [
+        "J019",
+        [
+          {
+            "actor": "REG_VEHICLES_car_suv_10108",
+            "turn": "T0113",
+            "exitLane": "L034A"
+          }
+        ]
+      ],
+      [
+        "J033",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_10172",
+            "turn": "T0225",
+            "exitLane": "L060A"
+          }
+        ]
+      ],
+      [
+        "J015",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10406",
+            "turn": "T0069",
+            "exitLane": "L016B"
+          }
+        ]
+      ],
+      [
+        "J083",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_10351",
+            "turn": "T0616",
+            "exitLane": "L142A"
+          }
+        ]
+      ],
+      [
+        "J028",
+        [
+          {
+            "actor": "traffic_059",
+            "turn": "T0183",
+            "exitLane": "L032B"
+          }
+        ]
+      ],
+      [
+        "J018",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_10924",
+            "turn": "T0104",
+            "exitLane": "L029B"
+          }
+        ]
+      ],
+      [
+        "J030",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10271",
+            "turn": "T0205",
+            "exitLane": "L055A"
+          }
+        ]
+      ],
+      [
+        "J008",
+        [
+          {
+            "actor": "REG_VEHICLES_car_sedan_10736",
+            "turn": "T0023",
+            "exitLane": "L000B"
+          }
+        ]
+      ],
+      [
+        "J027",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_11116",
+            "turn": "T0166",
+            "exitLane": "L048A"
+          }
+        ]
+      ],
+      [
+        "J067",
+        [
+          {
+            "actor": "traffic_032",
+            "turn": "T0487",
+            "exitLane": "L099B"
+          }
+        ]
+      ],
+      [
+        "J000",
+        [
+          {
+            "actor": "REG_VEHICLES_delivery_van_10268",
+            "turn": "T0000",
+            "exitLane": "L004B"
+          }
+        ]
+      ]
+    ]
+  },
+  "sourceFleetCount": 478,
+  "sourceFleetPreserved": true,
+  "maximumFrameRateDrift": 0,
+  "minimumActorDistance": 2186.403517322996,
+  "passed": true
+}

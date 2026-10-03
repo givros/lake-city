@@ -1,0 +1,74 @@
+name: Deploy Lake City to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: artifacts/lake_city/viewer
+    steps:
+      - name: Check out the viewer
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+          lfs: false
+          sparse-checkout: artifacts/lake_city/viewer
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: artifacts/lake_city/viewer/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build the Pages site
+        run: npm run build -- --base=/lake-city/
+
+      - name: Verify runtime assets
+        run: |
+          node --input-type=module - <<'NODE'
+          import { stat, readFile } from 'node:fs/promises';
+          const files = ['index.html', 'assets/city.json', 'assets/geometry.bin', 'assets/traffic_network.json', 'assets/characters/pedestrian.glb', 'assets/characters/pedestrian.json'];
+          for (const file of files) {
+            if ((await stat(`dist/${file}`)).size === 0) throw new Error(`Empty runtime file: ${file}`);
+          }
+          const html = await readFile('dist/index.html', 'utf8');
+          if (!html.includes('/lake-city/assets/')) throw new Error('The project base path is missing.');
+          NODE
+
+      - name: Upload the Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: artifacts/lake_city/viewer/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

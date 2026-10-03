@@ -1,0 +1,695 @@
+{
+  "durationSeconds": 1800,
+  "seed": 2026,
+  "actors": 70,
+  "collisionPairs": [],
+  "nonfinite": 0,
+  "maxSpeed": 11.971837791949511,
+  "minMoving": 50,
+  "maxMoving": 70,
+  "endpointGaps": [],
+  "checkpoints": [
+    {
+      "time": 0.1,
+      "actors": 70,
+      "moving": 70,
+      "stopped": 0,
+      "waitingAtSignals": 0,
+      "queued": 0,
+      "turning": 0,
+      "completedTurns": 0,
+      "distanceTravelled": 67.79674432807417,
+      "redStops": 0,
+      "restarts": 0,
+      "collisionAvoidanceStops": 0,
+      "longestWaitSeconds": 0,
+      "activeJunctions": 0
+    },
+    {
+      "time": 300.1000000000231,
+      "actors": 70,
+      "moving": 59,
+      "stopped": 11,
+      "waitingAtSignals": 10,
+      "queued": 1,
+      "turning": 16,
+      "completedTurns": 688,
+      "distanceTravelled": 132054.58333637504,
+      "redStops": 328,
+      "restarts": 505,
+      "collisionAvoidanceStops": 0,
+      "longestWaitSeconds": 50.79999999999968,
+      "activeJunctions": 19
+    },
+    {
+      "time": 600.1000000001115,
+      "actors": 70,
+      "moving": 61,
+      "stopped": 9,
+      "waitingAtSignals": 10,
+      "queued": 3,
+      "turning": 17,
+      "completedTurns": 1337,
+      "distanceTravelled": 265095.7290901332,
+      "redStops": 629,
+      "restarts": 1003,
+      "collisionAvoidanceStops": 0,
+      "longestWaitSeconds": 50.79999999999968,
+      "activeJunctions": 19
+    },
+    {
+      "time": 900.0999999998387,
+      "actors": 70,
+      "moving": 64,
+      "stopped": 6,
+      "waitingAtSignals": 8,
+      "queued": 1,
+      "turning": 12,
+      "completedTurns": 1987,
+      "distanceTravelled": 406100.37302939914,
+      "redStops": 918,
+      "restarts": 1453,
+      "collisionAvoidanceStops": 0,
+      "longestWaitSeconds": 50.79999999999968,
+      "activeJunctions": 17
+    },
+    {
+      "time": 1200.0999999995659,
+      "actors": 70,
+      "moving": 58,
+      "stopped": 12,
+      "waitingAtSignals": 11,
+      "queued": 4,
+      "turning": 14,
+      "completedTurns": 2605,
+      "distanceTravelled": 548197.1334872328,
+      "redStops": 1184,
+      "restarts": 1903,
+      "collisionAvoidanceStops": 0,
+      "longestWaitSeconds": 50.79999999999968,
+      "activeJunctions": 15
+    },
+    {
+      "time": 1500.099999999293,
+      "actors": 70,
+      "moving": 65,
+      "stopped": 5,
+      "waitingAtSignals": 10,
+      "queued": 2,
+      "turning": 18,
+      "completedTurns": 3201,
+      "distanceTravelled": 690335.3888415714,
+      "redStops": 1459,
+      "restarts": 2332,
+      "collisionAvoidanceStops": 0,
+      "longestWaitSeconds": 62.96666666666565,
+      "activeJunctions": 20
+    }
+  ],
+  "actorProgress": [
+    {
+      "id": "traffic_000",
+      "distance": 10664.55274327496,
+      "turns": 69,
+      "wait": 0
+    },
+    {
+      "id": "traffic_001",
+      "distance": 11010.779980923351,
+      "turns": 72,
+      "wait": 0
+    },
+    {
+      "id": "traffic_002",
+      "distance": 10287.910864211311,
+      "turns": 61,
+      "wait": 0
+    },
+    {
+      "id": "traffic_003",
+      "distance": 10032.129002411033,
+      "turns": 65,
+      "wait": 0
+    },
+    {
+      "id": "traffic_004",
+      "distance": 11714.974547033826,
+      "turns": 74,
+      "wait": 0
+    },
+    {
+      "id": "traffic_005",
+      "distance": 11052.508045425055,
+      "turns": 69,
+      "wait": 0
+    },
+    {
+      "id": "traffic_006",
+      "distance": 11320.42043643394,
+      "turns": 53,
+      "wait": 0
+    },
+    {
+      "id": "traffic_007",
+      "distance": 11299.631608017635,
+      "turns": 61,
+      "wait": 0
+    },
+    {
+      "id": "traffic_008",
+      "distance": 11513.007808380395,
+      "turns": 59,
+      "wait": 0
+    },
+    {
+      "id": "traffic_009",
+      "distance": 11653.067153392101,
+      "turns": 74,
+      "wait": 0
+    },
+    {
+      "id": "traffic_010",
+      "distance": 11916.275783046569,
+      "turns": 71,
+      "wait": 0
+    },
+    {
+      "id": "traffic_011",
+      "distance": 10610.713070748156,
+      "turns": 63,
+      "wait": 0
+    },
+    {
+      "id": "traffic_012",
+      "distance": 11520.716970363586,
+      "turns": 43,
+      "wait": 0
+    },
+    {
+      "id": "traffic_013",
+      "distance": 11573.204851867058,
+      "turns": 74,
+      "wait": 9.63333333333331
+    },
+    {
+      "id": "traffic_014",
+      "distance": 11549.968210760422,
+      "turns": 73,
+      "wait": 0
+    },
+    {
+      "id": "traffic_015",
+      "distance": 11497.423540503352,
+      "turns": 59,
+      "wait": 0
+    },
+    {
+      "id": "traffic_016",
+      "distance": 13032.498151165686,
+      "turns": 26,
+      "wait": 0
+    },
+    {
+      "id": "traffic_017",
+      "distance": 11541.709690455671,
+      "turns": 72,
+      "wait": 0
+    },
+    {
+      "id": "traffic_018",
+      "distance": 11313.367378121548,
+      "turns": 50,
+      "wait": 0
+    },
+    {
+      "id": "traffic_019",
+      "distance": 10522.223651029975,
+      "turns": 68,
+      "wait": 0
+    },
+    {
+      "id": "traffic_020",
+      "distance": 11719.93988959449,
+      "turns": 74,
+      "wait": 0
+    },
+    {
+      "id": "traffic_021",
+      "distance": 13585.39979380767,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "traffic_022",
+      "distance": 12481.140595216057,
+      "turns": 33,
+      "wait": 0
+    },
+    {
+      "id": "traffic_023",
+      "distance": 14242.392519481673,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "traffic_024",
+      "distance": 11617.334043823921,
+      "turns": 70,
+      "wait": 0
+    },
+    {
+      "id": "traffic_025",
+      "distance": 13300.48559106604,
+      "turns": 41,
+      "wait": 0
+    },
+    {
+      "id": "traffic_026",
+      "distance": 11313.64740657838,
+      "turns": 73,
+      "wait": 11.066666666666638
+    },
+    {
+      "id": "traffic_027",
+      "distance": 14628.057809551447,
+      "turns": 13,
+      "wait": 0
+    },
+    {
+      "id": "traffic_028",
+      "distance": 10422.997359979,
+      "turns": 63,
+      "wait": 0
+    },
+    {
+      "id": "traffic_029",
+      "distance": 10779.44722626137,
+      "turns": 69,
+      "wait": 0
+    },
+    {
+      "id": "traffic_030",
+      "distance": 13359.729375412433,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "traffic_031",
+      "distance": 10824.081910619705,
+      "turns": 71,
+      "wait": 0
+    },
+    {
+      "id": "traffic_032",
+      "distance": 12248.634140017255,
+      "turns": 43,
+      "wait": 0
+    },
+    {
+      "id": "traffic_033",
+      "distance": 10767.345841000984,
+      "turns": 52,
+      "wait": 0
+    },
+    {
+      "id": "traffic_034",
+      "distance": 12378.307492150738,
+      "turns": 34,
+      "wait": 0
+    },
+    {
+      "id": "traffic_035",
+      "distance": 11721.367567541087,
+      "turns": 57,
+      "wait": 16.2333333333333
+    },
+    {
+      "id": "traffic_036",
+      "distance": 12385.683778130691,
+      "turns": 45,
+      "wait": 0
+    },
+    {
+      "id": "traffic_037",
+      "distance": 14464.977103576353,
+      "turns": 16,
+      "wait": 0
+    },
+    {
+      "id": "traffic_038",
+      "distance": 12742.198367145136,
+      "turns": 53,
+      "wait": 0
+    },
+    {
+      "id": "traffic_039",
+      "distance": 14676.290243511336,
+      "turns": 14,
+      "wait": 1.6666666666666685
+    },
+    {
+      "id": "traffic_040",
+      "distance": 10838.097335313618,
+      "turns": 70,
+      "wait": 0
+    },
+    {
+      "id": "traffic_041",
+      "distance": 11343.666267189348,
+      "turns": 70,
+      "wait": 0
+    },
+    {
+      "id": "traffic_042",
+      "distance": 10157.758948901675,
+      "turns": 68,
+      "wait": 0
+    },
+    {
+      "id": "traffic_043",
+      "distance": 11238.5147313094,
+      "turns": 72,
+      "wait": 11.533333333333303
+    },
+    {
+      "id": "traffic_044",
+      "distance": 11382.70565615078,
+      "turns": 74,
+      "wait": 5.299999999999991
+    },
+    {
+      "id": "traffic_045",
+      "distance": 13242.541452780077,
+      "turns": 30,
+      "wait": 0
+    },
+    {
+      "id": "traffic_046",
+      "distance": 14947.439508445208,
+      "turns": 13,
+      "wait": 2.7333333333333334
+    },
+    {
+      "id": "traffic_047",
+      "distance": 11575.259850580995,
+      "turns": 74,
+      "wait": 0
+    },
+    {
+      "id": "traffic_048",
+      "distance": 11152.850430786428,
+      "turns": 57,
+      "wait": 0
+    },
+    {
+      "id": "traffic_049",
+      "distance": 11223.107349388009,
+      "turns": 70,
+      "wait": 0
+    },
+    {
+      "id": "traffic_050",
+      "distance": 10866.128679730922,
+      "turns": 69,
+      "wait": 0
+    },
+    {
+      "id": "traffic_051",
+      "distance": 13895.482614561392,
+      "turns": 37,
+      "wait": 0
+    },
+    {
+      "id": "traffic_052",
+      "distance": 10824.841289505552,
+      "turns": 68,
+      "wait": 0
+    },
+    {
+      "id": "traffic_053",
+      "distance": 10825.127013640624,
+      "turns": 72,
+      "wait": 0
+    },
+    {
+      "id": "traffic_054",
+      "distance": 14124.564786638864,
+      "turns": 12,
+      "wait": 0
+    },
+    {
+      "id": "traffic_055",
+      "distance": 10622.100600009126,
+      "turns": 69,
+      "wait": 0
+    },
+    {
+      "id": "traffic_056",
+      "distance": 10822.271308136511,
+      "turns": 67,
+      "wait": 0
+    },
+    {
+      "id": "traffic_057",
+      "distance": 12108.896646045609,
+      "turns": 48,
+      "wait": 0
+    },
+    {
+      "id": "traffic_058",
+      "distance": 12957.49721980946,
+      "turns": 31,
+      "wait": 0
+    },
+    {
+      "id": "traffic_059",
+      "distance": 12779.059911043198,
+      "turns": 38,
+      "wait": 0
+    },
+    {
+      "id": "traffic_060",
+      "distance": 13398.109842905642,
+      "turns": 23,
+      "wait": 0
+    },
+    {
+      "id": "traffic_061",
+      "distance": 12508.155886153767,
+      "turns": 51,
+      "wait": 0
+    },
+    {
+      "id": "traffic_062",
+      "distance": 13517.956323346929,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "traffic_063",
+      "distance": 12913.286972095255,
+      "turns": 22,
+      "wait": 0
+    },
+    {
+      "id": "traffic_064",
+      "distance": 10812.115341687344,
+      "turns": 72,
+      "wait": 0
+    },
+    {
+      "id": "traffic_065",
+      "distance": 10671.812412691299,
+      "turns": 67,
+      "wait": 0
+    },
+    {
+      "id": "traffic_066",
+      "distance": 11562.246116683526,
+      "turns": 71,
+      "wait": 0
+    },
+    {
+      "id": "traffic_067",
+      "distance": 10893.645065664916,
+      "turns": 69,
+      "wait": 0
+    },
+    {
+      "id": "traffic_068",
+      "distance": 11506.72630384991,
+      "turns": 72,
+      "wait": 12.766666666666632
+    },
+    {
+      "id": "traffic_069",
+      "distance": 10509.729767907658,
+      "turns": 64,
+      "wait": 0
+    }
+  ],
+  "final": {
+    "time": 1799.9999999990202,
+    "actors": 70,
+    "moving": 62,
+    "stopped": 8,
+    "waitingAtSignals": 11,
+    "queued": 4,
+    "turning": 15,
+    "completedTurns": 3804,
+    "distanceTravelled": 830508.2371749842,
+    "redStops": 1726,
+    "restarts": 2770,
+    "collisionAvoidanceStops": 0,
+    "longestWaitSeconds": 62.96666666666565,
+    "activeJunctions": 17
+  },
+  "offRouteSamples": 0,
+  "groundContactErrors": 0,
+  "reservationErrors": 0,
+  "diagnostics": {
+    "safetyExamples": [],
+    "waitingDrivers": [],
+    "reservations": [
+      [
+        "J031",
+        {
+          "actor": "traffic_052",
+          "turn": "T0216",
+          "exitLane": "L037B"
+        }
+      ],
+      [
+        "J039",
+        {
+          "actor": "traffic_066",
+          "turn": "T0265",
+          "exitLane": "L067A"
+        }
+      ],
+      [
+        "J074",
+        {
+          "actor": "traffic_064",
+          "turn": "T0567",
+          "exitLane": "L129B"
+        }
+      ],
+      [
+        "J005",
+        {
+          "actor": "traffic_011",
+          "turn": "T0019",
+          "exitLane": "L007A"
+        }
+      ],
+      [
+        "J041",
+        {
+          "actor": "traffic_055",
+          "turn": "T0282",
+          "exitLane": "L068B"
+        }
+      ],
+      [
+        "J066",
+        {
+          "actor": "traffic_067",
+          "turn": "T0484",
+          "exitLane": "L097B"
+        }
+      ],
+      [
+        "J079",
+        {
+          "actor": "traffic_029",
+          "turn": "T0594",
+          "exitLane": "L138A"
+        }
+      ],
+      [
+        "J069",
+        {
+          "actor": "traffic_017",
+          "turn": "T0503",
+          "exitLane": "L122A"
+        }
+      ],
+      [
+        "J055",
+        {
+          "actor": "traffic_038",
+          "turn": "T0381",
+          "exitLane": "L095A"
+        }
+      ],
+      [
+        "J072",
+        {
+          "actor": "traffic_000",
+          "turn": "T0538",
+          "exitLane": "L128A"
+        }
+      ],
+      [
+        "J080",
+        {
+          "actor": "traffic_002",
+          "turn": "T0598",
+          "exitLane": "L139A"
+        }
+      ],
+      [
+        "J042",
+        {
+          "actor": "traffic_041",
+          "turn": "T0291",
+          "exitLane": "L058B"
+        }
+      ],
+      [
+        "J083",
+        {
+          "actor": "traffic_042",
+          "turn": "T0618",
+          "exitLane": "L141B"
+        }
+      ],
+      [
+        "J019",
+        {
+          "actor": "traffic_004",
+          "turn": "T0112",
+          "exitLane": "L033A"
+        }
+      ],
+      [
+        "J015",
+        {
+          "actor": "traffic_003",
+          "turn": "T0072",
+          "exitLane": "L016B"
+        }
+      ],
+      [
+        "J008",
+        {
+          "actor": "traffic_047",
+          "turn": "T0023",
+          "exitLane": "L000B"
+        }
+      ],
+      [
+        "J016",
+        {
+          "actor": "traffic_033",
+          "turn": "T0082",
+          "exitLane": "L027A"
+        }
+      ]
+    ]
+  },
+  "maximumFrameRateDrift": 0,
+  "minimumActorDistance": 10032.129002411033,
+  "passed": true
+}

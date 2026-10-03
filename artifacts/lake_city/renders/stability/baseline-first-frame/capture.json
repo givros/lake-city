@@ -1,0 +1,5674 @@
+{
+  "tag": "baseline-first-frame",
+  "source": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+  "frames": [
+    {
+      "name": "downtown-00",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          427.5,
+          1.8699999999999999,
+          43.5
+        ],
+        "rotation": [
+          0.06,
+          -0.5,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          427.5,
+          1.8699999999999999,
+          43.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 35,
+          "frameCalls": 4,
+          "drawCalls": 19783,
+          "triangles": 28479576,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "downtown-01",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          428.75,
+          1.8699999999999999,
+          43.5
+        ],
+        "rotation": [
+          0.06,
+          -0.5,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          428.75,
+          1.8699999999999999,
+          43.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 44,
+          "frameCalls": 3,
+          "drawCalls": 15229,
+          "triangles": 21221773,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "downtown-02",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          430,
+          1.8699999999999999,
+          43.5
+        ],
+        "rotation": [
+          0.06,
+          -0.5,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          430,
+          1.8699999999999999,
+          43.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 50,
+          "frameCalls": 3,
+          "drawCalls": 15193,
+          "triangles": 21165061,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "downtown-03",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          431.25,
+          1.8699999999999999,
+          43.5
+        ],
+        "rotation": [
+          0.06,
+          -0.5,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          431.25,
+          1.8699999999999999,
+          43.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 56,
+          "frameCalls": 3,
+          "drawCalls": 15154,
+          "triangles": 21125457,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "downtown-04",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          432.5,
+          1.8699999999999999,
+          43.5
+        ],
+        "rotation": [
+          0.06,
+          -0.5,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          432.5,
+          1.8699999999999999,
+          43.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 66,
+          "frameCalls": 4,
+          "drawCalls": 19476,
+          "triangles": 27927144,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "downtown-05",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          433.75,
+          1.8699999999999999,
+          43.5
+        ],
+        "rotation": [
+          0.06,
+          -0.5,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          433.75,
+          1.8699999999999999,
+          43.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 72,
+          "frameCalls": 3,
+          "drawCalls": 15093,
+          "triangles": 21065297,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "downtown-06",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          435,
+          1.8699999999999999,
+          43.5
+        ],
+        "rotation": [
+          0.06,
+          -0.5,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          435,
+          1.8699999999999999,
+          43.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 78,
+          "frameCalls": 3,
+          "drawCalls": 15062,
+          "triangles": 21033577,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "downtown-07",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          436.25,
+          1.8699999999999999,
+          43.5
+        ],
+        "rotation": [
+          0.06,
+          -0.5,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          436.25,
+          1.8699999999999999,
+          43.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 87,
+          "frameCalls": 3,
+          "drawCalls": 15012,
+          "triangles": 20963845,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "downtown-08",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          437.5,
+          1.8699999999999999,
+          43.5
+        ],
+        "rotation": [
+          0.06,
+          -0.5,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          437.5,
+          1.8699999999999999,
+          43.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 93,
+          "frameCalls": 3,
+          "drawCalls": 14994,
+          "triangles": 20953241,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "downtown-09",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          438.75,
+          1.8699999999999999,
+          43.5
+        ],
+        "rotation": [
+          0.06,
+          -0.5,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          438.75,
+          1.8699999999999999,
+          43.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 99,
+          "frameCalls": 3,
+          "drawCalls": 14951,
+          "triangles": 20912597,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "downtown-10",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          440,
+          1.8699999999999999,
+          43.5
+        ],
+        "rotation": [
+          0.06,
+          -0.5,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          440,
+          1.8699999999999999,
+          43.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 108,
+          "frameCalls": 3,
+          "drawCalls": 14911,
+          "triangles": 20862345,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "downtown-11",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          441.25,
+          1.8699999999999999,
+          43.5
+        ],
+        "rotation": [
+          0.06,
+          -0.5,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          441.25,
+          1.8699999999999999,
+          43.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 114,
+          "frameCalls": 3,
+          "drawCalls": 14865,
+          "triangles": 20804809,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "residential-00",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -180,
+          1.8699999999999999,
+          -271.5
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -180,
+          1.8699999999999999,
+          -271.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 123,
+          "frameCalls": 6,
+          "drawCalls": 69479,
+          "triangles": 103765298,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "residential-01",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -178.75,
+          1.8699999999999999,
+          -271.5
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -178.75,
+          1.8699999999999999,
+          -271.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 138,
+          "frameCalls": 5,
+          "drawCalls": 65657,
+          "triangles": 100270271,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "residential-02",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -177.5,
+          1.8699999999999999,
+          -271.5
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -177.5,
+          1.8699999999999999,
+          -271.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 148,
+          "frameCalls": 5,
+          "drawCalls": 65554,
+          "triangles": 100149591,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "residential-03",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -176.25,
+          1.8699999999999999,
+          -271.5
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -176.25,
+          1.8699999999999999,
+          -271.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 158,
+          "frameCalls": 5,
+          "drawCalls": 65460,
+          "triangles": 100023023,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "residential-04",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -175,
+          1.8699999999999999,
+          -271.5
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -175,
+          1.8699999999999999,
+          -271.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 174,
+          "frameCalls": 6,
+          "drawCalls": 69204,
+          "triangles": 103413886,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "residential-05",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -173.75,
+          1.8699999999999999,
+          -271.5
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -173.75,
+          1.8699999999999999,
+          -271.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 184,
+          "frameCalls": 5,
+          "drawCalls": 65061,
+          "triangles": 99468647,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "residential-06",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -172.5,
+          1.8699999999999999,
+          -271.5
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -172.5,
+          1.8699999999999999,
+          -271.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 194,
+          "frameCalls": 5,
+          "drawCalls": 64921,
+          "triangles": 99305903,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "residential-07",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -171.25,
+          1.8699999999999999,
+          -271.5
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -171.25,
+          1.8699999999999999,
+          -271.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 209,
+          "frameCalls": 5,
+          "drawCalls": 64781,
+          "triangles": 99105687,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "residential-08",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -170,
+          1.8699999999999999,
+          -271.5
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -170,
+          1.8699999999999999,
+          -271.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 219,
+          "frameCalls": 5,
+          "drawCalls": 64653,
+          "triangles": 98906199,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "residential-09",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -168.75,
+          1.8699999999999999,
+          -271.5
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -168.75,
+          1.8699999999999999,
+          -271.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 229,
+          "frameCalls": 5,
+          "drawCalls": 64497,
+          "triangles": 98678055,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "residential-10",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -167.5,
+          1.8699999999999999,
+          -271.5
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -167.5,
+          1.8699999999999999,
+          -271.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 244,
+          "frameCalls": 5,
+          "drawCalls": 64341,
+          "triangles": 98458223,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    {
+      "name": "residential-11",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -166.25,
+          1.8699999999999999,
+          -271.5
+        ],
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 393.7000000476837,
+          "assetsReady": 772,
+          "collisionReady": 776.9000000953674,
+          "compiled": 5119.600000143051,
+          "firstCompleteFrame": 5119.600000143051
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -166.25,
+          1.8699999999999999,
+          -271.5
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 254,
+          "frameCalls": 5,
+          "drawCalls": 64201,
+          "triangles": 98241351,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 7,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 213,
+          "texturesSize": 242052740,
+          "uniformBuffers": 494,
+          "uniformBuffersSize": 129216,
+          "total": 287059022
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    }
+  ],
+  "errors": [],
+  "audit": {
+    "draws": 15652,
+    "cameraMismatches": [
+      {
+        "mesh": "shore_sand",
+        "prepared": 25,
+        "camera": 7
+      },
+      {
+        "mesh": "shore_sand",
+        "prepared": 25,
+        "camera": 7
+      },
+      {
+        "mesh": "cycle_path",
+        "prepared": 25,
+        "camera": 7
+      },
+      {
+        "mesh": "cycle_path",
+        "prepared": 25,
+        "camera": 7
+      }
+    ],
+    "textureMismatches": [
+      {
+        "mesh": "shore_sand",
+        "camera": 7,
+        "drawCount": 2,
+        "mismatch": 1
+      },
+      {
+        "mesh": "land_oak_leaf_1",
+        "camera": 7,
+        "drawCount": 643,
+        "mismatch": 529
+      },
+      {
+        "mesh": "land_maple_leaf_1",
+        "camera": 7,
+        "drawCount": 486,
+        "mismatch": 188
+      },
+      {
+        "mesh": "land_birch_bark",
+        "camera": 7,
+        "drawCount": 107,
+        "mismatch": 104
+      },
+      {
+        "mesh": "land_oak_leaf_0",
+        "camera": 7,
+        "drawCount": 522,
+        "mismatch": 407
+      },
+      {
+        "mesh": "land_birch_leaf_0",
+        "camera": 7,
+        "drawCount": 103,
+        "mismatch": 19
+      },
+      {
+        "mesh": "land_oak_leaf_2",
+        "camera": 7,
+        "drawCount": 518,
+        "mismatch": 405
+      },
+      {
+        "mesh": "land_bark",
+        "camera": 7,
+        "drawCount": 1369,
+        "mismatch": 522
+      },
+      {
+        "mesh": "arch_black",
+        "camera": 7,
+        "drawCount": 88,
+        "mismatch": 45
+      },
+      {
+        "mesh": "arch_concrete",
+        "camera": 7,
+        "drawCount": 95,
+        "mismatch": 47
+      },
+      {
+        "mesh": "arch_metal",
+        "camera": 7,
+        "drawCount": 95,
+        "mismatch": 47
+      },
+      {
+        "mesh": "land_oak_leaf_1",
+        "camera": 7,
+        "drawCount": 643,
+        "mismatch": 529
+      },
+      {
+        "mesh": "land_maple_leaf_1",
+        "camera": 7,
+        "drawCount": 486,
+        "mismatch": 188
+      },
+      {
+        "mesh": "land_birch_bark",
+        "camera": 7,
+        "drawCount": 107,
+        "mismatch": 104
+      },
+      {
+        "mesh": "land_oak_leaf_0",
+        "camera": 7,
+        "drawCount": 522,
+        "mismatch": 407
+      },
+      {
+        "mesh": "land_birch_leaf_0",
+        "camera": 7,
+        "drawCount": 103,
+        "mismatch": 19
+      },
+      {
+        "mesh": "land_oak_leaf_2",
+        "camera": 7,
+        "drawCount": 518,
+        "mismatch": 405
+      },
+      {
+        "mesh": "land_bark",
+        "camera": 7,
+        "drawCount": 1369,
+        "mismatch": 522
+      },
+      {
+        "mesh": "arch_black",
+        "camera": 7,
+        "drawCount": 88,
+        "mismatch": 45
+      },
+      {
+        "mesh": "arch_concrete",
+        "camera": 7,
+        "drawCount": 95,
+        "mismatch": 47
+      },
+      {
+        "mesh": "arch_metal",
+        "camera": 7,
+        "drawCount": 95,
+        "mismatch": 47
+      },
+      {
+        "mesh": "land_lamp_glow",
+        "camera": 7,
+        "drawCount": 247,
+        "mismatch": 234
+      },
+      {
+        "mesh": "land_oak_leaf_1",
+        "camera": 7,
+        "drawCount": 641,
+        "mismatch": 526
+      },
+      {
+        "mesh": "land_oak_leaf_0",
+        "camera": 7,
+        "drawCount": 520,
+        "mismatch": 407
+      },
+      {
+        "mesh": "land_birch_leaf_0",
+        "camera": 7,
+        "drawCount": 102,
+        "mismatch": 3
+      },
+      {
+        "mesh": "arch_stone_light",
+        "camera": 7,
+        "drawCount": 102,
+        "mismatch": 101
+      },
+      {
+        "mesh": "land_birch_leaf_2",
+        "camera": 7,
+        "drawCount": 103,
+        "mismatch": 3
+      },
+      {
+        "mesh": "land_oak_leaf_2",
+        "camera": 7,
+        "drawCount": 517,
+        "mismatch": 403
+      },
+      {
+        "mesh": "land_birch_leaf_1",
+        "camera": 7,
+        "drawCount": 103,
+        "mismatch": 4
+      },
+      {
+        "mesh": "land_bark",
+        "camera": 7,
+        "drawCount": 1363,
+        "mismatch": 555
+      },
+      {
+        "mesh": "arch_glass",
+        "camera": 7,
+        "drawCount": 81,
+        "mismatch": 80
+      },
+      {
+        "mesh": "arch_black",
+        "camera": 7,
+        "drawCount": 88,
+        "mismatch": 45
+      },
+      {
+        "mesh": "arch_concrete",
+        "camera": 7,
+        "drawCount": 95,
+        "mismatch": 47
+      },
+      {
+        "mesh": "arch_metal",
+        "camera": 7,
+        "drawCount": 95,
+        "mismatch": 47
+      },
+      {
+        "mesh": "land_lamp_glow",
+        "camera": 7,
+        "drawCount": 247,
+        "mismatch": 234
+      },
+      {
+        "mesh": "land_oak_leaf_1",
+        "camera": 7,
+        "drawCount": 641,
+        "mismatch": 526
+      },
+      {
+        "mesh": "land_oak_leaf_0",
+        "camera": 7,
+        "drawCount": 520,
+        "mismatch": 407
+      },
+      {
+        "mesh": "land_birch_leaf_0",
+        "camera": 7,
+        "drawCount": 102,
+        "mismatch": 3
+      },
+      {
+        "mesh": "arch_stone_light",
+        "camera": 7,
+        "drawCount": 102,
+        "mismatch": 101
+      },
+      {
+        "mesh": "land_birch_leaf_2",
+        "camera": 7,
+        "drawCount": 103,
+        "mismatch": 3
+      },
+      {
+        "mesh": "land_oak_leaf_2",
+        "camera": 7,
+        "drawCount": 517,
+        "mismatch": 403
+      },
+      {
+        "mesh": "land_birch_leaf_1",
+        "camera": 7,
+        "drawCount": 103,
+        "mismatch": 4
+      },
+      {
+        "mesh": "land_bark",
+        "camera": 7,
+        "drawCount": 1363,
+        "mismatch": 555
+      },
+      {
+        "mesh": "arch_glass",
+        "camera": 7,
+        "drawCount": 81,
+        "mismatch": 80
+      },
+      {
+        "mesh": "arch_black",
+        "camera": 7,
+        "drawCount": 88,
+        "mismatch": 45
+      },
+      {
+        "mesh": "arch_concrete",
+        "camera": 7,
+        "drawCount": 95,
+        "mismatch": 47
+      },
+      {
+        "mesh": "arch_metal",
+        "camera": 7,
+        "drawCount": 95,
+        "mismatch": 47
+      },
+      {
+        "mesh": "land_oak_leaf_1",
+        "camera": 7,
+        "drawCount": 640,
+        "mismatch": 524
+      },
+      {
+        "mesh": "land_oak_leaf_0",
+        "camera": 7,
+        "drawCount": 519,
+        "mismatch": 504
+      },
+      {
+        "mesh": "land_birch_leaf_2",
+        "camera": 7,
+        "drawCount": 101,
+        "mismatch": 3
+      },
+      {
+        "mesh": "land_oak_leaf_2",
+        "camera": 7,
+        "drawCount": 516,
+        "mismatch": 400
+      },
+      {
+        "mesh": "land_birch_leaf_1",
+        "camera": 7,
+        "drawCount": 101,
+        "mismatch": 3
+      },
+      {
+        "mesh": "land_pine_leaf_1",
+        "camera": 7,
+        "drawCount": 82,
+        "mismatch": 4
+      },
+      {
+        "mesh": "land_bark",
+        "camera": 7,
+        "drawCount": 1361,
+        "mismatch": 749
+      },
+      {
+        "mesh": "arch_glass",
+        "camera": 7,
+        "drawCount": 80,
+        "mismatch": 71
+      },
+      {
+        "mesh": "arch_black",
+        "camera": 7,
+        "drawCount": 88,
+        "mismatch": 45
+      },
+      {
+        "mesh": "arch_concrete",
+        "camera": 7,
+        "drawCount": 95,
+        "mismatch": 47
+      },
+      {
+        "mesh": "arch_metal",
+        "camera": 7,
+        "drawCount": 95,
+        "mismatch": 47
+      },
+      {
+        "mesh": "land_oak_leaf_1",
+        "camera": 7,
+        "drawCount": 640,
+        "mismatch": 524
+      },
+      {
+        "mesh": "land_oak_leaf_0",
+        "camera": 7,
+        "drawCount": 519,
+        "mismatch": 504
+      },
+      {
+        "mesh": "land_birch_leaf_2",
+        "camera": 7,
+        "drawCount": 101,
+        "mismatch": 3
+      },
+      {
+        "mesh": "land_oak_leaf_2",
+        "camera": 7,
+        "drawCount": 516,
+        "mismatch": 400
+      },
+      {
+        "mesh": "land_birch_leaf_1",
+        "camera": 7,
+        "drawCount": 101,
+        "mismatch": 3
+      },
+      {
+        "mesh": "land_pine_leaf_1",
+        "camera": 7,
+        "drawCount": 82,
+        "mismatch": 4
+      },
+      {
+        "mesh": "land_bark",
+        "camera": 7,
+        "drawCount": 1361,
+        "mismatch": 749
+      },
+      {
+        "mesh": "arch_glass",
+        "camera": 7,
+        "drawCount": 80,
+        "mismatch": 71
+      },
+      {
+        "mesh": "arch_black",
+        "camera": 7,
+        "drawCount": 88,
+        "mismatch": 45
+      },
+      {
+        "mesh": "arch_concrete",
+        "camera": 7,
+        "drawCount": 95,
+        "mismatch": 47
+      },
+      {
+        "mesh": "arch_metal",
+        "camera": 7,
+        "drawCount": 95,
+        "mismatch": 47
+      },
+      {
+        "mesh": "land_oak_leaf_1",
+        "camera": 7,
+        "drawCount": 639,
+        "mismatch": 623
+      },
+      {
+        "mesh": "arch_roof_dark",
+        "camera": 7,
+        "drawCount": 25,
+        "mismatch": 18
+      },
+      {
+        "mesh": "land_oak_leaf_0",
+        "camera": 7,
+        "drawCount": 518,
+        "mismatch": 502
+      },
+      {
+        "mesh": "arch_stone_light",
+        "camera": 7,
+        "drawCount": 101,
+        "mismatch": 92
+      },
+      {
+        "mesh": "land_oak_leaf_2",
+        "camera": 7,
+        "drawCount": 514,
+        "mismatch": 401
+      },
+      {
+        "mesh": "arch_plaster_sage",
+        "camera": 7,
+        "drawCount": 9,
+        "mismatch": 7
+      },
+      {
+        "mesh": "land_pine_leaf_2",
+        "camera": 7,
+        "drawCount": 82,
+        "mismatch": 4
+      },
+      {
+        "mesh": "land_bark",
+        "camera": 7,
+        "drawCount": 1360,
+        "mismatch": 494
+      },
+      {
+        "mesh": "land_pine_leaf_0",
+        "camera": 7,
+        "drawCount": 82,
+        "mismatch": 4
+      },
+      {
+        "mesh": "arch_black",
+        "camera": 7,
+        "drawCount": 87,
+        "mismatch": 45
+      },
+      {
+        "mesh": "arch_concrete",
+        "camera": 7,
+        "drawCount": 94,
+        "mismatch": 47
+      },
+      {
+        "mesh": "arch_metal",
+        "camera": 7,
+        "drawCount": 93,
+        "mismatch": 47
+      },
+      {
+        "mesh": "land_oak_leaf_1",
+        "camera": 7,
+        "drawCount": 639,
+        "mismatch": 623
+      },
+      {
+        "mesh": "arch_roof_dark",
+        "camera": 7,
+        "drawCount": 25,
+        "mismatch": 18
+      },
+      {
+        "mesh": "land_oak_leaf_0",
+        "camera": 7,
+        "drawCount": 518,
+        "mismatch": 502
+      },
+      {
+        "mesh": "arch_stone_light",
+        "camera": 7,
+        "drawCount": 101,
+        "mismatch": 92
+      },
+      {
+        "mesh": "land_oak_leaf_2",
+        "camera": 7,
+        "drawCount": 514,
+        "mismatch": 401
+      },
+      {
+        "mesh": "arch_plaster_sage",
+        "camera": 7,
+        "drawCount": 9,
+        "mismatch": 7
+      },
+      {
+        "mesh": "land_pine_leaf_2",
+        "camera": 7,
+        "drawCount": 82,
+        "mismatch": 4
+      },
+      {
+        "mesh": "land_bark",
+        "camera": 7,
+        "drawCount": 1360,
+        "mismatch": 494
+      },
+      {
+        "mesh": "land_pine_leaf_0",
+        "camera": 7,
+        "drawCount": 82,
+        "mismatch": 4
+      },
+      {
+        "mesh": "arch_black",
+        "camera": 7,
+        "drawCount": 87,
+        "mismatch": 45
+      },
+      {
+        "mesh": "arch_concrete",
+        "camera": 7,
+        "drawCount": 94,
+        "mismatch": 47
+      },
+      {
+        "mesh": "arch_metal",
+        "camera": 7,
+        "drawCount": 93,
+        "mismatch": 47
+      },
+      {
+        "mesh": "shore_sand",
+        "camera": 7,
+        "drawCount": 2,
+        "mismatch": 1
+      },
+      {
+        "mesh": "land_oak_leaf_1",
+        "camera": 7,
+        "drawCount": 634,
+        "mismatch": 524
+      },
+      {
+        "mesh": "land_maple_leaf_1",
+        "camera": 7,
+        "drawCount": 486,
+        "mismatch": 185
+      },
+      {
+        "mesh": "land_oak_leaf_0",
+        "camera": 7,
+        "drawCount": 515,
+        "mismatch": 404
+      },
+      {
+        "mesh": "land_oak_leaf_2",
+        "camera": 7,
+        "drawCount": 512,
+        "mismatch": 400
+      },
+      {
+        "mesh": "land_bark",
+        "camera": 7,
+        "drawCount": 1357,
+        "mismatch": 1333
+      },
+      {
+        "mesh": "land_maple_leaf_2",
+        "camera": 7,
+        "drawCount": 481,
+        "mismatch": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "timestamp": "2026-10-03T12:51:13.557549+00:00",
+  "status": "passed",
+  "issue": "Building facade pieces and foliage flickered, disappeared or appeared at wrong positions while the camera moved.",
+  "rootCause": "Three r186 BatchedMesh reuses camera-specific indirect instance-ID textures and CPU draw ranges. Recursive shadow/reflection rendering changed those shared records while the parent WebGPU command encoder still referenced them. Later queue texture writes caused earlier encoded geometry to use instance transforms from another pass.",
+  "fix": "An application-owned sun ShadowNode and exact-height ReflectorNodes submit complete sequential shadow and reflection prepasses before beauty encoding. Automatic nested effect callbacks are disabled; the original Three render implementations, source meshes, native resolution and all shadow/reflection contributors are retained.",
+  "sourceHash": "317c413494035f83921d0d627a28744b85608b9c33aee65591fb7b0fffb9d7f5",
+  "baselineSourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+  "sourceChangeScope": "Source tree grounding and small coplanar architectural detail offsets were corrected in parallel. Pixel claims below compare culling versus all-source rendering WITHIN each respective export, not different source exports.",
+  "build": {
+    "entrySHA256": "66d7708bb1f1b13a8693aed5fba81c98ce012868ee59b1428e16581559d3b357",
+    "javascriptSHA256": "e2f9f9f4ada48d2061e55509599b21451c7b1c08dd4bd1af5370384b7d704661",
+    "renderProfileSHA256": "ae9bf76a512f571f0b53925fc7c62a86a6b2179d5d2acb901653e6101aeb9099"
+  },
+  "environment": {
+    "browser": "152.0.7977.8",
+    "backend": {
+      "name": "WebGPU",
+      "verifiedBackend": true,
+      "vendor": "nvidia",
+      "architecture": "ampere",
+      "device": "",
+      "description": "",
+      "isFallbackAdapter": false,
+      "features": [
+        "core-features-and-limits",
+        "float32-filterable"
+      ],
+      "limits": {
+        "maxTextureDimension2D": 8192,
+        "maxBufferSize": 268435456
+      }
+    },
+    "viewport": [
+      1600,
+      1000
+    ],
+    "dpr": 1
+  },
+  "baseline": {
+    "poses": 24,
+    "auditedBatchDraws": 15652,
+    "wrongCameraDraws": 4,
+    "recordedIndirectOverwriteEvents": 100,
+    "eventRecordCap": 100,
+    "totalOverwriteEvents": "At least100; baseline recording was capped",
+    "comparisonPairs": 8,
+    "maxChangedPixels": 330462,
+    "maxChangedPixelsOver5": 305933,
+    "maxChangedPixelsOver30": 232180,
+    "evidence": "E:\\Dev\\lake-city\\artifacts\\lake_city\\renders\\stability\\baseline-first-frame\\capture.json"
+  },
+  "after": {
+    "poses": 48,
+    "routes": [
+      "downtown",
+      "lake",
+      "park",
+      "residential"
+    ],
+    "auditedBatchDraws": 33842,
+    "wrongCameraDraws": 0,
+    "indirectOverwriteEvents": 0,
+    "fullSourceComparisonPairs": 16,
+    "maxChangedPixels": 0,
+    "samePoseRepeatPairs": 48,
+    "maxSamePoseChangedPixels": 0,
+    "shadowRegionBoundariesIncluded": true,
+    "evidence": "E:\\Dev\\lake-city\\artifacts\\lake_city\\renders\\stability\\final-moving-camera\\capture.json"
+  },
+  "pixelAnalysis": "E:\\Dev\\lake-city\\artifacts\\lake_city\\renders\\stability\\pixel_comparisons.json",
+  "representativeImages": {
+    "before": "E:\\Dev\\lake-city\\artifacts\\lake_city\\renders\\stability\\baseline-first-frame\\downtown-03.png",
+    "sameSourceReference": "E:\\Dev\\lake-city\\artifacts\\lake_city\\renders\\stability\\baseline-first-frame\\downtown-03-all-source.png",
+    "fixed": "E:\\Dev\\lake-city\\artifacts\\lake_city\\renders\\stability\\final-moving-camera\\downtown-03.png",
+    "fixedReference": "E:\\Dev\\lake-city\\artifacts\\lake_city\\renders\\stability\\final-moving-camera\\downtown-03-all-source.png",
+    "groundedTrees": "E:\\Dev\\lake-city\\artifacts\\lake_city\\renders\\runtime\\walking-promenade.png"
+  },
+  "visualInspection": {
+    "status": "passed",
+    "findings": [
+      "Original reproduction visibly lost/repositioned fa\u00c3\u00a7ade bands and columns; the all-source diagnostic restored them.",
+      "Final moving route images retain fa\u00c3\u00a7ades and foliage consistently.",
+      "Final lake close-ups show continuous trunk/soil contact without a visible daylight gap; lighting bias retained unchanged."
+    ]
+  },
+  "qualityPreserved": {
+    "sourceInstances": 12488,
+    "sourceTriangles": 80292494,
+    "exactArrayAudit": {
+      "passed": true,
+      "attributeFloatsCompared": 9561708,
+      "indicesCompared": 1593618,
+      "matrixFloatsCompared": 861904
+    },
+    "nativeDpr": true,
+    "fullResolutionReflections": true,
+    "shadowResolution": 4096,
+    "noGeometryReduction": true,
+    "noCompression": true,
+    "perPassFrustumCullingStillEnabled": true,
+    "animatedActors": {
+      "vehicles": 84,
+      "pedestrians": 80,
+      "canonicalTrianglesPerPedestrian": 5622,
+      "bones": 49,
+      "shadowDepth": "Full4096 depth32float union before standard PCF"
+    }
+  },
+  "referenceLedger": [
+    {
+      "loaded": true,
+      "path": "C:/Users/limou/.agents/skills/threejs-debug-profiler/SKILL.md"
+    },
+    {
+      "loaded": true,
+      "path": "C:/Users/limou/.agents/skills/threejs-debug-profiler/references/debug-profile-checklists.md"
+    },
+    {
+      "loaded": true,
+      "path": "C:/Users/limou/.agents/skills/threejs-debug-profiler/references/checklists/scene-debugging.md"
+    },
+    {
+      "loaded": true,
+      "path": "C:/Users/limou/.agents/skills/threejs-debug-profiler/references/checklists/performance-profile.md"
+    },
+    {
+      "loaded": true,
+      "path": "C:/Users/limou/.codex/skills/givros-environment-builder/references/renderer-validation.md"
+    }
+  ],
+  "limitations": [
+    "Stability evidence covers48 selected camera poses and16 all-source reference comparisons, not every possible viewpoint.",
+    "GPU execution timestamps and physical long-hold Escape remain unverified."
+  ],
+  "cityLifeRegression": {
+    "status": "passed",
+    "poses": 48,
+    "auditedBatchDraws": 33842,
+    "wrongCameraDraws": 0,
+    "indirectOverwriteEvents": 0,
+    "fullSourceComparisonPairs": 16,
+    "samePoseRepeatPairs": 48,
+    "maxChangedPixels": 0,
+    "maxSamePoseChangedPixels": 0,
+    "vehicles": 84,
+    "pedestrians": 80,
+    "animationState": "Deterministically paused; fixed actor transforms and Walk/Idle poses during matched comparisons",
+    "evidence": "E:\\Dev\\lake-city\\artifacts\\lake_city\\renders\\stability\\city-life\\capture.json",
+    "sourceHash": "317c413494035f83921d0d627a28744b85608b9c33aee65591fb7b0fffb9d7f5"
+  }
+}

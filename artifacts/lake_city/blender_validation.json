@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "freshProcessReopen": true,
+  "sourceHash": "317c413494035f83921d0d627a28744b85608b9c33aee65591fb7b0fffb9d7f5",
+  "meshObjects": 12488,
+  "uniqueMeshes": 111,
+  "sourceTriangles": 80292494,
+  "visibleStaticTriangles": 79944194,
+  "materials": 122,
+  "cameras": [
+    "overview",
+    "top",
+    "lake_approach",
+    "park_lawn",
+    "downtown_street",
+    "residential",
+    "sports",
+    "station",
+    "park_reverse"
+  ],
+  "externalImageDependencies": [],
+  "renderer": "BLENDER_EEVEE",
+  "cityLife": {
+    "actors": 642,
+    "vehicles": 562,
+    "promotedSourceVehicles": 478,
+    "hiddenFixedVehicles": 478,
+    "pedestrians": 80,
+    "bonesPerRig": 49,
+    "movingOverTenSeconds": 584,
+    "promotedMovingOverTenSeconds": 426,
+    "sampledBonePoseDelta": 1.156176745891571,
+    "maxCapturedRootPositionError": 4.21199178321995e-05,
+    "allSourceGeometryAndTransformsUnchanged": true,
+    "nonVehicleVisibilityUnchanged": true,
+    "frameRange": [
+      1,
+      601
+    ],
+    "fps": 30,
+    "runtimeCapture": "validation/city_life_samples.json"
+  },
+  "visibleTriangles": 80802518,
+  "reopenedRender": "renders/reopened_top.png"
+}

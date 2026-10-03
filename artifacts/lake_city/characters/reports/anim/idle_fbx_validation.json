@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "kind": "animation-fbx",
+  "source_blend": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase.blend",
+  "source_blend_sha256": "82bd44e0c3696d69194a3164d8705e303e3a24ce106bf781fd25ecede68f4efe",
+  "asset": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\anim\\idle.fbx",
+  "asset_sha256": "a48b55eb227065fe841d1b5d463f445ed2b5cf3b3b8ca307fddb5f9ca2820747",
+  "export_report": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\reports\\CharacterBase_export.json",
+  "export_report_sha256": "8ed59447215aa8a33ca9c06f8ee5bfd097a0c282c03117a907d28f85c490bf9d",
+  "action_name": "Idle",
+  "blender_version": "5.1.2",
+  "details": {
+    "objects": [
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ]
+    ],
+    "action_name_requested": "Idle",
+    "action_name_imported": "CharacterRig|Idle",
+    "frame_range": [
+      1,
+      251
+    ],
+    "fps": 30.0,
+    "bone_count": 49,
+    "pose_matrix_max_delta": 2.771615982055664e-06,
+    "worst_pose_delta": {
+      "frame": 119,
+      "bone": "f_index.03.R",
+      "delta": 2.771615982055664e-06
+    },
+    "raw_texture_contract": {}
+  },
+  "failures": {}
+}

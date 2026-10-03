@@ -1,0 +1,1119 @@
+{
+  "shelterTreeClearance": {
+    "detected": 2,
+    "relocated": [
+      {
+        "id": "REG_STREET_TREES_tree_maple_young_01390",
+        "prototype": "tree_maple_young",
+        "region": "REG_STREET_TREES",
+        "fromPosition": [
+          -175.5,
+          -0.06,
+          73.5
+        ],
+        "toPosition": [
+          -176.64805029709527,
+          -0.06,
+          76.27163859753387
+        ],
+        "shelters": [
+          "REG_TRANSIT_bus_shelter_11355"
+        ]
+      },
+      {
+        "id": "REG_DOWNTOWN_tree_oak_young_09244",
+        "prototype": "tree_oak_young",
+        "region": "REG_DOWNTOWN",
+        "fromPosition": [
+          428.36881073665916,
+          0.05999999731779099,
+          32.97606348009202
+        ],
+        "toPosition": [
+          431.31116657786885,
+          0.05999999731779099,
+          33.56133444614041
+        ],
+        "shelters": [
+          "REG_TRANSIT_bus_shelter_11353"
+        ]
+      }
+    ],
+    "removed": [],
+    "unresolved": []
+  },
+  "relocated": [
+    {
+      "id": "REG_PARK_PROPS_bench_11494",
+      "prototype": "bench",
+      "fromPosition": [
+        349.3363710455058,
+        0.14,
+        -321.0079889677668
+      ],
+      "toPosition": [
+        346.4832014966204,
+        0.14,
+        -320.08093798464193
+      ],
+      "fromRotation": 3.13981012428341,
+      "toRotation": 2.2089719951129942,
+      "path": "PATH_PARK_east_wander",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_bench_11500",
+      "prototype": "bench",
+      "fromPosition": [
+        348.99412559992885,
+        0.14,
+        -129.00829399911566
+      ],
+      "toPosition": [
+        348.99412559992885,
+        0.14,
+        -126.00829399911566
+      ],
+      "fromRotation": 3.139810124283467,
+      "toRotation": -3.0087759396499125,
+      "path": "PATH_PARK_CROSS_452",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_bench_11506",
+      "prototype": "bench",
+      "fromPosition": [
+        348.65188015435194,
+        0.14,
+        62.99140096953522
+      ],
+      "toPosition": [
+        348.65188015435194,
+        0.14,
+        59.99140096953522
+      ],
+      "fromRotation": 3.139810124283467,
+      "toRotation": 0.13053014544759595,
+      "path": "PATH_PARK_CROSS_581",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_bench_11510",
+      "prototype": "bench",
+      "fromPosition": [
+        348.42371652396736,
+        0.14,
+        190.99119761530218
+      ],
+      "toPosition": [
+        351.2768860728528,
+        0.14,
+        190.06414663217734
+      ],
+      "fromRotation": 3.13981012428341,
+      "toRotation": -1.9743591513390886,
+      "path": "PATH_PARK_east_wander",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_picnic_table_11529",
+      "prototype": "picnic_table",
+      "fromPosition": [
+        175.5,
+        0,
+        -492.0
+      ],
+      "toPosition": [
+        179.77975432332818,
+        0,
+        -493.39057647468724
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_PARK_west_wander",
+      "distanceM": 4.5
+    },
+    {
+      "id": "REG_PARK_PROPS_picnic_table_11531",
+      "prototype": "picnic_table",
+      "fromPosition": [
+        175.5,
+        0,
+        -484.5
+      ],
+      "toPosition": [
+        173.73664424312258,
+        0,
+        -482.07294901687516
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_PARK_west_wander",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_flower_planter_11599",
+      "prototype": "flower_planter",
+      "fromPosition": [
+        270.0,
+        0,
+        -522.0
+      ],
+      "toPosition": [
+        268.23664424312256,
+        0,
+        -519.5729490168752
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_PARK_CROSS_194",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_flower_planter_11600",
+      "prototype": "flower_planter",
+      "fromPosition": [
+        274.5,
+        0,
+        -522.0
+      ],
+      "toPosition": [
+        273.8559205450013,
+        0,
+        -518.0007600834513
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_PARK_CROSS_194",
+      "distanceM": 4.051
+    },
+    {
+      "id": "REG_PARK_PROPS_flower_planter_11601",
+      "prototype": "flower_planter",
+      "fromPosition": [
+        279.0,
+        0,
+        -522.0
+      ],
+      "toPosition": [
+        279.68359216858767,
+        0,
+        -526.1715112743925
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_PARK_CROSS_194",
+      "distanceM": 4.227
+    },
+    {
+      "id": "REG_PARK_PROPS_flower_planter_11602",
+      "prototype": "flower_planter",
+      "fromPosition": [
+        283.5,
+        0,
+        -522.0
+      ],
+      "toPosition": [
+        283.5,
+        0,
+        -525.0
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_PARK_CROSS_194",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_flower_planter_11610",
+      "prototype": "flower_planter",
+      "fromPosition": [
+        294.0,
+        0,
+        289.5
+      ],
+      "toPosition": [
+        292.23664424312256,
+        0,
+        291.92705098312484
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_PARK_central_south",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_flower_planter_11615",
+      "prototype": "flower_planter",
+      "fromPosition": [
+        340.5,
+        0,
+        19.5
+      ],
+      "toPosition": [
+        336.85942352531276,
+        0,
+        16.85496636468387
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_PARK_east_wander",
+      "distanceM": 4.5
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11359",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -945.3864185855447,
+        0.14,
+        -602.6595808453118
+      ],
+      "toPosition": [
+        -947.8134695686695,
+        0.14,
+        -600.8962250884343
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11361",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -945.9148143774956,
+        0.14,
+        -537.1122239458238
+      ],
+      "toPosition": [
+        -947.6781701343731,
+        0.14,
+        -534.685172962699
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11363",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -955.2674973872445,
+        0.14,
+        -478.98907076129456
+      ],
+      "toPosition": [
+        -956.1945483703693,
+        0.14,
+        -481.84224031018
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11365",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -944.6288380436271,
+        0.14,
+        -415.1237445132266
+      ],
+      "toPosition": [
+        -947.0558890267519,
+        0.14,
+        -413.36038875634915
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11367",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -951.0288503651698,
+        0.14,
+        -354.580586457891
+      ],
+      "toPosition": [
+        -951.9559013482946,
+        0.14,
+        -357.43375600677643
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11369",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -982.4048278166947,
+        0.14,
+        -299.6742297104746
+      ],
+      "toPosition": [
+        -983.3318787998195,
+        0.14,
+        -302.52739925936004
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11371",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -988.7970844748594,
+        0.14,
+        -234.8632240177837
+      ],
+      "toPosition": [
+        -991.2241354579842,
+        0.14,
+        -233.09986826090628
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11373",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -967.6800457977296,
+        0.14,
+        -174.71981784213912
+      ],
+      "toPosition": [
+        -970.1070967808544,
+        0.14,
+        -172.9564620852617
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11375",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -957.10171612964,
+        0.14,
+        -114.7562384270233
+      ],
+      "toPosition": [
+        -959.5287671127647,
+        0.14,
+        -112.99288267014589
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11377",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -982.0199372149865,
+        0.14,
+        -56.64630188030315
+      ],
+      "toPosition": [
+        -982.9469881981113,
+        0.14,
+        -59.49947142918861
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11379",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -995.967005455121,
+        0.14,
+        7.052996220669902
+      ],
+      "toPosition": [
+        -998.3940564382458,
+        0.14,
+        8.816351977547322
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11381",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -990.3979239103437,
+        0.14,
+        69.23981307314098
+      ],
+      "toPosition": [
+        -992.8249748934685,
+        0.14,
+        71.0031688300184
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11383",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -1005.0562349345953,
+        0.14,
+        130.7161104965592
+      ],
+      "toPosition": [
+        -1007.4832859177201,
+        0.14,
+        132.4794662534366
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11385",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -1008.2621133714279,
+        0.14,
+        195.65476210170743
+      ],
+      "toPosition": [
+        -1010.6891643545526,
+        0.14,
+        197.41811785858485
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11387",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -1005.336489994803,
+        0.14,
+        259.8904312270056
+      ],
+      "toPosition": [
+        -1007.7635409779277,
+        0.14,
+        261.65378698388304
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11389",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -993.6491782705903,
+        0.14,
+        323.8749498931258
+      ],
+      "toPosition": [
+        -994.576229253715,
+        0.14,
+        326.72811944201123
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11393",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -899.4529070410101,
+        0.14,
+        404.0995550482896
+      ],
+      "toPosition": [
+        -900.3799580241349,
+        0.14,
+        406.952724597175
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11397",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -809.5851240724621,
+        0.14,
+        491.9181967646323
+      ],
+      "toPosition": [
+        -808.6580730893373,
+        0.14,
+        494.7713663135177
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11401",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -703.0000143463312,
+        0.14,
+        534.0688352183589
+      ],
+      "toPosition": [
+        -701.2366585894538,
+        0.14,
+        531.6417842352341
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11403",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -649.9085339891549,
+        0.14,
+        496.46609449689805
+      ],
+      "toPosition": [
+        -650.8355849722797,
+        0.14,
+        493.6129249480126
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11405",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -603.0853784164315,
+        0.14,
+        458.2273859214666
+      ],
+      "toPosition": [
+        -600.6583274333067,
+        0.14,
+        456.46403016458913
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11409",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -476.87061742957115,
+        0.14,
+        445.55931899086335
+      ],
+      "toPosition": [
+        -475.9435664464463,
+        0.14,
+        442.7061494419779
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11411",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -449.1277938322082,
+        0.14,
+        385.7741725465296
+      ],
+      "toPosition": [
+        -451.98096338109366,
+        0.14,
+        386.70122352965444
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11413",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -432.44960963428593,
+        0.14,
+        329.74785336853233
+      ],
+      "toPosition": [
+        -435.30277918317137,
+        0.14,
+        330.6749043516572
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11415",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -379.22412457040383,
+        0.14,
+        295.1619584202326
+      ],
+      "toPosition": [
+        -382.07729411928926,
+        0.14,
+        296.08900940335747
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11417",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -333.73360685323587,
+        0.14,
+        248.48003114150944
+      ],
+      "toPosition": [
+        -336.5867764021213,
+        0.14,
+        249.4070821246343
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11419",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -310.3419789951854,
+        0.14,
+        187.53907660356816
+      ],
+      "toPosition": [
+        -313.19514854407083,
+        0.14,
+        188.466127586693
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11421",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -311.1668384138562,
+        0.14,
+        122.28909978929684
+      ],
+      "toPosition": [
+        -311.1668384138562,
+        0.14,
+        125.28909978929684
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11423",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -345.20384394924105,
+        0.14,
+        67.2338922487783
+      ],
+      "toPosition": [
+        -345.20384394924105,
+        0.14,
+        70.2338922487783
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11425",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -354.03685385703346,
+        0.14,
+        7.263633334674732
+      ],
+      "toPosition": [
+        -356.8900234059189,
+        0.14,
+        8.190684317799574
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11427",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -339.9524933550955,
+        0.14,
+        -54.14344078429723
+      ],
+      "toPosition": [
+        -342.80566290398093,
+        0.14,
+        -53.21638980117239
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11429",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -349.9812648073058,
+        0.14,
+        -117.09031106152788
+      ],
+      "toPosition": [
+        -349.9812648073058,
+        0.14,
+        -114.09031106152788
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11431",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -362.3717175712648,
+        0.14,
+        -179.4286969252615
+      ],
+      "toPosition": [
+        -362.3717175712648,
+        0.14,
+        -176.4286969252615
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11433",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -401.3894587357297,
+        0.14,
+        -227.69549921755515
+      ],
+      "toPosition": [
+        -401.3894587357297,
+        0.14,
+        -224.69549921755515
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11435",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -376.1945940943862,
+        0.14,
+        -279.9190172687972
+      ],
+      "toPosition": [
+        -379.04776364327165,
+        0.14,
+        -278.99196628567233
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11437",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -357.6157709649782,
+        0.14,
+        -340.546959405534
+      ],
+      "toPosition": [
+        -360.46894051386363,
+        0.14,
+        -339.61990842240914
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11439",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -363.2560369286391,
+        0.14,
+        -405.6195663265838
+      ],
+      "toPosition": [
+        -362.32898594551426,
+        0.14,
+        -402.7663967776984
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11443",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -459.2026234426726,
+        0.14,
+        -484.6037814558041
+      ],
+      "toPosition": [
+        -458.27557245954773,
+        0.14,
+        -481.75061190691866
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11445",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -480.5420019693779,
+        0.14,
+        -543.5240320050917
+      ],
+      "toPosition": [
+        -482.30535772625535,
+        0.14,
+        -541.0969810219669
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_CYCLE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11453",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -682.9577276567437,
+        0.14,
+        -662.6861291085661
+      ],
+      "toPosition": [
+        -680.5306766736189,
+        0.14,
+        -664.4494848654435
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11457",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -789.9316339384934,
+        0.14,
+        -716.7926354139144
+      ],
+      "toPosition": [
+        -788.168278181616,
+        0.14,
+        -719.2196863970391
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11459",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -848.1974680143492,
+        0.14,
+        -687.4116982290356
+      ],
+      "toPosition": [
+        -849.9608237712266,
+        0.14,
+        -689.8387492121603
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11461",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        -895.5410710279463,
+        0.14,
+        -646.550285852293
+      ],
+      "toPosition": [
+        -893.7777152710688,
+        0.14,
+        -648.9773368354178
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_LAKE_COMPLETE_LOOP",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11471",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        161.6143465720153,
+        0.14,
+        -254.47612297087872
+      ],
+      "toPosition": [
+        159.8509908151379,
+        0.14,
+        -256.90317395400353
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_PARK_west_wander",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11495",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        351.3363710455058,
+        0.14,
+        -320.0079889677668
+      ],
+      "toPosition": [
+        354.18954059439125,
+        0.14,
+        -320.9350399508916
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_PARK_east_wander",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11501",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        350.99412559992885,
+        0.14,
+        -128.00829399911566
+      ],
+      "toPosition": [
+        350.99412559992885,
+        0.14,
+        -125.00829399911566
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_PARK_CROSS_452",
+      "distanceM": 3.0
+    },
+    {
+      "id": "REG_PARK_PROPS_trash_bin_11507",
+      "prototype": "trash_bin",
+      "fromPosition": [
+        350.65188015435194,
+        0.14,
+        63.99140096953522
+      ],
+      "toPosition": [
+        351.1746211072896,
+        0.14,
+        67.97338331247691
+      ],
+      "fromRotation": 0,
+      "toRotation": 0,
+      "path": "PATH_PARK_CROSS_581",
+      "distanceM": 4.016
+    }
+  ],
+  "unresolved": [],
+  "counts": {
+    "bench": 4,
+    "picnic_table": 2,
+    "flower_planter": 6,
+    "trash_bin": 47
+  },
+  "checkedPaths": 21,
+  "detectedIntrusions": 59,
+  "notes": "Small furniture and trunk collisions moved locally. Fountains, buildings, sports assemblies and pavilions remain fixed. Every accepted footprint clears route width plus 0.45m, water, carriageways, buildings and other solid props."
+}

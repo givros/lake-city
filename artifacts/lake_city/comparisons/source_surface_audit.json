@@ -1,0 +1,5724 @@
+{
+  "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+  "buffer": {
+    "triangles": 530282,
+    "zero_area_triangles": 0,
+    "nonfinite_coords": 0,
+    "normal_winding_disagreements": 0,
+    "minimum_normal_face_dot": 0.9999957848486568,
+    "negative_or_zero_instance_determinants": []
+  },
+  "architecture": {
+    "apartment_01": {
+      "parts": 510,
+      "exact_duplicate_triangles": 378,
+      "duplicate_examples": [
+        [
+          "apartment_01/front/0/0/right-pier",
+          "apartment_01/front/0/1/left-pier",
+          2
+        ],
+        [
+          "apartment_01/front/0/1/right-pier",
+          "apartment_01/front/0/2/left-pier",
+          2
+        ],
+        [
+          "apartment_01/front/0/2/right-pier",
+          "apartment_01/front/0/3/left-pier",
+          2
+        ],
+        [
+          "apartment_01/front/0/3/right-pier",
+          "apartment_01/front/0/4/left-pier",
+          2
+        ]
+      ]
+    },
+    "apartment_02": {
+      "parts": 972,
+      "exact_duplicate_triangles": 582,
+      "duplicate_examples": [
+        [
+          "apartment_02/front/0/0/right-pier",
+          "apartment_02/front/0/1/left-pier",
+          2
+        ],
+        [
+          "apartment_02/front/0/1/right-pier",
+          "apartment_02/front/0/2/left-pier",
+          2
+        ],
+        [
+          "apartment_02/front/0/2/right-pier",
+          "apartment_02/front/0/3/left-pier",
+          2
+        ],
+        [
+          "apartment_02/front/0/3/right-pier",
+          "apartment_02/front/0/4/left-pier",
+          2
+        ]
+      ]
+    },
+    "apartment_03": {
+      "parts": 938,
+      "exact_duplicate_triangles": 786,
+      "duplicate_examples": [
+        [
+          "apartment_03/front/0/0/right-pier",
+          "apartment_03/front/0/1/left-pier",
+          2
+        ],
+        [
+          "apartment_03/front/0/1/right-pier",
+          "apartment_03/front/0/2/left-pier",
+          2
+        ],
+        [
+          "apartment_03/front/0/2/right-pier",
+          "apartment_03/front/0/3/left-pier",
+          2
+        ],
+        [
+          "apartment_03/front/0/3/right-pier",
+          "apartment_03/front/0/4/left-pier",
+          2
+        ]
+      ]
+    },
+    "apartment_04": {
+      "parts": 630,
+      "exact_duplicate_triangles": 378,
+      "duplicate_examples": [
+        [
+          "apartment_04/front/0/0/right-pier",
+          "apartment_04/front/0/1/left-pier",
+          2
+        ],
+        [
+          "apartment_04/front/0/1/right-pier",
+          "apartment_04/front/0/2/left-pier",
+          2
+        ],
+        [
+          "apartment_04/front/0/2/right-pier",
+          "apartment_04/front/0/3/left-pier",
+          2
+        ],
+        [
+          "apartment_04/front/0/3/right-pier",
+          "apartment_04/front/0/4/left-pier",
+          2
+        ]
+      ]
+    },
+    "apartment_05": {
+      "parts": 1054,
+      "exact_duplicate_triangles": 806,
+      "duplicate_examples": [
+        [
+          "apartment_05/front/0/0/right-pier",
+          "apartment_05/front/0/1/left-pier",
+          2
+        ],
+        [
+          "apartment_05/front/0/1/right-pier",
+          "apartment_05/front/0/2/left-pier",
+          2
+        ],
+        [
+          "apartment_05/front/0/2/right-pier",
+          "apartment_05/front/0/3/left-pier",
+          2
+        ],
+        [
+          "apartment_05/front/0/3/right-pier",
+          "apartment_05/front/0/4/left-pier",
+          2
+        ]
+      ]
+    },
+    "apartment_06": {
+      "parts": 946,
+      "exact_duplicate_triangles": 634,
+      "duplicate_examples": [
+        [
+          "apartment_06/front/0/0/right-pier",
+          "apartment_06/front/0/1/left-pier",
+          2
+        ],
+        [
+          "apartment_06/front/0/1/right-pier",
+          "apartment_06/front/0/2/left-pier",
+          2
+        ],
+        [
+          "apartment_06/front/0/2/right-pier",
+          "apartment_06/front/0/3/left-pier",
+          2
+        ],
+        [
+          "apartment_06/front/0/3/right-pier",
+          "apartment_06/front/0/4/left-pier",
+          2
+        ]
+      ]
+    },
+    "apartment_07": {
+      "parts": 772,
+      "exact_duplicate_triangles": 638,
+      "duplicate_examples": [
+        [
+          "apartment_07/front/0/0/right-pier",
+          "apartment_07/front/0/1/left-pier",
+          2
+        ],
+        [
+          "apartment_07/front/0/1/right-pier",
+          "apartment_07/front/0/2/left-pier",
+          2
+        ],
+        [
+          "apartment_07/front/0/2/right-pier",
+          "apartment_07/front/0/3/left-pier",
+          2
+        ],
+        [
+          "apartment_07/front/0/0/left-pier",
+          "apartment_07/front/1/0/left-pier",
+          2
+        ]
+      ]
+    },
+    "apartment_08": {
+      "parts": 1217,
+      "exact_duplicate_triangles": 722,
+      "duplicate_examples": [
+        [
+          "apartment_08/front/0/0/right-pier",
+          "apartment_08/front/0/1/left-pier",
+          2
+        ],
+        [
+          "apartment_08/front/0/1/right-pier",
+          "apartment_08/front/0/2/left-pier",
+          2
+        ],
+        [
+          "apartment_08/front/0/2/right-pier",
+          "apartment_08/front/0/3/left-pier",
+          2
+        ],
+        [
+          "apartment_08/front/0/3/right-pier",
+          "apartment_08/front/0/4/left-pier",
+          2
+        ]
+      ]
+    },
+    "city_hall": {
+      "parts": 653,
+      "exact_duplicate_triangles": 438,
+      "duplicate_examples": [
+        [
+          "city_hall/front/0/0/right-pier",
+          "city_hall/front/0/1/left-pier",
+          2
+        ],
+        [
+          "city_hall/front/0/1/right-pier",
+          "city_hall/front/0/2/left-pier",
+          2
+        ],
+        [
+          "city_hall/front/0/2/right-pier",
+          "city_hall/front/0/3/left-pier",
+          2
+        ],
+        [
+          "city_hall/front/0/3/right-pier",
+          "city_hall/front/0/4/left-pier",
+          2
+        ]
+      ]
+    },
+    "commercial_01": {
+      "parts": 166,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "commercial_02": {
+      "parts": 200,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "hotel": {
+      "parts": 1499,
+      "exact_duplicate_triangles": 1248,
+      "duplicate_examples": [
+        [
+          "hotel/rooms/front/0/0/right-pier",
+          "hotel/rooms/front/0/1/left-pier",
+          2
+        ],
+        [
+          "hotel/rooms/front/0/1/right-pier",
+          "hotel/rooms/front/0/2/left-pier",
+          2
+        ],
+        [
+          "hotel/rooms/front/0/2/right-pier",
+          "hotel/rooms/front/0/3/left-pier",
+          2
+        ],
+        [
+          "hotel/rooms/front/0/3/right-pier",
+          "hotel/rooms/front/0/4/left-pier",
+          2
+        ]
+      ]
+    },
+    "house_01": {
+      "parts": 168,
+      "exact_duplicate_triangles": 58,
+      "duplicate_examples": [
+        [
+          "house_01/front/0/0/right-pier",
+          "house_01/front/0/1/left-pier",
+          2
+        ],
+        [
+          "house_01/front/0/0/left-pier",
+          "house_01/front/1/0/left-pier",
+          2
+        ],
+        [
+          "house_01/front/0/0/right-pier",
+          "house_01/front/1/0/right-pier",
+          2
+        ],
+        [
+          "house_01/front/0/0/lintel",
+          "house_01/front/1/0/spandrel",
+          2
+        ]
+      ]
+    },
+    "house_02": {
+      "parts": 207,
+      "exact_duplicate_triangles": 78,
+      "duplicate_examples": [
+        [
+          "house_02/front/0/0/right-pier",
+          "house_02/front/0/1/left-pier",
+          2
+        ],
+        [
+          "house_02/front/0/0/left-pier",
+          "house_02/front/1/0/left-pier",
+          2
+        ],
+        [
+          "house_02/front/0/0/right-pier",
+          "house_02/front/1/0/right-pier",
+          2
+        ],
+        [
+          "house_02/front/0/0/lintel",
+          "house_02/front/1/0/spandrel",
+          2
+        ]
+      ]
+    },
+    "house_03": {
+      "parts": 200,
+      "exact_duplicate_triangles": 78,
+      "duplicate_examples": [
+        [
+          "house_03/front/0/0/right-pier",
+          "house_03/front/0/1/left-pier",
+          2
+        ],
+        [
+          "house_03/front/0/1/right-pier",
+          "house_03/front/0/2/left-pier",
+          2
+        ],
+        [
+          "house_03/front/0/0/left-pier",
+          "house_03/front/1/0/left-pier",
+          2
+        ],
+        [
+          "house_03/front/0/0/right-pier",
+          "house_03/front/1/0/right-pier",
+          2
+        ]
+      ]
+    },
+    "house_04": {
+      "parts": 224,
+      "exact_duplicate_triangles": 98,
+      "duplicate_examples": [
+        [
+          "house_04/front/0/0/right-pier",
+          "house_04/front/0/1/left-pier",
+          2
+        ],
+        [
+          "house_04/front/0/1/right-pier",
+          "house_04/front/0/2/left-pier",
+          2
+        ],
+        [
+          "house_04/front/0/0/left-pier",
+          "house_04/front/1/0/left-pier",
+          2
+        ],
+        [
+          "house_04/front/0/0/right-pier",
+          "house_04/front/1/0/right-pier",
+          2
+        ]
+      ]
+    },
+    "house_05": {
+      "parts": 209,
+      "exact_duplicate_triangles": 78,
+      "duplicate_examples": [
+        [
+          "house_05/front/0/0/right-pier",
+          "house_05/front/0/1/left-pier",
+          2
+        ],
+        [
+          "house_05/front/0/0/left-pier",
+          "house_05/front/1/0/left-pier",
+          2
+        ],
+        [
+          "house_05/front/0/0/right-pier",
+          "house_05/front/1/0/right-pier",
+          2
+        ],
+        [
+          "house_05/front/0/0/lintel",
+          "house_05/front/1/0/spandrel",
+          2
+        ]
+      ]
+    },
+    "house_06": {
+      "parts": 202,
+      "exact_duplicate_triangles": 78,
+      "duplicate_examples": [
+        [
+          "house_06/front/0/0/right-pier",
+          "house_06/front/0/1/left-pier",
+          2
+        ],
+        [
+          "house_06/front/0/0/left-pier",
+          "house_06/front/1/0/left-pier",
+          2
+        ],
+        [
+          "house_06/front/0/0/right-pier",
+          "house_06/front/1/0/right-pier",
+          2
+        ],
+        [
+          "house_06/front/0/0/lintel",
+          "house_06/front/1/0/spandrel",
+          2
+        ]
+      ]
+    },
+    "house_07": {
+      "parts": 194,
+      "exact_duplicate_triangles": 78,
+      "duplicate_examples": [
+        [
+          "house_07/front/0/0/right-pier",
+          "house_07/front/0/1/left-pier",
+          2
+        ],
+        [
+          "house_07/front/0/1/right-pier",
+          "house_07/front/0/2/left-pier",
+          2
+        ],
+        [
+          "house_07/front/0/0/left-pier",
+          "house_07/front/1/0/left-pier",
+          2
+        ],
+        [
+          "house_07/front/0/0/right-pier",
+          "house_07/front/1/0/right-pier",
+          2
+        ]
+      ]
+    },
+    "house_08": {
+      "parts": 209,
+      "exact_duplicate_triangles": 78,
+      "duplicate_examples": [
+        [
+          "house_08/front/0/0/right-pier",
+          "house_08/front/0/1/left-pier",
+          2
+        ],
+        [
+          "house_08/front/0/0/left-pier",
+          "house_08/front/1/0/left-pier",
+          2
+        ],
+        [
+          "house_08/front/0/0/right-pier",
+          "house_08/front/1/0/right-pier",
+          2
+        ],
+        [
+          "house_08/front/0/0/lintel",
+          "house_08/front/1/0/spandrel",
+          2
+        ]
+      ]
+    },
+    "house_09": {
+      "parts": 200,
+      "exact_duplicate_triangles": 78,
+      "duplicate_examples": [
+        [
+          "house_09/front/0/0/right-pier",
+          "house_09/front/0/1/left-pier",
+          2
+        ],
+        [
+          "house_09/front/0/1/right-pier",
+          "house_09/front/0/2/left-pier",
+          2
+        ],
+        [
+          "house_09/front/0/0/left-pier",
+          "house_09/front/1/0/left-pier",
+          2
+        ],
+        [
+          "house_09/front/0/0/right-pier",
+          "house_09/front/1/0/right-pier",
+          2
+        ]
+      ]
+    },
+    "house_10": {
+      "parts": 202,
+      "exact_duplicate_triangles": 78,
+      "duplicate_examples": [
+        [
+          "house_10/front/0/0/right-pier",
+          "house_10/front/0/1/left-pier",
+          2
+        ],
+        [
+          "house_10/front/0/0/left-pier",
+          "house_10/front/1/0/left-pier",
+          2
+        ],
+        [
+          "house_10/front/0/0/right-pier",
+          "house_10/front/1/0/right-pier",
+          2
+        ],
+        [
+          "house_10/front/0/0/lintel",
+          "house_10/front/1/0/spandrel",
+          2
+        ]
+      ]
+    },
+    "house_11": {
+      "parts": 237,
+      "exact_duplicate_triangles": 98,
+      "duplicate_examples": [
+        [
+          "house_11/front/0/0/right-pier",
+          "house_11/front/0/1/left-pier",
+          2
+        ],
+        [
+          "house_11/front/0/1/right-pier",
+          "house_11/front/0/2/left-pier",
+          2
+        ],
+        [
+          "house_11/front/0/0/left-pier",
+          "house_11/front/1/0/left-pier",
+          2
+        ],
+        [
+          "house_11/front/0/0/right-pier",
+          "house_11/front/1/0/right-pier",
+          2
+        ]
+      ]
+    },
+    "house_12": {
+      "parts": 226,
+      "exact_duplicate_triangles": 98,
+      "duplicate_examples": [
+        [
+          "house_12/front/0/0/right-pier",
+          "house_12/front/0/1/left-pier",
+          2
+        ],
+        [
+          "house_12/front/0/1/right-pier",
+          "house_12/front/0/2/left-pier",
+          2
+        ],
+        [
+          "house_12/front/0/0/left-pier",
+          "house_12/front/1/0/left-pier",
+          2
+        ],
+        [
+          "house_12/front/0/0/right-pier",
+          "house_12/front/1/0/right-pier",
+          2
+        ]
+      ]
+    },
+    "library": {
+      "parts": 408,
+      "exact_duplicate_triangles": 198,
+      "duplicate_examples": [
+        [
+          "library/front/0/0/right-pier",
+          "library/front/0/1/left-pier",
+          2
+        ],
+        [
+          "library/front/0/1/right-pier",
+          "library/front/0/2/left-pier",
+          2
+        ],
+        [
+          "library/front/0/2/right-pier",
+          "library/front/0/3/left-pier",
+          2
+        ],
+        [
+          "library/front/0/3/right-pier",
+          "library/front/0/4/left-pier",
+          2
+        ]
+      ]
+    },
+    "museum": {
+      "parts": 454,
+      "exact_duplicate_triangles": 218,
+      "duplicate_examples": [
+        [
+          "museum/wings/front/0/0/right-pier",
+          "museum/wings/front/0/1/left-pier",
+          2
+        ],
+        [
+          "museum/wings/front/0/1/right-pier",
+          "museum/wings/front/0/2/left-pier",
+          2
+        ],
+        [
+          "museum/wings/front/0/2/right-pier",
+          "museum/wings/front/0/3/left-pier",
+          2
+        ],
+        [
+          "museum/wings/front/0/3/right-pier",
+          "museum/wings/front/0/4/left-pier",
+          2
+        ]
+      ]
+    },
+    "rail_station": {
+      "parts": 544,
+      "exact_duplicate_triangles": 278,
+      "duplicate_examples": [
+        [
+          "rail_station/hall/front/0/0/right-pier",
+          "rail_station/hall/front/0/1/left-pier",
+          2
+        ],
+        [
+          "rail_station/hall/front/0/1/right-pier",
+          "rail_station/hall/front/0/2/left-pier",
+          2
+        ],
+        [
+          "rail_station/hall/front/0/2/right-pier",
+          "rail_station/hall/front/0/3/left-pier",
+          2
+        ],
+        [
+          "rail_station/hall/front/0/3/right-pier",
+          "rail_station/hall/front/0/4/left-pier",
+          2
+        ]
+      ]
+    },
+    "school": {
+      "parts": 787,
+      "exact_duplicate_triangles": 408,
+      "duplicate_examples": [
+        [
+          "school/wing--1/front/0/0/right-pier",
+          "school/wing--1/front/0/1/left-pier",
+          2
+        ],
+        [
+          "school/wing--1/front/0/1/right-pier",
+          "school/wing--1/front/0/2/left-pier",
+          2
+        ],
+        [
+          "school/wing--1/front/0/2/right-pier",
+          "school/wing--1/front/0/3/left-pier",
+          2
+        ],
+        [
+          "school/wing--1/front/0/0/left-pier",
+          "school/wing--1/front/1/0/left-pier",
+          2
+        ]
+      ]
+    },
+    "sports_hall": {
+      "parts": 138,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "tower_01": {
+      "parts": 307,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "tower_02": {
+      "parts": 369,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "tower_03": {
+      "parts": 376,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "tower_04": {
+      "parts": 363,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "tower_05": {
+      "parts": 378,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "tower_06": {
+      "parts": 367,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "tower_07": {
+      "parts": 373,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "tower_08": {
+      "parts": 331,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "tower_09": {
+      "parts": 422,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "tower_10": {
+      "parts": 317,
+      "exact_duplicate_triangles": 0,
+      "duplicate_examples": []
+    },
+    "townhouse_01": {
+      "parts": 144,
+      "exact_duplicate_triangles": 54,
+      "duplicate_examples": [
+        [
+          "townhouse_01/front/0/0/right-pier",
+          "townhouse_01/front/0/1/left-pier",
+          2
+        ],
+        [
+          "townhouse_01/front/0/0/left-pier",
+          "townhouse_01/front/1/0/left-pier",
+          2
+        ],
+        [
+          "townhouse_01/front/0/0/right-pier",
+          "townhouse_01/front/1/0/right-pier",
+          2
+        ],
+        [
+          "townhouse_01/front/0/0/lintel",
+          "townhouse_01/front/1/0/spandrel",
+          2
+        ]
+      ]
+    },
+    "townhouse_02": {
+      "parts": 148,
+      "exact_duplicate_triangles": 54,
+      "duplicate_examples": [
+        [
+          "townhouse_02/front/0/0/right-pier",
+          "townhouse_02/front/0/1/left-pier",
+          2
+        ],
+        [
+          "townhouse_02/front/0/0/left-pier",
+          "townhouse_02/front/1/0/left-pier",
+          2
+        ],
+        [
+          "townhouse_02/front/0/0/right-pier",
+          "townhouse_02/front/1/0/right-pier",
+          2
+        ],
+        [
+          "townhouse_02/front/0/0/lintel",
+          "townhouse_02/front/1/0/spandrel",
+          2
+        ]
+      ]
+    },
+    "townhouse_03": {
+      "parts": 153,
+      "exact_duplicate_triangles": 54,
+      "duplicate_examples": [
+        [
+          "townhouse_03/front/0/0/right-pier",
+          "townhouse_03/front/0/1/left-pier",
+          2
+        ],
+        [
+          "townhouse_03/front/0/0/left-pier",
+          "townhouse_03/front/1/0/left-pier",
+          2
+        ],
+        [
+          "townhouse_03/front/0/0/right-pier",
+          "townhouse_03/front/1/0/right-pier",
+          2
+        ],
+        [
+          "townhouse_03/front/0/0/lintel",
+          "townhouse_03/front/1/0/spandrel",
+          2
+        ]
+      ]
+    },
+    "townhouse_04": {
+      "parts": 113,
+      "exact_duplicate_triangles": 54,
+      "duplicate_examples": [
+        [
+          "townhouse_04/front/0/0/right-pier",
+          "townhouse_04/front/0/1/left-pier",
+          2
+        ],
+        [
+          "townhouse_04/front/0/0/left-pier",
+          "townhouse_04/front/1/0/left-pier",
+          2
+        ],
+        [
+          "townhouse_04/front/0/0/right-pier",
+          "townhouse_04/front/1/0/right-pier",
+          2
+        ],
+        [
+          "townhouse_04/front/0/0/lintel",
+          "townhouse_04/front/1/0/spandrel",
+          2
+        ]
+      ]
+    }
+  },
+  "coplanar_representatives": {
+    "house_02": {
+      "overlapping_part_pairs": 299,
+      "same_orientation_triangle_pairs": 347,
+      "opposed_orientation_triangle_pairs": 583,
+      "same_orientation_area_m2": 31.729320213442765,
+      "examples": [
+        {
+          "a": "house_02/bay/glazing",
+          "b": "house_02/bay/top",
+          "materials": [
+            "arch_glass",
+            "arch_roof_slate"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.3640007
+        },
+        {
+          "a": "house_02/bay/base",
+          "b": "house_02/bay/glazing",
+          "materials": [
+            "arch_brick_red",
+            "arch_glass"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.3640007
+        },
+        {
+          "a": "house_02/front/1/0/left-pier",
+          "b": "house_02/left/1/2/right-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400007
+        },
+        {
+          "a": "house_02/front/1/1/right-pier",
+          "b": "house_02/right/1/0/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400007
+        },
+        {
+          "a": "house_02/right/1/0/right-pier",
+          "b": "house_02/right/1/1/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400007
+        },
+        {
+          "a": "house_02/left/1/1/right-pier",
+          "b": "house_02/left/1/2/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400007
+        },
+        {
+          "a": "house_02/right/1/1/right-pier",
+          "b": "house_02/right/1/2/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400007
+        },
+        {
+          "a": "house_02/left/1/0/right-pier",
+          "b": "house_02/left/1/1/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400007
+        },
+        {
+          "a": "house_02/rear/1/1/right-pier",
+          "b": "house_02/left/1/0/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400007
+        },
+        {
+          "a": "house_02/right/1/2/right-pier",
+          "b": "house_02/rear/1/0/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400007
+        },
+        {
+          "a": "house_02/front/0/0/left-pier",
+          "b": "house_02/left/0/2/right-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400006
+        },
+        {
+          "a": "house_02/front/0/1/right-pier",
+          "b": "house_02/right/0/0/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400006
+        },
+        {
+          "a": "house_02/right/0/0/right-pier",
+          "b": "house_02/right/0/1/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400006
+        },
+        {
+          "a": "house_02/left/0/1/right-pier",
+          "b": "house_02/left/0/2/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400006
+        },
+        {
+          "a": "house_02/right/0/1/right-pier",
+          "b": "house_02/right/0/2/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400006
+        },
+        {
+          "a": "house_02/left/0/0/right-pier",
+          "b": "house_02/left/0/1/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400006
+        },
+        {
+          "a": "house_02/right/0/2/right-pier",
+          "b": "house_02/rear/0/0/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400006
+        },
+        {
+          "a": "house_02/rear/0/1/right-pier",
+          "b": "house_02/left/0/0/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8400006
+        },
+        {
+          "a": "house_02/front/1/0/right-pier",
+          "b": "house_02/front/1/1/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8399993
+        },
+        {
+          "a": "house_02/rear/1/0/right-pier",
+          "b": "house_02/rear/1/1/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8399993
+        },
+        {
+          "a": "house_02/front/0/0/right-pier",
+          "b": "house_02/front/0/1/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8399992
+        },
+        {
+          "a": "house_02/rear/0/0/right-pier",
+          "b": "house_02/rear/0/1/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8399992
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/front/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.7789592
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/rear/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.7789592
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/rear/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.7789592
+        },
+        {
+          "a": "house_02/front/0/0/lintel",
+          "b": "house_02/front/1/0/spandrel",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.7789592
+        },
+        {
+          "a": "house_02/rear/0/0/lintel",
+          "b": "house_02/rear/1/0/spandrel",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.7789592
+        },
+        {
+          "a": "house_02/rear/0/1/lintel",
+          "b": "house_02/rear/1/1/spandrel",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.7789592
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/front/0/1/right-pier",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.6719994
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/left/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/left/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/left/0/2/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/right/0/2/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/right/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/right/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_02/right/0/0/lintel",
+          "b": "house_02/right/1/0/spandrel",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_02/right/0/1/lintel",
+          "b": "house_02/right/1/1/spandrel",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_02/right/0/2/lintel",
+          "b": "house_02/right/1/2/spandrel",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_02/left/0/0/lintel",
+          "b": "house_02/left/1/0/spandrel",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_02/left/0/1/lintel",
+          "b": "house_02/left/1/1/spandrel",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_02/left/0/2/lintel",
+          "b": "house_02/left/1/2/spandrel",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/front/0/1/left-pier",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5459995
+        },
+        {
+          "a": "house_02/front/0/0/spandrel",
+          "b": "house_02/front/0/0/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/rear/0/0/spandrel",
+          "b": "house_02/rear/0/0/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/rear/0/1/spandrel",
+          "b": "house_02/rear/0/1/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/front/0/0/lintel",
+          "b": "house_02/front/0/0/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/rear/0/0/lintel",
+          "b": "house_02/rear/0/0/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/rear/0/1/lintel",
+          "b": "house_02/rear/0/1/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/front/1/0/spandrel",
+          "b": "house_02/front/1/0/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/front/1/1/spandrel",
+          "b": "house_02/front/1/1/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/rear/1/0/spandrel",
+          "b": "house_02/rear/1/0/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/rear/1/1/spandrel",
+          "b": "house_02/rear/1/1/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/front/1/0/lintel",
+          "b": "house_02/front/1/0/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/front/1/1/lintel",
+          "b": "house_02/front/1/1/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/rear/1/0/lintel",
+          "b": "house_02/rear/1/0/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/rear/1/1/lintel",
+          "b": "house_02/rear/1/1/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5285788
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/rear/0/1/right-pier",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4855196
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/front/0/0/left-pier",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4855196
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/rear/0/0/left-pier",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4855196
+        },
+        {
+          "a": "house_02/front/0/0/left-pier",
+          "b": "house_02/front/1/0/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4855196
+        },
+        {
+          "a": "house_02/front/0/1/right-pier",
+          "b": "house_02/front/1/1/right-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4855196
+        },
+        {
+          "a": "house_02/rear/0/0/left-pier",
+          "b": "house_02/rear/1/0/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4855196
+        },
+        {
+          "a": "house_02/rear/0/1/right-pier",
+          "b": "house_02/rear/1/1/right-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4855196
+        },
+        {
+          "a": "house_02/roof/chimney",
+          "b": "house_02/roof/chimney-cap",
+          "materials": [
+            "arch_brick_dark",
+            "arch_concrete"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4650001
+        },
+        {
+          "a": "house_02/front/0/1/left-pier",
+          "b": "house_02/front/0/1/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.448399
+        },
+        {
+          "a": "house_02/front/0/1/right-pier",
+          "b": "house_02/front/0/1/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.448399
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/front/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4059996
+        },
+        {
+          "a": "house_02/front/0/1/lintel",
+          "b": "house_02/front/1/1/spandrel",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4059996
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/right/0/0/left-pier",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.3934563
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/left/0/2/right-pier",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.3934563
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/right/0/2/right-pier",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.3934563
+        },
+        {
+          "a": "house_02/right/0/0/left-pier",
+          "b": "house_02/right/1/0/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.3934563
+        },
+        {
+          "a": "house_02/right/0/2/right-pier",
+          "b": "house_02/right/1/2/right-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.3934563
+        },
+        {
+          "a": "house_02/left/0/0/left-pier",
+          "b": "house_02/left/1/0/left-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.3934563
+        },
+        {
+          "a": "house_02/left/0/2/right-pier",
+          "b": "house_02/left/1/2/right-pier",
+          "materials": [
+            "arch_brick_red",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.3934563
+        },
+        {
+          "a": "house_02/foundation",
+          "b": "house_02/left/0/0/left-pier",
+          "materials": [
+            "arch_foundation",
+            "arch_brick_red"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.3934563
+        },
+        {
+          "a": "house_02/right/0/0/spandrel",
+          "b": "house_02/right/0/0/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.3932241
+        },
+        {
+          "a": "house_02/right/0/1/spandrel",
+          "b": "house_02/right/0/1/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.3932241
+        },
+        {
+          "a": "house_02/right/0/2/spandrel",
+          "b": "house_02/right/0/2/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.3932241
+        },
+        {
+          "a": "house_02/left/0/0/spandrel",
+          "b": "house_02/left/0/0/frame-and-reveal",
+          "materials": [
+            "arch_brick_red",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.3932241
+        }
+      ]
+    },
+    "house_04": {
+      "overlapping_part_pairs": 404,
+      "same_orientation_triangle_pairs": 367,
+      "opposed_orientation_triangle_pairs": 912,
+      "same_orientation_area_m2": 36.394916949274666,
+      "examples": [
+        {
+          "a": "house_04/front/0/2/right-pier",
+          "b": "house_04/right/0/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680007
+        },
+        {
+          "a": "house_04/right/0/0/right-pier",
+          "b": "house_04/right/0/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680007
+        },
+        {
+          "a": "house_04/left/0/1/right-pier",
+          "b": "house_04/left/0/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680007
+        },
+        {
+          "a": "house_04/right/0/1/right-pier",
+          "b": "house_04/right/0/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680007
+        },
+        {
+          "a": "house_04/left/0/0/right-pier",
+          "b": "house_04/left/0/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680007
+        },
+        {
+          "a": "house_04/right/0/2/right-pier",
+          "b": "house_04/rear/0/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680007
+        },
+        {
+          "a": "house_04/rear/0/2/right-pier",
+          "b": "house_04/left/0/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680007
+        },
+        {
+          "a": "house_04/front/0/0/left-pier",
+          "b": "house_04/left/0/2/right-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680007
+        },
+        {
+          "a": "house_04/front/1/2/right-pier",
+          "b": "house_04/right/1/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680006
+        },
+        {
+          "a": "house_04/right/1/0/right-pier",
+          "b": "house_04/right/1/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680006
+        },
+        {
+          "a": "house_04/left/1/1/right-pier",
+          "b": "house_04/left/1/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680006
+        },
+        {
+          "a": "house_04/right/1/1/right-pier",
+          "b": "house_04/right/1/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680006
+        },
+        {
+          "a": "house_04/left/1/0/right-pier",
+          "b": "house_04/left/1/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680006
+        },
+        {
+          "a": "house_04/right/1/2/right-pier",
+          "b": "house_04/rear/1/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680006
+        },
+        {
+          "a": "house_04/rear/1/2/right-pier",
+          "b": "house_04/left/1/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680006
+        },
+        {
+          "a": "house_04/front/1/0/left-pier",
+          "b": "house_04/left/1/2/right-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8680006
+        },
+        {
+          "a": "house_04/front/0/0/right-pier",
+          "b": "house_04/front/0/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8679992
+        },
+        {
+          "a": "house_04/rear/0/1/right-pier",
+          "b": "house_04/rear/0/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8679992
+        },
+        {
+          "a": "house_04/front/0/1/right-pier",
+          "b": "house_04/front/0/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8679992
+        },
+        {
+          "a": "house_04/rear/0/0/right-pier",
+          "b": "house_04/rear/0/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8679992
+        },
+        {
+          "a": "house_04/front/1/0/right-pier",
+          "b": "house_04/front/1/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8679991
+        },
+        {
+          "a": "house_04/rear/1/1/right-pier",
+          "b": "house_04/rear/1/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8679991
+        },
+        {
+          "a": "house_04/front/1/1/right-pier",
+          "b": "house_04/front/1/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8679991
+        },
+        {
+          "a": "house_04/rear/1/0/right-pier",
+          "b": "house_04/rear/1/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8679991
+        },
+        {
+          "a": "house_04/foundation",
+          "b": "house_04/front/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.6163728
+        },
+        {
+          "a": "house_04/foundation",
+          "b": "house_04/front/0/2/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.6163728
+        },
+        {
+          "a": "house_04/foundation",
+          "b": "house_04/rear/0/2/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.6163728
+        },
+        {
+          "a": "house_04/foundation",
+          "b": "house_04/rear/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.6163728
+        },
+        {
+          "a": "house_04/front/0/0/lintel",
+          "b": "house_04/front/1/0/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.6163728
+        },
+        {
+          "a": "house_04/front/0/2/lintel",
+          "b": "house_04/front/1/2/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.6163728
+        },
+        {
+          "a": "house_04/rear/0/0/lintel",
+          "b": "house_04/rear/1/0/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.6163728
+        },
+        {
+          "a": "house_04/rear/0/2/lintel",
+          "b": "house_04/rear/1/2/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.6163728
+        },
+        {
+          "a": "house_04/foundation",
+          "b": "house_04/rear/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.6163727
+        },
+        {
+          "a": "house_04/rear/0/1/lintel",
+          "b": "house_04/rear/1/1/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.6163727
+        },
+        {
+          "a": "house_04/foundation",
+          "b": "house_04/left/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_04/foundation",
+          "b": "house_04/left/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_04/foundation",
+          "b": "house_04/left/0/2/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_04/foundation",
+          "b": "house_04/right/0/2/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_04/foundation",
+          "b": "house_04/right/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_04/foundation",
+          "b": "house_04/right/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_04/right/0/0/lintel",
+          "b": "house_04/right/1/0/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_04/right/0/1/lintel",
+          "b": "house_04/right/1/1/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_04/right/0/2/lintel",
+          "b": "house_04/right/1/2/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_04/left/0/0/lintel",
+          "b": "house_04/left/1/0/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_04/left/0/1/lintel",
+          "b": "house_04/left/1/1/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_04/left/0/2/lintel",
+          "b": "house_04/left/1/2/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.5794885
+        },
+        {
+          "a": "house_04/front/1/0/lintel",
+          "b": "house_04/roof/front/parapet",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4952998
+        },
+        {
+          "a": "house_04/front/1/2/lintel",
+          "b": "house_04/roof/front/parapet",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4952998
+        },
+        {
+          "a": "house_04/rear/1/0/lintel",
+          "b": "house_04/roof/rear/parapet",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4952998
+        },
+        {
+          "a": "house_04/rear/1/2/lintel",
+          "b": "house_04/roof/rear/parapet",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4952998
+        },
+        {
+          "a": "house_04/front/1/1/lintel",
+          "b": "house_04/roof/front/parapet",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4952998
+        },
+        {
+          "a": "house_04/rear/1/1/lintel",
+          "b": "house_04/roof/rear/parapet",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4952998
+        },
+        {
+          "a": "house_04/right/1/2/lintel",
+          "b": "house_04/roof/right/parapet",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4656608
+        },
+        {
+          "a": "house_04/right/1/1/lintel",
+          "b": "house_04/roof/right/parapet",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4656608
+        },
+        {
+          "a": "house_04/left/1/0/lintel",
+          "b": "house_04/roof/left/parapet",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4656608
+        },
+        {
+          "a": "house_04/left/1/1/lintel",
+          "b": "house_04/roof/left/parapet",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4656608
+        },
+        {
+          "a": "house_04/left/1/2/lintel",
+          "b": "house_04/roof/left/parapet",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4656608
+        },
+        {
+          "a": "house_04/right/1/0/lintel",
+          "b": "house_04/roof/right/parapet",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.4656608
+        },
+        {
+          "a": "house_04/front/0/1/left-pier",
+          "b": "house_04/front/0/1/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.448399
+        },
+        {
+          "a": "house_04/front/0/1/right-pier",
+          "b": "house_04/front/0/1/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.448399
+        },
+        {
+          "a": "house_04/front/0/0/spandrel",
+          "b": "house_04/front/0/0/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/front/0/2/spandrel",
+          "b": "house_04/front/0/2/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/rear/0/0/spandrel",
+          "b": "house_04/rear/0/0/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/rear/0/2/spandrel",
+          "b": "house_04/rear/0/2/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/rear/0/2/lintel",
+          "b": "house_04/rear/0/2/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/front/1/0/spandrel",
+          "b": "house_04/front/1/0/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/front/1/2/spandrel",
+          "b": "house_04/front/1/2/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/rear/1/0/spandrel",
+          "b": "house_04/rear/1/0/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/rear/1/2/spandrel",
+          "b": "house_04/rear/1/2/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/front/1/2/lintel",
+          "b": "house_04/front/1/2/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/rear/1/0/lintel",
+          "b": "house_04/rear/1/0/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/rear/1/2/lintel",
+          "b": "house_04/rear/1/2/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/front/0/0/lintel",
+          "b": "house_04/front/0/0/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/front/0/2/lintel",
+          "b": "house_04/front/0/2/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/rear/0/0/lintel",
+          "b": "house_04/rear/0/0/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/front/1/0/lintel",
+          "b": "house_04/front/1/0/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/rear/0/1/spandrel",
+          "b": "house_04/rear/0/1/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/rear/0/1/lintel",
+          "b": "house_04/rear/0/1/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/front/1/1/spandrel",
+          "b": "house_04/front/1/1/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        },
+        {
+          "a": "house_04/rear/1/1/spandrel",
+          "b": "house_04/rear/1/1/frame-and-reveal",
+          "materials": [
+            "arch_plaster",
+            "arch_frame"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4182524
+        }
+      ]
+    },
+    "apartment_02": {
+      "overlapping_part_pairs": 1505,
+      "same_orientation_triangle_pairs": 1761,
+      "opposed_orientation_triangle_pairs": 3070,
+      "same_orientation_area_m2": 590.114444065262,
+      "examples": [
+        {
+          "a": "apartment_02/foundation",
+          "b": "apartment_02/penthouse/foundation",
+          "materials": [
+            "arch_foundation",
+            "arch_foundation"
+          ],
+          "orientation": "same",
+          "area_m2": 403.6039957
+        },
+        {
+          "a": "apartment_02/foundation",
+          "b": "apartment_02/left/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/foundation",
+          "b": "apartment_02/left/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/foundation",
+          "b": "apartment_02/left/0/2/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/foundation",
+          "b": "apartment_02/right/0/2/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/foundation",
+          "b": "apartment_02/right/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/foundation",
+          "b": "apartment_02/right/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/right/0/0/lintel",
+          "b": "apartment_02/right/1/0/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/right/0/1/lintel",
+          "b": "apartment_02/right/1/1/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/right/0/2/lintel",
+          "b": "apartment_02/right/1/2/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/left/0/0/lintel",
+          "b": "apartment_02/left/1/0/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/left/0/1/lintel",
+          "b": "apartment_02/left/1/1/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/left/0/2/lintel",
+          "b": "apartment_02/left/1/2/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/right/1/0/lintel",
+          "b": "apartment_02/right/2/0/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/right/1/1/lintel",
+          "b": "apartment_02/right/2/1/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/right/1/2/lintel",
+          "b": "apartment_02/right/2/2/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/left/1/0/lintel",
+          "b": "apartment_02/left/2/0/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/left/1/1/lintel",
+          "b": "apartment_02/left/2/1/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/left/1/2/lintel",
+          "b": "apartment_02/left/2/2/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/right/2/0/lintel",
+          "b": "apartment_02/right/3/0/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/right/2/1/lintel",
+          "b": "apartment_02/right/3/1/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/right/2/2/lintel",
+          "b": "apartment_02/right/3/2/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/left/2/0/lintel",
+          "b": "apartment_02/left/3/0/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/left/2/1/lintel",
+          "b": "apartment_02/left/3/1/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/left/2/2/lintel",
+          "b": "apartment_02/left/3/2/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/right/3/0/lintel",
+          "b": "apartment_02/right/4/0/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/right/3/1/lintel",
+          "b": "apartment_02/right/4/1/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/right/3/2/lintel",
+          "b": "apartment_02/right/4/2/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/left/3/0/lintel",
+          "b": "apartment_02/left/4/0/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/left/3/1/lintel",
+          "b": "apartment_02/left/4/1/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/left/3/2/lintel",
+          "b": "apartment_02/left/4/2/spandrel",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9416765
+        },
+        {
+          "a": "apartment_02/front/3/0/left-pier",
+          "b": "apartment_02/left/3/2/right-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/3/5/right-pier",
+          "b": "apartment_02/right/3/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/3/0/right-pier",
+          "b": "apartment_02/front/3/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/rear/3/4/right-pier",
+          "b": "apartment_02/rear/3/5/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/3/1/right-pier",
+          "b": "apartment_02/front/3/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/rear/3/3/right-pier",
+          "b": "apartment_02/rear/3/4/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/3/2/right-pier",
+          "b": "apartment_02/front/3/3/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/rear/3/2/right-pier",
+          "b": "apartment_02/rear/3/3/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/3/3/right-pier",
+          "b": "apartment_02/front/3/4/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/rear/3/1/right-pier",
+          "b": "apartment_02/rear/3/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/3/4/right-pier",
+          "b": "apartment_02/front/3/5/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/rear/3/0/right-pier",
+          "b": "apartment_02/rear/3/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/right/3/0/right-pier",
+          "b": "apartment_02/right/3/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/left/3/1/right-pier",
+          "b": "apartment_02/left/3/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/right/3/1/right-pier",
+          "b": "apartment_02/right/3/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/left/3/0/right-pier",
+          "b": "apartment_02/left/3/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/right/3/2/right-pier",
+          "b": "apartment_02/rear/3/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/rear/3/5/right-pier",
+          "b": "apartment_02/left/3/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/0/0/left-pier",
+          "b": "apartment_02/left/0/2/right-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/0/5/right-pier",
+          "b": "apartment_02/right/0/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/0/0/right-pier",
+          "b": "apartment_02/front/0/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/rear/0/4/right-pier",
+          "b": "apartment_02/rear/0/5/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/0/1/right-pier",
+          "b": "apartment_02/front/0/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/rear/0/3/right-pier",
+          "b": "apartment_02/rear/0/4/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/0/2/right-pier",
+          "b": "apartment_02/front/0/3/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/rear/0/2/right-pier",
+          "b": "apartment_02/rear/0/3/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/0/3/right-pier",
+          "b": "apartment_02/front/0/4/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/rear/0/1/right-pier",
+          "b": "apartment_02/rear/0/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/0/4/right-pier",
+          "b": "apartment_02/front/0/5/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/rear/0/0/right-pier",
+          "b": "apartment_02/rear/0/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/right/0/0/right-pier",
+          "b": "apartment_02/right/0/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/left/0/1/right-pier",
+          "b": "apartment_02/left/0/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/right/0/1/right-pier",
+          "b": "apartment_02/right/0/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/left/0/0/right-pier",
+          "b": "apartment_02/left/0/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/right/0/2/right-pier",
+          "b": "apartment_02/rear/0/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/rear/0/5/right-pier",
+          "b": "apartment_02/left/0/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903992
+        },
+        {
+          "a": "apartment_02/front/1/0/left-pier",
+          "b": "apartment_02/left/1/2/right-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        },
+        {
+          "a": "apartment_02/front/1/5/right-pier",
+          "b": "apartment_02/right/1/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        },
+        {
+          "a": "apartment_02/front/2/5/right-pier",
+          "b": "apartment_02/right/2/0/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        },
+        {
+          "a": "apartment_02/front/1/0/right-pier",
+          "b": "apartment_02/front/1/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        },
+        {
+          "a": "apartment_02/front/2/0/right-pier",
+          "b": "apartment_02/front/2/1/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        },
+        {
+          "a": "apartment_02/rear/1/4/right-pier",
+          "b": "apartment_02/rear/1/5/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        },
+        {
+          "a": "apartment_02/rear/2/4/right-pier",
+          "b": "apartment_02/rear/2/5/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        },
+        {
+          "a": "apartment_02/front/1/1/right-pier",
+          "b": "apartment_02/front/1/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        },
+        {
+          "a": "apartment_02/front/2/1/right-pier",
+          "b": "apartment_02/front/2/2/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        },
+        {
+          "a": "apartment_02/rear/1/3/right-pier",
+          "b": "apartment_02/rear/1/4/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        },
+        {
+          "a": "apartment_02/rear/2/3/right-pier",
+          "b": "apartment_02/rear/2/4/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        },
+        {
+          "a": "apartment_02/front/1/2/right-pier",
+          "b": "apartment_02/front/1/3/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        },
+        {
+          "a": "apartment_02/front/2/2/right-pier",
+          "b": "apartment_02/front/2/3/left-pier",
+          "materials": [
+            "arch_plaster",
+            "arch_plaster"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8903991
+        }
+      ]
+    },
+    "tower_03": {
+      "overlapping_part_pairs": 342,
+      "same_orientation_triangle_pairs": 1456,
+      "opposed_orientation_triangle_pairs": 159,
+      "same_orientation_area_m2": 87.99965038195988,
+      "examples": [
+        {
+          "a": "tower_03/crown/roof-deck",
+          "b": "tower_03/roof-services/plant-base",
+          "materials": [
+            "arch_roof_membrane",
+            "arch_foundation"
+          ],
+          "orientation": "opposed",
+          "area_m2": 16.8243076
+        },
+        {
+          "a": "tower_03/shaft/front/mullion-8",
+          "b": "tower_03/shaft/front/corner-column-1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 8.2517231
+        },
+        {
+          "a": "tower_03/shaft/right/mullion-0",
+          "b": "tower_03/shaft/right/corner-column--1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 8.2517229
+        },
+        {
+          "a": "tower_03/shaft/right/mullion-7",
+          "b": "tower_03/shaft/right/corner-column-1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 8.2517229
+        },
+        {
+          "a": "tower_03/shaft/rear/mullion-0",
+          "b": "tower_03/shaft/rear/corner-column--1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 8.2517229
+        },
+        {
+          "a": "tower_03/shaft/left/mullion-0",
+          "b": "tower_03/shaft/left/corner-column--1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 8.2517229
+        },
+        {
+          "a": "tower_03/shaft/left/mullion-7",
+          "b": "tower_03/shaft/left/corner-column-1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 8.2517229
+        },
+        {
+          "a": "tower_03/shaft/front/mullion-0",
+          "b": "tower_03/shaft/front/corner-column--1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 8.2516402
+        },
+        {
+          "a": "tower_03/shaft/rear/mullion-8",
+          "b": "tower_03/shaft/rear/corner-column-1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 8.2516401
+        },
+        {
+          "a": "tower_03/crown/front/recessed-glazing",
+          "b": "tower_03/crown-roof/front/parapet",
+          "materials": [
+            "arch_glass_light",
+            "arch_stone_light"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.3420433
+        },
+        {
+          "a": "tower_03/crown/rear/recessed-glazing",
+          "b": "tower_03/crown-roof/rear/parapet",
+          "materials": [
+            "arch_glass_light",
+            "arch_stone_light"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.3420341
+        },
+        {
+          "a": "tower_03/crown/left/recessed-glazing",
+          "b": "tower_03/crown-roof/left/parapet",
+          "materials": [
+            "arch_glass_light",
+            "arch_stone_light"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0675099
+        },
+        {
+          "a": "tower_03/crown/right/recessed-glazing",
+          "b": "tower_03/crown-roof/right/parapet",
+          "materials": [
+            "arch_glass_light",
+            "arch_stone_light"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0675026
+        },
+        {
+          "a": "tower_03/podium/front/mullion-0",
+          "b": "tower_03/podium/front/corner-column--1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.7353022
+        },
+        {
+          "a": "tower_03/podium/front/mullion-8",
+          "b": "tower_03/podium/front/corner-column-1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.7353022
+        },
+        {
+          "a": "tower_03/podium/right/mullion-0",
+          "b": "tower_03/podium/right/corner-column--1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.7353022
+        },
+        {
+          "a": "tower_03/podium/right/mullion-8",
+          "b": "tower_03/podium/right/corner-column-1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.7353022
+        },
+        {
+          "a": "tower_03/podium/rear/mullion-0",
+          "b": "tower_03/podium/rear/corner-column--1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.7353022
+        },
+        {
+          "a": "tower_03/podium/rear/mullion-8",
+          "b": "tower_03/podium/rear/corner-column-1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.7353022
+        },
+        {
+          "a": "tower_03/podium/left/mullion-0",
+          "b": "tower_03/podium/left/corner-column--1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.7353022
+        },
+        {
+          "a": "tower_03/podium/left/mullion-8",
+          "b": "tower_03/podium/left/corner-column-1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.7353022
+        },
+        {
+          "a": "tower_03/crown/left/mullion-0",
+          "b": "tower_03/crown/left/corner-column--1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5263016
+        },
+        {
+          "a": "tower_03/crown/front/mullion-0",
+          "b": "tower_03/crown/front/corner-column--1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5263015
+        },
+        {
+          "a": "tower_03/crown/front/mullion-6",
+          "b": "tower_03/crown/front/corner-column-1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5263015
+        },
+        {
+          "a": "tower_03/crown/right/mullion-4",
+          "b": "tower_03/crown/right/corner-column-1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5263015
+        },
+        {
+          "a": "tower_03/crown/rear/mullion-0",
+          "b": "tower_03/crown/rear/corner-column--1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5263014
+        },
+        {
+          "a": "tower_03/crown/rear/mullion-6",
+          "b": "tower_03/crown/rear/corner-column-1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5263014
+        },
+        {
+          "a": "tower_03/crown/left/mullion-4",
+          "b": "tower_03/crown/left/corner-column-1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5262989
+        },
+        {
+          "a": "tower_03/crown/right/mullion-0",
+          "b": "tower_03/crown/right/corner-column--1",
+          "materials": [
+            "arch_frame_dark",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.5262988
+        },
+        {
+          "a": "tower_03/retail/front/cornice",
+          "b": "tower_03/retail/left/cornice",
+          "materials": [
+            "arch_stone_light",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4049997
+        },
+        {
+          "a": "tower_03/retail/right/cornice",
+          "b": "tower_03/retail/rear/cornice",
+          "materials": [
+            "arch_stone_light",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4049997
+        },
+        {
+          "a": "tower_03/retail/front/cornice",
+          "b": "tower_03/retail/right/cornice",
+          "materials": [
+            "arch_stone_light",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4049997
+        },
+        {
+          "a": "tower_03/retail/rear/cornice",
+          "b": "tower_03/retail/left/cornice",
+          "materials": [
+            "arch_stone_light",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.4049997
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/rear/pier-5",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.1012502
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/left/pier-0",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.1012502
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/rear/pier-0",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.1012502
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/right/pier-5",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.1012502
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/rear/pier-1",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.1012502
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/right/pier-0",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.1012502
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/left/pier-5",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.1012502
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/front/pier-0",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.1012502
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/front/pier-1",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.1012502
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/front/pier-5",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.1012502
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/right/pier-3",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.10125
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/rear/pier-3",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.10125
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/left/pier-3",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.10125
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/front/pier-3",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.10125
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/right/pier-4",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.10125
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/right/pier-2",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.10125
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/rear/pier-4",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.10125
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/rear/pier-2",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.10125
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/left/pier-2",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.10125
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/left/pier-4",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.10125
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/front/pier-2",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.10125
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/front/pier-4",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.10125
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/right/pier-1",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.1012498
+        },
+        {
+          "a": "tower_03/retail/plinth",
+          "b": "tower_03/retail/left/pier-1",
+          "materials": [
+            "arch_foundation",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.1012498
+        },
+        {
+          "a": "tower_03/retail/front/lintel",
+          "b": "tower_03/retail/left/lintel",
+          "materials": [
+            "arch_stone_light",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0840499
+        },
+        {
+          "a": "tower_03/retail/right/lintel",
+          "b": "tower_03/retail/rear/lintel",
+          "materials": [
+            "arch_stone_light",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0840499
+        },
+        {
+          "a": "tower_03/retail/front/lintel",
+          "b": "tower_03/retail/right/lintel",
+          "materials": [
+            "arch_stone_light",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0840499
+        },
+        {
+          "a": "tower_03/retail/rear/lintel",
+          "b": "tower_03/retail/left/lintel",
+          "materials": [
+            "arch_stone_light",
+            "arch_stone_light"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0840499
+        },
+        {
+          "a": "tower_03/shaft/right/mullion-7",
+          "b": "tower_03/shaft/rear/mullion-0",
+          "materials": [
+            "arch_frame_dark",
+            "arch_frame_dark"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0578001
+        },
+        {
+          "a": "tower_03/shaft/rear/mullion-8",
+          "b": "tower_03/shaft/left/mullion-0",
+          "materials": [
+            "arch_frame_dark",
+            "arch_frame_dark"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0578001
+        },
+        {
+          "a": "tower_03/podium/front/mullion-0",
+          "b": "tower_03/podium/left/mullion-8",
+          "materials": [
+            "arch_frame_dark",
+            "arch_frame_dark"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0578001
+        },
+        {
+          "a": "tower_03/shaft/front/mullion-0",
+          "b": "tower_03/shaft/left/mullion-7",
+          "materials": [
+            "arch_frame_dark",
+            "arch_frame_dark"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0578001
+        },
+        {
+          "a": "tower_03/shaft/front/mullion-8",
+          "b": "tower_03/shaft/right/mullion-0",
+          "materials": [
+            "arch_frame_dark",
+            "arch_frame_dark"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0578001
+        },
+        {
+          "a": "tower_03/crown/right/mullion-4",
+          "b": "tower_03/crown/rear/mullion-0",
+          "materials": [
+            "arch_frame_dark",
+            "arch_frame_dark"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0578001
+        },
+        {
+          "a": "tower_03/crown/rear/mullion-6",
+          "b": "tower_03/crown/left/mullion-0",
+          "materials": [
+            "arch_frame_dark",
+            "arch_frame_dark"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0578001
+        },
+        {
+          "a": "tower_03/podium/front/mullion-8",
+          "b": "tower_03/podium/right/mullion-0",
+          "materials": [
+            "arch_frame_dark",
+            "arch_frame_dark"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0578001
+        },
+        {
+          "a": "tower_03/podium/right/mullion-8",
+          "b": "tower_03/podium/rear/mullion-0",
+          "materials": [
+            "arch_frame_dark",
+            "arch_frame_dark"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0578001
+        },
+        {
+          "a": "tower_03/podium/rear/mullion-8",
+          "b": "tower_03/podium/left/mullion-0",
+          "materials": [
+            "arch_frame_dark",
+            "arch_frame_dark"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0578001
+        },
+        {
+          "a": "tower_03/crown/front/mullion-0",
+          "b": "tower_03/crown/left/mullion-4",
+          "materials": [
+            "arch_frame_dark",
+            "arch_frame_dark"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0577999
+        },
+        {
+          "a": "tower_03/crown/front/mullion-6",
+          "b": "tower_03/crown/right/mullion-0",
+          "materials": [
+            "arch_frame_dark",
+            "arch_frame_dark"
+          ],
+          "orientation": "same",
+          "area_m2": 0.0577999
+        },
+        {
+          "a": "tower_03/crown-roof/roof",
+          "b": "tower_03/roof-services/vent-1",
+          "materials": [
+            "arch_roof_membrane",
+            "arch_metal"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.0554372
+        },
+        {
+          "a": "tower_03/crown-roof/roof",
+          "b": "tower_03/roof-services/vent-0",
+          "materials": [
+            "arch_roof_membrane",
+            "arch_metal"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.0554372
+        },
+        {
+          "a": "tower_03/crown-roof/roof",
+          "b": "tower_03/roof-services/vent-2",
+          "materials": [
+            "arch_roof_membrane",
+            "arch_metal"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.0554372
+        },
+        {
+          "a": "tower_03/crown/front/corner-column--1",
+          "b": "tower_03/crown-roof/front/parapet",
+          "materials": [
+            "arch_stone_light",
+            "arch_stone_light"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.04805
+        },
+        {
+          "a": "tower_03/crown/rear/corner-column-1",
+          "b": "tower_03/crown-roof/rear/parapet",
+          "materials": [
+            "arch_stone_light",
+            "arch_stone_light"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.04805
+        },
+        {
+          "a": "tower_03/crown/front/corner-column-1",
+          "b": "tower_03/crown-roof/front/parapet",
+          "materials": [
+            "arch_stone_light",
+            "arch_stone_light"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.0480499
+        },
+        {
+          "a": "tower_03/crown/rear/corner-column--1",
+          "b": "tower_03/crown-roof/rear/parapet",
+          "materials": [
+            "arch_stone_light",
+            "arch_stone_light"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.0480499
+        }
+      ]
+    },
+    "museum": {
+      "overlapping_part_pairs": 850,
+      "same_orientation_triangle_pairs": 995,
+      "opposed_orientation_triangle_pairs": 1752,
+      "same_orientation_area_m2": 97.1894479535013,
+      "examples": [
+        {
+          "a": "museum/portico/step-0",
+          "b": "museum/portico/step-1",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 84.8000031
+        },
+        {
+          "a": "museum/portico/step-1",
+          "b": "museum/portico/step-2",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 65.2799949
+        },
+        {
+          "a": "museum/central-lantern/front/recessed-glazing",
+          "b": "museum/lantern-roof/front/parapet",
+          "materials": [
+            "arch_glass_light",
+            "arch_stone_light"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.5225141
+        },
+        {
+          "a": "museum/central-lantern/rear/recessed-glazing",
+          "b": "museum/lantern-roof/rear/parapet",
+          "materials": [
+            "arch_glass_light",
+            "arch_stone_light"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.5225141
+        },
+        {
+          "a": "museum/central-lantern/right/recessed-glazing",
+          "b": "museum/lantern-roof/right/parapet",
+          "materials": [
+            "arch_glass_light",
+            "arch_stone_light"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.295012
+        },
+        {
+          "a": "museum/central-lantern/left/recessed-glazing",
+          "b": "museum/lantern-roof/left/parapet",
+          "materials": [
+            "arch_glass_light",
+            "arch_stone_light"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.295012
+        },
+        {
+          "a": "museum/wings/front/1/0/left-pier",
+          "b": "museum/wings/left/1/3/right-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880033
+        },
+        {
+          "a": "museum/wings/front/1/7/right-pier",
+          "b": "museum/wings/right/1/0/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880033
+        },
+        {
+          "a": "museum/wings/right/1/0/right-pier",
+          "b": "museum/wings/right/1/1/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880033
+        },
+        {
+          "a": "museum/wings/left/1/2/right-pier",
+          "b": "museum/wings/left/1/3/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880033
+        },
+        {
+          "a": "museum/wings/right/1/1/right-pier",
+          "b": "museum/wings/right/1/2/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880033
+        },
+        {
+          "a": "museum/wings/left/1/1/right-pier",
+          "b": "museum/wings/left/1/2/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880033
+        },
+        {
+          "a": "museum/wings/right/1/2/right-pier",
+          "b": "museum/wings/right/1/3/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880033
+        },
+        {
+          "a": "museum/wings/left/1/0/right-pier",
+          "b": "museum/wings/left/1/1/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880033
+        },
+        {
+          "a": "museum/wings/right/1/3/right-pier",
+          "b": "museum/wings/rear/1/0/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880033
+        },
+        {
+          "a": "museum/wings/rear/1/7/right-pier",
+          "b": "museum/wings/left/1/0/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880033
+        },
+        {
+          "a": "museum/wings/front/0/0/left-pier",
+          "b": "museum/wings/left/0/3/right-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880032
+        },
+        {
+          "a": "museum/wings/front/0/7/right-pier",
+          "b": "museum/wings/right/0/0/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880032
+        },
+        {
+          "a": "museum/wings/right/0/0/right-pier",
+          "b": "museum/wings/right/0/1/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880032
+        },
+        {
+          "a": "museum/wings/left/0/2/right-pier",
+          "b": "museum/wings/left/0/3/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880032
+        },
+        {
+          "a": "museum/wings/right/0/1/right-pier",
+          "b": "museum/wings/right/0/2/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880032
+        },
+        {
+          "a": "museum/wings/left/0/1/right-pier",
+          "b": "museum/wings/left/0/2/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880032
+        },
+        {
+          "a": "museum/wings/right/0/2/right-pier",
+          "b": "museum/wings/right/0/3/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880032
+        },
+        {
+          "a": "museum/wings/left/0/0/right-pier",
+          "b": "museum/wings/left/0/1/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880032
+        },
+        {
+          "a": "museum/wings/right/0/3/right-pier",
+          "b": "museum/wings/rear/0/0/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880032
+        },
+        {
+          "a": "museum/wings/rear/0/7/right-pier",
+          "b": "museum/wings/left/0/0/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2880032
+        },
+        {
+          "a": "museum/wings/front/1/0/right-pier",
+          "b": "museum/wings/front/1/1/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/rear/1/6/right-pier",
+          "b": "museum/wings/rear/1/7/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/front/1/1/right-pier",
+          "b": "museum/wings/front/1/2/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/rear/1/5/right-pier",
+          "b": "museum/wings/rear/1/6/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/front/1/2/right-pier",
+          "b": "museum/wings/front/1/3/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/rear/1/4/right-pier",
+          "b": "museum/wings/rear/1/5/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/front/1/3/right-pier",
+          "b": "museum/wings/front/1/4/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/rear/1/3/right-pier",
+          "b": "museum/wings/rear/1/4/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/front/1/4/right-pier",
+          "b": "museum/wings/front/1/5/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/rear/1/2/right-pier",
+          "b": "museum/wings/rear/1/3/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/front/1/5/right-pier",
+          "b": "museum/wings/front/1/6/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/rear/1/1/right-pier",
+          "b": "museum/wings/rear/1/2/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/front/1/6/right-pier",
+          "b": "museum/wings/front/1/7/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/rear/1/0/right-pier",
+          "b": "museum/wings/rear/1/1/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879989
+        },
+        {
+          "a": "museum/wings/front/0/0/right-pier",
+          "b": "museum/wings/front/0/1/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/rear/0/6/right-pier",
+          "b": "museum/wings/rear/0/7/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/front/0/1/right-pier",
+          "b": "museum/wings/front/0/2/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/rear/0/5/right-pier",
+          "b": "museum/wings/rear/0/6/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/front/0/2/right-pier",
+          "b": "museum/wings/front/0/3/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/rear/0/4/right-pier",
+          "b": "museum/wings/rear/0/5/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/front/0/3/right-pier",
+          "b": "museum/wings/front/0/4/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/rear/0/3/right-pier",
+          "b": "museum/wings/rear/0/4/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/front/0/4/right-pier",
+          "b": "museum/wings/front/0/5/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/rear/0/2/right-pier",
+          "b": "museum/wings/rear/0/3/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/front/0/5/right-pier",
+          "b": "museum/wings/front/0/6/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/rear/0/1/right-pier",
+          "b": "museum/wings/rear/0/2/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/front/0/6/right-pier",
+          "b": "museum/wings/front/0/7/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/rear/0/0/right-pier",
+          "b": "museum/wings/rear/0/1/left-pier",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.2879988
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/left/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589464
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/left/0/2/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589464
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/right/0/2/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589464
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/right/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589464
+        },
+        {
+          "a": "museum/wings/right/0/1/lintel",
+          "b": "museum/wings/right/1/1/spandrel",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589464
+        },
+        {
+          "a": "museum/wings/right/0/2/lintel",
+          "b": "museum/wings/right/1/2/spandrel",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589464
+        },
+        {
+          "a": "museum/wings/left/0/1/lintel",
+          "b": "museum/wings/left/1/1/spandrel",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589464
+        },
+        {
+          "a": "museum/wings/left/0/2/lintel",
+          "b": "museum/wings/left/1/2/spandrel",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589464
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/left/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589463
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/left/0/3/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589463
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/right/0/3/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589463
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/right/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589463
+        },
+        {
+          "a": "museum/wings/right/0/0/lintel",
+          "b": "museum/wings/right/1/0/spandrel",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589463
+        },
+        {
+          "a": "museum/wings/right/0/3/lintel",
+          "b": "museum/wings/right/1/3/spandrel",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589463
+        },
+        {
+          "a": "museum/wings/left/0/0/lintel",
+          "b": "museum/wings/left/1/0/spandrel",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589463
+        },
+        {
+          "a": "museum/wings/left/0/3/lintel",
+          "b": "museum/wings/left/1/3/spandrel",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.9589463
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/front/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8584794
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/front/0/6/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8584794
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/rear/0/6/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8584794
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/rear/0/1/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8584794
+        },
+        {
+          "a": "museum/wings/front/0/1/lintel",
+          "b": "museum/wings/front/1/1/spandrel",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8584794
+        },
+        {
+          "a": "museum/wings/front/0/6/lintel",
+          "b": "museum/wings/front/1/6/spandrel",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8584794
+        },
+        {
+          "a": "museum/wings/rear/0/1/lintel",
+          "b": "museum/wings/rear/1/1/spandrel",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8584794
+        },
+        {
+          "a": "museum/wings/rear/0/6/lintel",
+          "b": "museum/wings/rear/1/6/spandrel",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8584794
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/front/0/0/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8584792
+        },
+        {
+          "a": "museum/wings/foundation",
+          "b": "museum/wings/front/0/2/spandrel",
+          "materials": [
+            "arch_foundation",
+            "arch_limestone"
+          ],
+          "orientation": "opposed",
+          "area_m2": 0.8584792
+        }
+      ]
+    },
+    "school": {
+      "overlapping_part_pairs": 1462,
+      "same_orientation_triangle_pairs": 1914,
+      "opposed_orientation_triangle_pairs": 2868,
+      "same_orientation_area_m2": 184.78351376516565,
+      "examples": [
+        {
+          "a": "school/spine/right/recessed-glazing",
+          "b": "school/commons/right/recessed-glazing",
+          "materials": [
+            "arch_glass",
+            "arch_glass_light"
+          ],
+          "orientation": "same",
+          "area_m2": 5.7525006
+        },
+        {
+          "a": "school/spine/left/recessed-glazing",
+          "b": "school/commons/left/recessed-glazing",
+          "materials": [
+            "arch_glass",
+            "arch_glass_light"
+          ],
+          "orientation": "same",
+          "area_m2": 5.7525006
+        },
+        {
+          "a": "school/wing--1/0/continuous-belt-course",
+          "b": "school/spine/left/floor-band-1",
+          "materials": [
+            "arch_stone_light",
+            "arch_limestone"
+          ],
+          "orientation": "same",
+          "area_m2": 5.4740025
+        },
+        {
+          "a": "school/wing-1/0/continuous-belt-course",
+          "b": "school/spine/right/floor-band-1",
+          "materials": [
+            "arch_stone_light",
+            "arch_limestone"
+          ],
+          "orientation": "same",
+          "area_m2": 5.4740025
+        },
+        {
+          "a": "school/spine/right/floor-band-0",
+          "b": "school/commons/right/floor-band-0",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "same",
+          "area_m2": 1.3860003
+        },
+        {
+          "a": "school/spine/left/floor-band-0",
+          "b": "school/commons/left/floor-band-0",
+          "materials": [
+            "arch_limestone",
+            "arch_limestone"
+          ],
+          "orientation": "same",
+          "area_m2": 1.3860003
+        },
+        {
+          "a": "school/wing--1/front/0/0/left-pier",
+          "b": "school/wing--1/left/0/6/right-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/front/0/3/right-pier",
+          "b": "school/wing-1/right/0/0/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/front/0/0/right-pier",
+          "b": "school/wing--1/front/0/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/rear/0/2/right-pier",
+          "b": "school/wing--1/rear/0/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/front/0/1/right-pier",
+          "b": "school/wing--1/front/0/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/rear/0/1/right-pier",
+          "b": "school/wing--1/rear/0/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/front/0/2/right-pier",
+          "b": "school/wing--1/front/0/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/rear/0/0/right-pier",
+          "b": "school/wing--1/rear/0/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/left/0/5/right-pier",
+          "b": "school/wing--1/left/0/6/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/right/0/0/right-pier",
+          "b": "school/wing-1/right/0/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/left/0/4/right-pier",
+          "b": "school/wing--1/left/0/5/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/right/0/1/right-pier",
+          "b": "school/wing-1/right/0/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/left/0/3/right-pier",
+          "b": "school/wing--1/left/0/4/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/right/0/2/right-pier",
+          "b": "school/wing-1/right/0/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/left/0/2/right-pier",
+          "b": "school/wing--1/left/0/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/right/0/3/right-pier",
+          "b": "school/wing-1/right/0/4/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/left/0/1/right-pier",
+          "b": "school/wing--1/left/0/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/right/0/4/right-pier",
+          "b": "school/wing-1/right/0/5/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/left/0/0/right-pier",
+          "b": "school/wing--1/left/0/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/right/0/5/right-pier",
+          "b": "school/wing-1/right/0/6/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/rear/0/3/right-pier",
+          "b": "school/wing--1/left/0/0/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/right/0/6/right-pier",
+          "b": "school/wing-1/rear/0/0/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/front/0/0/right-pier",
+          "b": "school/wing-1/front/0/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/rear/0/2/right-pier",
+          "b": "school/wing-1/rear/0/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/front/0/1/right-pier",
+          "b": "school/wing-1/front/0/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/rear/0/1/right-pier",
+          "b": "school/wing-1/rear/0/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/front/0/2/right-pier",
+          "b": "school/wing-1/front/0/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing-1/rear/0/0/right-pier",
+          "b": "school/wing-1/rear/0/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080025
+        },
+        {
+          "a": "school/wing--1/front/1/0/left-pier",
+          "b": "school/wing--1/left/1/6/right-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/front/1/3/right-pier",
+          "b": "school/wing-1/right/1/0/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/front/1/0/right-pier",
+          "b": "school/wing--1/front/1/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/rear/1/2/right-pier",
+          "b": "school/wing--1/rear/1/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/front/1/1/right-pier",
+          "b": "school/wing--1/front/1/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/rear/1/1/right-pier",
+          "b": "school/wing--1/rear/1/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/front/1/2/right-pier",
+          "b": "school/wing--1/front/1/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/rear/1/0/right-pier",
+          "b": "school/wing--1/rear/1/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/left/1/5/right-pier",
+          "b": "school/wing--1/left/1/6/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/right/1/0/right-pier",
+          "b": "school/wing-1/right/1/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/left/1/4/right-pier",
+          "b": "school/wing--1/left/1/5/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/right/1/1/right-pier",
+          "b": "school/wing-1/right/1/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/left/1/3/right-pier",
+          "b": "school/wing--1/left/1/4/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/right/1/2/right-pier",
+          "b": "school/wing-1/right/1/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/left/1/2/right-pier",
+          "b": "school/wing--1/left/1/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/right/1/3/right-pier",
+          "b": "school/wing-1/right/1/4/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/left/1/1/right-pier",
+          "b": "school/wing--1/left/1/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/right/1/4/right-pier",
+          "b": "school/wing-1/right/1/5/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/left/1/0/right-pier",
+          "b": "school/wing--1/left/1/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/right/1/5/right-pier",
+          "b": "school/wing-1/right/1/6/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/rear/1/3/right-pier",
+          "b": "school/wing--1/left/1/0/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/right/1/6/right-pier",
+          "b": "school/wing-1/rear/1/0/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/front/1/0/right-pier",
+          "b": "school/wing-1/front/1/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/rear/1/2/right-pier",
+          "b": "school/wing-1/rear/1/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/front/1/1/right-pier",
+          "b": "school/wing-1/front/1/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/rear/1/1/right-pier",
+          "b": "school/wing-1/rear/1/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/front/1/2/right-pier",
+          "b": "school/wing-1/front/1/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing-1/rear/1/0/right-pier",
+          "b": "school/wing-1/rear/1/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0080024
+        },
+        {
+          "a": "school/wing--1/front/0/3/right-pier",
+          "b": "school/wing--1/right/0/0/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing-1/front/0/0/left-pier",
+          "b": "school/wing-1/left/0/6/right-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing--1/right/0/0/right-pier",
+          "b": "school/wing--1/right/0/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing-1/left/0/5/right-pier",
+          "b": "school/wing-1/left/0/6/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing--1/right/0/1/right-pier",
+          "b": "school/wing--1/right/0/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing-1/left/0/4/right-pier",
+          "b": "school/wing-1/left/0/5/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing--1/right/0/2/right-pier",
+          "b": "school/wing--1/right/0/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing-1/left/0/3/right-pier",
+          "b": "school/wing-1/left/0/4/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing--1/right/0/3/right-pier",
+          "b": "school/wing--1/right/0/4/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing-1/left/0/2/right-pier",
+          "b": "school/wing-1/left/0/3/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing--1/right/0/4/right-pier",
+          "b": "school/wing--1/right/0/5/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing-1/left/0/1/right-pier",
+          "b": "school/wing-1/left/0/2/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing--1/right/0/5/right-pier",
+          "b": "school/wing--1/right/0/6/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing-1/left/0/0/right-pier",
+          "b": "school/wing-1/left/0/1/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing--1/right/0/6/right-pier",
+          "b": "school/wing--1/rear/0/0/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing-1/rear/0/3/right-pier",
+          "b": "school/wing-1/left/0/0/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.0079991
+        },
+        {
+          "a": "school/wing--1/front/1/3/right-pier",
+          "b": "school/wing--1/right/1/0/left-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.007999
+        },
+        {
+          "a": "school/wing-1/front/1/0/left-pier",
+          "b": "school/wing-1/left/1/6/right-pier",
+          "materials": [
+            "arch_brick_buff",
+            "arch_brick_buff"
+          ],
+          "orientation": "opposed",
+          "area_m2": 1.007999
+        }
+      ]
+    }
+  },
+  "architecture_totals": {
+    "convex_primitive_triangles_checked": 187476,
+    "inward_convex_primitive_triangles": 0,
+    "nonpositive_box_dimensions": 0,
+    "window_planes_checked_triangles": 3200,
+    "window_planes_wrong_outward_normal": 0,
+    "exact_duplicate_triangles": 8904
+  },
+  "interpretation": {
+    "scope": "Pre-fix shared geometry source and current exported buffer; no renderer state was inspected.",
+    "whole_wall_finding": "No invalid faces, inward primitive winding, window backfaces, or reflected instance transforms found. This source audit does not reproduce whole-wall disappearance.",
+    "visible_defects": "Window inner reveals coincide with masonry jamb, lintel and sill planes; curtain corner column exterior strips coincide with terminal mullions. These can produce localized edge shimmer.",
+    "targeted_fix": "15 mm reveal lining and 15 mm corner casing projection; see source_surface_fix_validation.json.",
+    "duplicate_count_caveat": "Duplicate and overlapping triangles include hidden internal contacts, buried foundations and same-material joints. These totals are not counts of visible defects.",
+    "remaining_cause": "Whole-wall disappearance requires runtime investigation; renderer agent is investigating multipass batch visibility data."
+  }
+}

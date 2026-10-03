@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "canonical_source": "E:\\Dev\\lake-city\\artifacts\\lake_city\\characters\\CharacterBase.blend",
+  "source_sha256": "82bd44e0c3696d69194a3164d8705e303e3a24ce106bf781fd25ecede68f4efe",
+  "canonical_count": 1,
+  "source_metrics": {
+    "vertices": 1596,
+    "edges": 3169,
+    "faces": 1588,
+    "loops": 6310,
+    "triangles": 3134,
+    "uv_layers": 1,
+    "vertex_groups": 47,
+    "bones": 49,
+    "constraints": 7
+  },
+  "qc_images_inspected": 28,
+  "visual_findings": "All five poses for each of Idle, Walk, Run, Jump and all eight outfit views inspected. Limbs, torso, head and right foot remain articulated; shirt and pants retain the expected fixed form and waist layering. No severe mesh explosion, inverted head, detached garments or foot inversion visible.",
+  "qc_images": [
+    "CharacterBase_animation_qc\\idle\\idle_001.png",
+    "CharacterBase_animation_qc\\idle\\idle_064.png",
+    "CharacterBase_animation_qc\\idle\\idle_126.png",
+    "CharacterBase_animation_qc\\idle\\idle_188.png",
+    "CharacterBase_animation_qc\\idle\\idle_251.png",
+    "CharacterBase_animation_qc\\jump\\jump_001.png",
+    "CharacterBase_animation_qc\\jump\\jump_015.png",
+    "CharacterBase_animation_qc\\jump\\jump_030.png",
+    "CharacterBase_animation_qc\\jump\\jump_044.png",
+    "CharacterBase_animation_qc\\jump\\jump_058.png",
+    "CharacterBase_animation_qc\\run\\run_001.png",
+    "CharacterBase_animation_qc\\run\\run_006.png",
+    "CharacterBase_animation_qc\\run\\run_010.png",
+    "CharacterBase_animation_qc\\run\\run_015.png",
+    "CharacterBase_animation_qc\\run\\run_020.png",
+    "CharacterBase_animation_qc\\walk\\walk_001.png",
+    "CharacterBase_animation_qc\\walk\\walk_009.png",
+    "CharacterBase_animation_qc\\walk\\walk_016.png",
+    "CharacterBase_animation_qc\\walk\\walk_024.png",
+    "CharacterBase_animation_qc\\walk\\walk_032.png",
+    "CharacterBase_qc\\shirt_back.png",
+    "CharacterBase_qc\\shirt_collar_close.png",
+    "CharacterBase_qc\\shirt_front.png",
+    "CharacterBase_qc\\shirt_three_quarter.png",
+    "CharacterBase_qc\\shirt_upper_back.png",
+    "CharacterBase_qc\\shirt_upper_front.png",
+    "CharacterBase_qc\\shirt_waist_close.png",
+    "CharacterBase_qc\\shirt_waist_three_quarter.png"
+  ],
+  "runtime_glb": "../viewer/public/assets/characters/pedestrian.glb",
+  "runtime_contract": "../viewer/public/assets/characters/pedestrian.json",
+  "runtime_export_policy": "Uncompressed read-only derivative with original Walk and Idle sampled to start at time zero. No source action, geometry, material or rig edits.",
+  "checks": [
+    {
+      "report": "animation_package_report.json",
+      "passed": true,
+      "sha256": "7145d17635bdb6044a7d69ca820aaf2e82f5ca291ecbfcf23d901f1b8bc0e8d5"
+    },
+    {
+      "report": "CharacterBase_animation_install.json",
+      "passed": true,
+      "sha256": "9bcfc425f60941fcbc2ad93ddf037dea0454a82d87ce6f0660a48e6b486871e6"
+    },
+    {
+      "report": "CharacterBase_animation_validation.json",
+      "passed": true,
+      "sha256": "ec644987db9fbbee531e8ee13c83ce2253dda9f6a279cfa1c67fcf7775a2c55a"
+    },
+    {
+      "report": "CharacterBase_animation_workflow.json",
+      "passed": true,
+      "sha256": "4dc3d81e846197641f6a10580a636699c0f862b9b9388fd99128a48565b91ff0"
+    },
+    {
+      "report": "CharacterBase_animation_qc.json",
+      "passed": true,
+      "sha256": "90e47f9dc0d96358de8b5791b6d0c438e25b6d744b4b7cb1936e543821c4a6cd"
+    },
+    {
+      "report": "CharacterBase_animation_component_guard.json",
+      "passed": true,
+      "sha256": "cdd301d43cc516698c8638a1706f8cb6d9704baa51d8b52c66547c34d0b85aa8"
+    },
+    {
+      "report": "reports/CharacterBase_current_outfit_validation.json",
+      "passed": true,
+      "sha256": "25429eda3210537aed78f543b456e25f83fe99613726cb78a1586f477aef3f3b"
+    },
+    {
+      "report": "reports/CharacterBase_export.json",
+      "passed": true,
+      "sha256": "8ed59447215aa8a33ca9c06f8ee5bfd097a0c282c03117a907d28f85c490bf9d"
+    },
+    {
+      "report": "reports/CharacterBase_export_workflow.json",
+      "passed": true,
+      "sha256": "3acd0610847e1cd47031405c383fbcadf646d74a55ece12af9f5d33724d7132d"
+    },
+    {
+      "report": "reports/CharacterBase_fbx_validation.json",
+      "passed": true,
+      "sha256": "8c6f857539f9660abdb9ee3da8371d3058219c18b86d5d905012ebe509cb51ec"
+    },
+    {
+      "report": "reports/CharacterBase_glb_validation.json",
+      "passed": true,
+      "sha256": "f306c9efc3abfc34b1467a6569c80cd00c59117674478c0e49319ffb1ee360f3"
+    },
+    {
+      "report": "reports/anim/idle_fbx_validation.json",
+      "passed": true,
+      "sha256": "e5316174e28dafba74cf7c5ed4583fa2af8a19b08610d86420aa0bc918ac0060"
+    },
+    {
+      "report": "reports/anim/walk_fbx_validation.json",
+      "passed": true,
+      "sha256": "15aef695ee1c9025dd3997b1b382f6d3c0d03024d6de85e5ffc8ea32d31a7111"
+    },
+    {
+      "report": "reports/anim/run_fbx_validation.json",
+      "passed": true,
+      "sha256": "f5aa18acfc0f762e32e5cabc87846690644a91286bd75000c05e2bb317de7f66"
+    },
+    {
+      "report": "reports/anim/jump_fbx_validation.json",
+      "passed": true,
+      "sha256": "7f9555c3f94b80264f5a5a7772511bb5cb8e5f67aba2753d5a812e8ef20b9b15"
+    },
+    {
+      "report": "pedestrian_runtime.json",
+      "passed": true,
+      "sha256": "b52c8a9eacd52ad2b5ba5f2cfa33da0ff6cda4eb5c45f1d96135d2fc8dc02b72"
+    }
+  ]
+}

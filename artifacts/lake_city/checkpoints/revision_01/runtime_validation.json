@@ -1,0 +1,2513 @@
+{
+  "timestamp": "2026-10-03T08:25:55.992Z",
+  "scope": "Isolated headless desktop Chromium; no user browser controlled",
+  "browser": "152.0.7977.8",
+  "viewport": [
+    1600,
+    1000
+  ],
+  "dpr": 1,
+  "quality": "Final render_profile.json; native resolution, full source geometry and full-resolution planar reflections",
+  "sampling": {
+    "warmupFrames": 4,
+    "measuredFramesPerView": 90,
+    "sourceStatic": true,
+    "otherGPUWork": "Parent confirmed Blender GPU rendering complete before this run",
+    "cache": "Cold isolated context startup, then same-context warm reload; static scene shadows cached per region",
+    "gpuTiming": "Unavailable; CPU callback and animation-frame interval measured separately"
+  },
+  "evidenceDirectory": "E:\\Dev\\lake-city\\artifacts\\lake_city\\renders\\runtime",
+  "checks": {
+    "startup": {
+      "status": "passed",
+      "timings": {
+        "rendererReady": 378.90000009536743,
+        "assetsReady": 768.1000001430511,
+        "collisionReady": 773,
+        "compiled": 5149.200000047684,
+        "firstCompleteFrame": 5149.200000047684
+      }
+    },
+    "backend": {
+      "status": "passed",
+      "actual": {
+        "name": "WebGPU",
+        "verifiedBackend": true,
+        "vendor": "nvidia",
+        "architecture": "ampere",
+        "device": "",
+        "description": "",
+        "isFallbackAdapter": false,
+        "features": [
+          "core-features-and-limits",
+          "float32-filterable"
+        ],
+        "limits": {
+          "maxTextureDimension2D": 8192,
+          "maxBufferSize": 268435456
+        }
+      }
+    },
+    "nativeResolution": {
+      "status": "passed",
+      "framebuffer": [
+        1600,
+        1000
+      ]
+    },
+    "exactTransfer": {
+      "status": "passed",
+      "sourceTriangles": 79052882,
+      "runtimeInventory": {
+        "prototypeTriangles": 530282,
+        "instancedTriangles": 79052882,
+        "instances": 12488,
+        "meshBatches": 99,
+        "geometryBytes": 44543688
+      },
+      "transferAudit": {
+        "passed": true,
+        "attributeFloatsCompared": 9545076,
+        "indicesCompared": 1590846,
+        "matrixFloatsCompared": 861904
+      }
+    },
+    "exactReflectionPlanes": {
+      "status": "passed",
+      "source": [
+        0.5799999833106995,
+        0.02500000037252903,
+        0.15000000596046448,
+        0.04500000178813934
+      ],
+      "runtime": [
+        0.02500000037252903,
+        0.15000000596046448,
+        0.04500000178813934,
+        0.5799999833106995
+      ]
+    },
+    "uncompressedTransport": {
+      "status": "passed",
+      "responses": [
+        {
+          "url": "http://127.0.0.1:4173/assets/city.json",
+          "status": 200,
+          "headers": {
+            "cache-control": "no-cache",
+            "connection": "keep-alive",
+            "content-length": "3233510",
+            "content-type": "application/json",
+            "date": "Sat, 03 Oct 2026 08:25:56 GMT",
+            "keep-alive": "timeout=5",
+            "last-modified": "Sat, 03 Oct 2026 08:24:29 GMT"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/geometry.bin",
+          "status": 200,
+          "headers": {
+            "cache-control": "no-cache",
+            "connection": "keep-alive",
+            "content-length": "44543688",
+            "content-type": "application/octet-stream",
+            "date": "Sat, 03 Oct 2026 08:25:56 GMT",
+            "keep-alive": "timeout=5",
+            "last-modified": "Sat, 03 Oct 2026 08:24:27 GMT"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/city.json",
+          "status": 200,
+          "headers": {
+            "cache-control": "no-cache",
+            "connection": "keep-alive",
+            "content-length": "3233510",
+            "content-type": "application/json",
+            "date": "Sat, 03 Oct 2026 08:26:38 GMT",
+            "keep-alive": "timeout=5",
+            "last-modified": "Sat, 03 Oct 2026 08:24:29 GMT"
+          }
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/geometry.bin",
+          "status": 200,
+          "headers": {
+            "cache-control": "no-cache",
+            "connection": "keep-alive",
+            "content-length": "44543688",
+            "content-type": "application/octet-stream",
+            "date": "Sat, 03 Oct 2026 08:26:38 GMT",
+            "keep-alive": "timeout=5",
+            "last-modified": "Sat, 03 Oct 2026 08:24:27 GMT"
+          }
+        }
+      ]
+    },
+    "actualKeyboardMovement": {
+      "status": "passed",
+      "before": [
+        -324.902,
+        1.8699999999999999,
+        217.816
+      ],
+      "after": [
+        -323.79699764027,
+        1.8699999999999999,
+        213.98034627377672
+      ],
+      "pointerLock": true
+    },
+    "actualMouseLook": {
+      "status": "passed",
+      "before": [
+        -0.03467509802521478,
+        -0.2803321041432391,
+        -0.009597278166520175
+      ],
+      "after": [
+        -0.037020833945481876,
+        -0.3216863661217543,
+        -0.011709576241443
+      ]
+    },
+    "pause": {
+      "status": "passed",
+      "state": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -323.79699764027,
+          1.8699999999999999,
+          213.98034627377672
+        ],
+        "rotation": [
+          -0.037020833945481876,
+          -0.3216863661217543,
+          -0.011709576241443
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 378.90000009536743,
+          "assetsReady": 768.1000001430511,
+          "collisionReady": 773,
+          "compiled": 5149.200000047684,
+          "firstCompleteFrame": 5149.200000047684
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -323.79699764027,
+          1.8699999999999999,
+          213.98034627377672
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 1324,
+          "frameCalls": 5,
+          "drawCalls": 61949,
+          "triangles": 76480202,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 11,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 221,
+          "texturesSize": 318852740,
+          "uniformBuffers": 583,
+          "uniformBuffersSize": 136400,
+          "total": 363866206
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    "fullscreenAPIs": {
+      "status": "passed",
+      "entered": true,
+      "retainedOnEscape": true,
+      "nativeEscapeInterception": "Not established by headless testing; Keyboard Lock depends on user browser support"
+    },
+    "focusLoss": {
+      "status": "passed",
+      "scope": "Synthetic application event"
+    },
+    "routeClearance": {
+      "status": "passed",
+      "routes": [
+        {
+          "id": "PATH_LAKE_COMPLETE_LOOP",
+          "samples": 2068,
+          "failures": []
+        },
+        {
+          "id": "PATH_LAKE_CYCLE_LOOP",
+          "samples": 2063,
+          "failures": []
+        },
+        {
+          "id": "RD_LAKE_NORTH_CONNECTOR_sidewalk",
+          "samples": 23,
+          "failures": []
+        },
+        {
+          "id": "RD_LAKE_SOUTH_CONNECTOR_sidewalk",
+          "samples": 44,
+          "failures": []
+        },
+        {
+          "id": "PATH_PARK_west_wander",
+          "samples": 456,
+          "failures": []
+        },
+        {
+          "id": "PATH_PARK_east_wander",
+          "samples": 448,
+          "failures": []
+        },
+        {
+          "id": "PATH_PARK_central_south",
+          "samples": 355,
+          "failures": []
+        },
+        {
+          "id": "PATH_PARK_north_garden",
+          "samples": 136,
+          "failures": []
+        },
+        {
+          "id": "PATH_PARK_CROSS_194",
+          "samples": 140,
+          "failures": []
+        },
+        {
+          "id": "PATH_PARK_CROSS_275",
+          "samples": 47,
+          "failures": []
+        },
+        {
+          "id": "PATH_PARK_CROSS_367",
+          "samples": 131,
+          "failures": []
+        },
+        {
+          "id": "PATH_PARK_CROSS_452",
+          "samples": 140,
+          "failures": []
+        },
+        {
+          "id": "PATH_PARK_CROSS_581",
+          "samples": 162,
+          "failures": []
+        },
+        {
+          "id": "PATH_PARK_CROSS_691",
+          "samples": 140,
+          "failures": []
+        },
+        {
+          "id": "PATH_PARK_CROSS_779",
+          "samples": 136,
+          "failures": []
+        }
+      ]
+    },
+    "completeLakeLoopTraversal": {
+      "status": "passed",
+      "segments": 614,
+      "distanceMetres": 3329.5052737363944,
+      "maxDeviationMetres": 4.279520504660175e-12,
+      "finalState": {
+        "mode": "walk",
+        "paused": true,
+        "position": [
+          -938.4951864251002,
+          1.8699999999999999,
+          -612.9879759303244
+        ],
+        "rotation": [
+          -3.10256657438334,
+          0.5474159801857054,
+          3.1212727392254997
+        ],
+        "footHeight": 0.15,
+        "eyeHeight": 1.72,
+        "keys": [],
+        "pointerLocked": false,
+        "fullscreen": false,
+        "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+        "inventory": {
+          "prototypeTriangles": 530282,
+          "instancedTriangles": 79052882,
+          "instances": 12488,
+          "meshBatches": 99,
+          "geometryBytes": 44543688
+        },
+        "transferAudit": {
+          "passed": true,
+          "attributeFloatsCompared": 9545076,
+          "indicesCompared": 1590846,
+          "matrixFloatsCompared": 861904
+        },
+        "reflectorPlanes": [
+          0.02500000037252903,
+          0.15000000596046448,
+          0.04500000178813934,
+          0.5799999833106995
+        ],
+        "backend": {
+          "name": "WebGPU",
+          "verifiedBackend": true,
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false,
+          "features": [
+            "core-features-and-limits",
+            "float32-filterable"
+          ],
+          "limits": {
+            "maxTextureDimension2D": 8192,
+            "maxBufferSize": 268435456
+          }
+        },
+        "timings": {
+          "rendererReady": 378.90000009536743,
+          "assetsReady": 768.1000001430511,
+          "collisionReady": 773,
+          "compiled": 5149.200000047684,
+          "firstCompleteFrame": 5149.200000047684
+        },
+        "errors": [],
+        "dpr": 1,
+        "viewport": [
+          1600,
+          1000
+        ],
+        "framebuffer": [
+          1600,
+          1000
+        ],
+        "camera": [
+          -938.4951864251002,
+          1.8699999999999999,
+          -612.9879759303244
+        ],
+        "landmarks": [
+          {
+            "id": "lake",
+            "name": "Westmere Lake",
+            "position": [
+              -709.5,
+              280,
+              -91.5
+            ],
+            "lookAt": [
+              -682.5,
+              0,
+              -88.5
+            ],
+            "walkPosition": [
+              -324.902,
+              1.85,
+              217.816
+            ]
+          },
+          {
+            "id": "park",
+            "name": "Grand Park",
+            "position": [
+              253.5,
+              370,
+              -24
+            ],
+            "lookAt": [
+              253.5,
+              0,
+              -96
+            ],
+            "walkPosition": [
+              255,
+              1.85,
+              24
+            ]
+          },
+          {
+            "id": "downtown",
+            "name": "Eastbank Centre",
+            "position": [
+              724.5,
+              285,
+              198
+            ],
+            "lookAt": [
+              532.5,
+              45,
+              -178.5
+            ],
+            "walkPosition": [
+              427.5,
+              1.85,
+              51
+            ]
+          },
+          {
+            "id": "sports",
+            "name": "Northfields Sports",
+            "position": [
+              667.5,
+              210,
+              -546
+            ],
+            "lookAt": [
+              652.5,
+              0,
+              -696
+            ],
+            "walkPosition": [
+              624,
+              1.85,
+              -609
+            ]
+          },
+          {
+            "id": "station",
+            "name": "Southgate Station",
+            "position": [
+              772.5,
+              210,
+              778.5
+            ],
+            "lookAt": [
+              679.5,
+              0,
+              598.5
+            ],
+            "walkPosition": [
+              667.5,
+              1.85,
+              651
+            ]
+          }
+        ],
+        "renderInfo": {
+          "calls": 1354,
+          "frameCalls": 5,
+          "drawCalls": 61949,
+          "triangles": 76480202,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "rendererTrackedMemory": {
+          "attributes": 199,
+          "attributesSize": 38180340,
+          "geometries": 100,
+          "indexAttributes": 99,
+          "indexAttributesSize": 6363384,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 24,
+          "programsSize": 333342,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 11,
+          "storageAttributes": 0,
+          "storageAttributesSize": 0,
+          "textures": 221,
+          "texturesSize": 318852740,
+          "uniformBuffers": 583,
+          "uniformBuffersSize": 136400,
+          "total": 363866206
+        },
+        "shadowNeedsUpdate": false,
+        "disposed": false
+      }
+    },
+    "bridgeAndDockSupport": {
+      "status": "passed",
+      "surfaces": [
+        {
+          "surface": {
+            "bounds": [
+              226.5,
+              -270,
+              274.5,
+              -255
+            ],
+            "height": 0.34
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -931.5,
+              -188.09999999999997,
+              -858,
+              -183.90000000000003
+            ],
+            "height": 0.3
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -931.5,
+              -161.09999999999997,
+              -858,
+              -156.90000000000003
+            ],
+            "height": 0.3
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -931.5,
+              -135.59999999999997,
+              -858,
+              -131.40000000000003
+            ],
+            "height": 0.3
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -931.5,
+              -111.59999999999997,
+              -858,
+              -107.40000000000003
+            ],
+            "height": 0.3
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              172.36,
+              -285.64,
+              189.64,
+              -283.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              168.36,
+              -284.64,
+              193.64,
+              -282.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              164.36,
+              -283.64,
+              197.64,
+              -281.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              163.36,
+              -282.64,
+              180.64,
+              -280.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              181.36,
+              -282.64,
+              200.64,
+              -280.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              163.36,
+              -281.64,
+              172.64,
+              -279.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              189.36,
+              -281.64,
+              203.64,
+              -279.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              163.36,
+              -280.64,
+              168.64,
+              -278.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              193.36,
+              -280.64,
+              206.64,
+              -278.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              197.36,
+              -279.64,
+              208.64,
+              -277.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              200.36,
+              -278.64,
+              211.64,
+              -276.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              203.36,
+              -277.64,
+              213.64,
+              -275.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              205.36,
+              -276.64,
+              216.64,
+              -274.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              208.36,
+              -275.64,
+              218.64,
+              -273.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              210.36,
+              -274.64,
+              220.64,
+              -272.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              213.36,
+              -273.64,
+              223.64,
+              -271.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              215.36,
+              -272.64,
+              225.64,
+              -270.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              217.36,
+              -271.64,
+              228.64,
+              -269.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              220.36,
+              -270.64,
+              230.64,
+              -268.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              222.36,
+              -269.64,
+              233.64,
+              -267.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              225.36,
+              -268.64,
+              236.64,
+              -266.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              227.36,
+              -267.64,
+              239.64,
+              -265.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              230.36,
+              -266.64,
+              243.64,
+              -264.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              232.36,
+              -265.64,
+              247.64,
+              -263.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              236.36,
+              -264.64,
+              252.64,
+              -262.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              339.36,
+              -264.64,
+              346.64,
+              -262.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              239.36,
+              -263.64,
+              256.64,
+              -261.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              328.36,
+              -263.64,
+              346.64,
+              -261.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              243.36,
+              -262.64,
+              262.64,
+              -260.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              316.36,
+              -262.64,
+              346.64,
+              -260.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              247.36,
+              -261.64,
+              270.64,
+              -259.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              302.36,
+              -261.64,
+              346.64,
+              -259.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              252.36,
+              -260.64,
+              338.64,
+              -258.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              256.36,
+              -259.64,
+              327.64,
+              -257.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              262.36,
+              -258.64,
+              315.64,
+              -256.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              271.36,
+              -257.64,
+              301.64,
+              -255.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              338.36,
+              -265.64,
+              340.64,
+              -263.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              337.36,
+              -264.64,
+              341.64,
+              -262.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              337.36,
+              -263.64,
+              340.64,
+              -261.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              336.36,
+              -262.64,
+              340.64,
+              -260.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              336.36,
+              -261.64,
+              339.64,
+              -259.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              335.36,
+              -260.64,
+              339.64,
+              -258.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              335.36,
+              -259.64,
+              338.64,
+              -257.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              334.36,
+              -258.64,
+              338.64,
+              -256.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              334.36,
+              -257.64,
+              337.64,
+              -255.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              333.36,
+              -256.64,
+              337.64,
+              -254.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              333.36,
+              -255.64,
+              336.64,
+              -253.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              332.36,
+              -254.64,
+              336.64,
+              -252.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              332.36,
+              -253.64,
+              335.64,
+              -251.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              331.36,
+              -252.64,
+              335.64,
+              -250.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              331.36,
+              -251.64,
+              334.64,
+              -248.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              330.36,
+              -249.64,
+              334.64,
+              -247.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              330.36,
+              -248.64,
+              333.64,
+              -245.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              329.36,
+              -246.64,
+              333.64,
+              -244.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              329.36,
+              -245.64,
+              332.64,
+              -242.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              328.36,
+              -243.64,
+              332.64,
+              -240.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              328.36,
+              -241.64,
+              331.64,
+              -237.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              327.36,
+              -238.64,
+              331.64,
+              -233.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              327.36,
+              -234.64,
+              330.64,
+              -214.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              327.36,
+              -215.64,
+              331.64,
+              -211.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              327.36,
+              -212.64,
+              330.64,
+              -210.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -935.64,
+              -203.64,
+              -924.36,
+              -96.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -935.5,
+              -204.5,
+              -924.5,
+              -95.5
+            ],
+            "height": 0.428
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -930.64,
+              -187.64,
+              -858.36,
+              -184.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -930.64,
+              -160.64,
+              -858.36,
+              -157.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -930.64,
+              -135.64,
+              -858.36,
+              -131.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -930.64,
+              -111.64,
+              -858.36,
+              -107.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -933.64,
+              -151.64,
+              -930.36,
+              -149.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -937.64,
+              -150.64,
+              -930.36,
+              -148.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -940.64,
+              -149.64,
+              -930.36,
+              -147.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -943.64,
+              -148.64,
+              -932.36,
+              -146.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -946.64,
+              -147.64,
+              -935.36,
+              -145.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -949.64,
+              -146.64,
+              -938.36,
+              -144.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": true
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -952.64,
+              -145.64,
+              -941.36,
+              -143.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -955.64,
+              -144.64,
+              -944.36,
+              -142.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -955.64,
+              -143.64,
+              -948.36,
+              -141.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        },
+        {
+          "surface": {
+            "bounds": [
+              -954.64,
+              -142.64,
+              -951.36,
+              -140.36
+            ],
+            "height": 0.42800000000000005
+          },
+          "result": {
+            "blocked": null,
+            "support": 0.42800000000000005,
+            "water": false
+          }
+        }
+      ]
+    },
+    "waterBarrier": {
+      "status": "passed",
+      "point": [
+        -693.7902813299228,
+        -88.90281329923266
+      ],
+      "result": {
+        "blocked": "water",
+        "support": null,
+        "water": true
+      }
+    },
+    "solidBuildingBarrier": {
+      "status": "passed",
+      "instance": "REG_NORTH_house_01_00000",
+      "result": {
+        "blocked": "REG_NORTH_house_01_00000",
+        "support": 0.15,
+        "water": false
+      }
+    },
+    "landmarkSpawns": {
+      "status": "passed",
+      "spawns": [
+        {
+          "landmark": "lake",
+          "position": [
+            -324.902,
+            1.8699999999999999,
+            217.816
+          ],
+          "eyeHeight": 1.72,
+          "valid": true
+        },
+        {
+          "landmark": "park",
+          "position": [
+            255,
+            1.8699999999999999,
+            24
+          ],
+          "eyeHeight": 1.72,
+          "valid": true
+        },
+        {
+          "landmark": "downtown",
+          "position": [
+            427.5,
+            1.8699999999999999,
+            51
+          ],
+          "eyeHeight": 1.72,
+          "valid": true
+        },
+        {
+          "landmark": "sports",
+          "position": [
+            624,
+            1.8699999999999999,
+            -609
+          ],
+          "eyeHeight": 1.72,
+          "valid": true
+        },
+        {
+          "landmark": "station",
+          "position": [
+            667.5,
+            1.8699999999999999,
+            651
+          ],
+          "eyeHeight": 1.72,
+          "valid": true
+        }
+      ]
+    },
+    "shaderAndRuntimeErrors": {
+      "status": "passed",
+      "errors": [
+        {
+          "type": "warning",
+          "text": "The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127"
+        },
+        {
+          "type": "warning",
+          "text": "The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127"
+        }
+      ]
+    },
+    "dispose": {
+      "status": "passed",
+      "scope": "Explicit listener, renderer, geometry, reflector and device cleanup"
+    },
+    "reload": {
+      "status": "passed",
+      "timings": {
+        "rendererReady": 134.59999990463257,
+        "assetsReady": 452.2999999523163,
+        "collisionReady": 457.09999990463257,
+        "compiled": 4599.099999904633,
+        "firstCompleteFrame": 4599.099999904633
+      }
+    },
+    "nativeDesktopEscape": {
+      "status": "blocked",
+      "reason": "No authorization to control the user desktop; physical long-hold Escape and embedded browser behavior are untested."
+    },
+    "gpuTimestamps": {
+      "status": "not_applicable",
+      "reason": "GPU timestamp instrumentation was not enabled. CPU callback and full rendered frame interval are measured separately."
+    },
+    "missingWebGPUFailure": {
+      "status": "passed",
+      "scope": "Mocked navigator.gpu absence",
+      "message": "This city needs WebGPU. Open the local address in a recent desktop Chrome or Edge browser with hardware acceleration enabled."
+    },
+    "missingAssetFailure": {
+      "status": "passed",
+      "scope": "Mocked missing geometry response",
+      "message": "The city geometry could not be loaded."
+    },
+    "visualInspection": {
+      "status": "passed",
+      "scope": "Manual inspection of final WebGPU renders against the final source and reopened primary reference. Geometry transfer and scene readability only; not a photorealism or exact-reference-match claim.",
+      "evidence": [
+        "01-aerial.png",
+        "02-plan.png",
+        "03-lake.png",
+        "04-park.png",
+        "walking-promenade.png",
+        "source-lake_approach.png",
+        "source-residential.png",
+        "source-park_lawn.png",
+        "source-downtown_street.png"
+      ],
+      "findings": [
+        "West lake, complete visible lakeside route, residential strip, elongated central park, east towers, north sports and southeast transport retain the intended composition.",
+        "Final plan and oblique views have no former lake depth stripes.",
+        "Tangent-oriented walking spawn shows the promenade ahead, water to the left and residential frontage to the right.",
+        "Final downtown bus-shelter view confirms the trunk has moved clear of its seating and roof footprint.",
+        "Architecture, foliage and surface detail remain simpler and less dense than the photographic reference; water and lighting differ from Blender transport."
+      ]
+    },
+    "productionBuild": {
+      "status": "passed",
+      "scope": "Pinned dependency clean npm ci previously completed; final npm run build (TypeScript plus Vite production build) completed on final source. No remote hosting."
+    },
+    "localServer": {
+      "status": "passed",
+      "url": "http://127.0.0.1:4173/",
+      "httpStatus": 200
+    }
+  },
+  "consoleMessages": [
+    {
+      "type": "warning",
+      "text": "The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127"
+    },
+    {
+      "type": "warning",
+      "text": "The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127"
+    }
+  ],
+  "network": [
+    {
+      "url": "http://127.0.0.1:4173/assets/city.json",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "3233510",
+        "content-type": "application/json",
+        "date": "Sat, 03 Oct 2026 08:25:56 GMT",
+        "keep-alive": "timeout=5",
+        "last-modified": "Sat, 03 Oct 2026 08:24:29 GMT"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/geometry.bin",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "44543688",
+        "content-type": "application/octet-stream",
+        "date": "Sat, 03 Oct 2026 08:25:56 GMT",
+        "keep-alive": "timeout=5",
+        "last-modified": "Sat, 03 Oct 2026 08:24:27 GMT"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/city.json",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "3233510",
+        "content-type": "application/json",
+        "date": "Sat, 03 Oct 2026 08:26:38 GMT",
+        "keep-alive": "timeout=5",
+        "last-modified": "Sat, 03 Oct 2026 08:24:29 GMT"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/geometry.bin",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "44543688",
+        "content-type": "application/octet-stream",
+        "date": "Sat, 03 Oct 2026 08:26:38 GMT",
+        "keep-alive": "timeout=5",
+        "last-modified": "Sat, 03 Oct 2026 08:24:27 GMT"
+      }
+    }
+  ],
+  "build": {
+    "entrySHA256": "8f3619dccebdc0d2dd5a0950a5176993179be6cc108be6133592971a24a8bea8",
+    "javascriptSHA256": "5fd887857862bbc28825ad16d909e7439e0d11ccd634121784e32d2259c81751",
+    "renderProfileSHA256": "88ce11d79218d18cab69e1d2f10ab027b0355cbf6ae041254359838aa663ba1a"
+  },
+  "initialState": {
+    "mode": "aerial",
+    "paused": true,
+    "position": [
+      209.99999999999997,
+      1800,
+      1549.9999999999998
+    ],
+    "rotation": [
+      -0.85988695361133,
+      0.08817711559959494,
+      0.10191229054987569
+    ],
+    "footHeight": 0.15,
+    "eyeHeight": 1799.85,
+    "keys": [],
+    "pointerLocked": false,
+    "fullscreen": false,
+    "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+    "inventory": {
+      "prototypeTriangles": 530282,
+      "instancedTriangles": 79052882,
+      "instances": 12488,
+      "meshBatches": 99,
+      "geometryBytes": 44543688
+    },
+    "transferAudit": {
+      "passed": true,
+      "attributeFloatsCompared": 9545076,
+      "indicesCompared": 1590846,
+      "matrixFloatsCompared": 861904
+    },
+    "reflectorPlanes": [
+      0.02500000037252903,
+      0.15000000596046448,
+      0.04500000178813934,
+      0.5799999833106995
+    ],
+    "backend": {
+      "name": "WebGPU",
+      "verifiedBackend": true,
+      "vendor": "nvidia",
+      "architecture": "ampere",
+      "device": "",
+      "description": "",
+      "isFallbackAdapter": false,
+      "features": [
+        "core-features-and-limits",
+        "float32-filterable"
+      ],
+      "limits": {
+        "maxTextureDimension2D": 8192,
+        "maxBufferSize": 268435456
+      }
+    },
+    "timings": {
+      "rendererReady": 378.90000009536743,
+      "assetsReady": 768.1000001430511,
+      "collisionReady": 773,
+      "compiled": 5149.200000047684,
+      "firstCompleteFrame": 5149.200000047684
+    },
+    "errors": [],
+    "dpr": 1,
+    "viewport": [
+      1600,
+      1000
+    ],
+    "framebuffer": [
+      1600,
+      1000
+    ],
+    "camera": [
+      209.99999999999997,
+      1800,
+      1549.9999999999998
+    ],
+    "landmarks": [
+      {
+        "id": "lake",
+        "name": "Westmere Lake",
+        "position": [
+          -709.5,
+          280,
+          -91.5
+        ],
+        "lookAt": [
+          -682.5,
+          0,
+          -88.5
+        ],
+        "walkPosition": [
+          -324.902,
+          1.85,
+          217.816
+        ]
+      },
+      {
+        "id": "park",
+        "name": "Grand Park",
+        "position": [
+          253.5,
+          370,
+          -24
+        ],
+        "lookAt": [
+          253.5,
+          0,
+          -96
+        ],
+        "walkPosition": [
+          255,
+          1.85,
+          24
+        ]
+      },
+      {
+        "id": "downtown",
+        "name": "Eastbank Centre",
+        "position": [
+          724.5,
+          285,
+          198
+        ],
+        "lookAt": [
+          532.5,
+          45,
+          -178.5
+        ],
+        "walkPosition": [
+          427.5,
+          1.85,
+          51
+        ]
+      },
+      {
+        "id": "sports",
+        "name": "Northfields Sports",
+        "position": [
+          667.5,
+          210,
+          -546
+        ],
+        "lookAt": [
+          652.5,
+          0,
+          -696
+        ],
+        "walkPosition": [
+          624,
+          1.85,
+          -609
+        ]
+      },
+      {
+        "id": "station",
+        "name": "Southgate Station",
+        "position": [
+          772.5,
+          210,
+          778.5
+        ],
+        "lookAt": [
+          679.5,
+          0,
+          598.5
+        ],
+        "walkPosition": [
+          667.5,
+          1.85,
+          651
+        ]
+      }
+    ],
+    "renderInfo": {
+      "calls": 32,
+      "frameCalls": 6,
+      "drawCalls": 269059,
+      "triangles": 394737376,
+      "points": 0,
+      "lines": 0,
+      "timestamp": 0
+    },
+    "rendererTrackedMemory": {
+      "attributes": 199,
+      "attributesSize": 38180340,
+      "geometries": 100,
+      "indexAttributes": 99,
+      "indexAttributesSize": 6363384,
+      "indirectStorageAttributes": 0,
+      "indirectStorageAttributesSize": 0,
+      "programs": 24,
+      "programsSize": 333342,
+      "readbackBuffers": 0,
+      "readbackBuffersSize": 0,
+      "renderTargets": 7,
+      "storageAttributes": 0,
+      "storageAttributesSize": 0,
+      "textures": 213,
+      "texturesSize": 242052740,
+      "uniformBuffers": 494,
+      "uniformBuffersSize": 129216,
+      "total": 287059022
+    },
+    "shadowNeedsUpdate": false,
+    "disposed": false
+  },
+  "backend": {
+    "name": "WebGPU",
+    "verifiedBackend": true,
+    "vendor": "nvidia",
+    "architecture": "ampere",
+    "device": "",
+    "description": "",
+    "isFallbackAdapter": false,
+    "features": [
+      "core-features-and-limits",
+      "float32-filterable"
+    ],
+    "limits": {
+      "maxTextureDimension2D": 8192,
+      "maxBufferSize": 268435456
+    }
+  },
+  "source": {
+    "sourceHash": "4d349df2adb491a28440ac6312e662edf0ed300781d07c4a6b33f7f896265208",
+    "manifestSHA256": "0d6836393babd27cf1748225a331890c8a821471c7de4b2583581b000aabdd69",
+    "geometrySHA256": "9bee4c4988f96689c9d776f1c6c653984a9f8f13c74b34102df6d09979c8dbd9",
+    "manifestBytes": 3233510,
+    "geometryBytes": 44543688
+  },
+  "performance": {
+    "plan": {
+      "camera": "North-up orthographic plan, current manifest bounds plus7% margin",
+      "samples": 90,
+      "durationMs": 12521.9,
+      "frameIntervalMs": {
+        "p50": 140.39999999999964,
+        "p95": 156.8000000000029,
+        "mean": 139.13222222222223
+      },
+      "cpuCallbackMs": {
+        "p50": 46.5,
+        "p95": 74.30000019073486,
+        "mean": 50.84666666719649
+      },
+      "drawCalls": 260205,
+      "scenePasses": 6,
+      "trianglesAcrossPasses": 377434552,
+      "gpuMilliseconds": null
+    },
+    "walking": {
+      "position": [
+        -323.79699764027,
+        1.8699999999999999,
+        213.98034627377672
+      ],
+      "rotation": [
+        -0.037020833945481876,
+        -0.3216863661217543,
+        -0.011709576241443
+      ],
+      "samples": 90,
+      "durationMs": 2531.300000000003,
+      "frameIntervalMs": {
+        "p50": 35.89999999999418,
+        "p95": 36,
+        "mean": 28.12555555555559
+      },
+      "cpuCallbackMs": {
+        "p50": 27.799999952316284,
+        "p95": 28.5,
+        "mean": 27.871111125416228
+      },
+      "drawCalls": 61949,
+      "scenePasses": 5,
+      "trianglesAcrossPasses": 76480202,
+      "gpuMilliseconds": null
+    }
+  },
+  "limitations": [
+    "No buildings have furnished explorable interiors; walking uses outdoor source support/collision geometry.",
+    "Full-city inspection is substantially slower than walking at preserved full native resolution and full geometry.",
+    "Physical long-hold Escape, the user browser and embedded browser behavior were not controlled or tested.",
+    "GPU execution timestamps and physical VRAM measurements are unavailable; renderer-tracked allocations are estimates.",
+    "Static daytime scene; no environmental animation or moving traffic."
+  ]
+}
