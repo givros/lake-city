@@ -1,0 +1,2800 @@
+{
+  "sourceProject": "E:\\Dev\\plane-3d-astra",
+  "sourceRevision": "48662bf",
+  "runtimeThree": "0.186.1",
+  "sourceThree": "0.184.0",
+  "sourceFiles": [
+    {
+      "file": "E:\\Dev\\plane-3d-astra\\src\\assets\\AirplaneModel.ts",
+      "sha256": "62598f4c1844a428b6509c73eefc655b36d248b33fbf649ffa66f77014b7f286",
+      "bytes": 45082
+    },
+    {
+      "file": "E:\\Dev\\plane-3d-astra\\src\\assets\\MaterialLibrary.ts",
+      "sha256": "c89cb2ac29aa91b600c7550a3de54bdf8f979cfd24b8bfdbfb1a421d81bd5d01",
+      "bytes": 5929
+    },
+    {
+      "file": "E:\\Dev\\plane-3d-astra\\src\\game\\types.ts",
+      "sha256": "3d9d97147cb93640a477114993f9cd12981383b5e6ae4a119270d2e4da4f88cc",
+      "bytes": 1386
+    }
+  ],
+  "runtimeFiles": [
+    {
+      "file": "E:\\Dev\\lake-city\\artifacts\\lake_city\\viewer\\src\\flight\\assets\\AirplaneModel.ts",
+      "sha256": "fef29a18a8729b02025f90ef638e2d0a73358c867e13d439516c6a9ddd2e01d3",
+      "bytes": 45088
+    },
+    {
+      "file": "E:\\Dev\\lake-city\\artifacts\\lake_city\\viewer\\src\\flight\\assets\\MaterialLibrary.ts",
+      "sha256": "42a8073e9c7d4eca6e33f04c6ecba4efbcc3f8026bb113311d72d090060ef218",
+      "bytes": 5562
+    },
+    {
+      "file": "E:\\Dev\\lake-city\\artifacts\\lake_city\\viewer\\src\\flight\\types.ts",
+      "sha256": "e99aadb5fb0ac4811d1aeb4bf23bb43fd8e19d116a4cde7832670f242f06bddb",
+      "bytes": 1411
+    }
+  ],
+  "sourceGeometry": {
+    "sha256": "f4dd289ffec43b428caf90c38fd2755f2ddabae4f9ecf97c84375f7e29a4fa81",
+    "normalizedSha256": "390453f3f179163b72b53ea713f04b85e67329e8746bd255291750d39f3dea3b",
+    "zeroRoundoffTolerance": 1e-12,
+    "meshes": 39,
+    "vertices": 109989,
+    "triangles": 37119,
+    "parts": [
+      {
+        "name": "Articulated aileron",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.24,
+          2.52,
+          -0.49,
+          1
+        ],
+        "visible": true,
+        "parts": [],
+        "groups": []
+      },
+      {
+        "name": "Articulated aileron",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.24,
+          2.52,
+          -0.49,
+          1
+        ],
+        "visible": true,
+        "parts": [],
+        "groups": []
+      },
+      {
+        "name": "Separate elevator",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.36,
+          -4.8,
+          1
+        ],
+        "visible": true,
+        "parts": [],
+        "groups": [
+          {
+            "start": 0,
+            "count": 6,
+            "materialIndex": 0
+          },
+          {
+            "start": 6,
+            "count": 6,
+            "materialIndex": 1
+          },
+          {
+            "start": 12,
+            "count": 6,
+            "materialIndex": 2
+          },
+          {
+            "start": 18,
+            "count": 6,
+            "materialIndex": 3
+          },
+          {
+            "start": 24,
+            "count": 6,
+            "materialIndex": 4
+          },
+          {
+            "start": 30,
+            "count": 6,
+            "materialIndex": 5
+          }
+        ]
+      },
+      {
+        "name": "Separate articulated rudder",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.29,
+          -4.64,
+          1
+        ],
+        "visible": true,
+        "parts": [],
+        "groups": [
+          {
+            "start": 0,
+            "count": 78,
+            "materialIndex": 0
+          },
+          {
+            "start": 78,
+            "count": 450,
+            "materialIndex": 1
+          }
+        ]
+      },
+      {
+        "name": "Iris blue",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Blue iris"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Dark pupils",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Inward-convergent pupil"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Eye catchlights",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "White eye catchlight"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Iris blue",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Blue iris"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Dark pupils",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Inward-convergent pupil"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Eye catchlights",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "White eye catchlight"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Rubber tires",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel torus rubber tire"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Brushed aluminum",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel silver cylindrical hub"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Engine steel",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel dark hub cap",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel dark hub cap",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Graphite livery and trim",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel tire sidewall groove",
+          "Main wheel tire sidewall groove"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Rubber tires",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel torus rubber tire"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Brushed aluminum",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel silver cylindrical hub"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Engine steel",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel dark hub cap",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel dark hub cap",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Graphite livery and trim",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel tire sidewall groove",
+          "Main wheel tire sidewall groove"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Rubber tires",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.2,
+          -4.67,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Tail wheel torus rubber tire"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Brushed aluminum",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.2,
+          -4.67,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Tail wheel silver cylindrical hub"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Engine steel",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.2,
+          -4.67,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Tail wheel dark hub cap",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel dark hub cap",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Graphite livery and trim",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.2,
+          -4.67,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Tail wheel tire sidewall groove",
+          "Tail wheel tire sidewall groove"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Primary clearcoat paint",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Rounded elliptical upper fuselage — 28 angular segments",
+          "Rounded tail cap",
+          "Dorsal intake sculpted orange lip",
+          "Closed seven-sample dihedral main wing",
+          "Closed seven-sample dihedral main wing",
+          "Orange horizontal stabilizer",
+          "Orange horizontal stabilizer",
+          "Tall swept rounded vertical fin",
+          "Continuous rounded-square superellipse cockpit loft",
+          "Forward window orange mullion",
+          "Forward window orange mullion",
+          "Thick determined orange brow",
+          "Thick determined orange brow",
+          "Main gear orange shoulder fairing",
+          "Main gear orange shoulder fairing",
+          "Tailwheel upper aerodynamic fairing",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Warm white enamel",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Warm-white elliptical lower fuselage",
+          "White crop hopper",
+          "Warm-white upper wing inset",
+          "Warm-white lower wing inset",
+          "Warm-white upper wing inset",
+          "Warm-white lower wing inset",
+          "Custom white capital D tail letter",
+          "Custom white capital D tail letter",
+          "Flush angled white side slash",
+          "Flush angled white side slash",
+          "Flush angled white side slash",
+          "Flush angled white side slash",
+          "White main oleo strut",
+          "White main oleo strut",
+          "Integrated tail-wheel yoke"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Brushed aluminum",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Tapered brushed metal nose cowling",
+          "Cowling front trim ring",
+          "Hopper aluminum outlet",
+          "Curved metallic exhaust",
+          "Curved metallic exhaust",
+          "Wing brace attachment shoes",
+          "Wing brace attachment shoes",
+          "Silver trailing gear brace",
+          "Polished oleo inner sleeve",
+          "Silver trailing gear brace",
+          "Polished oleo inner sleeve",
+          "Tail-wheel silver tension brace",
+          "Horizontal aluminum spray boom",
+          "Crop-spray drop tube",
+          "Crop-spray drop tube",
+          "Crop-spray drop tube",
+          "Crop-spray drop tube",
+          "Horizontal aluminum spray boom",
+          "Crop-spray drop tube",
+          "Crop-spray drop tube",
+          "Crop-spray drop tube",
+          "Crop-spray drop tube"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Graphite livery and trim",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Cowling rear graphite sealing ring",
+          "Black dorsal intake opening",
+          "Dark exhaust mouth",
+          "Engine access panel louvers",
+          "Engine access panel louvers",
+          "Engine access panel louvers",
+          "Dark exhaust mouth",
+          "Engine access panel louvers",
+          "Engine access panel louvers",
+          "Engine access panel louvers",
+          "Aileron hinge seam",
+          "Aileron hinge seam",
+          "Stabilizer trailing hinge",
+          "Stabilizer trailing hinge",
+          "Swept black tail chevron",
+          "Swept black tail chevron",
+          "Rudder hinge seam",
+          "Swept black tail chevron",
+          "Swept black tail chevron",
+          "Rudder hinge seam",
+          "Subtle dark upper eye contour",
+          "Subtle dark upper eye contour",
+          "Flush upper-shell black aft-cockpit collar",
+          "Flush upper black fuselage pinstripe",
+          "Flush lower black fuselage pinstripe",
+          "Curved small black nose smile",
+          "Procedural skull nose emblem",
+          "Skull jaw",
+          "Skull crossed bones",
+          "Skull crossed bones",
+          "Flush upper black fuselage pinstripe",
+          "Flush lower black fuselage pinstripe",
+          "Curved small black nose smile",
+          "Procedural skull nose emblem",
+          "Skull jaw",
+          "Skull crossed bones",
+          "Skull crossed bones",
+          "Spray boom outer end cap",
+          "Hopper-to-boom feed line",
+          "Spray boom outer end cap",
+          "Hopper-to-boom feed line"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Engine steel",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Intake grille blades",
+          "Intake grille blades",
+          "Intake grille blades",
+          "Intake grille blades",
+          "Intake grille blades",
+          "Cowling inset fasteners",
+          "Fuselage nose panel seam",
+          "Cowling inset fasteners",
+          "Fuselage nose panel seam",
+          "Subtle spanwise access seam",
+          "Subtle spanwise access seam",
+          "Subtle spanwise access seam",
+          "Dark-metal structural wing brace",
+          "Subtle spanwise access seam",
+          "Subtle spanwise access seam",
+          "Subtle spanwise access seam",
+          "Dark-metal structural wing brace",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Main-wheel axle",
+          "Main-wheel axle",
+          "Spray-boom wing support",
+          "Rear-facing spray nozzle",
+          "Rear-facing spray nozzle",
+          "Rear-facing spray nozzle",
+          "Rear-facing spray nozzle",
+          "Spray-boom wing support",
+          "Rear-facing spray nozzle",
+          "Rear-facing spray nozzle",
+          "Rear-facing spray nozzle",
+          "Rear-facing spray nozzle"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Paint highlight",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Orange rolled leading edge highlight",
+          "Orange rolled leading edge highlight",
+          "Lighter orange stabilizer panel",
+          "Lighter orange stabilizer panel",
+          "Windshield lower polished orange rail"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Red navigation lens",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Wingtip red navigation light",
+          "Wingtip red navigation light"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Paint sheen",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Tail sheen inset",
+          "Tail sheen inset"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Smoky cockpit glass",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Smoky curved front windshield surround",
+          "Curved side window",
+          "Curved side window"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Glass continuity reflection",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Blue-white side glass reflection",
+          "Lower continuous window glint",
+          "Blue-white side glass reflection",
+          "Lower continuous window glint",
+          "Continuous blue-white windshield highlight"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Eye white",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Curved warm-white expressive eye band"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Transparent windshield face glaze",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Smoky glass glaze across the face"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Graphite composite propeller",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.42,
+          4.34,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Curved tapered beveled graphite propeller blade",
+          "Curved tapered beveled graphite propeller blade",
+          "Curved tapered beveled graphite propeller blade"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Propeller safety yellow",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.42,
+          4.34,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Yellow propeller safety tip front",
+          "Yellow propeller safety tip rear",
+          "Yellow propeller safety tip front",
+          "Yellow propeller safety tip rear",
+          "Yellow propeller safety tip front",
+          "Yellow propeller safety tip rear"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Brushed aluminum",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.42,
+          4.34,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Silver spinner hemisphere",
+          "Spinner hub aluminum base flange"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Engine steel",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.42,
+          4.34,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Dark upper spinner shell"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Propeller additive motion blur",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.42,
+          4.38,
+          1
+        ],
+        "visible": false,
+        "parts": [],
+        "groups": []
+      }
+    ]
+  },
+  "runtimeGeometry": {
+    "sha256": "c4bdd0f492a940db6cf2a6a0de38164182bd88d46c2c9b9a860e05d300906ad2",
+    "normalizedSha256": "390453f3f179163b72b53ea713f04b85e67329e8746bd255291750d39f3dea3b",
+    "zeroRoundoffTolerance": 1e-12,
+    "meshes": 39,
+    "vertices": 109989,
+    "triangles": 37119,
+    "parts": [
+      {
+        "name": "Articulated aileron",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.24,
+          2.52,
+          -0.49,
+          1
+        ],
+        "visible": true,
+        "parts": [],
+        "groups": []
+      },
+      {
+        "name": "Articulated aileron",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.24,
+          2.52,
+          -0.49,
+          1
+        ],
+        "visible": true,
+        "parts": [],
+        "groups": []
+      },
+      {
+        "name": "Separate elevator",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.36,
+          -4.8,
+          1
+        ],
+        "visible": true,
+        "parts": [],
+        "groups": [
+          {
+            "start": 0,
+            "count": 6,
+            "materialIndex": 0
+          },
+          {
+            "start": 6,
+            "count": 6,
+            "materialIndex": 1
+          },
+          {
+            "start": 12,
+            "count": 6,
+            "materialIndex": 2
+          },
+          {
+            "start": 18,
+            "count": 6,
+            "materialIndex": 3
+          },
+          {
+            "start": 24,
+            "count": 6,
+            "materialIndex": 4
+          },
+          {
+            "start": 30,
+            "count": 6,
+            "materialIndex": 5
+          }
+        ]
+      },
+      {
+        "name": "Separate articulated rudder",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.29,
+          -4.64,
+          1
+        ],
+        "visible": true,
+        "parts": [],
+        "groups": [
+          {
+            "start": 0,
+            "count": 78,
+            "materialIndex": 0
+          },
+          {
+            "start": 78,
+            "count": 450,
+            "materialIndex": 1
+          }
+        ]
+      },
+      {
+        "name": "Iris blue",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Blue iris"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Dark pupils",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Inward-convergent pupil"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Eye catchlights",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "White eye catchlight"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Iris blue",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Blue iris"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Dark pupils",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Inward-convergent pupil"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Eye catchlights",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "White eye catchlight"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Rubber tires",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel torus rubber tire"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Brushed aluminum",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel silver cylindrical hub"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Engine steel",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel dark hub cap",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel dark hub cap",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Graphite livery and trim",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel tire sidewall groove",
+          "Main wheel tire sidewall groove"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Rubber tires",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel torus rubber tire"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Brushed aluminum",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel silver cylindrical hub"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Engine steel",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel dark hub cap",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel dark hub cap",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug",
+          "Main wheel hub lug"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Graphite livery and trim",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.76,
+          0.52,
+          0.72,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Main wheel tire sidewall groove",
+          "Main wheel tire sidewall groove"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Rubber tires",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.2,
+          -4.67,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Tail wheel torus rubber tire"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Brushed aluminum",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.2,
+          -4.67,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Tail wheel silver cylindrical hub"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Engine steel",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.2,
+          -4.67,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Tail wheel dark hub cap",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel dark hub cap",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug",
+          "Tail wheel hub lug"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Graphite livery and trim",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.2,
+          -4.67,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Tail wheel tire sidewall groove",
+          "Tail wheel tire sidewall groove"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Primary clearcoat paint",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Rounded elliptical upper fuselage — 28 angular segments",
+          "Rounded tail cap",
+          "Dorsal intake sculpted orange lip",
+          "Closed seven-sample dihedral main wing",
+          "Closed seven-sample dihedral main wing",
+          "Orange horizontal stabilizer",
+          "Orange horizontal stabilizer",
+          "Tall swept rounded vertical fin",
+          "Continuous rounded-square superellipse cockpit loft",
+          "Forward window orange mullion",
+          "Forward window orange mullion",
+          "Thick determined orange brow",
+          "Thick determined orange brow",
+          "Main gear orange shoulder fairing",
+          "Main gear orange shoulder fairing",
+          "Tailwheel upper aerodynamic fairing",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve",
+          "Spray-nozzle orange valve"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Warm white enamel",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Warm-white elliptical lower fuselage",
+          "White crop hopper",
+          "Warm-white upper wing inset",
+          "Warm-white lower wing inset",
+          "Warm-white upper wing inset",
+          "Warm-white lower wing inset",
+          "Custom white capital D tail letter",
+          "Custom white capital D tail letter",
+          "Flush angled white side slash",
+          "Flush angled white side slash",
+          "Flush angled white side slash",
+          "Flush angled white side slash",
+          "White main oleo strut",
+          "White main oleo strut",
+          "Integrated tail-wheel yoke"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Brushed aluminum",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Tapered brushed metal nose cowling",
+          "Cowling front trim ring",
+          "Hopper aluminum outlet",
+          "Curved metallic exhaust",
+          "Curved metallic exhaust",
+          "Wing brace attachment shoes",
+          "Wing brace attachment shoes",
+          "Silver trailing gear brace",
+          "Polished oleo inner sleeve",
+          "Silver trailing gear brace",
+          "Polished oleo inner sleeve",
+          "Tail-wheel silver tension brace",
+          "Horizontal aluminum spray boom",
+          "Crop-spray drop tube",
+          "Crop-spray drop tube",
+          "Crop-spray drop tube",
+          "Crop-spray drop tube",
+          "Horizontal aluminum spray boom",
+          "Crop-spray drop tube",
+          "Crop-spray drop tube",
+          "Crop-spray drop tube",
+          "Crop-spray drop tube"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Graphite livery and trim",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Cowling rear graphite sealing ring",
+          "Black dorsal intake opening",
+          "Dark exhaust mouth",
+          "Engine access panel louvers",
+          "Engine access panel louvers",
+          "Engine access panel louvers",
+          "Dark exhaust mouth",
+          "Engine access panel louvers",
+          "Engine access panel louvers",
+          "Engine access panel louvers",
+          "Aileron hinge seam",
+          "Aileron hinge seam",
+          "Stabilizer trailing hinge",
+          "Stabilizer trailing hinge",
+          "Swept black tail chevron",
+          "Swept black tail chevron",
+          "Rudder hinge seam",
+          "Swept black tail chevron",
+          "Swept black tail chevron",
+          "Rudder hinge seam",
+          "Subtle dark upper eye contour",
+          "Subtle dark upper eye contour",
+          "Flush upper-shell black aft-cockpit collar",
+          "Flush upper black fuselage pinstripe",
+          "Flush lower black fuselage pinstripe",
+          "Curved small black nose smile",
+          "Procedural skull nose emblem",
+          "Skull jaw",
+          "Skull crossed bones",
+          "Skull crossed bones",
+          "Flush upper black fuselage pinstripe",
+          "Flush lower black fuselage pinstripe",
+          "Curved small black nose smile",
+          "Procedural skull nose emblem",
+          "Skull jaw",
+          "Skull crossed bones",
+          "Skull crossed bones",
+          "Spray boom outer end cap",
+          "Hopper-to-boom feed line",
+          "Spray boom outer end cap",
+          "Hopper-to-boom feed line"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Engine steel",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Intake grille blades",
+          "Intake grille blades",
+          "Intake grille blades",
+          "Intake grille blades",
+          "Intake grille blades",
+          "Cowling inset fasteners",
+          "Fuselage nose panel seam",
+          "Cowling inset fasteners",
+          "Fuselage nose panel seam",
+          "Subtle spanwise access seam",
+          "Subtle spanwise access seam",
+          "Subtle spanwise access seam",
+          "Dark-metal structural wing brace",
+          "Subtle spanwise access seam",
+          "Subtle spanwise access seam",
+          "Subtle spanwise access seam",
+          "Dark-metal structural wing brace",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Fuselage recessed rivets",
+          "Main-wheel axle",
+          "Main-wheel axle",
+          "Spray-boom wing support",
+          "Rear-facing spray nozzle",
+          "Rear-facing spray nozzle",
+          "Rear-facing spray nozzle",
+          "Rear-facing spray nozzle",
+          "Spray-boom wing support",
+          "Rear-facing spray nozzle",
+          "Rear-facing spray nozzle",
+          "Rear-facing spray nozzle",
+          "Rear-facing spray nozzle"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Paint highlight",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Orange rolled leading edge highlight",
+          "Orange rolled leading edge highlight",
+          "Lighter orange stabilizer panel",
+          "Lighter orange stabilizer panel",
+          "Windshield lower polished orange rail"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Red navigation lens",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Wingtip red navigation light",
+          "Wingtip red navigation light"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Paint sheen",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Tail sheen inset",
+          "Tail sheen inset"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Smoky cockpit glass",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Smoky curved front windshield surround",
+          "Curved side window",
+          "Curved side window"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Glass continuity reflection",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Blue-white side glass reflection",
+          "Lower continuous window glint",
+          "Blue-white side glass reflection",
+          "Lower continuous window glint",
+          "Continuous blue-white windshield highlight"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Eye white",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Curved warm-white expressive eye band"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Transparent windshield face glaze",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Smoky glass glaze across the face"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Graphite composite propeller",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.42,
+          4.34,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Curved tapered beveled graphite propeller blade",
+          "Curved tapered beveled graphite propeller blade",
+          "Curved tapered beveled graphite propeller blade"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Propeller safety yellow",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.42,
+          4.34,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Yellow propeller safety tip front",
+          "Yellow propeller safety tip rear",
+          "Yellow propeller safety tip front",
+          "Yellow propeller safety tip rear",
+          "Yellow propeller safety tip front",
+          "Yellow propeller safety tip rear"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Brushed aluminum",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.42,
+          4.34,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Silver spinner hemisphere",
+          "Spinner hub aluminum base flange"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Engine steel",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.42,
+          4.34,
+          1
+        ],
+        "visible": true,
+        "parts": [
+          "Dark upper spinner shell"
+        ],
+        "groups": []
+      },
+      {
+        "name": "Propeller additive motion blur",
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2.42,
+          4.38,
+          1
+        ],
+        "visible": false,
+        "parts": [],
+        "groups": []
+      }
+    ]
+  },
+  "authoredGeometryUnchanged": true,
+  "geometryEqualWithinZeroRoundoff": true,
+  "floatingPointDifferences": [
+    {
+      "name": "Primary clearcoat paint",
+      "attributes": [
+        {
+          "name": "position",
+          "changed": 40,
+          "maxDifference": 1.9594350303107176e-17
+        },
+        {
+          "name": "normal",
+          "changed": 296,
+          "maxDifference": 3.6739405577555036e-16
+        }
+      ],
+      "indicesEqual": true,
+      "descriptorEqual": true
+    },
+    {
+      "name": "Warm white enamel",
+      "attributes": [
+        {
+          "name": "position",
+          "changed": 24,
+          "maxDifference": 8.817457470962107e-17
+        },
+        {
+          "name": "normal",
+          "changed": 48,
+          "maxDifference": 5.783054581652182e-17
+        }
+      ],
+      "indicesEqual": true,
+      "descriptorEqual": true
+    },
+    {
+      "name": "Brushed aluminum",
+      "attributes": [
+        {
+          "name": "normal",
+          "changed": 48,
+          "maxDifference": 7.536288374504455e-17
+        }
+      ],
+      "indicesEqual": true,
+      "descriptorEqual": true
+    },
+    {
+      "name": "Graphite livery and trim",
+      "attributes": [
+        {
+          "name": "normal",
+          "changed": 40,
+          "maxDifference": 1.275673837863441e-16
+        }
+      ],
+      "indicesEqual": true,
+      "descriptorEqual": true
+    },
+    {
+      "name": "Engine steel",
+      "attributes": [
+        {
+          "name": "normal",
+          "changed": 40,
+          "maxDifference": 2.752946811129326e-16
+        }
+      ],
+      "indicesEqual": true,
+      "descriptorEqual": true
+    },
+    {
+      "name": "Red navigation lens",
+      "attributes": [
+        {
+          "name": "normal",
+          "changed": 56,
+          "maxDifference": 6.560608327918968e-17
+        }
+      ],
+      "indicesEqual": true,
+      "descriptorEqual": true
+    }
+  ],
+  "diagnostics": {
+    "length": 9.8,
+    "wingspan": 11.76,
+    "mainWheelRadius": 0.52,
+    "tailWheelRadius": 0.2,
+    "propellerVisibleRadius": 1.81,
+    "propellerSafetyRadius": 1.86,
+    "propellerHub": [
+      0,
+      2.42,
+      4.34
+    ],
+    "neutralPropellerClearance": 0.56,
+    "meshes": 39,
+    "geometries": 39,
+    "materials": 19,
+    "triangles": 37119,
+    "bounds": [
+      11.760000228881836,
+      4.935004237294197,
+      9.799999978542328
+    ],
+    "semanticParts": [
+      "Articulated aileron",
+      "Separate elevator",
+      "Separate articulated rudder",
+      "Blue iris",
+      "Inward-convergent pupil",
+      "White eye catchlight",
+      "Main wheel torus rubber tire",
+      "Main wheel silver cylindrical hub",
+      "Main wheel dark hub cap",
+      "Main wheel hub lug",
+      "Main wheel tire sidewall groove",
+      "Tail wheel torus rubber tire",
+      "Tail wheel silver cylindrical hub",
+      "Tail wheel dark hub cap",
+      "Tail wheel hub lug",
+      "Tail wheel tire sidewall groove",
+      "Rounded elliptical upper fuselage — 28 angular segments",
+      "Rounded tail cap",
+      "Dorsal intake sculpted orange lip",
+      "Closed seven-sample dihedral main wing",
+      "Orange horizontal stabilizer",
+      "Tall swept rounded vertical fin",
+      "Continuous rounded-square superellipse cockpit loft",
+      "Forward window orange mullion",
+      "Thick determined orange brow",
+      "Main gear orange shoulder fairing",
+      "Tailwheel upper aerodynamic fairing",
+      "Spray-nozzle orange valve",
+      "Warm-white elliptical lower fuselage",
+      "White crop hopper",
+      "Warm-white upper wing inset",
+      "Warm-white lower wing inset",
+      "Custom white capital D tail letter",
+      "Flush angled white side slash",
+      "White main oleo strut",
+      "Integrated tail-wheel yoke",
+      "Tapered brushed metal nose cowling",
+      "Cowling front trim ring",
+      "Hopper aluminum outlet",
+      "Curved metallic exhaust",
+      "Wing brace attachment shoes",
+      "Silver trailing gear brace",
+      "Polished oleo inner sleeve",
+      "Tail-wheel silver tension brace",
+      "Horizontal aluminum spray boom",
+      "Crop-spray drop tube",
+      "Cowling rear graphite sealing ring",
+      "Black dorsal intake opening",
+      "Dark exhaust mouth",
+      "Engine access panel louvers",
+      "Aileron hinge seam",
+      "Stabilizer trailing hinge",
+      "Swept black tail chevron",
+      "Rudder hinge seam",
+      "Subtle dark upper eye contour",
+      "Flush upper-shell black aft-cockpit collar",
+      "Flush upper black fuselage pinstripe",
+      "Flush lower black fuselage pinstripe",
+      "Curved small black nose smile",
+      "Procedural skull nose emblem",
+      "Skull jaw",
+      "Skull crossed bones",
+      "Spray boom outer end cap",
+      "Hopper-to-boom feed line",
+      "Intake grille blades",
+      "Cowling inset fasteners",
+      "Fuselage nose panel seam",
+      "Subtle spanwise access seam",
+      "Dark-metal structural wing brace",
+      "Fuselage recessed rivets",
+      "Main-wheel axle",
+      "Spray-boom wing support",
+      "Rear-facing spray nozzle",
+      "Orange rolled leading edge highlight",
+      "Lighter orange stabilizer panel",
+      "Windshield lower polished orange rail",
+      "Wingtip red navigation light",
+      "Tail sheen inset",
+      "Smoky curved front windshield surround",
+      "Curved side window",
+      "Blue-white side glass reflection",
+      "Lower continuous window glint",
+      "Continuous blue-white windshield highlight",
+      "Curved warm-white expressive eye band",
+      "Smoky glass glaze across the face",
+      "Curved tapered beveled graphite propeller blade",
+      "Yellow propeller safety tip front",
+      "Yellow propeller safety tip rear",
+      "Silver spinner hemisphere",
+      "Spinner hub aluminum base flange",
+      "Dark upper spinner shell",
+      "Propeller additive motion blur"
+    ],
+    "source": "Fully procedural Three.js geometry; authored ring and superellipse lofts",
+    "paintColor": "#ed870c",
+    "paint": {
+      "primary": "#ed870c",
+      "highlight": "#ff9f1c",
+      "sheen": "#ffc05f"
+    },
+    "collisionProxy": {
+      "mainWheels": [
+        [
+          -1.76,
+          0.52,
+          0.72
+        ],
+        [
+          1.76,
+          0.52,
+          0.72
+        ]
+      ],
+      "tailWheel": [
+        0,
+        0.2,
+        -4.67
+      ],
+      "propellerHub": [
+        0,
+        2.42,
+        4.34
+      ],
+      "propellerSafetyRadius": 1.86
+    },
+    "animatedParts": 10,
+    "textures": 0,
+    "disposed": false
+  },
+  "adaptations": [
+    "Three.js WebGPU imports",
+    "Equivalent TSL propeller opacity expression",
+    "Lake City scoped paint storage key"
+  ],
+  "glb": {
+    "file": "Cropper_Seven.glb",
+    "sha256": "bc9151202cba4b475c601f1f975ea81d1b4066ea47639ae21f37cdc46eff7d84",
+    "bytes": 3585044
+  }
+}

@@ -12,6 +12,8 @@ import {CityCollision,BODY} from './collision';
 
 import {CityLife} from './life';
 
+import {CityFlight} from './flight/CityFlight';
+
 import type {Vec3,Landmark} from './types';
 
 
@@ -30,9 +32,12 @@ let failed=false,disposed=false,bundle:RendererBundle|undefined,city:LoadedCity|
 
 let life:CityLife|undefined;
 
+let flight:CityFlight|undefined;
+let lastFlightStatus='';
+
 let fullscreenSession=0;
 
-let dirty=true,forceFrames=0,mode:'aerial'|'plan'|'walk'='aerial',paused=true;
+let dirty=true,forceFrames=0,mode:'aerial'|'plan'|'walk'|'flight'='aerial',paused=true;
 
 let activeCamera:THREE.PerspectiveCamera|THREE.OrthographicCamera;
 
@@ -75,7 +80,13 @@ function setActiveUi(){
 
   document.body.classList.toggle('walking',mode==='walk');document.body.classList.toggle('plan',mode==='plan');
 
+  document.body.classList.toggle('flying',mode==='flight');
+
   $('aerial').classList.toggle('active',mode==='aerial');$('plan').classList.toggle('active',mode==='plan');
+
+  $('nav-fly').classList.toggle('active',mode==='flight');
+  $('flight-hud').hidden=mode!=='flight';$('flight-hint').hidden=mode!=='flight';
+  if(mode!=='flight')$('flight-pause').hidden=true;else updateFlightUi();
 
   $('pause').hidden=mode!=='walk'||!paused;$('reticle').hidden=mode!=='walk'||paused;$('walk-hint').hidden=mode!=='walk'||paused;
 
@@ -84,6 +95,8 @@ function setActiveUi(){
 }
 
 function overview(plan=false,instant=false){
+
+  flight?.exit();
 
   perspective.fov=48;perspective.updateProjectionMatrix();
 
@@ -117,7 +130,7 @@ function overview(plan=false,instant=false){
 
 function visit(landmark:Landmark,instant=false){
 
-  if(mode==='walk')overview(false,true);
+  if(mode==='walk'||mode==='flight')overview(false,true);
 
   mode='aerial';activeCamera=perspective;controls.object=perspective;controls.enabled=true;controls.enableRotate=true;
 
@@ -205,6 +218,8 @@ function setWalkPose(spawn?:Vec3){
 
 function enterWalk(requestLock=true,spawn?:Vec3){
 
+  flight?.exit();
+
   tween=null;if(mode!=='walk'||spawn)setWalkPose(spawn);
 
   mode='walk';activeCamera=perspective;controls.enabled=false;paused=true;setActiveUi();dirty=true;
@@ -214,6 +229,49 @@ function enterWalk(requestLock=true,spawn?:Vec3){
 }
 
 function pauseWalking(){if(mode!=='walk')return;keys.clear();paused=true;if(document.pointerLockElement)document.exitPointerLock();setActiveUi();dirty=true;}
+
+function enterFlight(){
+  if(!flight)return;
+  if(document.pointerLockElement)document.exitPointerLock();
+  keys.clear();tween=null;currentLandmark=undefined;mode='flight';activeCamera=perspective;
+  controls.enabled=false;paused=false;lastFlightStatus='';
+  flight.start();document.body.classList.add('compact');setActiveUi();dirty=true;
+}
+
+function pauseFlight(){
+  if(mode!=='flight'||!flight)return;
+  flight.setPaused(true);paused=true;updateFlightUi();dirty=true;
+}
+
+function resumeFlight(){
+  if(mode!=='flight'||!flight)return;
+  flight.setPaused(false);paused=flight.paused;lastTime=performance.now();updateFlightUi();dirty=true;
+}
+
+function resetFlight(){
+  if(mode!=='flight'||!flight)return;
+  flight.reset();paused=flight.paused;lastTime=performance.now();updateFlightUi();dirty=true;
+}
+
+function pauseExploration(){pauseWalking();pauseFlight();}
+
+function updateFlightUi(){
+  if(mode!=='flight'||!flight)return;
+  const state=flight.snapshot();paused=flight.paused;
+  $('flight-speed').textContent=String(Math.round(state.speedKmh));
+  $('flight-altitude').textContent=String(Math.round(state.altitude));
+  $('flight-throttle').textContent=String(Math.round(state.throttle*100));
+  $('flight-status').textContent=state.grounded?'On the ground':'CROPPER SEVEN';
+  $('flight-warning').textContent=state.warning??'';
+  $('flight-warning').hidden=!state.warning;
+  const stopped=state.status==='paused'||state.status==='crashed';
+  $('flight-pause').hidden=!stopped;
+  $('flight-resume').hidden=state.status!=='paused';
+  $('flight-pause-title').textContent=state.crashed?'Flight interrupted':'Flight paused';
+  $('flight-pause-message').textContent=state.crashed?(state.crashReason??'The aircraft has made contact. Start a new flight above the lake.'):'Your aircraft is holding its position. Continue whenever you are ready.';
+  if(state.status!==lastFlightStatus){lastFlightStatus=state.status;dirty=true;}
+  $('location-name').textContent='Lake City · Flight';
+}
 
 function resize(){
 
@@ -269,7 +327,9 @@ function tick(now:number){
 
   if(tween){const u=Math.min((now-tween.start)/1200,1),s=u*u*(3-2*u);perspective.position.lerpVectors(tween.from,tween.to,s);controls.target.lerpVectors(tween.fromTarget,tween.toTarget,s);dirty=true;if(u>=1)tween=null;}
 
-  if(mode==='walk')updateWalking(dt);else if(controls.update())dirty=true;
+  if(mode==='walk')updateWalking(dt);
+  else if(mode==='flight'){if(flight?.update(Math.min(elapsed,.12)))dirty=true;updateFlightUi();}
+  else if(controls.update())dirty=true;
 
   if(window.devicePixelRatio!==bundle.renderer.getPixelRatio())resize();
 
@@ -289,7 +349,7 @@ function tick(now:number){
 
     lastRender=now;forceFrames=Math.max(forceFrames-1,0);dirty=false;
 
-    const north=$('compass').querySelector('div')!;north.style.transform=`rotate(${mode==='plan'?0:-controls.getAzimuthalAngle()*180/Math.PI}deg)`;
+    const north=$('compass').querySelector('div')!;north.style.transform=`rotate(${mode==='plan'?0:mode==='flight'?flight!.snapshot().yaw*180/Math.PI-180:-controls.getAzimuthalAngle()*180/Math.PI}deg)`;
 
   }catch(error){fatal(error instanceof Error?error.message:String(error));}
 
@@ -301,7 +361,7 @@ function renderCityFrame(){
 
   activeCamera.updateProjectionMatrix();activeCamera.updateMatrixWorld();bundle!.scene.updateMatrixWorld();
 
-  const shadowStart=performance.now();bundle!.renderSun(activeCamera,life?.revision??0);const reflectionStart=performance.now();
+  const shadowStart=performance.now();bundle!.renderSun(activeCamera,(life?.revision??0)+(flight?.revision??0));const reflectionStart=performance.now();
 
   city!.renderReflections(bundle!.renderer,activeCamera);
 
@@ -349,6 +409,8 @@ async function boot(){
 
   if(disposed){life.dispose();releaseCity();bundle.dispose();return;}
 
+  progress('Preparing the aircraft…');flight=new CityFlight(city,bundle.scene,perspective,canvas);timings.flightReady=performance.now()-startup;
+
   activeCamera=perspective;controls=new OrbitControls(perspective,canvas);controls.enableDamping=true;controls.dampingFactor=.1;controls.screenSpacePanning=false;controls.minPolarAngle=.005;
 
   controls.addEventListener('change',()=>{dirty=true;});controls.addEventListener('start',()=>{tween=null;document.body.classList.add('compact');});
@@ -365,15 +427,28 @@ async function boot(){
 
   on($('walk'),'click',()=>enterWalk());on($('nav-walk'),'click',()=>enterWalk());on($('resume'),'click',()=>canvas.requestPointerLock().catch(()=>{}));on($('reset'),'click',()=>enterWalk(true,defaultSpawn()));on($('overview'),'click',()=>overview());on($('fullscreen'),'click',fullscreen);
 
+  on($('nav-fly'),'click',enterFlight);on($('flight-resume'),'click',resumeFlight);on($('flight-reset'),'click',resetFlight);
+  on($('flight-exit'),'click',()=>overview());on($('flight-pause-button'),'click',pauseFlight);
+
   on(document,'pointerlockchange',()=>{if(mode==='walk'){paused=document.pointerLockElement!==canvas;keys.clear();setActiveUi();dirty=true;}});
 
   on(document,'mousemove',(event:MouseEvent)=>{if(mode!=='walk'||paused)return;euler.setFromQuaternion(perspective.quaternion);euler.y-=event.movementX*.0018;euler.x=Math.max(-1.48,Math.min(1.48,euler.x-event.movementY*.0018));perspective.quaternion.setFromEuler(euler);dirty=true;});
 
-  on(document,'keydown',(event:KeyboardEvent)=>{const key=event.key.toLowerCase();if(key==='escape'){pauseWalking();event.preventDefault();return;}if(mode==='walk'&&!paused&&['w','a','s','d','z','q','shift','arrowup','arrowdown','arrowleft','arrowright'].includes(key)){keys.add(key);event.preventDefault();}});
+  on(document,'keydown',(event:KeyboardEvent)=>{
+    if(event.ctrlKey||event.metaKey||event.altKey||(event.target instanceof HTMLElement&&event.target.matches('input,textarea,[contenteditable="true"]')))return;
+    const key=event.key.toLowerCase();
+    if(key==='escape'){pauseExploration();event.preventDefault();return;}
+    if(mode==='flight'){
+      if(event.code==='KeyR'&&!event.repeat){resetFlight();event.preventDefault();}
+      else if(event.code==='Enter'&&paused&&!event.repeat){resumeFlight();event.preventDefault();}
+      return;
+    }
+    if(mode==='walk'&&!paused&&['w','a','s','d','z','q','shift','arrowup','arrowdown','arrowleft','arrowright'].includes(key)){keys.add(key);event.preventDefault();}
+  });
 
   on(document,'keyup',(event:KeyboardEvent)=>keys.delete(event.key.toLowerCase()));
 
-  on(window,'blur',pauseWalking);on(document,'visibilitychange',()=>{lastTime=performance.now();if(document.hidden)pauseWalking();});on(window,'resize',resize);
+  on(window,'blur',pauseExploration);on(document,'visibilitychange',()=>{lastTime=performance.now();if(document.hidden)pauseExploration();});on(window,'resize',resize);
 
   on(document,'fullscreenchange',()=>{const full=Boolean(document.fullscreenElement);$('fullscreen').setAttribute('aria-label',full?'Exit fullscreen':'Enter fullscreen');$('fullscreen').title=full?'Exit fullscreen':'Fullscreen';if(!full){fullscreenSession++;(navigator as any).keyboard?.unlock();}resize();});
 
@@ -400,6 +475,8 @@ async function boot(){
   (window as any).__cityTest={
 
     ready:true,
+
+    flight:{snapshot:()=>flight!.snapshot(),start:enterFlight,pause:(value:boolean)=>value?pauseFlight():resumeFlight(),reset:resetFlight,setPose:(position:Vec3,yaw=Math.PI/2,pitch=0,bank=0,speed=45)=>{flight!.setPose(position,yaw,pitch,bank,speed);updateFlightUi();dirty=true;return flight!.snapshot();},step:(dt:number)=>{flight!.update(dt);updateFlightUi();dirty=true;return flight!.snapshot();}},
 
     lifeSnapshot:()=>life!.snapshot(),
     auditVehicleTransforms:()=>life!.auditVehicleTransforms(),
@@ -479,7 +556,7 @@ async function boot(){
 
 function releaseCity(){for(const mesh of city?.root.children??[])if(mesh instanceof THREE.BatchedMesh)mesh.dispose();for(const g of city?.geometries??[])g.dispose();for(const m of city?.materials??[])m.dispose();for(const r of city?.reflectors??[])r.dispose();}
 
-function dispose(){if(disposed)return;disposed=true;fullscreenSession++;(navigator as any).keyboard?.unlock();if(document.pointerLockElement===canvas)document.exitPointerLock();bundle?.renderer.setAnimationLoop(null);for(const l of listeners)l.target.removeEventListener(l.type,l.handler);controls?.dispose();life?.dispose();releaseCity();bundle?.dispose();}
+function dispose(){if(disposed)return;disposed=true;fullscreenSession++;(navigator as any).keyboard?.unlock();if(document.pointerLockElement===canvas)document.exitPointerLock();bundle?.renderer.setAnimationLoop(null);for(const l of listeners)l.target.removeEventListener(l.type,l.handler);controls?.dispose();flight?.dispose();life?.dispose();releaseCity();bundle?.dispose();}
 
 on(window,'pagehide',dispose);
 

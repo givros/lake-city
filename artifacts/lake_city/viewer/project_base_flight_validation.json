@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "base": "/lake-city/",
+  "vehicles": 562,
+  "pedestrians": 80,
+  "resources": [
+    {
+      "url": "/lake-city/",
+      "status": 200
+    },
+    {
+      "url": "/lake-city/assets/index-C76XY5vC.css",
+      "status": 200
+    },
+    {
+      "url": "/lake-city/assets/index-BIeFewP7.js",
+      "status": 200
+    },
+    {
+      "url": "/lake-city/assets/city.json",
+      "status": 200
+    },
+    {
+      "url": "/lake-city/assets/geometry.bin",
+      "status": 200
+    },
+    {
+      "url": "/lake-city/assets/traffic_network.json",
+      "status": 200
+    },
+    {
+      "url": "/lake-city/assets/characters/pedestrian.json",
+      "status": 200
+    },
+    {
+      "url": "/lake-city/assets/characters/pedestrian.glb",
+      "status": 200
+    }
+  ],
+  "backend": {
+    "name": "WebGPU",
+    "verifiedBackend": true,
+    "vendor": "nvidia",
+    "architecture": "ampere",
+    "device": "",
+    "description": "",
+    "isFallbackAdapter": false,
+    "features": [
+      "core-features-and-limits",
+      "float32-filterable"
+    ],
+    "limits": {
+      "maxTextureDimension2D": 8192,
+      "maxBufferSize": 268435456
+    }
+  },
+  "timestamp": "2026-10-03T21:11:52.797505+00:00",
+  "scope": "Current-source project-base startup/resource validation in isolated hardware desktop Chromium; temporary loopback server; no user browser control",
+  "build": {
+    "entrySHA256": "d195795395675115bb116631cdac2152f9349b605c0c6bd7cf0111a508b979ec",
+    "javascriptPath": "/lake-city/assets/index-BIeFewP7.js",
+    "javascriptSHA256": "2318587c60071911e3be828b043a7313ac2cfb485e6104ef85f0c352d8d3a5bc",
+    "sourceMainSHA256": "859e8a379333167b0f4b7f74952beeb3bd6e4ba066bf9fcd748e2f706cd834f9"
+  },
+  "standardBuildUnchanged": true
+}
